@@ -21,12 +21,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-  - duplicate-posts-report.md
-  - image-recovery-report.json
-  - image-recovery-pass2.json
-  - image-recovery-summary.md
-  - broken-images-report.json
-  - broken-images-report.md
-  - broken-pdfs-report.json
   - _plugins
 
