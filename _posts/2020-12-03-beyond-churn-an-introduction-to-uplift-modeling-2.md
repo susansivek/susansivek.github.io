@@ -20,7 +20,7 @@ Often we focus predictive analytics on modeling customer churn or a response to 
 
 Uplift modeling can supplement experimental data from A/B testing by identifying the incremental impact on particular individuals of a specific treatment, as opposed to the overall lift or decrease caused by a treatment. This technique may help you assess whether other attributes of those individuals (e.g., demographic characteristics) could help explain their response. This nuanced analysis allows for future targeting only of those most likely to respond positively to a treatment.
 
-Although [retail and marketing](https://www.hbs.edu/faculty/Publication%20Files/ascarza_jmr_18_783d54d4-e548-41ed-b1d7-8a180f1ae85a.pdf) are the best-known uses for uplift modeling, this approach is also used in fundraising, clinical trials, medical treatment, human resources, and even [political campaigns](https://searchbusinessanalytics.techtarget.com/video/How-uplift-modeling-helped-Obamas-campaign-and-can-aid-marketers) who seek to find those who can be persuaded by the right intervention or “treatment” at the right time.
+Although [retail and marketing](/assets/pdfs/ascarza-jmr-2018.pdf) are the best-known uses for uplift modeling, this approach is also used in fundraising, clinical trials, medical treatment, human resources, and even [political campaigns](https://searchbusinessanalytics.techtarget.com/video/How-uplift-modeling-helped-Obamas-campaign-and-can-aid-marketers) who seek to find those who can be persuaded by the right intervention or “treatment” at the right time.
 
 ![](https://miro.medium.com/max/10000/0*96EoEE89nvy_xI1J?q=20000000)
 

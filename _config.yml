@@ -4,10 +4,7 @@ author: Susan Currie Sivek
 email: susan.sivek@gmail.com
 
 plugins:
-  - jekyll-paginate
-
-paginate: 15
-paginate_path: "/page:num/"
+  - jekyll-redirect-from
 
 permalink: /:year/:month/:day/:title/
 
@@ -30,5 +27,6 @@ exclude:
   - image-recovery-summary.md
   - broken-images-report.json
   - broken-images-report.md
+  - broken-pdfs-report.json
   - _plugins
 

@@ -1,25 +1,18 @@
 ---
 layout: default
 title: Home
+redirect_from:
+  - /favorites/
 ---
 
 <div class="page-intro">
-  <h1>All writing</h1>
-  <p>Published articles, case studies, and reports — newest first.</p>
+  <h1>Favorites</h1>
+  <p>A short curated selection across beats and years.</p>
 </div>
 
-{% assign posts = paginator.posts %}
+{% assign posts = site.posts | where: "featured", true %}
+{% if posts.size == 0 %}
+<p class="empty-state">No favorites selected yet.</p>
+{% else %}
 {% include post-list.html %}
-
-<nav class="pagination" aria-label="Pagination">
-  <div>
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer</a>
-    {% endif %}
-  </div>
-  <div>
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}">Older &rarr;</a>
-    {% endif %}
-  </div>
-</nav>
+{% endif %}

@@ -141,6 +141,6 @@ Rey, P. J. (2012). Alienation, exploitation, and social media. *American Behavio
 
 Ritzer, G., & Jurgenson, N. (2010). Production, consumption, prosumption: The nature of capitalism in the age of the digital “prosumer.” *Journal of Consumer Culture,* *10*(1), 13-36. doi: 10.1177/1469540509354673
 
-Swain, B. (2013). Syllabus for Introduction to Multimedia Skills course. Retrieved from <http://www.sustainability.umd.edu/content/curriculum/Chesapeake_Project_Revised_Courses/2013/JOUR504_syllabus.pdf>
+Swain, B. (2013). Syllabus for Introduction to Multimedia Skills course. Retrieved from </assets/pdfs/jour504-syllabus.pdf>
 
 Tracy, S. J., & Trethewey, A. (2005). Fracturing the real-self↔fake-self dichotomy: Moving toward “crystallized” organizational discourses and identities. *Communication Theory, 15*(2), 168-195. doi: 10.1111/j.1468-2885.2005.tb00331.x

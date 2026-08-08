@@ -110,7 +110,7 @@ Like Pechmann, Sarkar has also been able to make his course projects more realis
 
 Ready to start innovating in your own curriculum with Alteryx?
 
-* Check out the [Alteryx for Good](https://www.alteryx.com/why-alteryx/alteryx-for-good/educators?UTM_Content=community) program, which provides free Alteryx licenses to higher education faculty and students, and [this guide](https://community.alteryx.com/pvsmt99345/attachments/pvsmt99345/AFGResources/6/1/Alteryx%20for%20Good.Educator.pdf).
+* Check out the [Alteryx for Good](https://www.alteryx.com/why-alteryx/alteryx-for-good/educators?UTM_Content=community) program, which provides free Alteryx licenses to higher education faculty and students, and [this guide](/assets/pdfs/alteryx-for-good-educator.pdf).
 
 * More outstanding educators using Alteryx recently shared their experiences at the [“Education: Strengthening the Connection Between Academia & Industry”](https://community.alteryx.com/t5/General-AFG-Discussions/Education-Conversation-Series-1-Strengthening-the-Connection/td-p/621773) event, and you can watch the full recording and share your thoughts.
 

@@ -2,11 +2,11 @@
 title: "City Magazines and Social Media: Moving Beyond the Monthly"
 date: 2013-09-30
 excerpt: "Susan Currie Sivek, Linfield CollegeAbstractCity magazines have long been established in many American locales, but digital media of all types are now offering opportunities and challenges to this genre of magazine. Digital media have also…"
-original_url: "https://aejmcmagazine.arizona.edu/Journal/Fall2013/Sivek.pdf"
+original_url: "/assets/pdfs/sivek-aejmc-fall2013.pdf"
 publication: "Journal of Magazine Media"
 categories: [academic]
 ---
-*Originally published at [https://aejmcmagazine.arizona.edu/Journal/Fall2013/Sivek.pdf](https://aejmcmagazine.arizona.edu/Journal/Fall2013/Sivek.pdf)*
+*Originally published at [/assets/pdfs/sivek-aejmc-fall2013.pdf](/assets/pdfs/sivek-aejmc-fall2013.pdf)*
 
 Susan Currie Sivek, Linfield College
 

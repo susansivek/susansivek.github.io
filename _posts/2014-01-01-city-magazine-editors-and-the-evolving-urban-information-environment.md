@@ -278,7 +278,7 @@ Rubin, H. J., & Rubin, I. S. (1995). *Qualitative interviewing: The art of heari
 
 Sender, K. (2001). Gay readers, consumers, and a dominant gay habitus: 25 years of *The Advocate* magazine. *Journal of Communication, 51*(1), 73-99. doi: 10.1111/j.1460-2466.2001.tb02873.x
 
-Sivek, S. C. (2013). City magazines and social media: Moving beyond the monthly*. Journal of Magazine and New Media Research, 14(2).* Retrieved from <http://aejmcmagazine.arizona.edu/Journal/Fall2013/Sivek.pdf>
+Sivek, S. C. (2013). City magazines and social media: Moving beyond the monthly*. Journal of Magazine and New Media Research, 14(2).* Retrieved from </assets/pdfs/sivek-aejmc-fall2013.pdf>
 
 Théberge, P. (1991). Musicians’ magazines in the 1980s: The creation of a community and a consumer market. *Cultural Studies, 5*(3), 270-293. doi: 10.1080/09502389100490231
 

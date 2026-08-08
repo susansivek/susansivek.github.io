@@ -23,10 +23,10 @@
       <nav class="site-nav" aria-label="Portfolio sections">
   <ul>
     <li>
-      <a href="/">All</a>
+      <a href="/">Favorites</a>
     </li>
     <li>
-      <a href="/favorites/">Favorites</a>
+      <a href="/all/">All</a>
     </li>
     <li>
       <a href="/categories/data-science/">Data Science and Tech</a>
@@ -119,7 +119,7 @@
 
 <p>However, generating such a model is never easy. Outbreak data can be impossible to gather accurately for many reasons, including institutional barriers, lack of testing, unknown or asymptomatic cases, and so forth. And, as we’ve seen, governments have implemented varied social distancing and isolation measures at different times, which can have unpredictable results on the number of people in that “Susceptible” compartment.</p>
 
-<p>To deal with all the sources of uncertainty, <a href="https://www.medrxiv.org/content/10.1101/2020.02.29.20029421v1.full.pdf">one group of researchers</a> developed what they call an “eSIR” model – an extended model including “a time-varying probability that a susceptible person meets an infected person or vice versa,” as well as a new compartment to include people who are susceptible but choose self-quarantine. Both of these factors would vary in specific regions based on when isolation protocols were implemented.</p>
+<p>To deal with all the sources of uncertainty, <a href="/assets/pdfs/medrxiv-2020-02-29.pdf">one group of researchers</a> developed what they call an “eSIR” model – an extended model including “a time-varying probability that a susceptible person meets an infected person or vice versa,” as well as a new compartment to include people who are susceptible but choose self-quarantine. Both of these factors would vary in specific regions based on when isolation protocols were implemented.</p>
 
 <p>To further incorporate uncertainty into the model, the researchers used a Markov chain Monte Carlo (MCMC) algorithm. (Here are two explanations for MCMC: <a href="https://towardsdatascience.com/a-zero-math-introduction-to-markov-chain-monte-carlo-methods-dcba889e0c50">one simpler</a>, <a href="https://link.springer.com/article/10.3758/s13423-016-1015-8">one more complex</a>.) The MCMC approach allows for the approximation of a distribution that can’t be directly known – like the true number of SARS-CoV-2 infections – or that is too expensive to figure out. The eSIR model’s forecasts aim to reveal “turning points” in the outbreak. Turning points include when the daily number of new cases stops growing and when the number of infected cases reaches its highest point. The model can also provide an estimate of the R0.</p>
 
@@ -133,7 +133,7 @@
 
 <p>Second, another challenge that may be familiar to data people: getting decisionmakers to take action <a href="https://community.alteryx.com/t5/Analytics-Blog/Creating-an-Analytic-Culture-for-Digital-Transformation/ba-p/412264">based on insights from data</a>. The great “flattening the curve” visualization and related forecasting seem to have had a strong impact on policymakers and the general public. Likewise, data experts need to be able to communicate about their analyses and models clearly – for example, with <a href="https://community.alteryx.com/t5/Data-Science-Blog/A-Good-Honest-Chart-Coronavirus-Data-Visualizations-and-How/ba-p/547543">effective data visualizations</a> – and organizations should build data literacy across all areas.</p>
 
-<p>Finally, the research I reviewed frequently mentioned the challenge of getting quality COVID-19 data upon which to build good models. Even in normal times, it can be hard to get the kind and quality of data we need. Models for aspects of the pandemic – or any other phenomenon – are only as good as the data upon which they are built. Data abounds everywhere, but not all is trustworthy, usable, or relevant. Every organization needs solid data gathering, management, and analytics structures in place (as <a href="http://www.centerforhealthsecurity.org/our-work/pubs_archive/pubs-pdfs/2020/200324-outbreak-science.pdf">these epidemiologists recommend</a> for outbreaks). With that preparation, if a crisis of any kind emerges, your responses can be informed by accurate, relevant, up-to-date data readily at hand.</p>
+<p>Finally, the research I reviewed frequently mentioned the challenge of getting quality COVID-19 data upon which to build good models. Even in normal times, it can be hard to get the kind and quality of data we need. Models for aspects of the pandemic – or any other phenomenon – are only as good as the data upon which they are built. Data abounds everywhere, but not all is trustworthy, usable, or relevant. Every organization needs solid data gathering, management, and analytics structures in place (as <a href="/assets/pdfs/outbreak-science-2020.pdf">these epidemiologists recommend</a> for outbreaks). With that preparation, if a crisis of any kind emerges, your responses can be informed by accurate, relevant, up-to-date data readily at hand.</p>
 
   </div>
 </article>

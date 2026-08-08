@@ -42,7 +42,7 @@ Wired has also been reconfigured for the digital venture. The video below shows 
 
 Publishers will probably make money the same way they do in print: with subscription fees and advertising. One advantage of electronic editions for publishers, however, is that they can track exactly how readers interact with advertising: for example, how long readers look at an ad, or whether they pursue more information about a product at that moment.
 
-Publishers have long argued that magazine readers savor advertising as part of their reading experience. The Magazine Publishers of America [handbook](http://www.magazine.org/ASSETS/088C8564EB9E4E978A69B183881AEF58/MPA-Handbook-2009.pdf) (PDF) states that 54 percent of magazine readers have a very positive or somewhat positive attitude toward magazine advertising. However, skeptical and increasingly frugal advertisers may need a bit more convincing. The data that digital magazine publishers can provide about readers’ viewing and reading habits will allow advertisers to better target specific audiences, and determine cost-effective advertising methods.
+Publishers have long argued that magazine readers savor advertising as part of their reading experience. The Magazine Publishers of America [handbook](/assets/pdfs/mpa-handbook-2009.pdf) (PDF) states that 54 percent of magazine readers have a very positive or somewhat positive attitude toward magazine advertising. However, skeptical and increasingly frugal advertisers may need a bit more convincing. The data that digital magazine publishers can provide about readers’ viewing and reading habits will allow advertisers to better target specific audiences, and determine cost-effective advertising methods.
 
 ## What Formats Will Be Sold?
 

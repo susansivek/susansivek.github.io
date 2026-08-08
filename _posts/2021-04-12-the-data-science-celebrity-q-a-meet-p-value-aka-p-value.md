@@ -72,7 +72,7 @@ No. Sorry. This is *way* more complicated.
 
 Super small values for p don’t mean that a “significant” variable is necessarily *really good* at predicting your outcome variable. Small p-values don’t imply big predictive power. It’s also a calculation specific to that configuration of that regression model, with whatever other variables you’ve included, and your specific data in that specific analytical approach. All very … specific. So that variable isn’t just significant forever in all situations.
 
-(Unfortunately, that super specific-ness to your analysis means that you could also have other variables that *do* have predictive power, but whose p-values are too big to be significant. Weird but [true](https://www.pnas.org/content/pnas/112/45/13892.full.pdf)! So domain knowledge and other methods for examining your data are still important.)
+(Unfortunately, that super specific-ness to your analysis means that you could also have other variables that *do* have predictive power, but whose p-values are too big to be significant. Weird but [true](/assets/pdfs/pnas-112-45-13892.pdf)! So domain knowledge and other methods for examining your data are still important.)
 
 A small p-value just means there’s a better chance you can reject the null hypothesis — which is probably that there was *no relationship* between that variable and the outcome variable. In other words, that teeny p-value is just an indicator that the variable is *relevant* to your outcome variable. I know you like to find things that are relevant, so that’s still good. It’s a step toward understanding your data.
 

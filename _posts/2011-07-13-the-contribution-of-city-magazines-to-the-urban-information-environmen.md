@@ -2,12 +2,12 @@
 title: "The Contribution of City Magazines to the Urban Information Environment"
 date: 2011-07-13
 excerpt: "Abstract American city magazines today must appeal to audiences who have new ways to find community information. User-generated digital content and social media have supplanted not just newspapers but also city magazines’ service stories and…"
-original_url: "https://aejmcmagazine.arizona.edu/Journal/Fall2015/Sivek.pdf"
+original_url: "/assets/pdfs/sivek-aejmc-fall2015.pdf"
 publication: "Journal of Magazine Media"
 categories: [academic, features]
 featured: true
 ---
-*Originally published at [https://aejmcmagazine.arizona.edu/Journal/Fall2015/Sivek.pdf](https://aejmcmagazine.arizona.edu/Journal/Fall2015/Sivek.pdf)*
+*Originally published at [/assets/pdfs/sivek-aejmc-fall2015.pdf](/assets/pdfs/sivek-aejmc-fall2015.pdf)*
 
 Abstract
 
@@ -285,7 +285,7 @@ Journal of Magazine & New Media Research Contribution of City Magazines Vol. 16,
 
 1 Earlier contributions include Susan Sivek, “City Magazines and Social Media: Moving
 
-Beyond the Monthly,” Journal of Magazine & New Media Research 14, no. 2 (2013): http://aejmcmagazine. arizona.edu/Journal/Fall2013/Sivek.pdf; and Susan Sivek, “City Magazine Editors and the Evolving Urban Information Environment,” Community Journalism 3, no. 1 (2014): 1-22, http://journal.community-journalism.net/sites/default/files/sivek-cj2014.pdf.
+Beyond the Monthly,” Journal of Magazine & New Media Research 14, no. 2 (2013): /assets/pdfs/sivek-aejmc-fall2013.pdf; and Susan Sivek, “City Magazine Editors and the Evolving Urban Information Environment,” Community Journalism 3, no. 1 (2014): 1-22, /assets/pdfs/sivek-community-journalism-2014.pdf.
 
 2 Cary Frith, “Magazines and Community,” in Foundations of Community Journalism, ed. Bill Reader and John Hatcher (Los Angeles: Sage, 2012), 224.
 
