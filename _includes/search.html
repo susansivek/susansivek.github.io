@@ -1,0 +1,28 @@
+<form
+  class="site-search"
+  role="search"
+  action="{{ '/search/' | relative_url }}"
+  method="get"
+  data-index-url="{{ '/search.json' | relative_url }}"
+  data-search-url="{{ '/search/' | relative_url }}"
+>
+  <label class="visually-hidden" for="site-search-input">Search writing</label>
+  <input
+    id="site-search-input"
+    class="site-search-input"
+    type="search"
+    name="q"
+    placeholder="Search writing…"
+    autocomplete="off"
+    spellcheck="false"
+    enterkeyhint="search"
+  >
+  <div
+    id="site-search-results"
+    class="site-search-results"
+    hidden
+    role="listbox"
+    aria-label="Search suggestions"
+  ></div>
+  <p id="site-search-status" class="visually-hidden" role="status" aria-live="polite"></p>
+</form>

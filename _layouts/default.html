@@ -13,11 +13,14 @@
 <body>
   <div class="site">
     <header class="masthead">
-      <p class="masthead-brand">
-        <a href="{{ '/' | relative_url }}">Susan Currie Sivek</a>
-      </p>
+      <div class="masthead-top">
+        <p class="masthead-brand">
+          <a href="{{ '/' | relative_url }}">Susan Currie Sivek, Ph.D.</a>
+        </p>
+        {% include search.html %}
+      </div>
       <p class="masthead-tagline">
-        Data science writer, researcher, hiker, knitter. Former journalism professor. Curious about everything.
+        Product marketing for AI. Writer, hiker, knitter. Former journalism professor. Curious about everything.
         View <a href="https://www.linkedin.com/in/ssivek/">my LinkedIn profile</a>.
       </p>
       {% include nav.html %}
@@ -34,5 +37,6 @@
       {% endif %}
     </footer>
   </div>
+  <script src="{{ '/assets/js/search.js' | relative_url }}" defer></script>
 </body>
 </html>

@@ -36,7 +36,7 @@ Additionally, marketers can use that information on the customer level to [perso
 
 ## Make Data-Driven Decisions (No, Really — and Fast)
 
-Our [State of Predictive Analytics in Marketing survey](https://www.pecan.ai/resource/state-of-predictive-analytics-marketing-2022/) research revealed that over half of marketing leaders feel their ability to predict customer behavior is always or often “guesswork.” That feeling persists despite many companies’ significant investments in data infrastructure, teams, and tools. At many organizations, “data-driven decision-making” has too often become an empty promise.
+Our [State of Predictive Analytics in Marketing survey](/assets/pdfs/state-of-predictive-analytics-marketing-2022.pdf) research revealed that over half of marketing leaders feel their ability to predict customer behavior is always or often “guesswork.” That feeling persists despite many companies’ significant investments in data infrastructure, teams, and tools. At many organizations, “data-driven decision-making” has too often become an empty promise.
 
 Some marketing teams still rely on data tools poorly suited for the agile, fast-paced decision-making required in today’s volatile market conditions. Dashboards (and, dare we say, spreadsheets) of retrospective data have their place. But in rapidly changing circumstances, they alone don’t provide a reliable guide for decisions about what to do next week or month.
 
