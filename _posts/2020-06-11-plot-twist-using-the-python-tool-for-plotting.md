@@ -1,11 +1,11 @@
 ---
 title: "Plot Twist: Using the Python Tool for Plotting"
 date: 2020-06-11
-excerpt: "(view in My Videos)
-Designer’s awesome tools offer lots of options for plots, tables, and images. But if you’re a pro with -- or just curious about! -- Python plotting tools like matplotlib or seaborn, it’s relatively easy to create your plots in the…"
+excerpt: "\"(view in My Videos)"
 original_url: "https://community.alteryx.com/t5/Data-Science/Plot-Twist-Using-the-Python-Tool-for-Plotting/ba-p/584670"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Plot-Twist-Using-the-Python-Tool-for-Plotting/ba-p/584670](https://community.alteryx.com/t5/Data-Science/Plot-Twist-Using-the-Python-Tool-for-Plotting/ba-p/584670)*
 
 [(view in My Videos)](https://community.alteryx.com/t5/video/gallerypage/video-id/6162531099001)
@@ -19,8 +19,6 @@ This capability adds even more flexibility to Designer’s already robust plotti
 I’ve generated a quick example using [a dataset from Kaggle](https://www.kaggle.com/ruchi798/tv-shows-on-netflix-prime-video-hulu-and-disney) of TV shows available on four popular streaming services. I explored the question: *How many shows for different age groups does each streaming service offer?* Maybe we’d like to know which service offers more shows for younger viewers ... or maybe we don’t care about kid-friendly content and just want the grittier, grown-up stuff!
 
 I made a stacked bar plot that displays the number of shows for each age group available from each streaming service.
-
-![SusanCS_0-1591118083511.png](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/116211i7566F0039621FE7C/image-size/large?v=1.0&px=999)
 
 Here’s the code that generated this plot, using the dataframe `df3` as its source. In this case, I’m using `pandas`’ built-in plotting, which is a wrapper on `matplotlib`.
 
@@ -58,13 +56,9 @@ Alteryx.write(pd.DataFrame([chart_path], columns = ['chart_path']), 1,
 
 Outside the Python Tool, we’ll use the [Image Tool](https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Tool-Mastery-Image/ta-p/49546) to grab the file path coming out of the Python Tool output, and add a Browse Tool to it so we can view our plot within Designer.
 
-![SusanCS_1-1591118083536.png](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/116210i12EF42B8FD711868/image-size/large?v=1.0&px=999)
-
 Image Tool settings
 
 And voilà! The plot renders in the Browse Tool’s Report tab.
-
-![SusanCS_2-1591118083552.png](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/116212i7BCBC7A27965877C/image-size/large?v=1.0&px=999)
 
 Plot on the left, visible in the Browse Tool’s Report tab; workflow at top right, with the tiny dataframe output from the Python Tool shown in the Results window at bottom right.
 

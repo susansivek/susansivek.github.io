@@ -3,8 +3,9 @@ title: "How Digital Marketers Can Thrive in 2023"
 date: 2022-12-13
 excerpt: "Whatever your industry, the role of a digital marketing campaign manager is challenging. The demands are many. The pace is fast. The pressure can be intense. Managing campaigns requires a wide range of capabilities: organizational skills, team…"
 original_url: "https://www.pecan.ai/resource/how-digital-marketers-thrive-2023/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/how-digital-marketers-thrive-2023/](https://www.pecan.ai/resource/how-digital-marketers-thrive-2023/)*
 
 Whatever your industry, the role of a digital marketing campaign manager is challenging. The demands are many. The pace is fast. The pressure can be intense.

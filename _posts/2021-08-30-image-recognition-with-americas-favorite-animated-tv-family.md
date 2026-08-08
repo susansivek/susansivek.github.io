@@ -1,14 +1,11 @@
 ---
 title: "Image Recognition with America’s Favorite Animated TV Family"
 date: 2021-08-30
-excerpt: "Building Image Classification Models in Alteryx Designer
-Follow
- · 8 min read
-Photo by on Unsplash
-If you’ve been around American pop culture for even a little while, you can probably name the characters in the image above. With over 30 years on TV,…"
+excerpt: "\"Building Image Classification Models in Alteryx Designer"
 original_url: "https://medium.com/codex/image-recognition-with-americas-favorite-animated-tv-family-95274b45c610"
+publication: "Medium"
+categories: [data-science]
 ---
-
 *Originally published at [https://medium.com/codex/image-recognition-with-americas-favorite-animated-tv-family-95274b45c610](https://medium.com/codex/image-recognition-with-americas-favorite-animated-tv-family-95274b45c610)*
 
 ## Building Image Classification Models in Alteryx Designer

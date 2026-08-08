@@ -1,13 +1,11 @@
 ---
 title: "Picture Perfect: Inside Image Processing"
 date: 2021-06-07
-excerpt: "Computers may “see,” but we can help them improve their vision. Learn how images are converted into numbers and can be processed for better analysis.
-Susan Currie Sivek, Ph.D.
-Just now·8 min read
-Scary red eyes. Overexposures. Blurry pets. My…"
+excerpt: "\"Computers may “see,” but we can help them improve their vision. Learn how images are converted into numbers and can be processed for better analysis."
 original_url: "https://susansivek.medium.com/picture-perfect-inside-image-processing-3d15c04049a1"
+publication: "Medium"
+categories: [data-science]
 ---
-
 *Originally published at [https://susansivek.medium.com/picture-perfect-inside-image-processing-3d15c04049a1](https://susansivek.medium.com/picture-perfect-inside-image-processing-3d15c04049a1)*
 
 ## Computers may “see,” but we can help them improve their vision. Learn how images are converted into numbers and can be processed for better analysis.

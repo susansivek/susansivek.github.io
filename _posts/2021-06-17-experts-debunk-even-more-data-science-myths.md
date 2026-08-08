@@ -3,8 +3,9 @@ title: "Experts Debunk (Even More!) Data Science Myths"
 date: 2021-06-17
 excerpt: "More Alternative Hypotheses from Experts on the Data Science Mixer Podcast Is machine learning the actual focus of data scientists’ everyday work? Do you need to learn all the things to be a data scientist? And, most importantly: Do data scientists…"
 original_url: "https://towardsdatascience.com/experts-debunk-even-more-data-science-myths-7a6b8c32f717"
+publication: "Towards Data Science"
+categories: [data-science]
 ---
-
 *Originally published at [https://towardsdatascience.com/experts-debunk-even-more-data-science-myths-7a6b8c32f717](https://towardsdatascience.com/experts-debunk-even-more-data-science-myths-7a6b8c32f717)*
 
 ## ***More Alternative Hypotheses from Experts on the Data Science Mixer Podcast***

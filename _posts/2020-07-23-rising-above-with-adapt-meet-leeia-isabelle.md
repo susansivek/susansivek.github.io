@@ -1,12 +1,12 @@
 ---
 title: "Rising Above with ADAPT: Meet Leeia Isabelle"
 date: 2020-07-23
-excerpt: "As a 20-year-old, Leeia Isabelle suddenly became a network administrator and sysadmin.
-Not long before beginning that job, she knew only how to start up her computer and get on the internet.
-And Leeia wasn’t administering just any old network: Her…"
+excerpt: "\"As a 20-year-old, Leeia Isabelle suddenly became a network administrator and sysadmin."
 original_url: "https://community.alteryx.com/t5/Alter-Nation/Rising-Above-with-ADAPT-Meet-Leeia-Isabelle/ba-p/607582"
+publication: "Alteryx Community"
+categories: [data-science, profiles]
+And Leeia wasn’t administering just any old network: Her…"
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Alter-Nation/Rising-Above-with-ADAPT-Meet-Leeia-Isabelle/ba-p/607582](https://community.alteryx.com/t5/Alter-Nation/Rising-Above-with-ADAPT-Meet-Leeia-Isabelle/ba-p/607582)*
 
 As a 20-year-old, Leeia Isabelle suddenly became a network administrator and sysadmin.
@@ -22,8 +22,6 @@ But the motto of her ship? *“Rise Above.”* And she did.
 Leeia has now left the Navy, but she continues to rise above challenges as she forges a new career in data science. Currently a participant in the Alteryx [Advancing Data + Analytic Potential Together (ADAPT) program](https://www.alteryx.com/why-alteryx/alteryx-for-good/adapt-program), Leeia worked in different technology roles before returning to a longstanding interest in data and coding for more education and training.
 
 Leeia shared her experiences in her career transition and in ADAPT. Her story is inspiring for everyone hoping to rise above and pursue new opportunities.
-
-![SusanCS_0-1595369231120.jpeg](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/124629iDF1845C24E17591F/image-size/medium?v=1.0&px=400)
 
 Leeia Isabelle
 
@@ -43,8 +41,6 @@ Just a week after that realization, Leeia heard about ADAPT in a Facebook group 
 
 “I’ve loved it. I find myself sometimes spending a little bit more time on Alteryx than I do my own homework,” she admits. The problem-solving was compelling. “Some people like gaming, but I like analyzing things. And it’s like a puzzle — a never-ending puzzle.”
 
-![SusanCS_1-1595369231123.jpeg](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/124627iCCCD9BADE1E36FDF/image-size/medium?v=1.0&px=400)
-
 Enjoying Seahawks football in Washington
 
 ## **Meaningful Credentials for a Data Career**
@@ -62,8 +58,6 @@ One of the reasons Leeia chose to pursue ADAPT was the program's offer of recogn
 Leeia is currently preparing to take the Core Certification exam, practicing her Alteryx skills with the study materials and weekly challenges in the Alteryx Community. She says the Community has been a welcoming, collaborative environment where she has interacted with other ADAPT participants and more experienced Alteryx users — and a place where she could find other people excited to talk about data and analytics.
 
 “I find that when I talk to other people about what I’m doing, or if I try to help someone else solve their problem in the Community — whether it’s an easy problem for me or a challenge — it gives me the opportunity to sharpen my skills,” Leeia says. “It reinforces what I know, and it helps me better present things to other people.”
-
-![SusanCS_2-1595369231115.png](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/124628i0D840919D0841D76/image-size/medium?v=1.0&px=400)
 
 ADAPT participant conversations in the Alteryx Community
 
@@ -86,8 +80,6 @@ Getting the external factors right is important, but having the internal confide
 To combat that feeling, Leeia uses a technique she learned from *Can’t Hurt Me*, a book by retired Navy SEAL and endurance athlete [David Goggins](https://davidgoggins.com/about/). She keeps a cookie jar filled with slips of paper. Each slip lists one of her accomplishments. When she needs a boost, she opens the jar and pulls out a reminder of her achievements.
 
 “It just reminds me of all those hard facts about myself, why I deserve to be where I am,” Leeia says.
-
-![SusanCS_3-1595369231144.jpeg](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/124630iE8C5AA564F3D6C5F/image-size/medium?v=1.0&px=400)
 
 Hiking in Washington
 

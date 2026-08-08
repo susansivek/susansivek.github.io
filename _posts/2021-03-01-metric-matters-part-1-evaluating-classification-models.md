@@ -1,18 +1,19 @@
 ---
 title: "Metric Matters, Part 1: Evaluating Classification Models"
 date: 2021-03-01
-excerpt: "Imagine taking a 100-question multiple-choice test and giving the right answer to 85 questions. You get a score of 85%. You must have studied and learned the material!
-But maybe the reality was a little different: You’d actually forgotten to study,…"
+excerpt: "\"Imagine taking a 100-question multiple-choice test and giving the right answer to 85 questions. You get a score of 85%. You must have studied and learned the material!"
 original_url: "https://www.kdnuggets.com/2021/03/metrics-evaluating-classification-models-part1.html"
+publication: "KDnuggets"
+categories: [data-science]
+But maybe the reality was a little different: You’d actually forgotten to study,…"
 ---
-
 *Originally published at [https://www.kdnuggets.com/2021/03/metrics-evaluating-classification-models-part1.html](https://www.kdnuggets.com/2021/03/metrics-evaluating-classification-models-part1.html)*
 
 Imagine taking a 100-question multiple-choice test and giving the right answer to 85 questions. You get a score of 85%. You must have studied and learned the material!
 
 But maybe the reality was a little different: You’d actually forgotten to study, so you just went down your answer sheet and picked answer A for every question. Your teacher had gotten tired of putting the right answer in different places and just stuck 85 of the answers in option A. You lucked out!
 
-![](https://community.alteryx.com/t5/image/serverpage/image-id/172089i96E8DEF92B6DE2CE/image-size/large?v=v2&px=999)
+![](/assets/images/posts/metric-matters-part-1-evaluating-classification-models/large-b448267d.svg)
 
 There was probably a better way to measure your abilities than your score on this test. The same may be true of how you measure machine learning models’ prediction abilities.
 
@@ -88,7 +89,7 @@ One more thing: When we discuss “balanced” datasets in the context of classi
 * If the model performs equally well when predicting different classes, accuracy and balanced accuracy will have equal values.
 * If you’re wanting to see generally good performance across classes and are not especially concerned about the specific types of errors being made, balanced accuracy might be a good metric for you.
 
-![](https://community.alteryx.com/t5/image/serverpage/image-id/170723i69AA282A5A357B2B/image-size/medium?v=v2&px=400)
+![](/assets/images/posts/metric-matters-part-1-evaluating-classification-models/medium-7adb4871.svg)
 
 ### Precision
 

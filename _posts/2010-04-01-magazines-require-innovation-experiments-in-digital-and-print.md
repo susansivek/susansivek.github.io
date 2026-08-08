@@ -1,11 +1,11 @@
 ---
 title: "Magazines Require Innovation, Experiments in Digital and Print"
 date: 2010-04-01
-excerpt: "The Innovations in Magazines 2010 World Report, produced by Innovation Media Consulting on behalf of the International Federation of the Periodical Press.
-Some magazine fans may feel like their favorite publications are dissolving into fragments of…"
+excerpt: "\"The Innovations in Magazines 2010 World Report, produced by Innovation Media Consulting on behalf of the International Federation of the Periodical Press."
 original_url: "http://mediashift.org/2010/04/magazines-require-innovation-experiments-in-digital-and-print091/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2010/04/magazines-require-innovation-experiments-in-digital-and-print091/](http://mediashift.org/2010/04/magazines-require-innovation-experiments-in-digital-and-print091/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-c86bc8a8f0137d3c6d069da27e04e4de-innovation%20report.jpg)

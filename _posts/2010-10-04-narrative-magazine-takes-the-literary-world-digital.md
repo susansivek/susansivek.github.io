@@ -1,11 +1,11 @@
 ---
 title: "Narrative Magazine Takes the Literary World Digital"
 date: 2010-10-04
-excerpt: "Narrative magazine asks contributors to submit \"iPoems\" that must fit within two screens on an iPhone for its app
-Poetry on your iPhone. Short stories on your Kindle. Or, if you’re not yet into e-reading, how about a complete print-on-demand literary…"
+excerpt: "\"Narrative magazine asks contributors to submit \\\"iPoems\\\" that must fit within two screens on an iPhone for its app"
 original_url: "http://mediashift.org/2010/10/narrative-magazine-takes-the-literary-world-digital277/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2010/10/narrative-magazine-takes-the-literary-world-digital277/](http://mediashift.org/2010/10/narrative-magazine-takes-the-literary-world-digital277/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-775256d5644978c4c4766695ae80a2bf-narrative%20ipoems.jpg)

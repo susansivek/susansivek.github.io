@@ -3,8 +3,9 @@ title: "Sources Agree: Data Science Skills Go Beyond Data"
 date: 2020-08-04
 excerpt: "As data science enthusiasts know, there’s a lot more to excelling in the field than just its technical aspects. Data professionals need a wide range of skills, extending well beyond the technical aspects of data manipulation…"
 original_url: "https://towardsdatascience.com/sources-agree-data-science-skills-go-beyond-data-4cd9057960c4"
+publication: "Towards Data Science"
+categories: [data-science]
 ---
-
 *Originally published at [https://towardsdatascience.com/sources-agree-data-science-skills-go-beyond-data-4cd9057960c4](https://towardsdatascience.com/sources-agree-data-science-skills-go-beyond-data-4cd9057960c4)*
 
 ![](https://miro.medium.com/max/1200/1*xuV3oLJTfAIUJw9220PDVA.jpeg)

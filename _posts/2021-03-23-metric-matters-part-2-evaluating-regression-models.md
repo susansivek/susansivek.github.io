@@ -1,11 +1,11 @@
 ---
 title: "Metric Matters, Part 2: Evaluating Regression Models"
 date: 2021-03-23
-excerpt: "By Susan Sivek, Data Science Journalist, Alteryx.
-Be sure to check out part 1 of this discussion of metrics for evaluating your machine learning models that introduces the meaning of “metrics” along with a dive into metrics often used for…"
+excerpt: "\"By Susan Sivek, Data Science Journalist, Alteryx."
 original_url: "https://www.kdnuggets.com/2021/03/metrics-evaluating-regression-models-part2.html"
+publication: "KDnuggets"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.kdnuggets.com/2021/03/metrics-evaluating-regression-models-part2.html](https://www.kdnuggets.com/2021/03/metrics-evaluating-regression-models-part2.html)*
 
 **By [Susan Sivek](https://community.alteryx.com/t5/user/viewprofilepage/user-id/143008), Data Science Journalist, Alteryx**.
@@ -17,8 +17,6 @@ In this post, we’ll refresh our knowledge of regression before reviewing some 
 ### Regression, Residuals, and Error
 
 As mentioned in part 1, regression models use a different set of metrics from classification models because what you’re trying to predict is a numeric value, not one of a predetermined set of outcomes or classes. Instead of predicting something like “high” or “low,” you’re seeking to predict “1,390,000” or “15.” (Here’s a refresher on [linear regression](https://community.alteryx.com/t5/Data-Science/Simply-Powerful-Solving-Nonprofits-Data-Challenges-with-Linear/ba-p/565913) for the basics of that approach. [Random forest](https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Tool-Mastery-Forest-Model/ta-p/305724) and [decision tree](https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Tool-Mastery-Decision-Tree/ta-p/144452) models can also be used for regression, among other options.)
-
-![](https://community.alteryx.com/t5/image/serverpage/image-id/172714i3FCDBA4F84E4A3F0/image-size/medium?v=v2&px=400)
 
 With regression, we build models to make predictions that are as close as possible to the observed outcome values we have on hand in our dataset — for example, the selling prices for houses. Our model suggests a specific mathematical relationship between the predictor variables we choose and the observed outcome values.
 
@@ -78,8 +76,6 @@ First, we’ll check out some different ways of looking at your model’s blunde
 
 * This metric differs from MSE in that it will be in the same units as your original data, and so it may be more explainable. It also differs from the above error calculations because it doesn’t try to summarize all the errors across all the predictions in one value; instead, it represents the model’s *single* biggest error in prediction.
 * If you are concerned that your model’s biggest prediction error or “worst case” is below a certain threshold, this could be a useful metric to evaluate.
-
-![](https://community.alteryx.com/t5/image/serverpage/image-id/172717i3AA1C9438CF4728B/image-size/medium?v=v2&px=400)
 
 Our last two metrics assess how well your model and its chosen set of predictors can account for the variation in the outcome variable’s values.
 

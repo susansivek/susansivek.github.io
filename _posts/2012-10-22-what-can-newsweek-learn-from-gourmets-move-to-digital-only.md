@@ -1,11 +1,11 @@
 ---
 title: "What Can Newsweek Learn from Gourmet’s Move to Digital-Only?"
 date: 2012-10-22
-excerpt: "The big news in the magazine industry last week was that Newsweek, founded nearly eight decades ago, is moving to a digital-only product after a final print edition on December 31. The timing is remarkable.
-Three years ago this week, I wrote my first…"
+excerpt: "\"The big news in the magazine industry last week was that Newsweek, founded nearly eight decades ago, is moving to a digital-only product after a final print edition on December 31. The timing is remarkable."
 original_url: "http://mediashift.org/2012/10/what-can-newsweek-learn-from-gourmets-move-to-digital-only296/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2012/10/what-can-newsweek-learn-from-gourmets-move-to-digital-only296/](http://mediashift.org/2012/10/what-can-newsweek-learn-from-gourmets-move-to-digital-only296/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-c8a0a53471a7c8cc08bcfa4553fbd3eb-newsweek-gourmet.jpg)

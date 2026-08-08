@@ -1,12 +1,11 @@
 ---
 title: "Journalism Students: Tools for Jazzing Up Your Portfolio"
 date: 2014-03-11
-excerpt: "Dear journalism and media students:
-The end is near. The end of college, that is.
-\"If you want to try something other than WordPress, there are many commercial portfolio sites that offer a home for resume-style information and multimedia work…"
+excerpt: "\"Dear journalism and media students:"
 original_url: "http://mediashift.org/2014/03/portfolio-options-for-journalism-and-media-students/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2014/03/portfolio-options-for-journalism-and-media-students/](http://mediashift.org/2014/03/portfolio-options-for-journalism-and-media-students/)*
 
 ![](https://i2.wp.com/mediashift.org/wp-content/uploads/2014/03/349588142_e08e3a97f5_o.jpg?w=1280)

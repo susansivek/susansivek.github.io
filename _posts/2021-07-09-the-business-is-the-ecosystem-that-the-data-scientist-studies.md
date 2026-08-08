@@ -3,8 +3,9 @@ title: "The business is the ecosystem that the data scientist studies."
 date: 2021-07-09
 excerpt: "From studying extreme environments to using data to answer business questions, Tessa Jones from Calligo shares how her science-focused mind has helped her succeed in data science. Tessa Jones, director of data science at Calligo, has had many amazing…"
 original_url: "https://towardsdatascience.com/principal-components-tessa-jones-on-the-data-science-ecosystem-654aef41e707?source=user_profile---------11----------------------------&gi=836810214773"
+publication: "Towards Data Science"
+categories: [data-science]
 ---
-
 *Originally published at [https://towardsdatascience.com/principal-components-tessa-jones-on-the-data-science-ecosystem-654aef41e707?source=user_profile---------11----------------------------&gi=836810214773](https://towardsdatascience.com/principal-components-tessa-jones-on-the-data-science-ecosystem-654aef41e707?source=user_profile---------11----------------------------&gi=836810214773)*
 
 ## *From studying extreme environments to using data to answer business questions, Tessa Jones from Calligo shares how her science-focused mind has helped her succeed in data science.*

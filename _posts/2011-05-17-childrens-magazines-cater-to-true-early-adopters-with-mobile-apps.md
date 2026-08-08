@@ -1,11 +1,11 @@
 ---
 title: "Children’s Magazines Cater to True Early Adopters with Mobile Apps"
 date: 2011-05-17
-excerpt: "Digital magazines designed for kids are giving new meaning to the phrase “early adopter.”
-Children’s magazines have come a long way from those dusty print editions at the pediatrician’s office. While adults struggle to join the transition to digital…"
+excerpt: "\"Digital magazines designed for kids are giving new meaning to the phrase “early adopter.”"
 original_url: "http://mediashift.org/2011/05/childrens-magazines-cater-to-true-early-adopters-with-mobile-apps137/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2011/05/childrens-magazines-cater-to-true-early-adopters-with-mobile-apps137/](http://mediashift.org/2011/05/childrens-magazines-cater-to-true-early-adopters-with-mobile-apps137/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-1ab980e52cd31207b4c4a3d4843eb325-kidsmag-cover.jpg)

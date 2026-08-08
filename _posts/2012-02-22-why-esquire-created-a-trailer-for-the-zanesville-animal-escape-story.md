@@ -1,12 +1,11 @@
 ---
 title: "Why Esquire Created a Trailer for the Zanesville Animal Escape Story"
 date: 2012-02-22
-excerpt: "In order to promote a story it thought might run into some competition, Esquire recently released a 46-second video trailer for a story in its March print edition.
-Lights, camera … magazine article?
-Esquire recently released a 46-second video trailer…"
+excerpt: "\"In order to promote a story it thought might run into some competition, Esquire recently released a 46-second video trailer for a story in its March print edition."
 original_url: "http://mediashift.org/2012/02/why-esquire-created-a-trailer-for-the-zanesville-animal-escape-story053/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2012/02/why-esquire-created-a-trailer-for-the-zanesville-animal-escape-story053/](http://mediashift.org/2012/02/why-esquire-created-a-trailer-for-the-zanesville-animal-escape-story053/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-af346db0a17596b0ed39f514936b94bc-film-trailer-1.jpg)

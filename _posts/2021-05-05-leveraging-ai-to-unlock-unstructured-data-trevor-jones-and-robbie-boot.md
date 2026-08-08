@@ -3,8 +3,9 @@ title: "Leveraging AI to unlock unstructured data | Trevor Jones and Robbie Boot
 date: 2021-05-05
 excerpt: "Struggling to find insight with your image, video, audio, or text data? Join us for a conversation about Veritone’s aiWARE tools for Alteryx that help users at any skill level find breakthroughs in their data.Share your thoughts in our Cocktail…"
 original_url: "https://community.alteryx.com/t5/Data-Science-Mixer/Leveraging-AI-to-unlock-unstructured-data-Trevor-Jones-and/ba-p/754138"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science-Mixer/Leveraging-AI-to-unlock-unstructured-data-Trevor-Jones-and/ba-p/754138](https://community.alteryx.com/t5/Data-Science-Mixer/Leveraging-AI-to-unlock-unstructured-data-Trevor-Jones-and/ba-p/754138)*
 
 Struggling to find insight with your image, video, audio, or text data? Join us for a conversation about Veritone’s aiWARE tools for Alteryx that help users at any skill level find breakthroughs in their data.

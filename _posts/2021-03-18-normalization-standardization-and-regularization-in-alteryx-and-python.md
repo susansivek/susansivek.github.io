@@ -1,11 +1,11 @@
 ---
 title: "Normalization, Standardization, and Regularization in Alteryx and Python"
 date: 2021-03-18
-excerpt: "\"Normal,\" \"standard,\" “regular”: Those are all fairly similar. Let’s just put -ization on the end of each one, too. That won’t ever be confusing, right?
-If we could go back to the beginnings of statistics and data science, maybe we could advocate for…"
+excerpt: "\"\\\"Normal,\\\" \\\"standard,\\\" “regular”: Those are all fairly similar. Let’s just put -ization on the end of each one, too. That won’t ever be confusing, right?"
 original_url: "https://community.alteryx.com/t5/Data-Science/Normalization-Standardization-and-Regularization-in-Alteryx-and/ba-p/733996"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Normalization-Standardization-and-Regularization-in-Alteryx-and/ba-p/733996](https://community.alteryx.com/t5/Data-Science/Normalization-Standardization-and-Regularization-in-Alteryx-and/ba-p/733996)*
 
 "Normal," "standard," “regular”: Those are all fairly similar. Let’s just put -ization on the end of each one, too. That won’t ever be confusing, right?
@@ -13,8 +13,6 @@ original_url: "https://community.alteryx.com/t5/Data-Science/Normalization-Stand
 If we could go back to the beginnings of statistics and data science, maybe we could advocate for choosing more distinctive words for these concepts. Alas, we’re stuck with these terms for now.
 
 Each of these three -izations plays a unique role in your data preparation and analysis process. Let’s get some clarity on each so you know when and how to use them, whether you’re using Alteryx Designer, Python, or both.
-
-![SusanCS_0-1615830534860.gif](https://community.alteryx.com/t5/image/serverpage/image-id/175857iF126A46DA9C8E602/image-size/small?v=v2&px=200)
 
 Image via GIPHY
 
@@ -35,8 +33,6 @@ Let’s talk first about what “scaling your data” means with the fictional l
 | The Midnight Library | 4.1 | 12,310 |
 
 This variation in variance (oof) can cause issues for machine learning. To address it, feature scaling in some form, such as the methods described below, is generally recommended. [Neural networks](https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Tool-Mastery-Neural-Network/ta-p/300589) and support vector machines are sensitive to scaling, along with algorithms that use the distances between points in their calculations, like clustering and [PCA](https://community.alteryx.com/t5/Data-Science/Tidying-up-with-PCA-An-Introduction-to-Principal-Components/ba-p/382557).
-
-![SusanCS_1-1615830534749.gif](https://community.alteryx.com/t5/image/serverpage/image-id/175856i4E72365184B922D7/image-size/medium?v=v2&px=400)
 
 Image via GIPHY
 
@@ -67,8 +63,6 @@ Just to be extra confusing, standardization is sometimes used to cover all these
 
 Standardization is especially important for machine learning algorithms that use distance measures (e.g., k-nearest neighbors, k-means clustering, principal component analysis) and for those that are built on the assumption that your data are normally distributed. These will likely perform better if you provide data that fits that assumption.
 
-![SusanCS_2-1615830534004.gif](https://community.alteryx.com/t5/image/serverpage/image-id/175855i1BA2FA30CE3E267C/image-size/small?v=v2&px=200)
-
 If you want to standardize your data in Designer, you can locate and use [this macro](https://community.alteryx.com/t5/Alteryx-Designer-Discussions/Standardize-Normalize-Metrics/m-p/32272/highlight/true#M12943) that’s installed to support your predictive analytics tools.
 
 And, as above, another option is to use the Python Tool and scikit-learn, where [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html#sklearn.preprocessing.StandardScaler) will tackle this job.
@@ -83,8 +77,6 @@ To make it a bit easier to normalize/standardize your data, I’ve built a simpl
 
 Finally, remember that you usually will want to apply these methods to your training dataset only, not to your entire dataset. Scaling your entire dataset and *then* splitting it for training/testing allows some information about the distribution of the entire dataset to be available during training. If you split after scaling, your test dataset’s scaled values would be determined by “knowledge” of the entire dataset. However, that information will not be available when the model is actually used in production. This problem is one form of what’s called [data leakage](https://en.wikipedia.org/wiki/Leakage_(machine_learning)). Instead, split your dataset, train your model, preprocess your test data according to the same parameters used for the training data, and then assess your model’s performance.
 
-![SusanCS_3-1615830534017.gif](https://community.alteryx.com/t5/image/serverpage/image-id/175859iCEBFFDED4FA15963/image-size/medium?v=v2&px=400)
-
 Image via GIPHY
 
 ## **Regularization: Addressing a Different Issue**
@@ -98,8 +90,6 @@ However, regularization is not part of data preprocessing, unlike normalization 
 In the simplest terms, depending on the method used, regularization for regression models may reduce the number of variables included in a model and/or may try to bring their coefficients closer to zero, or a combination of both. For neural networks, regularization could also include [weight decay](https://machinelearningmastery.com/weight-regularization-to-reduce-overfitting-of-deep-learning-models/); [dropout](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf), where some layers’ output is ignored; and [early stopping](https://en.wikipedia.org/wiki/Early_stopping) when a model’s training ends early because it is generalizing less well as training proceeds (among [other approaches](https://machinelearningmastery.com/introduction-to-regularization-to-reduce-overfitting-and-improve-generalization-error/)).
 
 As you can tell, regularization is in a whole different zone of the machine learning process from normalization and standardization, so don’t let its deceptively similar sound trip you up!
-
-![SusanCS_4-1615830533982.gif](https://community.alteryx.com/t5/image/serverpage/image-id/175858i81158BE508C7FE06/image-size/medium?v=v2&px=400)
 
 Image via GIPHY
 

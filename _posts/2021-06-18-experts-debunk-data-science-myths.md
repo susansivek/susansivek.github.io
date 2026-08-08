@@ -3,8 +3,9 @@ title: "Experts Debunk Data Science Myths"
 date: 2021-06-18
 excerpt: "Alternative Hypotheses from Experts on the Data Science Mixer Podcast Susan Currie Sivek, Ph.D. May 4, 2021·4 min read On the Data Science Mixer podcast, I always ask our expert guests the same question for our “Alternative Hypothesis” segment:…"
 original_url: "https://towardsdatascience.com/experts-debunk-data-science-myths-1f96f2f1ac7e"
+publication: "Towards Data Science"
+categories: [data-science]
 ---
-
 *Originally published at [https://towardsdatascience.com/experts-debunk-data-science-myths-1f96f2f1ac7e](https://towardsdatascience.com/experts-debunk-data-science-myths-1f96f2f1ac7e)*
 
 ## Alternative Hypotheses from Experts on the Data Science Mixer Podcast

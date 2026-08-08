@@ -3,8 +3,10 @@ title: "Teaching Magazine Students More than Magazines"
 date: 2016-04-14
 excerpt: "Academia may be notorious for adapting slowly to change. But as magazines have adopted new technologies and approaches, some journalism educators have been innovating right alongside them, updating their teaching of magazine courses to reflect the…"
 original_url: "http://mediashift.org/2016/04/teaching-magazine-students-more-than-magazines/"
+publication: "MediaShift"
+categories: [media, academic]
+featured: true
 ---
-
 *Originally published at [http://mediashift.org/2016/04/teaching-magazine-students-more-than-magazines/](http://mediashift.org/2016/04/teaching-magazine-students-more-than-magazines/)*
 
 ![](https://i0.wp.com/mediashift.org/wp-content/uploads/2016/04/magazine-806073_1280.jpg?w=1280)

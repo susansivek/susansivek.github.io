@@ -3,21 +3,18 @@ title: "Market Basket Analysis 101: An Introduction"
 date: 2021-03-09
 excerpt: "I cook green bean casserole just once a year. Although it’s kind of a culinary travesty, we still make it with Thanksgiving dinner for sentimental reasons. Its essential ingredients are green beans, canned cream of mushroom soup and — most important…"
 original_url: "https://community.alteryx.com/t5/Data-Science/Market-Basket-Analysis-101-An-Introduction/bc-p/729968"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Market-Basket-Analysis-101-An-Introduction/bc-p/729968](https://community.alteryx.com/t5/Data-Science/Market-Basket-Analysis-101-An-Introduction/bc-p/729968)*
 
 I cook green bean casserole just once a year. Although it’s kind of a culinary travesty, we still make it with Thanksgiving dinner for sentimental reasons. Its essential ingredients are green beans, canned cream of mushroom soup and — most important — so-called “french fried” onions (also from a can) sprinkled on top. All three ingredients often are grouped together in the grocery store around the holidays.
-
-![SusanCS_0-1604609618054.gif](https://community.alteryx.com/t5/image/serverpage/image-id/143007i41FDAD17BCF4390E/image-size/medium?v=v2&px=400)
 
 But how’d the grocery stores know to showcase those items together? Do they have a sentimental attachment to green bean casserole, too?
 
 Nope, the stores are making the most of their customer data — and so can you. An analytic approach called market basket analysis reveals which items buyers purchase together. Among other purposes, this analysis can show retailers how to locate products together and how to cross-promote and recommend items that customers often put in their shopping carts at the same time. Marketing messages and promotions can highlight those items occurring together often, and key products that often relate to additional purchases can be identified. This approach works whether the stores and carts are physical or digital. Market basket analysis can also be used to analyze web browsing history, detect fraud and manage inventory.
 
 Let’s walk through the essential concepts underlying market basket analysis here, and in [Part 2](https://community.alteryx.com/t5/Data-Science/Market-Basket-Analysis-102-Alteryx-Designer-Python/ba-p/662029), we’ll talk about how to make this strategy come to life with Alteryx and a bit of Python.
-
-![SusanCS_1-1604609632702.gif](https://community.alteryx.com/t5/image/serverpage/image-id/143008i42F00D407115BB69/image-size/medium?v=v2&px=400)
 
 Image from GIPHY
 
@@ -38,8 +35,6 @@ Given those data, we want to find out which items are often purchased together. 
 
 We might guess from these four transactions that there’s some relationship among the three casserole ingredients, but it would be hard to determine if that’s the case across a much larger dataset.
 
-![SusanCS_2-1604609650851.gif](https://community.alteryx.com/t5/image/serverpage/image-id/143009i8019D8B2EEB4C9B6/image-size/medium?v=v2&px=400)
-
 The market basket approach to making that determination is to build “association rules.” The word “rule” sounds very authoritative or definitive, but really these are just statements that connect an “antecedent” item to a “consequent” item. Association rules also do not imply causal relationships, only co-occurrence, so don’t be deceived by those little arrows. In our example, we might wonder if green beans would be an antecedent item for french fried onions.
 
 *{antecedent} ➡️ {consequent}*
@@ -53,8 +48,6 @@ In our tiny dataset above, we see that two of the four transactions contain that
 (Fun fact: The average grocery store carried 28,112 items on its shelves in 2019, [according to](https://www.fmi.org/our-research/supermarket-facts) the Food Industry Association. Even creating itemsets of 10, they would still have about 8.5 x 1037 or 84,812,357,987,507,064,681,676,153,306,904,737,896 itemsets to examine. Thank goodness for software 😉 that can help with calculations for even one department!)
 
 What we need to do next is not only measure the frequency of the itemsets we’ve identified among all our transactions, but also to assess the strength of the associations between those items. We’ll use some different metrics for that strength, and we will “prune” (discard) the rules that don’t meet a threshold we set. The association rules that remain should have a high level of [*interestingness*](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.89.6566&rep=rep1&type=pdf) (that’s a real term!).
-
-![SusanCS_3-1604609666475.gif](https://community.alteryx.com/t5/image/serverpage/image-id/143010iBE07FA82ED7ABE8A/image-size/medium?v=v2&px=400)
 
 *Image from* [*GIPHY*](https://giphy.com/gifs/interesting-walrus-hmm-Bcnj6ObXtCNtS)
 
@@ -72,8 +65,6 @@ In our dataset above, we find support for *{green beans} ➡️ {french fried on
 
 Support is easy to calculate, but imagine trying to do this for more popular items in the store. How many people buy *{bread, eggs}* when they shop? Probably a lot. You may get a high support metric for that association rule, but it won’t add much nuance to your understanding of your customers’ habits.
 
-![SusanCS_4-1604609725620.gif](https://community.alteryx.com/t5/image/serverpage/image-id/143011i6EE64EAF680A41F8/image-size/medium?v=v2&px=400)
-
 Image from GIPHY
 
 * **Confidence**: Confidence brings a bit more specificity to your judgment of this association rule. In this case, it’s the proportion of all the transactions that contain all the items in the itemset over the proportion of transactions containing just one of them. (Yes, this is the same as dividing the support metric for *{green beans} ➡️ {french fried onions}* by the support metric for just *{green beans}* alone.)
@@ -83,8 +74,6 @@ proportion of transactions with green beans
 In our dataset above, 2 of 4 transactions included both items, and 3 of 4 included green beans. That’s 0.5 / 0.75, or 0.67. Again, higher numbers closer to 1 are better here.
 
 Confidence gives us the probability that a customer will purchase the consequent, the item on the right of our association rule — the french fried onions — given that they purchased green beans, our antecedent. As you can see, this metric provides a different and perhaps more useful insight into the nature of customers’ behavior; we are getting not just frequency, but also a measure of likelihood.
-
-![SusanCS_5-1604609735302.gif](https://community.alteryx.com/t5/image/serverpage/image-id/143012i1891BA6D5C140AC3/image-size/medium?v=v2&px=400)
 
 Image from GIPHY
 
@@ -104,8 +93,6 @@ The lift metric lets us know whether our assumption of “no relationship” bet
 
 Want still more metrics? Support, confidence and lift are the most commonly known metrics for this analysis, and you’ll see them in the market basket tools in Designer. You may also see [leverage and conviction](https://michael.hahsler.net/research/recommender/associationrules.html) discussed on the interwebz. These are additional options for assessing the strength of the co-occurrence relationship expressed in an association rule.
 
-![SusanCS_6-1604609747263.gif](https://community.alteryx.com/t5/image/serverpage/image-id/143013i407B070BECBD0A2F/image-size/medium?v=v2&px=400)
-
 ## **Apriori and Eclat Algorithms for Association Rule Mining**
 
 Clearly, those are a lot of potential calculations to carry out for many potential association rules based on many potential itemsets, if you have more than a few items. How can you expend your computational power efficiently in this process, which is often called *association rule mining*?
@@ -117,8 +104,6 @@ Association rules are generated from the frequent itemsets by splitting them apa
 The process of whittling down the itemsets (and thereby reducing the number of association rules to evaluate) is *pruning*. Pruning is important to reduce the computational demands of reviewing the data repeatedly and of calculating metrics for many potential itemsets.
 
 The *eclat algorithm* is also used for building association rules. ECLAT is actually an acronym that stands for [Equivalence Class Clustering and bottom-up Lattice Traversal](https://sci2s.ugr.es/keel/pdf/algorithm/articulo/2000%20-%20IEEETKDE%20-%20Zaki%20-%20(Eclat)%20ScalableAlgorithms%20for%20Association%20Mining%20.pdf) (though the word *éclat* itself actually means “ostentatious display” or “dazzling effect” ... its creators set some high expectations!).
-
-![SusanCS_7-1604609757314.gif](https://community.alteryx.com/t5/image/serverpage/image-id/143014iC009C7013F1781F1/image-size/medium?v=v2&px=400)
 
 Éclat ... not the eclat algorithm. Image from
 

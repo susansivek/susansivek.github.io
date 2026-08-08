@@ -3,8 +3,9 @@ title: "Ugly or Nice? Classifying Christmas Sweaters with Computer Vision"
 date: 2021-12-10
 excerpt: "Can we quantify the “ugly Christmas sweater”? It’s news you can use — not just for data science projects, but also for your festive fashion choices. Susan Currie Sivek, Ph.D. 1 hour ago·6 min read If you’ve been invited to an “ugly Christmas sweater”…"
 original_url: "https://susansivek.medium.com/ugly-or-nice-classifying-christmas-sweaters-with-computer-vision-30e5ff8bdcf7"
+publication: "Medium"
+categories: [data-science]
 ---
-
 *Originally published at [https://susansivek.medium.com/ugly-or-nice-classifying-christmas-sweaters-with-computer-vision-30e5ff8bdcf7](https://susansivek.medium.com/ugly-or-nice-classifying-christmas-sweaters-with-computer-vision-30e5ff8bdcf7)*
 
 ## Can we quantify the “ugly Christmas sweater”? It’s news you can use — not just for data science projects, but also for your festive fashion choices.

@@ -3,8 +3,9 @@ title: "Public Libraries Make Digital Magazines Accessible to All"
 date: 2013-10-30
 excerpt: "Magazine publishers are experimenting with all sorts of different ways to get you to pay for their digital products, including single issues, subscriptions, “buffets” (like Next Issue) and package deals (like Zinio’s Z-Pass). But if you have a…"
 original_url: "http://mediashift.org/2013/10/public-libraries-make-digital-magazines-accessible-to-all/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2013/10/public-libraries-make-digital-magazines-accessible-to-all/](http://mediashift.org/2013/10/public-libraries-make-digital-magazines-accessible-to-all/)*
 
 ![](https://i0.wp.com/mediashift.org/wp-content/uploads/2013/10/magrackipad-e1383079308914.jpg?w=515)

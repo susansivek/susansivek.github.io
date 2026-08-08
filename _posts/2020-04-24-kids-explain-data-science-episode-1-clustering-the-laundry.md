@@ -3,8 +3,9 @@ title: "Kids Explain Data Science, Episode 1: Clustering the Laundry"
 date: 2020-04-24
 excerpt: "Note: In addition to writing this blog post, I also wrote the script for the animated video included in it.It’s never too early to start learning about data science! We’d planned to celebrate Take Your Kids to Work Day with this fun new video, but…"
 original_url: "https://community.alteryx.com/t5/Data-Science/Kids-Explain-Data-Science-Episode-1-Clustering-the-Laundry/bc-p/560816"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Kids-Explain-Data-Science-Episode-1-Clustering-the-Laundry/bc-p/560816](https://community.alteryx.com/t5/Data-Science/Kids-Explain-Data-Science-Episode-1-Clustering-the-Laundry/bc-p/560816)*
 
 *Note: In addition to writing this blog post, I also wrote the script for the animated video included in it.*
@@ -17,7 +18,7 @@ https://www.youtube.com/watch?v=2BG0XQfBbGU
 
 So what’s the data story here? Each step in Posy’s laundry journey corresponds to a part of the clustering process. Let’s watch it unfold (pun intended). Explanations are under each of the spoiler tags.
 
-![posy-mtn.png](https://community.alteryx.com/t5/image/serverpage/image-id/109087i7C8255CA1FD32E15/image-size/medium?v=1.0&px=400)
+![posy-mtn.png](/assets/images/posts/kids-explain-data-science-episode-1-clustering-the-laundry/medium-f6425d79.png)
 
 Posy is faced with a giant pile of unsorted, clean laundry, fresh out of the dryer, ready for folding and sorting into smaller piles of similar items.
 

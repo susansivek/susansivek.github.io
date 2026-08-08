@@ -1,11 +1,11 @@
 ---
 title: "Digital Technology Remodels Women’s Magazines"
 date: 2014-01-15
-excerpt: "In her new book \"Remake/Remodel: Women’s Magazines in the Digital Age\" Brooke Erin Duffy suggests that women’s magazines’ adaptation to industry trends and technology could change them in subtle but fundamental ways.
-Women’s magazines are full of…"
+excerpt: "\"In her new book \\\"Remake/Remodel: Women’s Magazines in the Digital Age\\\" Brooke Erin Duffy suggests that women’s magazines’ adaptation to industry trends and technology could change them in subtle but fundamental ways."
 original_url: "http://mediashift.org/2014/01/digital-technology-remodels-womens-magazines/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2014/01/digital-technology-remodels-womens-magazines/](http://mediashift.org/2014/01/digital-technology-remodels-womens-magazines/)*
 
 ![](https://i1.wp.com/mediashift.org/wp-content/uploads/2014/01/womens-mags.png?w=515)

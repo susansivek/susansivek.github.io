@@ -1,10 +1,11 @@
 ---
 title: "'48 Hour' Births Crowdsourced, Print-on-Demand Mag in Public"
 date: 2010-05-20
-excerpt: "\"Issue Zero\" of 48 Hour Magazine, created in just two days and printed on demand. The first issue of 48 Hour Magazine, though printed on old-fashioned paper, is one of the most technologically interesting magazine projects today. The staff of 48…"
+excerpt: "\\\"Issue Zero\\\" of 48 Hour Magazine, created in just two days and printed on demand. The first issue of 48 Hour Magazine, though printed on old-fashioned paper, is one of the most technologically interesting magazine projects today. The staff of 48…"
 original_url: "http://mediashift.org/2010/05/48-hour-births-crowdsourced-print-on-demand-mag-in-public140/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2010/05/48-hour-births-crowdsourced-print-on-demand-mag-in-public140/](http://mediashift.org/2010/05/48-hour-births-crowdsourced-print-on-demand-mag-in-public140/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-a7e83195cfdfa5422db893016f6858e2-48%20hour%20cover.jpg)

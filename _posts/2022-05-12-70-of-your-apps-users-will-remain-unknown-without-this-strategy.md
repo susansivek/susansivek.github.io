@@ -3,8 +3,9 @@ title: "70% of Your App’s Users Will Remain Unknown, Without This Strategy"
 date: 2022-05-12
 excerpt: "App developers everywhere felt hamstrung when Apple implemented its App Tracking Transparency (ATT) framework, which requires users to consent to share the Identifier for Advertisers (IDFA). While early estimates were dire, forecasting that only 6%…"
 original_url: "https://www.pecan.ai/resource/predictive-optimizing-campaigns/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/predictive-optimizing-campaigns/](https://www.pecan.ai/resource/predictive-optimizing-campaigns/)*
 
 App developers everywhere felt hamstrung when Apple implemented its App Tracking Transparency (ATT) framework, which requires users to consent to share the Identifier for Advertisers (IDFA).

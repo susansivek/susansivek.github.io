@@ -3,8 +3,9 @@ title: "Maximize Cross-Sell & Upsell with AI"
 date: 2022-04-14
 excerpt: "This post is our second on cross-sell and upsell prediction strategies; if you missed the first, check it out here! Both posts are part of our Predictive Frameworks series, which explores the most effective use cases for predictive analytics. Strong,…"
 original_url: "https://www.pecan.ai/blog/predictive-cross-sell-upsell-strategies/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/blog/predictive-cross-sell-upsell-strategies/](https://www.pecan.ai/blog/predictive-cross-sell-upsell-strategies/)*
 
 *This post is our second on cross-sell and upsell prediction strategies; if you missed the first, [check it out here](https://www.pecan.ai/resource/cross-sell-upsell-strategies-predictive/)! Both posts are part of our Predictive Frameworks series, which explores the most effective use cases for predictive analytics.*

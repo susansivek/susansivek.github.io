@@ -3,8 +3,9 @@ title: "Principal Components: Vukosi Marivate on Data Science and NLP in Africa"
 date: 2021-11-20
 excerpt: "Vukosi Marivate, Ph.D., chair of data science at the University of Pretoria, talks about the advancement of data science practice and education in Africa, especially around low-resource languages and NLP. Vukosi Marivate, Ph.D., chair of data science…"
 original_url: "https://medium.com/codex/principal-components-vukosi-marivate-on-data-science-and-nlp-in-africa-1e1f92afe798?source=user_profile---------2----------------------------"
+publication: "Medium"
+categories: [data-science, profiles]
 ---
-
 *Originally published at [https://medium.com/codex/principal-components-vukosi-marivate-on-data-science-and-nlp-in-africa-1e1f92afe798?source=user_profile---------2----------------------------](https://medium.com/codex/principal-components-vukosi-marivate-on-data-science-and-nlp-in-africa-1e1f92afe798?source=user_profile---------2----------------------------)*
 
 ## *Vukosi Marivate, Ph.D., chair of data science at the University of Pretoria, talks about the advancement of data science practice and education in Africa, especially around low-resource languages and NLP.*

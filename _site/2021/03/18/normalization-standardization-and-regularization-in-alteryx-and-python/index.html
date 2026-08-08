@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Normalization, Standardization, and Regularization in Alteryx and Python — Susan Currie Sivek</title>
+  <meta name="description" content=""\"Normal,\" \"standard,\" “regular”: Those are all fairly similar. Let’s just put -ization on the end of each one, too. That won’t ever be confusing, right?">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="site">
+    <header class="masthead">
+      <p class="masthead-brand">
+        <a href="/">Susan Currie Sivek</a>
+      </p>
+      <p class="masthead-tagline">
+        Data science writer, researcher, hiker, knitter. Former journalism professor. Curious about everything.
+        View <a href="https://www.linkedin.com/in/ssivek/">my LinkedIn profile</a>.
+      </p>
+      <nav class="site-nav" aria-label="Portfolio sections">
+  <ul>
+    <li>
+      <a href="/">All</a>
+    </li>
+    <li>
+      <a href="/favorites/">Favorites</a>
+    </li>
+    <li>
+      <a href="/categories/data-science/">Data Science and Tech</a>
+    </li>
+    <li>
+      <a href="/categories/features/">Features</a>
+    </li>
+    <li>
+      <a href="/categories/profiles/">Profiles</a>
+    </li>
+    <li>
+      <a href="/categories/academic/">Academic Life</a>
+    </li>
+    <li>
+      <a href="/categories/media/">Media Industry</a>
+    </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main class="content" id="main">
+      <article class="post">
+  <header class="post-header">
+    <h1>Normalization, Standardization, and Regularization in Alteryx and Python</h1>
+    <div class="post-meta">
+      <span>March 18, 2021</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><span>Alteryx Community</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><a class="post-source" href="https://community.alteryx.com/t5/Data-Science/Normalization-Standardization-and-Regularization-in-Alteryx-and/ba-p/733996" rel="noopener">View original &#8599;</a>
+    </div>
+    
+    <ul class="post-categories">
+      
+      <li>
+        
+          <a href="/categories/data-science/">Data Science and Tech</a>
+        
+      </li>
+      
+    </ul>
+    
+  </header>
+
+  <div class="post-body">
+    <p><em>Originally published at <a href="https://community.alteryx.com/t5/Data-Science/Normalization-Standardization-and-Regularization-in-Alteryx-and/ba-p/733996">https://community.alteryx.com/t5/Data-Science/Normalization-Standardization-and-Regularization-in-Alteryx-and/ba-p/733996</a></em></p>
+
+<p>“Normal,” “standard,” “regular”: Those are all fairly similar. Let’s just put -ization on the end of each one, too. That won’t ever be confusing, right?</p>
+
+<p>If we could go back to the beginnings of statistics and data science, maybe we could advocate for choosing more distinctive words for these concepts. Alas, we’re stuck with these terms for now.</p>
+
+<p>Each of these three -izations plays a unique role in your data preparation and analysis process. Let’s get some clarity on each so you know when and how to use them, whether you’re using Alteryx Designer, Python, or both.</p>
+
+<p>Image via GIPHY</p>
+
+<h2 id="feature-scaling-normalization-and-standardization"><strong>Feature Scaling: Normalization and Standardization</strong></h2>
+
+<p>Our own <a href="https://community.alteryx.com/t5/user/viewprofilepage/user-id/17210">@SydneyF</a> wrote <a href="https://community.alteryx.com/t5/Data-Science/Text-Normalization-in-Alteryx/ba-p/611283">a great article</a> on <em>text</em> normalization, the process by which text is prepared for analysis with natural language processing tools. She also wrote a <a href="https://community.alteryx.com/t5/Data-Science/Data-Normalization-What-You-Need-to-Know-Before-Feature/ba-p/713658">fantastic explanation</a> of data normalization that addresses how the term is used in database structure and organization.</p>
+
+<p>As Sydney notes in that second article, though, there’s yet another commonly used (but still somewhat variable) meaning of normalization: methods for scaling your data.</p>
+
+<p>Let’s talk first about what “scaling your data” means with the fictional library dataset below. Say you have a variable (aka feature) that has a wide range of values (and hence <a href="https://en.wikipedia.org/wiki/Variance">variance</a>), like the “Library Checkouts” field below — especially as compared to the variance of “Average Rating”:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td><strong>Average Rating (1 to 5)</strong></td>
+      <td><strong>Library Checkouts</strong></td>
+    </tr>
+    <tr>
+      <td>Uncanny Valley</td>
+      <td>3.0</td>
+      <td>45</td>
+    </tr>
+    <tr>
+      <td>Quantum</td>
+      <td>3.4</td>
+      <td>1,301</td>
+    </tr>
+    <tr>
+      <td>The Lady Tasting Tea</td>
+      <td>3.8</td>
+      <td>2,122</td>
+    </tr>
+    <tr>
+      <td>The Midnight Library</td>
+      <td>4.1</td>
+      <td>12,310</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This variation in variance (oof) can cause issues for machine learning. To address it, feature scaling in some form, such as the methods described below, is generally recommended. <a href="https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Tool-Mastery-Neural-Network/ta-p/300589">Neural networks</a> and support vector machines are sensitive to scaling, along with algorithms that use the distances between points in their calculations, like clustering and <a href="https://community.alteryx.com/t5/Data-Science/Tidying-up-with-PCA-An-Introduction-to-Principal-Components/ba-p/382557">PCA</a>.</p>
+
+<p>Image via GIPHY</p>
+
+<p>A feature with wide-ranging values can have disproportionate influence on these models’ predictions when compared to other features. Therefore, it’s typically better to constrain all the features’ values to a narrower range so they are all integrated equally into the model. “Scaling” encompasses a variety of procedures that make the variables more comparable.</p>
+
+<p><strong><em>Min-Max Normalization</em></strong></p>
+
+<p>Let’s dive into one form of normalization, which is one variety of feature scaling. “Min-max normalization” or “min-max scaling” recalculates all the values of your variables so that they fall within the range [0, 1] or [-1, 1]. (Check out <a href="https://sebastianraschka.com/Articles/2014_about_feature_scaling.html#about-min-max-scaling">an equation</a> for this process.) The [0, 1] range is typically required for neural networks.</p>
+
+<p>Our dataset above, if scaled so that values fall within [0, 1], would look like this:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td><strong>Average Rating (1 to 5)</strong></td>
+      <td><strong>Library Checkouts</strong></td>
+    </tr>
+    <tr>
+      <td>Uncanny Valley</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Quantum</td>
+      <td>0.364</td>
+      <td>0.102</td>
+    </tr>
+    <tr>
+      <td>The Lady Tasting Tea</td>
+      <td>0.727</td>
+      <td>0.169</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>As you can see, the minimum values and maximum values for each variable end up at the top and bottom of the [0, 1] range; the other values lie in between. Most importantly, all the values across the features are more comparable and may contribute to a better-performing model. However, as you can imagine, this method is not as effective with outliers, which can pull the minimum and/or maximum values strongly in one direction.</p>
+
+<p>In Alteryx Designer, you can try out the user-created <a href="https://gallery.alteryx.com/#!app/FeatureScaler/5e342b880462d70decb5e915">FeatureScaler</a> macro, available in the Alteryx Analytics Gallery (alongside many other <a href="https://community.alteryx.com/t5/Data-Science/Free-Data-Science-Tools-for-Designer-A-Gallery-Tour/ba-p/669590">useful data science tools</a>!). This macro can also convert your data (for example, a model’s predictions on your normalized data) from their normalized form back to their original units.</p>
+
+<p>If you want to use this approach in Python and are using scikit-learn (one of the libraries included in the <a href="https://help.alteryx.com/current/designer/python-tool">Python Tool</a> in Designer), you can use <a href="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html#sklearn.preprocessing.MinMaxScaler">MinMaxScaler</a>, for which the [0, 1] range is the default. <a href="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MaxAbsScaler.html#sklearn.preprocessing.MaxAbsScaler">MaxAbsScaler</a> is another option and may be better for sparse datasets, as it preserves the data’s inherent structure. The scikit-learn User Guide has <a href="https://scikit-learn.org/stable/modules/preprocessing.html#preprocessing-scaler">an excellent section</a> on these techniques. @DavidM <a href="https://community.alteryx.com/t5/Alteryx-Designer-Discussions/How-to-do-Feature-Normalization-in-Alteryx-incl-Python-Code-tool/td-p/313366">has also written</a> on the Community about normalization with the Python Tool.</p>
+
+<p><strong><em>Standardization</em></strong></p>
+
+<p>Just to be extra confusing, standardization is sometimes used to cover all these forms of scaling. However, one popular use of the term is a scaling method that can be more specifically called z-score standardization. This approach takes your features’ values and scales them so that they end up being <a href="https://stattrek.com/probability-distributions/normal.aspx">normally distributed</a> (fitting that familiar old bell curve). The values are transformed so their mean is 0, and their standard deviation is 1. This method is also sensitive to outliers’ influence.</p>
+
+<p>Standardization is especially important for machine learning algorithms that use distance measures (e.g., k-nearest neighbors, k-means clustering, principal component analysis) and for those that are built on the assumption that your data are normally distributed. These will likely perform better if you provide data that fits that assumption.</p>
+
+<p>If you want to standardize your data in Designer, you can locate and use <a href="https://community.alteryx.com/t5/Alteryx-Designer-Discussions/Standardize-Normalize-Metrics/m-p/32272/highlight/true#M12943">this macro</a> that’s installed to support your predictive analytics tools.</p>
+
+<p>And, as above, another option is to use the Python Tool and scikit-learn, where <a href="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html#sklearn.preprocessing.StandardScaler">StandardScaler</a> will tackle this job.</p>
+
+<p><strong><em>Which Method and When?</em></strong></p>
+
+<p>As in the <a href="https://community.alteryx.com/t5/Data-Science/Metric-Matters-Part-1-Evaluating-Classification-Models/ba-p/719190">recent</a> <a href="https://community.alteryx.com/t5/Data-Science/Metric-Matters-Part-2-Evaluating-Regression-Models/ba-p/722596">posts</a> on model evaluation metrics, there’s no one right answer for all situations. You can try multiple methods of normalization and see which one helps your model perform better.</p>
+
+<p>If your data has outliers that could be problematic for the approaches described above, you may want to try <a href="https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html#sklearn.preprocessing.RobustScaler">RobustScaler</a> in scikit-learn, which uses the median and interquartile range to scale the data and retains the outliers. Here’s <a href="https://machinelearningmastery.com/robust-scaler-transforms-for-machine-learning/">a helpful tutorial</a> for RobustScaler, and you can also check out <a href="https://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html">this great visual comparison</a> of what data with outliers look like when handled with each of these approaches.</p>
+
+<p>To make it a bit easier to normalize/standardize your data, I’ve built a simple macro using the Python Tool that will run your selected features from your dataset through your choice of four scaling options available in scikit-learn: MinMaxScaler, MaxAbsScaler, StandardScaler and RobustScaler. The macro is attached to this post.</p>
+
+<p>Finally, remember that you usually will want to apply these methods to your training dataset only, not to your entire dataset. Scaling your entire dataset and <em>then</em> splitting it for training/testing allows some information about the distribution of the entire dataset to be available during training. If you split after scaling, your test dataset’s scaled values would be determined by “knowledge” of the entire dataset. However, that information will not be available when the model is actually used in production. This problem is one form of what’s called <a href="https://en.wikipedia.org/wiki/Leakage_(machine_learning)">data leakage</a>. Instead, split your dataset, train your model, preprocess your test data according to the same parameters used for the training data, and then assess your model’s performance.</p>
+
+<p>Image via GIPHY</p>
+
+<h2 id="regularization-addressing-a-different-issue"><strong>Regularization: Addressing a Different Issue</strong></h2>
+
+<p>This term seems like it should be sorted into the same category with normalization and standardization. Just looking at the word itself — it sounds like a similar concept, right?</p>
+
+<p>Regularization is actually a strategy used to build better-performing models by reducing the odds of overfitting, or when your model does such a good job of matching your training data that it performs badly on new data. In other words, regularization is a way to help your model generalize better by preventing it from becoming too complex.</p>
+
+<p>However, regularization is not part of data preprocessing, unlike normalization and standardization. Instead, it is an optional component in the model-building process. Regularization is often discussed in the context of regression models, and in Designer, you can optionally <a href="https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Regularization-in-Alteryx/ta-p/150873">use ridge regression, LASSO or elastic net regularization</a> when building linear and logistic regression models. However, regularization is definitely also relevant for other algorithms, including <a href="https://machinelearningmastery.com/introduction-to-regularization-to-reduce-overfitting-and-improve-generalization-error/">neural networks</a> and support vector machines.</p>
+
+<p>In the simplest terms, depending on the method used, regularization for regression models may reduce the number of variables included in a model and/or may try to bring their coefficients closer to zero, or a combination of both. For neural networks, regularization could also include <a href="https://machinelearningmastery.com/weight-regularization-to-reduce-overfitting-of-deep-learning-models/">weight decay</a>; <a href="https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf">dropout</a>, where some layers’ output is ignored; and <a href="https://en.wikipedia.org/wiki/Early_stopping">early stopping</a> when a model’s training ends early because it is generalizing less well as training proceeds (among <a href="https://machinelearningmastery.com/introduction-to-regularization-to-reduce-overfitting-and-improve-generalization-error/">other approaches</a>).</p>
+
+<p>As you can tell, regularization is in a whole different zone of the machine learning process from normalization and standardization, so don’t let its deceptively similar sound trip you up!</p>
+
+<p>Image via GIPHY</p>
+
+<p>And finally, check out the macro attached below as a starting point for your feature scaling tasks.</p>
+
+<p><strong><em>I hope this article has helped you better understand these three important terms! Do you still have questions? Are there other data science terms you’d like to see clarified here on the blog? Let me know with a comment below, and subscribe to the blog to get future articles.</em></strong></p>
+
+<h2 id="additional-resources"><strong>Additional Resources</strong></h2>
+
+  </div>
+</article>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Susan Currie Sivek</p>
+      
+      <p><a href="mailto:susan.sivek@gmail.com">susan.sivek@gmail.com</a></p>
+      
+    </footer>
+  </div>
+</body>
+</html>

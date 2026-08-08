@@ -1,11 +1,11 @@
 ---
 title: "Data Science 101: Normalization, Standardization, and Regularization"
 date: 2021-04-01
-excerpt: "Normalization, standardization, and regularization all sound similar. However, each plays a unique role in your data preparation and model building process, so you must know when and how to use these important procedures.
-By Susan Sivek, Data Science…"
+excerpt: "\"Normalization, standardization, and regularization all sound similar. However, each plays a unique role in your data preparation and model building process, so you must know when and how to use these important procedures."
 original_url: "https://www.kdnuggets.com/2021/04/data-science-101-normalization-standardization-regularization.html"
+publication: "KDnuggets"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.kdnuggets.com/2021/04/data-science-101-normalization-standardization-regularization.html](https://www.kdnuggets.com/2021/04/data-science-101-normalization-standardization-regularization.html)*
 
 Normalization, standardization, and regularization all sound similar. However, each plays a unique role in your data preparation and model building process, so you must know when and how to use these important procedures.
@@ -18,7 +18,7 @@ If we could go back to the beginnings of statistics and data science, maybe we c
 
 Each of these three -izations plays a unique role in your data preparation and analysis process. Let's get some clarity on each, so you know when and how to use them.
 
-![](https://community.alteryx.com/t5/image/serverpage/image-id/175857iF126A46DA9C8E602/image-size/small?v=v2&px=200)
+![](/assets/images/posts/data-science-101-normalization-standardization-and-regularization/small.svg)
 
 ### Feature Scaling: Normalization and Standardization
 
@@ -38,7 +38,7 @@ Let's talk first about what "scaling your data" means with the fictional library
 
 This variation in variance (oof) can cause issues for machine learning. To address it, feature scaling in some form, such as the methods described below, is generally recommended. [Neural networks](https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Tool-Mastery-Neural-Network/ta-p/300589?utm_content=733996&utm_source=kdn) and support vector machines are sensitive to scaling, along with algorithms that use the distances between points in their calculations, like clustering and [PCA](https://community.alteryx.com/t5/Data-Science/Tidying-up-with-PCA-An-Introduction-to-Principal-Components/ba-p/382557?utm_content=733996&utm_source=kdn).
 
-![](https://community.alteryx.com/t5/image/serverpage/image-id/175856i4E72365184B922D7/image-size/medium?v=v2&px=400)
+![](/assets/images/posts/data-science-101-normalization-standardization-and-regularization/medium.svg)
 
 A feature with wide-ranging values can have a disproportionate influence on these models' predictions when compared to other features. Therefore, it's typically better to constrain all the features' values to a narrower range, so they are all integrated equally into the model. "Scaling" encompasses a variety of procedures that make the variables more comparable.
 

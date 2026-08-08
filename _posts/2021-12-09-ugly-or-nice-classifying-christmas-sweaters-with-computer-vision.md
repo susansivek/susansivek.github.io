@@ -3,15 +3,16 @@ title: "Ugly or Nice? Classifying Christmas Sweaters with Computer Vision"
 date: 2021-12-09
 excerpt: "If you’ve been invited to an “ugly Christmas sweater” themed party, you might wonder: Is this sweater I picked actually ugly, or am I just a poor judge of fashion? Or maybe you just wear what you think is a “nice” holiday sweater. What if you then…"
 original_url: "https://community.alteryx.com/t5/Data-Science/Ugly-or-Nice-Classifying-Christmas-Sweaters-with-Computer-Vision/ba-p/851932"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Ugly-or-Nice-Classifying-Christmas-Sweaters-with-Computer-Vision/ba-p/851932](https://community.alteryx.com/t5/Data-Science/Ugly-or-Nice-Classifying-Christmas-Sweaters-with-Computer-Vision/ba-p/851932)*
 
 If you’ve been invited to an [“ugly Christmas sweater”](https://www.thedatingdivas.com/the-ultimate-ugly-sweater-party/) themed party, you might wonder: Is this sweater I picked *actually* ugly, or am I just a poor judge of fashion? Or maybe you just wear what you think is a “nice” holiday sweater. What if you then get compliments on your “ugly” choice?
 
 Fortunately, we have the data science tools to address this dilemma! After all, it’s just a binary classification problem — “ugly” or “nice.”
 
-![SusanCS_0-1638389291250.gif](https://community.alteryx.com/t5/image/serverpage/image-id/212629iBC8C7DDCA113D612/image-size/medium?v=v2&px=400)
+![SusanCS_0-1638389291250.gif](/assets/images/posts/ugly-or-nice-classifying-christmas-sweaters-with-computer-vision/medium.jpg)
 
 Image via GIPHY
 
@@ -23,13 +24,13 @@ To build an ugly/nice sweater image classification model, we need many images of
 
 After some experimentation, I landed on “cute dressy Christmas sweater” as a reliable search term for more normal-looking holiday garb. Though potentially biased toward more typically feminine styles, the sample did include more masculine sweaters as well.
 
-![SusanCS_1-1638389291035.png](https://community.alteryx.com/t5/image/serverpage/image-id/212628i826FF9AE6AFC081E/image-size/large?v=v2&px=999)
+![SusanCS_1-1638389291035.png](/assets/images/posts/ugly-or-nice-classifying-christmas-sweaters-with-computer-vision/large.bin)
 
 A sample of the allegedly “cute” sweaters as shown in the image cleaning interface
 
 With just a few lines of code in the Python Tool, I quickly had 900 images of sweaters. The jmd\_imagescraper package also includes a convenient little utility that allows you to preview and delete duplicated or inappropriate images, which in this case included the occasional clip art images or illustrations. After some cleanup, I ended up with 752 images, almost evenly divided between the “ugly” and “nice” labels (avoiding the problem of [imbalanced data](https://community.alteryx.com/t5/Data-Science/Balancing-Act-Classification-with-Imbalanced-Data/ba-p/841878)).
 
-![SusanCS_2-1638389292309.gif](https://community.alteryx.com/t5/image/serverpage/image-id/212630iC3D042A450322D5C/image-size/medium?v=v2&px=400)
+![SusanCS_2-1638389292309.gif](/assets/images/posts/ugly-or-nice-classifying-christmas-sweaters-with-computer-vision/medium.png)
 
 Image via GIPHY
 
@@ -41,13 +42,13 @@ I used the [Image Processing Tool](https://help.alteryx.com/20213/designer/image
 
 After experimenting with the pre-trained model options in the [Image Recognition Tool](https://help.alteryx.com/20213/designer/image-recognition), I settled on the VGG16 option as the best performer overall. I saved the model, then used the [Predict Tool](https://help.alteryx.com/20213/designer/predict-tool) to assign labels for the holdout set. The [Contingency Table Tool](https://help.alteryx.com/20213/designer/contingency-table-tool) helped me sum up the model’s performance on that holdout set, shown in what’s basically a [confusion matrix](https://community.alteryx.com/t5/Data-Science/What-is-a-Confusion-Matrix/ba-p/537567) below. The model classified the sweaters as “ugly” or “nice” with about 79% accuracy across the board. Interestingly, it did a little bit better with the ugly sweaters.
 
-![SusanCS_3-1638389291019.png](https://community.alteryx.com/t5/image/serverpage/image-id/212631iFA0902419EF2CB73/image-size/large?v=v2&px=999)
+![SusanCS_3-1638389291019.png](/assets/images/posts/ugly-or-nice-classifying-christmas-sweaters-with-computer-vision/large-64260d86.bin)
 
 Using a Contingency Table Tool to evaluate the performance of the model on the holdout images
 
 For my personal fashion choices, I’d be pretty happy if I managed to correctly choose the “cute” option about 8 out of 10 times. Your standards may be higher.
 
-![SusanCS_4-1638389293108.gif](https://community.alteryx.com/t5/image/serverpage/image-id/212633iF97132EAB055BC86/image-size/medium?v=v2&px=400)
+![SusanCS_4-1638389293108.gif](/assets/images/posts/ugly-or-nice-classifying-christmas-sweaters-with-computer-vision/medium-1124dd64.png)
 
 Image via GIPHY
 
@@ -61,18 +62,18 @@ If you picture a black-to-gray-to-white gradient, “bright pixels” are those 
 
 As it turns out, one difference between the ugly and nice sweaters is that the ugly sweater images have a statistically significant higher number of bright pixels in them, according to a quick check with the [Test of Means Tool](https://help.alteryx.com/20213/designer/test-means-tool). So if you’re looking for an ugly Christmas sweater for a party, going brighter is probably better (worse?).
 
-![SusanCS_5-1638389291123.png](https://community.alteryx.com/t5/image/serverpage/image-id/212632i9244B7F57AED5EE9/image-size/large?v=v2&px=999)
+![SusanCS_5-1638389291123.png](/assets/images/posts/ugly-or-nice-classifying-christmas-sweaters-with-computer-vision/large-f21259a7.bin)
 
 And when we look at the standard deviation for each of the “channels” of red, green and blue pixels in the images, we can see that the standard deviation (SD) of values for the red channel was significantly higher for the ugly sweater images (*p* < 0.001), though not for green or blue.
 
-![SusanCS_6-1638389291058.png](https://community.alteryx.com/t5/image/serverpage/image-id/212634iEBD0BF5BCC4E0389/image-size/large?v=v2&px=999)
-![SusanCS_7-1638389291154.png](https://community.alteryx.com/t5/image/serverpage/image-id/212637iCC4C346CB592B600/image-size/medium?v=v2&px=400)
+![SusanCS_6-1638389291058.png](/assets/images/posts/ugly-or-nice-classifying-christmas-sweaters-with-computer-vision/large.png)
+![SusanCS_7-1638389291154.png](/assets/images/posts/ugly-or-nice-classifying-christmas-sweaters-with-computer-vision/medium-32a08986.png)
 
 Generated by the Plot of Means Tool to show the difference in Channel 1 Pixel Standard Deviation
 
 That significant difference means there was more variation in the display of red in those images — or in other words, either a lot of red and a little of some other color (as on the left below, with a low SD for channel 1) ... or a little red and a lot of something else (as on the right below, with a high SD).
 
-![ugly_sweaters_SD.jpg](https://community.alteryx.com/t5/image/serverpage/image-id/212639i6463AE4441814972/image-size/large?v=v2&px=999)
+![ugly_sweaters_SD.jpg](/assets/images/posts/ugly-or-nice-classifying-christmas-sweaters-with-computer-vision/large-b6145680.png)
 
 With apologies to the chemists and cat lovers: two ugly Christmas sweaters in the image dataset.
 

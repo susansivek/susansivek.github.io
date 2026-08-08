@@ -3,8 +3,9 @@ title: "Is the Future of Data Science Female?"
 date: 2020-07-02
 excerpt: "This week’s podcast episode features a discussion between @TuvyL, manager of our ACE Program, and @DavidN, vice president for commercial sales at Alteryx. Among lots of great observations about career paths and success, they discuss the differences…"
 original_url: "https://community.alteryx.com/t5/Data-Science/Is-the-Future-of-Data-Science-Female/ba-p/597045"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Is-the-Future-of-Data-Science-Female/ba-p/597045](https://community.alteryx.com/t5/Data-Science/Is-the-Future-of-Data-Science-Female/ba-p/597045)*
 
 This week’s [podcast episode](https://community.alteryx.com/t5/Alter-Everything-Podcast/65-Uncomfortable-conversations/ba-p/597677) features a discussion between [@TuvyL](https://community.alteryx.com/t5/user/viewprofilepage/user-id/20119), manager of our [ACE Program](https://community.alteryx.com/t5/ACE-Program/bd-p/ace-program), and [@DavidN](https://community.alteryx.com/t5/user/viewprofilepage/user-id/5196), vice president for commercial sales at Alteryx. Among lots of great observations about career paths and success, they discuss the differences among genders in how people approach mentorship and asking for support at work -- and how important it is to promote diverse voices and perspectives.
@@ -17,7 +18,7 @@ I thought I’d take a closer look at the Kaggle data with Designer to see if an
 
 I first thought it would be interesting to see whether there had been any **change in gender diversity among students** over the three years of the Kaggle survey. I found that from 2017 to 2019, the proportion of student survey respondents identifying as female actually decreased just slightly. The number of respondents identifying as male and those offering other answers (which may have included “prefer not to respond” or “prefer to self-describe”) held steady. There hasn’t been a shift toward greater equity among genders, at least in these data.
 
-![students by gender 2017-19.png](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/121253i44D5DFFD8317D75E/image-size/large?v=1.0&px=999)
+![students by gender 2017-19.png](/assets/images/posts/is-the-future-of-data-science-female/large.jpeg)
 
 ## **Gender and Nationality**
 
@@ -25,15 +26,11 @@ Which countries are producing **the most female data science students**? I looke
 
 The 15 countries with the highest number of data science students are included in the chart below, with the number of female students displayed as well. Even in the countries with the largest numbers of surveyed students, the proportion of women is relatively low.
 
-![ds students by country.png](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/121255i84546E6D83F223C5/image-size/large?v=1.0&px=999)
-
 ## **Gender and Education of Survey Respondents**
 
 Students of data science can pursue a variety of credentials. Again using the 2019 survey dataset, I examined **differences in education levels among** ***non-student*** **respondents by gender**. A slightly higher proportion of female respondents had either master’s degrees or doctoral degrees than did male respondents.
 
 Though the difference isn’t enormous, it’s interesting to consider the potential reasons for it. Are women simply achieving advanced degrees at higher rates than men? Are women with higher degrees more likely to complete a survey, for whatever reason? Are women held to a higher educational standard by hiring managers in order to obtain their positions?
-
-![2019 education by gender.png](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/121256iF7363BB5B8B9FC95/image-size/large?v=1.0&px=999)
 
 ## **Data Limitations**
 

@@ -3,8 +3,9 @@ title: "Predicting the Effects of Holidays on Service with Data Science"
 date: 2021-11-23
 excerpt: "Classification models can help us understand factors related to service delays, evaluate the effects of holidays, and predict future delays based on important criteria. While many of us happily feast and relax on Thanksgiving, others are out there…"
 original_url: "https://towardsdatascience.com/predicting-the-effects-of-holidays-on-service-with-data-science-5adf8bddb974"
+publication: "Towards Data Science"
+categories: [data-science]
 ---
-
 *Originally published at [https://towardsdatascience.com/predicting-the-effects-of-holidays-on-service-with-data-science-5adf8bddb974](https://towardsdatascience.com/predicting-the-effects-of-holidays-on-service-with-data-science-5adf8bddb974)*
 
 ## Classification models can help us understand factors related to service delays, evaluate the effects of holidays, and predict future delays based on important criteria.

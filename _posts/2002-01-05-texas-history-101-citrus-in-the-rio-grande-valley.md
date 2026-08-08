@@ -3,8 +3,9 @@ title: "Texas History 101: Citrus in the Rio Grande Valley"
 date: 2002-01-05
 excerpt: "MOST FOLKS THINK of Florida when they hear the word “citrus,” but Texas—more specifically the Lower Rio Grande Valley—is known for its delicious red grapefruit. Seedling orange trees were planted by Don Macedonio Vela at the Laguna Seca Ranch in…"
 original_url: "https://www.texasmonthly.com/articles/texas-history-101-56/"
+publication: "Texas Monthly"
+categories: [media, features]
 ---
-
 *Originally published at [https://www.texasmonthly.com/articles/texas-history-101-56/](https://www.texasmonthly.com/articles/texas-history-101-56/)*
 
 MOST FOLKS THINK of Florida when they hear the word “citrus,” but Texas—more specifically the Lower Rio Grande Valley—is known for its delicious red grapefruit.

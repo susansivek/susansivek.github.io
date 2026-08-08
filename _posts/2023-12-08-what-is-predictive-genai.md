@@ -3,8 +3,9 @@ title: "What is Predictive GenAI?"
 date: 2023-12-08
 excerpt: "In a nutshell: Pecan’s Predictive GenAI combines predictive AI and generative AI to make predictive analytics more accessible and efficient. It uses generative AI methods to support the predictive modeling process, making it easier to define models…"
 original_url: "https://www.pecan.ai/blog/what-is-predictive-genai/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/blog/what-is-predictive-genai/](https://www.pecan.ai/blog/what-is-predictive-genai/)*
 
 ![](https://www.pecan.ai/wp-content/uploads/2023/12/connyschneiderxuTJZ7uD7PIunsplash1_0g9x.jpg)

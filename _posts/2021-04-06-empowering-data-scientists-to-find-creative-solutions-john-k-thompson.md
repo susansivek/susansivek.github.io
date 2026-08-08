@@ -3,8 +3,9 @@ title: "Empowering data scientists to find creative solutions | John K. Thompson
 date: 2021-04-06
 excerpt: "How can leaders encourage data scientists to experiment? Best selling author John K. Thompson joins us to share tips, including the importance of having a psychological understanding of what drives data scientists.Share your thoughts in our Cocktail…"
 original_url: "https://community.alteryx.com/t5/Data-Science-Mixer/Empowering-data-scientists-to-find-creative-solutions-John-K/ba-p/742342"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science-Mixer/Empowering-data-scientists-to-find-creative-solutions-John-K/ba-p/742342](https://community.alteryx.com/t5/Data-Science-Mixer/Empowering-data-scientists-to-find-creative-solutions-John-K/ba-p/742342)*
 
 How can leaders encourage data scientists to experiment? Best selling author John K. Thompson joins us to share tips, including the importance of having a psychological understanding of what drives data scientists.

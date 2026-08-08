@@ -3,8 +3,9 @@ title: "How B2B Magazines Have Evolved into Multi-Platform Brands"
 date: 2011-04-12
 excerpt: "Business content on MediaShift is sponsored by the weekend MA in Public Communication at American University. Designed for working professionals, the program is suited to career changers and public relations or social marketing professionals seeking…"
 original_url: "http://mediashift.org/2011/04/how-b2b-magazines-have-evolved-into-multi-platform-brands102/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2011/04/how-b2b-magazines-have-evolved-into-multi-platform-brands102/](http://mediashift.org/2011/04/how-b2b-magazines-have-evolved-into-multi-platform-brands102/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-9bc95a268a1611c70ce782847931bbfb-wordcloudb2b.jpg)[![i-61ae0e730671850b9afed3fe6e74cda9-AUlogo.jpg](https://i0.wp.com/mediashift.org/wp-content/uploads/sites/8/import/i-61ae0e730671850b9afed3fe6e74cda9-AUlogo.jpg)](https://www.american.edu/soc/communication/degrees/weekend-pc-description.cfm)

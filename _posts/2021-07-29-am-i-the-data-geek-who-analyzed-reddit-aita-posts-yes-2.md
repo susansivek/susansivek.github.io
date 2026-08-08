@@ -1,13 +1,11 @@
 ---
 title: "Am I the…Data Geek Who Analyzed Reddit AITA Posts? Yes."
 date: 2021-07-29
-excerpt: "We try to answer the classic question of our era with topic modeling, sentiment analysis, and some good ol’ stats.
-Susan Currie Sivek, Ph.D.
-5 hours ago·8 min read
-It’s the dataset that’s been calling my name. I’m not quite sure what that says about…"
+excerpt: "\"We try to answer the classic question of our era with topic modeling, sentiment analysis, and some good ol’ stats."
 original_url: "https://susansivek.medium.com/am-i-the-data-geek-who-analyzed-reddit-aita-posts-yes-4954a8d37055"
+publication: "Medium"
+categories: [data-science]
 ---
-
 *Originally published at [https://susansivek.medium.com/am-i-the-data-geek-who-analyzed-reddit-aita-posts-yes-4954a8d37055](https://susansivek.medium.com/am-i-the-data-geek-who-analyzed-reddit-aita-posts-yes-4954a8d37055)*
 
 ## We try to answer the classic question of our era with topic modeling, sentiment analysis, and some good ol’ stats.

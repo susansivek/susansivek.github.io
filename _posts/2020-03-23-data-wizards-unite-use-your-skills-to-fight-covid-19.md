@@ -1,11 +1,11 @@
 ---
 title: "Data Wizards Unite: Use Your Skills to Fight COVID-19"
 date: 2020-03-23
-excerpt: "I’ve heard self-quarantine called \"exile for the good of the realm.\" We’re all stuck in our castles, waiting for the pestilence to pass.
-Fortunately, the castles in our realm have internet! And there are amazing efforts underway online that enable…"
+excerpt: "\"I’ve heard self-quarantine called \\\"exile for the good of the realm.\\\" We’re all stuck in our castles, waiting for the pestilence to pass."
 original_url: "https://community.alteryx.com/t5/Alter-Nation/Data-Wizards-Unite-Use-Your-Skills-to-Fight-COVID-19/ba-p/545240"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Alter-Nation/Data-Wizards-Unite-Use-Your-Skills-to-Fight-COVID-19/ba-p/545240](https://community.alteryx.com/t5/Alter-Nation/Data-Wizards-Unite-Use-Your-Skills-to-Fight-COVID-19/ba-p/545240)*
 
 I’ve heard self-quarantine called "exile for the good of the realm." We’re all stuck in our castles, waiting for the pestilence to pass.
@@ -15,8 +15,6 @@ Fortunately, the castles in our realm have internet! And there are amazing effor
 You — yes, you — have a powerful skill set to aid our beleaguered realm. You are a Knight of the Data Table, a Druid of Dynamic Replace, a Sorcerer with Summarize. Your understanding of analytics is not common knowledge, and there are a great many data-related problems that could use your input.
 
 Here’s a roundup of projects happening **now** that would love your participation. Grab your helmet, gauntlets and greaves keyboard, mouse and data analytics tools, and let’s venture out to fight for our — all — people.
-
-![giphy](https://community.alteryx.com/t5/image/serverpage/image-id/104003i07462BDF34F7B7AE/image-size/medium?v=1.0&px=400)
 
 **Take on a Challenge**
 
@@ -31,8 +29,6 @@ Here’s a roundup of projects happening **now** that would love your participat
 * Catchafire links people with skills to nonprofits who need them. There aren’t any coronavirus-specific projects in the [Data and Analytics category](https://www.catchafire.org/volunteer/data-analytics?name_filter=&skill_filter=28&skill_filter=29&skill_filter=37&skill_filter=6&skill_filter=30&type_filter=1&type_filter=2&page=1) right now, but there might be soon as more data becomes available. You might see another project on the site that suits your skills and can help you fill some empty hours at home.
 
 * We’ve also got folks here on Community who are leading the way in this effort. Check out the [daily data workflow and discussion](https://community.alteryx.com/t5/General-Discussions/Johns-Hopkins-University-COVID-19-daily-data-workflow/m-p/543228), and [@LeahK](https://community.alteryx.com/t5/user/viewprofilepage/user-id/10152) has posted [some great resources](https://community.alteryx.com/t5/General-Discussions/COVID-19-Data-Sources/m-p/543290), too. We've got [a weekly challenge](https://community.alteryx.com/t5/Weekly-Challenge/Challenge-208-COVID-19-Visualization/td-p/545132) on this theme for you to tackle as well.
-
-![giphy](https://community.alteryx.com/t5/image/serverpage/image-id/104008i4C0A778AA55FDD7C/image-size/large?v=1.0&px=999)
 
 ### **Easier but Important Ways to Help Online**
 

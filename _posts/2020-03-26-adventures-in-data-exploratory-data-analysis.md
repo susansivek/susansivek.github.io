@@ -1,22 +1,18 @@
 ---
 title: "Adventures in Data: Exploratory Data Analysis"
 date: 2020-03-26
-excerpt: "It can be so tempting. You finally have that dataset you’ve been longing for. Its secrets and insights are just sitting there waiting for you. You want to start running your analysis right away and find the amazingness within.
-But wait. Take a…"
+excerpt: "\"It can be so tempting. You finally have that dataset you’ve been longing for. Its secrets and insights are just sitting there waiting for you. You want to start running your analysis right away and find the amazingness within."
 original_url: "https://community.alteryx.com/t5/Data-Science/Adventures-in-Data-Exploratory-Data-Analysis/ba-p/545267"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Adventures-in-Data-Exploratory-Data-Analysis/ba-p/545267](https://community.alteryx.com/t5/Data-Science/Adventures-in-Data-Exploratory-Data-Analysis/ba-p/545267)*
-
-![giphy](https://community.alteryx.com/t5/image/serverpage/image-id/103618i62B70CAF195D8BCC/image-size/large?v=1.0&px=999)
 
 It can be so tempting. You finally have that dataset you’ve been longing for. Its secrets and insights are just sitting there waiting for you. You want to start running your analysis right away and find the amazingness within.
 
 But wait. Take a breath. Prepare yourself, because instead of jumping right in, we’re going on a little journey through your data. But it’ll be a great adventure with a lot to see along the way!
 
 Investing the time to deeply explore your data is worthwhile in itself, and it can save you time and trouble later on. Exploratory data analysis (EDA) is the name for this effort, and it's a critical part of [the data science lifecycle](https://community.alteryx.com/t5/Data-Science-Blog/The-Data-Science-Lifecycle/ba-p/408625). It usually includes checking specific aspects of your data, investigating it numerically and visually, and identifying potential issues before continuing your analysis. It may sound boring, but EDA pays off. There are some terrific tools in Designer (and Python and R) to empower your exploration.
-
-![giphy](https://community.alteryx.com/t5/image/serverpage/image-id/103619i2C85FCBE91C7442D/image-size/large?v=1.0&px=999)
 
 ### **Waypoints on Your EDA Journey**
 
@@ -34,7 +30,7 @@ Here are some waypoints to guide your EDA process.
 
 * Think of even **more interesting questions**. You’re already brimming with questions to ask of your data, but this EDA process will spur even more curiosity! You’ll notice intriguing things as you explore, which will only enrich your analytic adventure.
 
-[![giphy](https://community.alteryx.com/t5/image/serverpage/image-id/103626i42FE85AC29E49543/image-size/large?v=1.0&px=999)](https://media.giphy.com/media/14bWswbeWGzYEo/giphy.gif)
+[](https://media.giphy.com/media/14bWswbeWGzYEo/giphy.gif)
 
 You’ve got two main approaches for EDA -- visual and non-visual (numerical) -- and you’ll use a combination of both to get to know your data. Before you launch into these, I’d recommend just .... staring at your data. Scroll up and down, side to side -- what’s going on in this dataset? This is the low-tech approach; just zone out and let your brain soak in data for a few minutes. You won’t look at every cell, of course, but you may notice some things popping out that warrant investigation, even before you launch into more formal analysis.
 
@@ -56,11 +52,11 @@ A histogram shows how your data are distributed across different numerical value
 
 A scatterplot usually maps two variables as points positioned on an X and Y axis, showing how variables are related to each other. (You might make the points different colors to represent a third variable.) Scatterplots reveal whether variables are correlated, and can also show clusters in your data. You might also see a clear linear or curvilinear relationship reflected in the massed shape of the points on the plot.
 
-[![giphy](https://community.alteryx.com/t5/image/serverpage/image-id/103627i93AB8EB9A473DA3F/image-size/large?v=1.0&px=999)](https://media.giphy.com/media/fnHxVS8gD2Z0SBFuYn/giphy.gif)
+[](https://media.giphy.com/media/fnHxVS8gD2Z0SBFuYn/giphy.gif)
 
 But wait, there’s another plot to consider! Box plots are also nifty for understanding at a glance what numerical data look like, and they combine some of the intriguing items described above. A box plot contains a box (surprising, no?) that indicates the edges of the first and third quartile of values for this variable (in other words, the middle 50%, or everything from the 25th percentile to the 75th percentile). A line across the middle of the box indicates the median.
 
-[![giphy](https://community.alteryx.com/t5/image/serverpage/image-id/103628iBDEB862E4173F0E0/image-size/large?v=1.0&px=999)](https://media.giphy.com/media/mtLsfrEXntTXO/giphy.gif)
+[](https://media.giphy.com/media/mtLsfrEXntTXO/giphy.gif)
 
 You might remember hearing about a “box-and-whiskers plot” in school, which adds a twist. Whiskers can be used in different ways, including to indicate maximum/minimum values or to show one standard deviation above/below the mean. Finally, dots or stars outside the ends of the whiskers represent outliers. As a whole, once you get used to looking at them, box plots provide a terrific visual shorthand for understanding your data at a glance.
 
@@ -71,8 +67,6 @@ Depending on your favorite tools, you have options for the EDA portion of your a
 Designer offers a fantastic way to quickly view your dataset’s overall profile with the new holistic data profiling feature, available on the Browse tool anywhere in your workflow. [Check out](https://community.alteryx.com/t5/Analytics-Blog/A-360-View-of-Your-Data-Set-With-Holistic-Data-Profiling-in-2020/ba-p/539648) this full description and example. You can review not just the results window, but also see a summary in the left-hand pane for every. single. variable.
 
 When a particular variable looks interesting (or, um, somehow wrong), click its name to take a closer look. You’ll then see the data quality (including numbers of uniques, blanks, and nulls), min/max and average values, shortest and longest values, and quantity of values with leading or trailing whitespace. You’ll get a quick histogram and a list of top values for the variable. The workflow and data shown below are in the files attached to this post.
-
-![designer-profiling.gif](https://community.alteryx.com/t5/image/serverpage/image-id/104030iFDFE0A7D5169066B/image-size/medium?v=1.0&px=400)
 
 **Python**
 
@@ -95,8 +89,6 @@ install.packages(explore)
 library(explore)
 explore(df) # generate report
 ```
-
-![explore-screenshot.png](https://community.alteryx.com/t5/image/serverpage/image-id/104015i1E6111EA7EDC0B2C/image-size/medium?v=1.0&px=400)
 
 Want to learn more? Notebooks for all three of these tools, plus PDFs of sample reports from DataExplorer and dataMaid, are in the zipped file attached to this post.
 

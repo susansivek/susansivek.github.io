@@ -1,11 +1,11 @@
 ---
 title: "The Ethics of Digital Magazine Advertising"
 date: 2010-04-28
-excerpt: "Digital versions of magazines open up new advertising opportunitites -- and ethical implications. Image via Zinio
-In my recent discussions with magazine editors, executives and experts, I’ve heard a lot about how magazines will integrate new forms of…"
+excerpt: "\"Digital versions of magazines open up new advertising opportunitites -- and ethical implications. Image via Zinio"
 original_url: "http://mediashift.org/2010/04/the-ethics-of-digital-magazine-advertising-118/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2010/04/the-ethics-of-digital-magazine-advertising-118/](http://mediashift.org/2010/04/the-ethics-of-digital-magazine-advertising-118/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-d700696ed4946cc7c44793358d55b711-zinioimage.jpg)

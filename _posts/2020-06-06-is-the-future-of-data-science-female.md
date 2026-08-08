@@ -3,8 +3,9 @@ title: "Is the Future of Data Science Female?"
 date: 2020-06-06
 excerpt: "This week’s episode of the Alter Everything podcast features a discussion about career paths and success. A key point in the discussion is the differences among genders in how people approach mentorship and asking for support…"
 original_url: "https://towardsdatascience.com/is-the-future-of-data-science-female-42ce043cecd7"
+publication: "Towards Data Science"
+categories: [data-science]
 ---
-
 *Originally published at [https://towardsdatascience.com/is-the-future-of-data-science-female-42ce043cecd7](https://towardsdatascience.com/is-the-future-of-data-science-female-42ce043cecd7)*
 
 ![](https://miro.medium.com/max/1200/1*R5b_60t56DJlK2zGxZ01lw.jpeg)

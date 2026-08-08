@@ -1,11 +1,11 @@
 ---
 title: "Predicting Success for College Classrooms and Football Fields"
 date: 2020-09-21
-excerpt: "Caps, gowns, diplomas … and data!
-Each student’s journey through a higher education institution creates lots of data. Recruitment, advising, retention, financial aid, administrative processes, assessment measures, course work, athletics and alumni…"
+excerpt: "\"Caps, gowns, diplomas … and data!"
 original_url: "https://community.alteryx.com/t5/Data-Science/Predicting-Success-for-College-Classrooms-and-Football-Fields/ba-p/634499"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Predicting-Success-for-College-Classrooms-and-Football-Fields/ba-p/634499](https://community.alteryx.com/t5/Data-Science/Predicting-Success-for-College-Classrooms-and-Football-Fields/ba-p/634499)*
 
 Caps, gowns, diplomas … and data!
@@ -14,7 +14,7 @@ Each student’s journey through a higher education institution creates lots of 
 
 That data can be put to work in predictive models that advance institutional goals and aid student success. In addition to the effective use cases linked above, here are two more innovative ways researchers have used machine learning to make predictions in the world of higher ed. While there are challenges, of course, predictive analytics can provide insights into all kinds of higher ed data.
 
-![SusanCS_0-1600271922113.jpeg](https://community.alteryx.com/t5/image/serverpage/image-id/133486iCD434E91B89BBF2E/image-size/medium?v=1.0&px=400)
+![SusanCS_0-1600271922113.jpeg](/assets/images/posts/predicting-success-for-college-classrooms-and-football-fields/medium.jpeg)
 
 Photo by MD Duran on Unsplash
 
@@ -24,8 +24,6 @@ With many colleges and universities primarily teaching online right now, student
 
 [A team of researchers](https://www.mdpi.com/2076-3417/10/15/5371) gathered data from Moodle, a popular LMS, across four semesters of an online introductory computer programming course. The data included students’ “cognitive interactions” with course content, their “social interactions” with each other, and their “teaching interactions” with the instructor; the researchers thought these categories might have differing predictive power. They also collected more data, such as the students’ total LMS interactions overall, and gave students a questionnaire about motivation and demographics. Finally, they built new features, including a “commitment factor,” a ratio of a student’s weekly total of interactions to the average for all students in the class.
 
-![SusanCS_1-1600271922117.jpeg](https://community.alteryx.com/t5/image/serverpage/image-id/133485iF23C7D8C518304C2/image-size/medium?v=1.0&px=400)
-
 With all this intriguing data on hand, the researchers tested 13 different combinations of data and six different predictive algorithms to see which would best identify students at risk of dropping out of the course or failing by the eighth week.
 
 Surprisingly, they found that — despite trying to develop new ways to examine students’ data — “the simple counting of interactions can be used to generate predictive models,” though other research had suggested this might not be enough sophistication. Their top-performing model for predicting at-risk students was an [AdaBoost](https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Tool-Mastery-Boosted-Model/ta-p/419302) classifier trained on total counts of all student interactions, and the second-best model also used AdaBoost with the same counts plus the “commitment factor” feature. Even the student questionnaire didn’t enhance the models beyond these few simple data points.
@@ -33,8 +31,6 @@ Surprisingly, they found that — despite trying to develop new ways to examine 
 “We are able to conclude that a more structured course, with dozens of materials, best fits the students’ needs, because they can have good interactions with the course and, consequently, succeed. It also seems that student interaction means engagement, and more engagement leads students to succeed,” the researchers wrote.
 
 While it seems like a no-brainer — build a robust online course, and students are more likely to succeed! — these results are helpful for those wanting to try out learning analytics and prediction themselves. You don’t necessarily have to build a super-complex model to identify and reach out to at-risk students. A simpler approach that tracks students’ online engagement and identifies those less engaged could still contribute to students’ success.
-
-![SusanCS_2-1600271922128.jpeg](https://community.alteryx.com/t5/image/serverpage/image-id/133487iD90897C94B48F2C0/image-size/medium?v=1.0&px=400)
 
 ## **Predictive Analytics in College Athletics: Tweets for Success**
 
@@ -45,8 +41,6 @@ Logistic regression outperformed other algorithms, including [random forest](htt
 Though selecting an athlete for a team would seem like a complex decision with a lot of intangible elements, it’s interesting that Twitter content by itself turned out to be predictive. Important variables included whether the athletes posted “self-promoting” tweets, “ingratiating” tweets praising specific coaches and teams, and information such as camps they attended or coaches who had visited them. Bigsby also created another logistic regression model that could predict whether the athletes would commit or “decommit” to certain teams.
 
 Beyond athletics and higher education, the research also offers ideas for how this predictive approach could be creatively used for recruitment for all kinds of jobs.
-
-![SusanCS_3-1600271922187.jpeg](https://community.alteryx.com/t5/image/serverpage/image-id/133488iE12CB31A5EF6B37A/image-size/medium?v=1.0&px=400)
 
 Photo by Roman Mager on Unsplash
 

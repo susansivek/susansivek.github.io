@@ -3,8 +3,9 @@ title: "Job Search Advice from a Pro"
 date: 2020-10-02
 excerpt: "Though data analytics and data science are still fields in demand right now, even those working in data-focused jobs have been affected by the recent economic upheaval. You might be seeking new possibilities or preparing to move into a new data…"
 original_url: "https://medium.com/@susansivek/job-search-advice-from-a-pro-3f6122663519?readmore=1&source=---------5----------------------------"
+publication: "Medium"
+categories: [data-science]
 ---
-
 *Originally published at [https://medium.com/@susansivek/job-search-advice-from-a-pro-3f6122663519?readmore=1&source=---------5----------------------------](https://medium.com/@susansivek/job-search-advice-from-a-pro-3f6122663519?readmore=1&source=---------5----------------------------)*
 
 Photo by [Tim Mossholder](https://unsplash.com/@timmossholder?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/job-application?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

@@ -3,8 +3,9 @@ title: "A Data Science Podcast That Really Mixes it Up"
 date: 2021-02-09
 excerpt: "You seek adventure and the thrill of breakthroughs. So do we. That’s why we’ve launched Data Science Mixer, a podcast for aficionados and connoisseurs of all things data science. 404 Audio Not Found From career opportunities to cocktails, you’ll…"
 original_url: "https://www.alteryx.com/blog/top-shelf-data-science"
+publication: "Alteryx"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.alteryx.com/blog/top-shelf-data-science](https://www.alteryx.com/blog/top-shelf-data-science)*
 
 **You seek adventure and the thrill of breakthroughs.**

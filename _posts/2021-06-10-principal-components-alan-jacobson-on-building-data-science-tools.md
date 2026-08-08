@@ -1,13 +1,11 @@
 ---
 title: "Principal Components: Alan Jacobson on Building Data Science Tools"
 date: 2021-06-10
-excerpt: "Alteryx Chief Data and Analytics Officer Alan Jacobson talks about leading data scientists who create tools to be used by other data scientists.
-Susan Currie Sivek, Ph.D.
-Just now·4 min read
-Alan Jacobson, Chief Data and Analytics Officer at Alteryx,…"
+excerpt: "\"Alteryx Chief Data and Analytics Officer Alan Jacobson talks about leading data scientists who create tools to be used by other data scientists."
 original_url: "https://susansivek.medium.com/principal-components-alan-jacobson-on-building-data-science-tools-16cae3681aff"
+publication: "Medium"
+categories: [data-science, profiles]
 ---
-
 *Originally published at [https://susansivek.medium.com/principal-components-alan-jacobson-on-building-data-science-tools-16cae3681aff](https://susansivek.medium.com/principal-components-alan-jacobson-on-building-data-science-tools-16cae3681aff)*
 
 ## *Alteryx Chief Data and Analytics Officer Alan Jacobson talks about leading data scientists who create tools to be used by other data scientists.*

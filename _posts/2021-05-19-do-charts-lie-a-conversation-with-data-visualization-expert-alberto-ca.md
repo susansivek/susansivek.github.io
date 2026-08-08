@@ -3,8 +3,9 @@ title: "Do Charts Lie? A Conversation with Data Visualization Expert Alberto Cai
 date: 2021-05-19
 excerpt: "Alberto Cairo, author, researcher and internationally recognized expert on data visualization, joins a special video episode of our Data Science Mixer podcast. We’ll discuss best practices, including communicating complex data, dealing with 2020’s…"
 original_url: "https://community.alteryx.com/t5/Data-Science-Mixer/Do-Charts-Lie-A-Conversation-with-Data-Visualization-Expert/ba-p/760177"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science-Mixer/Do-Charts-Lie-A-Conversation-with-Data-Visualization-Expert/ba-p/760177](https://community.alteryx.com/t5/Data-Science-Mixer/Do-Charts-Lie-A-Conversation-with-Data-Visualization-Expert/ba-p/760177)*
 
 Alberto Cairo, author, researcher and internationally recognized expert on data visualization, joins a special video episode of our Data Science Mixer podcast. We’ll discuss best practices, including communicating complex data, dealing with 2020’s outliers, and preparing ourselves and others for the future of data visualization. This episode originally premiered at the 2021 Alteryx Inspire conference.

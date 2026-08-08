@@ -1,12 +1,11 @@
 ---
 title: "Activist Magazines Foster Debate Online, Strong Bonds in Print"
 date: 2010-09-16
-excerpt: "The current issue of Mother Jones showcases some of its reporting on the BP oil spill.
-Climate change. Immigration. Economic crisis. Consumerism.
-These are all major issues covered by the magazines Mother Jones and Orion, and both magazines have won…"
+excerpt: "\"The current issue of Mother Jones showcases some of its reporting on the BP oil spill."
 original_url: "http://mediashift.org/2010/09/activist-magazines-foster-debate-online-strong-bonds-in-print259/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2010/09/activist-magazines-foster-debate-online-strong-bonds-in-print259/](http://mediashift.org/2010/09/activist-magazines-foster-debate-online-strong-bonds-in-print259/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-75ca305f75b34252f36c99292fa53381-mojo-bp%20cover.jpg)

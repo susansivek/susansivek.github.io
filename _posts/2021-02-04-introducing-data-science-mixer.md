@@ -3,8 +3,9 @@ title: "Introducing: Data Science Mixer"
 date: 2021-02-04
 excerpt: "Data science is one of those topics where there's always more to learn. Alteryx is launching a new podcast specifically to help you expand your data science knowledge and practice ... without exhausting your brain.Featuring interviews with key…"
 original_url: "https://community.alteryx.com/t5/Top-Shelf-Data-Science-Podcast/bg-p/topshelf-podcast"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Top-Shelf-Data-Science-Podcast/bg-p/topshelf-podcast](https://community.alteryx.com/t5/Top-Shelf-Data-Science-Podcast/bg-p/topshelf-podcast)*
 
 Data science is one of those topics where there's always more to learn. Alteryx is launching a new podcast specifically to help you expand your data science knowledge and practice ... *without* exhausting your brain.

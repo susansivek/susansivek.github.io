@@ -1,12 +1,11 @@
 ---
 title: "Magpile Brings Social Sharing to Print Magazine Enthusiasts"
 date: 2012-05-22
-excerpt: "\"Magpile\":http://magpile.com/, a new social site for magazine lovers, offers enthusiastic readers a place to share their favorite magazines and discuss them online.
-Reading a print magazine doesn’t have to be a lonely experience anymore.
-Magpile, a…"
+excerpt: "\"\\\"Magpile\\\":http://magpile.com/, a new social site for magazine lovers, offers enthusiastic readers a place to share their favorite magazines and discuss them online."
 original_url: "http://mediashift.org/2012/05/magpile-brings-social-sharing-to-print-magazine-enthusiasts143/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2012/05/magpile-brings-social-sharing-to-print-magazine-enthusiasts143/](http://mediashift.org/2012/05/magpile-brings-social-sharing-to-print-magazine-enthusiasts143/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-b0094f9675e99c762cfb8ef99ecfe61c-magpile-bkgd-comb.jpg)

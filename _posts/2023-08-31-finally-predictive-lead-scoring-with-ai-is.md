@@ -3,8 +3,9 @@ title: "Finally, predictive lead scoring with AI is"
 date: 2023-08-31
 excerpt: "In a nutshell: Predictive lead scoring uses AI algorithms to evaluate and rank potential customers based on their likelihood to convert.Traditional lead-scoring methods are manual, time-consuming, based on overly simplistic rules, and lack the…"
 original_url: "https://www.pecan.ai/resource/predictive-lead-scoring-ai/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/predictive-lead-scoring-ai/](https://www.pecan.ai/resource/predictive-lead-scoring-ai/)*
 
 ##### **In a nutshell:**

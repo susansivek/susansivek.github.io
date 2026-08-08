@@ -3,8 +3,9 @@ title: "Get Our Hands-On, In-Depth Guide to Choosing the Right Predictive Analyt
 date: 2022-03-24
 excerpt: "At Pecan, we can’t help but have opinions about the best way to bring the power of predictive analytics to your business. But we realize that no one solution is right for every team and its goals. And, of course, there’s no predetermined method for…"
 original_url: "https://www.pecan.ai/resource/predictive-strategy-guide/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/predictive-strategy-guide/](https://www.pecan.ai/resource/predictive-strategy-guide/)*
 
 At Pecan, we can’t help but have opinions about the best way to bring the power of predictive analytics to your business. But we realize that no one solution is right for every team and its goals.

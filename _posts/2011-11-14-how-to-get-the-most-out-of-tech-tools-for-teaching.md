@@ -1,11 +1,11 @@
 ---
 title: "How to Get the Most Out of Tech Tools for Teaching"
 date: 2011-11-14
-excerpt: "This week on MediaShift, we’re exploring the moving target that is teaching journalism. Stay tuned as we offer tips, tools and insights on educating tomorrow’s journalists.
-“Beyond J-School 2011” is sponsored by the CUNY Graduate School of…"
+excerpt: "\"This week on MediaShift, we’re exploring the moving target that is teaching journalism. Stay tuned as we offer tips, tools and insights on educating tomorrow’s journalists."
 original_url: "http://mediashift.org/2011/11/how-to-get-the-most-out-of-tech-tools-for-teaching318/"
+publication: "MediaShift"
+categories: [media, academic, features]
 ---
-
 *Originally published at [http://mediashift.org/2011/11/how-to-get-the-most-out-of-tech-tools-for-teaching318/](http://mediashift.org/2011/11/how-to-get-the-most-out-of-tech-tools-for-teaching318/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-a8bab588a1fb96a89390b99379d20577-teaching-pipes.jpg)

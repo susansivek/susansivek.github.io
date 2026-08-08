@@ -1,11 +1,11 @@
 ---
 title: "Coronavirus Data Visualizations + How Charts Lie"
 date: 2020-04-05
-excerpt: "We’ve all got that one Facebook friend who posts charts that make you cringe: the ever-popular 3D pie chart, the questionable bar chart with no source or the scatter plot “proving” that X causes Y.
-Unfortunately, the novel coronavirus (COVID-19)…"
+excerpt: "\"We’ve all got that one Facebook friend who posts charts that make you cringe: the ever-popular 3D pie chart, the questionable bar chart with no source or the scatter plot “proving” that X causes Y."
 original_url: "https://www.alteryx.com/input/coronavirus-data-visualizations-and-how-charts-lie"
+publication: "Alteryx"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.alteryx.com/input/coronavirus-data-visualizations-and-how-charts-lie](https://www.alteryx.com/input/coronavirus-data-visualizations-and-how-charts-lie)*
 
 We’ve all got that one Facebook friend who posts charts that make you cringe: the ever-popular 3D pie chart, the questionable bar chart with no source or the scatter plot “proving” that X causes Y.
@@ -28,7 +28,7 @@ For example, the chart below [from the "Financial Times](https://www.ft.com/coro
 
 *(To note: All charts included here are from March 25, 2020.)*
 
-*![COVID chart](https://www.alteryx.com/sites/default/files/inline-images/ft-covid-chart.png)*
+*![COVID chart](/assets/images/posts/coronavirus-data-visualizations-how-charts-lie/ft-covid-chart-3c588e0e.png)*
 
 There’s a lot going on here **—** numbers on two vertical axes! Colors! Dashed and dotted lines! And some stars sprinkled about for good measure. Whew. And yet, investing time in understanding this chart pays off. Not only can you compare the number of coronavirus deaths in each country, but it’s also easy to see the countries’ trajectories, and how the slope of each country’s line compares to benchmarks (the dashed lines marking “deaths double every day,” two days, etc.). Continental trends are also visible through the lines’ color-coding. The stars mark significant events. Taking time to fully grasp each element of this chart provides the viewer with a ton of information.
 
@@ -46,11 +46,11 @@ Cairo says that the “crisp and sharp” edges of a nice, clean traditional cha
 
 A current example of this kind of “blurriness” that I found effective is the bottom portion of [this pyramid chart from Our World in Data](https://ourworldindata.org/coronavirus#the-severity-of-the-symptoms-of-covid-19), which has assembled a fascinating set of constantly updated visualizations related to the pandemic. The designers acknowledge here that though we have a reasonably good handle on the data in the upper portions of the pyramid, there’s still uncertainty around the true number of actual coronavirus cases. The blurry bottom portion of the pyramid is also the widest, showing there could have been a great many unrecognized cases, beyond even the thousands of known mild cases.
 
-![Severity of coronavirus cases in China](https://www.alteryx.com/sites/default/files/inline-images/Severity-of-coronavirus-cases-in-China-1.png)
+![Severity of coronavirus cases in China](/assets/images/posts/coronavirus-data-visualizations-how-charts-lie/Severity-of-coronavirus-cases-in-China-1-34470a18.webp)
 
 Acknowledging the presence of uncertainty, even in more routine business and life situations, can help your chart’s viewers take away a more realistic understanding of your data and the insights it can offer. Some familiar [examples of showing uncertainty](https://flowingdata.com/2018/01/08/visualizing-the-uncertainty-in-data/) include displaying ranges or confidence intervals on a chart; showing time series forecasts with a [fan chart](https://en.wikipedia.org/wiki/Fan_chart_(time_series)) (like the one below, generated with the [TS Forecast](https://help.alteryx.com/current/TS_Forecast.htm) tool, that displays 80% and 95% confidence intervals in dark and light gray respectively); or sharing a distribution instead of a single measure of central tendency (e.g., a mean or median) when a solitary value may not effectively capture the possibilities for a variable.
 
-![Fan chart](https://www.alteryx.com/sites/default/files/inline-images/time-series-fan-chart.png)
+![Fan chart](/assets/images/posts/coronavirus-data-visualizations-how-charts-lie/time-series-fan-chart-5647c458.png)
 
 Use Maps Wisely
 
@@ -60,8 +60,8 @@ There are probably thousands of maps on the internet displaying coronavirus-rela
 
 Here are two maps from Our World in Data side by side: the map with the red color scheme displays the raw count of cases, while the map with the blue-green color scheme displays a normalized count per million population.
 
-![Raw cases of coronavirus](https://www.alteryx.com/sites/default/files/inline-images/raw-cases-map.png)
-![Coronavirus normalized cases map](https://www.alteryx.com/sites/default/files/inline-images/normalized-cases-map_0.png)
+![Raw cases of coronavirus](/assets/images/posts/coronavirus-data-visualizations-how-charts-lie/raw-cases-map-a27e5881.png)
+![Coronavirus normalized cases map](/assets/images/posts/coronavirus-data-visualizations-how-charts-lie/normalized-cases-map_0-66dd02f8.png)
 
 Is the map of the raw number of cases more or less informative than the map of the normalized data? To be sure, the map of the raw counts is frightening and emphasizes the intensity of the pandemic, with so many countries shown in deeper shades of red. However, the map of the normalized data raises some different questions: Why does Russia have so many fewer cases relative to its population than do other Eurasian countries? (Population density?) What is different about Central America and Africa that they have fewer cases so far? (Weather?) Are there other questions we can generate from studying the mapped normalized data that could help us cope with this pandemic or prevent future ones? It’s not that one approach is right or wrong; both maps are useful. They each tell part of the story, and they each provoke interesting questions.
 
@@ -79,6 +79,6 @@ Charts and maps will be “conversation enablers” in that process, to use Cair
 
 #### STAY PUT.
 
-[![Susan Sivek](https://www.alteryx.com/sites/default/files/2020-03/sivek_headshot_500x500.jpg)](https://www.alteryx.com/input/authors/susan-currie-sivek)
+[![Susan Sivek](/assets/images/posts/coronavirus-data-visualizations-how-charts-lie/sivek_headshot_500x500-a63814c3.webp)](https://www.alteryx.com/input/authors/susan-currie-sivek)
 
 Susan Currie Sivek, Ph.D., is the Data Science Journalist for the Alteryx Community. She’s a writer and data geek who loves figuring out the best ways to share complex ideas. She spends her free time outdoors with her dog or indoors with a good book.

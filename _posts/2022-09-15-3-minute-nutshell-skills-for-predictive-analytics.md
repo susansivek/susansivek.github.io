@@ -3,8 +3,9 @@ title: "3-Minute Nutshell: Skills for Predictive Analytics"
 date: 2022-09-15
 excerpt: "What skills do you need to do predictive analyticsAnalytics is a business practice that uses descriptive and visualization techniques to gain insight into data; those insights can then be used to guide business…? If we made a list of the skills…"
 original_url: "https://www.pecan.ai/resource/skills-predictive-analytics/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/skills-predictive-analytics/](https://www.pecan.ai/resource/skills-predictive-analytics/)*
 
 ![Among other visualizations, Pecan uses Venn diagrams to highlight how selecting different decision thresholds for classification models affects the model’s predictions.](https://www.pecan.ai/wp-content/uploads/2022/09/churn-screenshot-AUG-2022.png.webp)

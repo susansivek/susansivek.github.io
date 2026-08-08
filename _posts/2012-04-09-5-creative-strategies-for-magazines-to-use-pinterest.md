@@ -1,11 +1,11 @@
 ---
 title: "5 Creative Strategies for Magazines to Use Pinterest"
 date: 2012-04-09
-excerpt: "Despite what you may have observed, you can pin more on Pinterest than recipes, home décor, fashion, and enough DIY projects for a lifetime.
-Much has already been written about magazines’ use of Pinterest. Because the majority of the site’s users are…"
+excerpt: "\"Despite what you may have observed, you can pin more on Pinterest than recipes, home décor, fashion, and enough DIY projects for a lifetime."
 original_url: "http://mediashift.org/2012/04/5-creative-strategies-for-magazines-to-use-pinterest100/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2012/04/5-creative-strategies-for-magazines-to-use-pinterest100/](http://mediashift.org/2012/04/5-creative-strategies-for-magazines-to-use-pinterest100/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-ecf69fe951296d1d35366e3dcb33f02a-magcovers-2.jpg)

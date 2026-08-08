@@ -3,8 +3,9 @@ title: "Data Visualization and Accessibility: Three Recommended Reads and Top Ti
 date: 2020-06-23
 excerpt: "You could make a data visualization that you think is the most beautiful thing ever — but it could be mostly useless for many viewers. Learn about some key ways to make your data visualization better for everyone. Something…"
 original_url: "https://towardsdatascience.com/data-visualization-and-accessibility-three-recommended-reads-and-top-tips-9c5e862b464e"
+publication: "Towards Data Science"
+categories: [data-science]
 ---
-
 *Originally published at [https://towardsdatascience.com/data-visualization-and-accessibility-three-recommended-reads-and-top-tips-9c5e862b464e](https://towardsdatascience.com/data-visualization-and-accessibility-three-recommended-reads-and-top-tips-9c5e862b464e)*
 
 ![](https://miro.medium.com/max/1200/1*hO5RL7tT4VqHcp8gfZQMGA.jpeg)

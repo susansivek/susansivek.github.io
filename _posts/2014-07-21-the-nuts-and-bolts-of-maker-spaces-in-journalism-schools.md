@@ -3,8 +3,9 @@ title: "The Nuts and Bolts of Maker Spaces in Journalism Schools"
 date: 2014-07-21
 excerpt: "Today’s journalism and media students may produce all kinds of projects. They might code websites, develop multimedia, build devices and contribute to a huge range of collaborative efforts that require both new ways of thinking and innovative ways of…"
 original_url: "http://mediashift.org/2014/07/the-nuts-and-bolts-of-maker-spaces-in-journalism-schools/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2014/07/the-nuts-and-bolts-of-maker-spaces-in-journalism-schools/](http://mediashift.org/2014/07/the-nuts-and-bolts-of-maker-spaces-in-journalism-schools/)*
 
 ![](https://i0.wp.com/mediashift.org/wp-content/uploads/2014/07/waite-students-rs.jpg?w=1280)

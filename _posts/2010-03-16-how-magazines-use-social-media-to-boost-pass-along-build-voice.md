@@ -1,11 +1,11 @@
 ---
 title: "How Magazines Use Social Media to Boost Pass-Along, Build Voice"
 date: 2010-03-16
-excerpt: "Magazines have always prided themselves on their longevity as a medium and their pass-along circulation — the additional readers each copy gains when it’s passed from hand to hand.
-Today, social media are providing opportunities for readers to share…"
+excerpt: "\"Magazines have always prided themselves on their longevity as a medium and their pass-along circulation — the additional readers each copy gains when it’s passed from hand to hand."
 original_url: "http://mediashift.org/2010/03/how-magazines-use-social-media-to-boost-pass-along-build-voice075/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2010/03/how-magazines-use-social-media-to-boost-pass-along-build-voice075/](http://mediashift.org/2010/03/how-magazines-use-social-media-to-boost-pass-along-build-voice075/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-bd0149ad0b0fe789b866d0078dc86bda-sunset%20flickr.jpg)

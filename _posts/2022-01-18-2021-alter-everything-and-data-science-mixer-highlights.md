@@ -3,8 +3,9 @@ title: "2021 Alter Everything and Data Science Mixer highlights"
 date: 2022-01-18
 excerpt: "In this crossover episode, we flashback to some of our favorite moments from Alter Everything and Data Science Mixer.Check out the full show notes on the Alteryx Community, where you can comment and join in on the conversation, or use the…"
 original_url: "https://community.alteryx.com/t5/Data-Science-Mixer/98-2021-Alter-Everything-and-Data-Science-Mixer-highlights/ba-p/888486"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science-Mixer/98-2021-Alter-Everything-and-Data-Science-Mixer-highlights/ba-p/888486](https://community.alteryx.com/t5/Data-Science-Mixer/98-2021-Alter-Everything-and-Data-Science-Mixer-highlights/ba-p/888486)*
 
 In this crossover episode, we flashback to some of our favorite moments from Alter Everything and Data Science Mixer.

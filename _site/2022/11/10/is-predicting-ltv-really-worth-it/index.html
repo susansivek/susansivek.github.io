@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Is Predicting LTV Really Worth It? — Susan Currie Sivek</title>
+  <meta name="description" content="This article is part of our Predictive Frameworks series, which explores the most effective use cases for predictive analytics. In an earlier post, we discus...">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="site">
+    <header class="masthead">
+      <p class="masthead-brand">
+        <a href="/">Susan Currie Sivek</a>
+      </p>
+      <p class="masthead-tagline">
+        Data science writer, researcher, hiker, knitter. Former journalism professor. Curious about everything.
+        View <a href="https://www.linkedin.com/in/ssivek/">my LinkedIn profile</a>.
+      </p>
+      <nav class="site-nav" aria-label="Portfolio sections">
+  <ul>
+    <li>
+      <a href="/">All</a>
+    </li>
+    <li>
+      <a href="/favorites/">Favorites</a>
+    </li>
+    <li>
+      <a href="/categories/data-science/">Data Science and Tech</a>
+    </li>
+    <li>
+      <a href="/categories/features/">Features</a>
+    </li>
+    <li>
+      <a href="/categories/profiles/">Profiles</a>
+    </li>
+    <li>
+      <a href="/categories/academic/">Academic Life</a>
+    </li>
+    <li>
+      <a href="/categories/media/">Media Industry</a>
+    </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main class="content" id="main">
+      <article class="post">
+  <header class="post-header">
+    <h1>Is Predicting LTV Really Worth It?</h1>
+    <div class="post-meta">
+      <span>November 10, 2022</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><span>Pecan AI</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><a class="post-source" href="https://www.pecan.ai/blog/predicting-ltv-worth-it/" rel="noopener">View original &#8599;</a>
+    </div>
+    
+    <ul class="post-categories">
+      
+      <li>
+        
+          <a href="/categories/data-science/">Data Science and Tech</a>
+        
+      </li>
+      
+    </ul>
+    
+  </header>
+
+  <div class="post-body">
+    <p><em>Originally published at <a href="https://www.pecan.ai/blog/predicting-ltv-worth-it/">https://www.pecan.ai/blog/predicting-ltv-worth-it/</a></em></p>
+
+<p><strong><em>This article is part of our Predictive Frameworks series, which explores the most effective use cases for predictive analytics.</em></strong></p>
+
+<p><a href="https://www.pecan.ai/resource/why-you-need-predict-customer-lifetime-value/">In an earlier post</a>, we discussed why a predictive approach to customer lifetime value (LTV) is critical for businesses today and how it differs from (and dramatically improves upon) historical analysis of LTV.</p>
+
+<p>This second post explores examples of using predicted LTV in your business. We also go into more detail on how predicting LTV works in practice.</p>
+
+<h2 id="putting-ltv-predictions-to-work-in-your-business">Putting LTV Predictions to Work in Your Business</h2>
+
+<p>With LTV predictions in hand, you can shape your marketing campaigns, messaging, and optimization to obtain and nurture high-value customers. After all, they’ll benefit your business most in the long run.</p>
+
+<p>For example, you can use LTV predictions to answer questions like these and many more:</p>
+
+<ul>
+  <li>Which potential customers should we include in remarketing campaigns based on predicted LTV?</li>
+  <li>Which customers should we make a special effort to “surprise and delight” to reinforce their loyalty?</li>
+  <li>What is the relationship between our customer acquisition cost (CAC) and predicted LTV? What does it say about the efficiency of our marketing spend during a specific time period? Or, in the mobile and gaming world’s terms, how does our CPI relate to our pLTV?</li>
+  <li>Which customers should receive upgraded customer service or other perks? For example, in online retail, should high-value customers get special free shipping offers?</li>
+  <li>Who in our customer base should we invite to exclusive in-person or virtual events and activities?</li>
+  <li>How can we target campaigns to audiences who are “<a href="https://www.pecan.ai/content/look-alike-modeling/">lookalikes</a>” for our current high-value customers?</li>
+  <li>…and more questions specific to your industry and business!</li>
+</ul>
+
+<p>Again, you can answer these questions <em>in advance</em> using LTV predictions. That’s possible before or within the first few days of the start of your relationship with individual customers. You’re not waiting for days, weeks, or months to see who becomes a high-value customer, wasting a lot of money on ultimately ineffective campaigns or engagement programs. You know beforehand who’s most likely to shape up that way. Your team can act to ensure that happens and deepen your relationship, even in its earliest stages.</p>
+
+<p>These are just some examples of how to use predicted customer lifetime value. There are undoubtedly many more for your particular business and industry.</p>
+
+<h2 id="how-predicting-ltv-works">How Predicting LTV Works</h2>
+
+<p>Time to find out how we achieve that glimpse of the future! In machine learning, there are two broad types of predictive models: classification and regression.</p>
+
+<p><em>Classification</em> models try to predict which “class” something fits into. First, they use historical data to identify meaningful patterns that connect with certain outcomes. Then, they look for those patterns in new data to predict the most likely outcomes or “classes” for the new data.</p>
+
+<p>For example, we could create a classification model that looked at existing customers who’d been manually classified into “lower-value” and “higher-value” classes. The model could then predict which new customers would most likely fit into one class or the other.</p>
+
+<p>Predicting how customers would fit into those classes might be somewhat helpful. But it’s far more useful in predicting LTV to predict a <em>specific</em>, numeric future value for each customer. Machine learning models for <em>regression</em> fit this task. These models offer a numeric prediction for each customer’s lifetime value.</p>
+
+<p>Want to learn more about the basics of predictive analytics? Check out our guide, <strong><a href="https://www.pecan.ai/resource/basics-predictive-analytics-guide/">The What and Why of Predictive Analytics</a></strong>, for a quick, accessible intro!</p>
+
+<p>So how does the regression model figure out the specific prediction for each customer? In a super-simple regression model, you can compare two variables and figure out their relationship. For example, it could be the case that there’s a relationship between your customers’ first purchase amount and their LTV. We might visualize that relationship like this:</p>
+
+<p>Each point in the visualization represents where one customer sits — at the intersection of their first purchase amount and lifetime value. We can see that customers further to the right who bought more in their first purchase also have higher lifetime value.</p>
+
+<p>The points in the visualization aren’t the most essential elements, though you undoubtedly love each of the customers they represent! What’s valuable is that we can draw a line through all the points.</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Regression_analysis">Regression analysis</a> devises an equation to draw the line that best fits our points, staying as close to all of them on average as possible. To be sure, some points are further from the line, and some are right on it.</p>
+
+<p>But on average, the line “fits” the data as well as possible. Furthermore, the equation that creates that line of “best fit” can predict LTV when we know customers’ first purchase amount but not their LTV. How fantastic is that?!</p>
+
+<h2 id="pushing-beyond-human-limitations-to-maximize-ltv">Pushing Beyond Human Limitations to Maximize LTV</h2>
+
+<p>It’s cool that we can do regression with just two variables, sure. But fortunately, in the real world, we have a <em>lot</em> more information about customers.</p>
+
+<p>Regression models can incorporate many more variables. And that’s good, because with more data to choose from, regression models can generate more accurate predictions. For example, maybe the customer’s number of website visits, their clicks on social media ads, and the number of their interactions with customer service reps are also strongly related to their LTV.</p>
+
+<p>However, common BI approaches are constrained by humans’ assumptions and cognitive limitations. Predictive models overcome move beyond these “best guess” limitations because they can figure out even much more complex patterns among multiple variables and much larger datasets.</p>
+
+<p>Regression models, like other explainable machine learning models, also reveal which variables are <em>most important</em> in determining the outcome — in this case, LTV. This information is called “feature importance.” In Pecan’s platform, you can see which variables most affected LTV predictions for <em>each</em> customer. That information lets you determine the right approach for every individual.</p>
+
+<p>At the same time, examining feature importance information across the board can also help you proactively shape larger campaigns and strategies to boost LTV and other KPIs. This beneficial information isn’t something humans can quickly determine by looking at spreadsheets or visualizations. Instead, machine learning models rapidly bring those details to the surface to predict the future so you can get proactive.</p>
+
+<p>Knowing how predictive models work is rewarding. But what’s especially satisfying about lifetime value prediction is that your efforts mutually benefit you and your high-value customers. They’ll undoubtedly be thrilled by the TLC and personalization they receive. And, of course, you’ll be delighted by the positive impact of a stronger relationship on your most important outcomes, too.</p>
+
+<p><em>Learn more about how predicting LTV can help you identify, nurture, and retain your most valuable customers. <a href="https://www.pecan.ai/demo/">Get in touch today</a> to find out how Pecan’s predictive analytics solution makes this possible.</em></p>
+
+<p>Read more in the Predictive Frameworks series:</p>
+
+<p><img src="https://www.pecan.ai/wp-content/uploads/2023/11/zwmdqmjas9.webp" alt="" />
+<img src="https://www.pecan.ai/wp-content/uploads/2023/01/milan-seitler-qRy81CYhLHY-unsplash-scaled-e1673393660794.jpg" alt="" />
+<img src="https://www.pecan.ai/wp-content/uploads/2023/08/shutterstock_447979342-2048x1320.jpg" alt="" /></p>
+
+  </div>
+</article>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Susan Currie Sivek</p>
+      
+      <p><a href="mailto:susan.sivek@gmail.com">susan.sivek@gmail.com</a></p>
+      
+    </footer>
+  </div>
+</body>
+</html>

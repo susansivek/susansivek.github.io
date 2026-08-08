@@ -1,11 +1,11 @@
 ---
 title: "Vital Signs: Assessing Data Health and Dealing with Outliers"
 date: 2021-03-25
-excerpt: "Is your data ready for machine learning? Check its health, and learn how to deal with outliers you may find.
-At the doctor’s office, you and the medical assistant go through a familiar routine before the doctor arrives. They’ll check your vital signs…"
+excerpt: "\"Is your data ready for machine learning? Check its health, and learn how to deal with outliers you may find."
 original_url: "https://susansivek.medium.com/vital-signs-assessing-data-health-and-dealing-with-outliers-e6f1d2569a52"
+publication: "Medium"
+categories: [data-science]
 ---
-
 *Originally published at [https://susansivek.medium.com/vital-signs-assessing-data-health-and-dealing-with-outliers-e6f1d2569a52](https://susansivek.medium.com/vital-signs-assessing-data-health-and-dealing-with-outliers-e6f1d2569a52)*
 
 Is your data ready for machine learning? Check its health, and learn how to deal with outliers you may find.

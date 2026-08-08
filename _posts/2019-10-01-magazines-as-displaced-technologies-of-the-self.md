@@ -1,11 +1,11 @@
 ---
 title: "Magazines as Displaced Technologies of the Self"
 date: 2019-10-01
-excerpt: "In lieu of an abstract, here is a brief excerpt of the content:
-Throughout my life, whenever I have considered pursuing a new interest, I have always sought out magazines on that topic. My history of magazine subscriptions reflects hobbies adopted…"
+excerpt: "\"In lieu of an abstract, here is a brief excerpt of the content:"
 original_url: "https://muse.jhu.edu/article/724409"
+publication: "Project MUSE"
+categories: [academic]
 ---
-
 *Originally published at [https://muse.jhu.edu/article/724409](https://muse.jhu.edu/article/724409)*
 
 ![](https://muse.jhu.edu/article/724409/og_image.jpg)

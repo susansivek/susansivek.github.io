@@ -3,13 +3,12 @@ title: "Data Science Portal Discussion Highlights, October 2021"
 date: 2021-11-02
 excerpt: "If you’ve got a data science mystery, you don’t have to tackle it alone. The data science discussions here on the Alteryx Community offer great advice and tips for even the trickiest situations. GIPHY Here are some of the most useful conversations…"
 original_url: "https://community.alteryx.com/t5/Data-Science/Data-Science-Portal-Discussion-Highlights-October-2021/ba-p/841894"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Data-Science-Portal-Discussion-Highlights-October-2021/ba-p/841894](https://community.alteryx.com/t5/Data-Science/Data-Science-Portal-Discussion-Highlights-October-2021/ba-p/841894)*
 
 If you’ve got a data science mystery, you don’t have to tackle it alone. The data science discussions here on the Alteryx Community offer great advice and tips for even the trickiest situations.
-
-![giphy-downsized](https://community.alteryx.com/t5/image/serverpage/image-id/209233iF3F9E629C6B4DD48/image-size/large?v=v2&px=999)
 
 Turn to your team of consulting Alteryx detectives. Image via
 
@@ -21,8 +20,6 @@ Here are some of the most useful conversations from October. Check them out for 
 
 What drove [@AxiestheCollector](https://community.alteryx.com/t5/user/viewprofilepage/user-id/280729) to conclude “I don’t know what to believe anymore” while setting up a neural network? And which “naughty” network option did [@mceleavey](https://community.alteryx.com/t5/user/viewprofilepage/user-id/3589) adjust?
 
-![giphy-downsized](https://community.alteryx.com/t5/image/serverpage/image-id/209234i3C187D0641FDD291/image-size/large?v=v2&px=999)
-
 Help is just a post away. Image via
 
 Read how these two [collaborated](https://community.alteryx.com/t5/Alteryx-Designer-Discussions/Error-while-trying-to-use-Neural-Network/m-p/833282#M204575) to troubleshoot an algorithmic dilemma and restore faith in model configuration.
@@ -31,15 +28,11 @@ Read how these two [collaborated](https://community.alteryx.com/t5/Alteryx-Desig
 
 What if you need to sample from your data in a very specific way to represent different groups (i.e., stratified sampling)? [@rshack2005](https://community.alteryx.com/t5/user/viewprofilepage/user-id/278080) [asked about](https://community.alteryx.com/t5/Alteryx-Designer-Discussions/Sampling-tool/m-p/838004#M206082) generating this kind of sample, as it’s not a scenario covered by the various sampling tools in Designer. [@apathetichell](https://community.alteryx.com/t5/user/viewprofilepage/user-id/198910) and [@danilang](https://community.alteryx.com/t5/user/viewprofilepage/user-id/34059) offered two approaches for the task, with the latter offering a workflow for a “roll-your-own” sampling method.
 
-![giphy-downsized](https://community.alteryx.com/t5/image/serverpage/image-id/209235i2F8EEC17196A36FB/image-size/large?v=v2&px=999)
-
 Solutions for your sampling woes. Image via
 
 ## **Time Series: Macros and More**
 
 Time series analysis is always a popular discussion topic on the Data Science Portal. [@IvanMtz](https://community.alteryx.com/t5/user/viewprofilepage/user-id/271762) raised [a good question](https://community.alteryx.com/t5/Alteryx-Designer-Discussions/How-to-do-a-forcast-for-multiple-companies/m-p/832618#M204366) about how to generate forecasts for multiple groups within a dataset at one time. [@danilang](https://community.alteryx.com/t5/user/viewprofilepage/user-id/34059) offered an awesome template for a macro to get this job done, while [@NeilR](https://community.alteryx.com/t5/user/viewprofilepage/user-id/1443) called out the [TS Factory](https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Time-Series-Factory-Tools-vs-Batch-Macro-Time-Series/ta-p/455753) tools as another option. Whether you’re a time-series DIYer or prefer ready-made tools, this discussion has ideas for you.
-
-![giphy](https://community.alteryx.com/t5/image/serverpage/image-id/209236i491C148316720211/image-size/large?v=v2&px=999)
 
 There’s more to discuss! Image via
 

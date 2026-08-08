@@ -3,8 +3,9 @@ title: "Keeping the science in data science | Tessa Jones"
 date: 2021-03-23
 excerpt: "From studying extreme environments to using data to answer business questions, Tessa Jones from Calligo shares how her science-focused mind has helped her succeed in data science. Share your thoughts in our Cocktail Conversation on the Alteryx…"
 original_url: "https://community.alteryx.com/t5/Data-Science-Mixer-Podcast/Keeping-the-science-in-data-science-Tessa-Jones/ba-p/737428"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science-Mixer-Podcast/Keeping-the-science-in-data-science-Tessa-Jones/ba-p/737428](https://community.alteryx.com/t5/Data-Science-Mixer-Podcast/Keeping-the-science-in-data-science-Tessa-Jones/ba-p/737428)*
 
 From studying extreme environments to using data to answer business questions, Tessa Jones from Calligo shares how her science-focused mind has helped her succeed in data science.

@@ -3,11 +3,12 @@ title: "Principal Components: Abhishek Gupta on Actionable AI Ethics"
 date: 2021-10-01
 excerpt: "Abhishek Gupta, author of the forthcoming book Actionable AI Ethics, discusses how to move from discussing AI ethics in the abstract to putting them into practice. Abhishek Gupta, founder of the Montreal AI Ethics Institute and a machine learning…"
 original_url: "https://www.alteryx.com/blog/principal-components-abhishek-gupta-on-actionable-ai-ethics"
+publication: "Alteryx"
+categories: [data-science, profiles]
 ---
-
 *Originally published at [https://www.alteryx.com/blog/principal-components-abhishek-gupta-on-actionable-ai-ethics](https://www.alteryx.com/blog/principal-components-abhishek-gupta-on-actionable-ai-ethics)*
 
-![](https://www.alteryx.com/wp-content/uploads/media/hero-bg-patterns/ayx_pattern-shapes-4.png)
+![](/assets/images/posts/principal-components-abhishek-gupta-on-actionable-ai-ethics/ayx_pattern-shapes-4.png)
 
 Abhishek Gupta, author of the forthcoming book Actionable AI Ethics, discusses how to move from discussing AI ethics in the abstract to putting them into practice.
 

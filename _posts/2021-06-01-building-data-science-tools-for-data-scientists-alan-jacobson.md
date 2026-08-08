@@ -3,8 +3,9 @@ title: "Building data science tools for data scientists | Alan Jacobson"
 date: 2021-06-01
 excerpt: "We go behind the scenes of Alteryx Machine Learning and the Alteryx open-source Python libraries with Alteryx CDAO Alan Jacobson. He shares his experiencesleading the data scientists who create tools that empower even the most hardcore data…"
 original_url: "https://community.alteryx.com/t5/Data-Science-Mixer/Building-data-science-tools-for-data-scientists-Alan-Jacobson/ba-p/764385"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science-Mixer/Building-data-science-tools-for-data-scientists-Alan-Jacobson/ba-p/764385](https://community.alteryx.com/t5/Data-Science-Mixer/Building-data-science-tools-for-data-scientists-Alan-Jacobson/ba-p/764385)*
 
 We go behind the scenes of Alteryx Machine Learning and the Alteryx open-source Python libraries with Alteryx CDAO Alan Jacobson. He shares his experiencesleading the data scientists who create tools that empower even the most hardcore data scientists.

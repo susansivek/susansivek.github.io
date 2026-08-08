@@ -1,11 +1,12 @@
 ---
 title: "Who’s Curious about AI and ML?"
 date: 2021-01-05
-excerpt: "Everyday examples have made “artificial intelligence” and “machine learning” familiar concepts not just to data experts, but also to the general public. But how familiar? And to whom?
-We have a special audio treat this week: a bonus episode of the…"
+excerpt: "\"Everyday examples have made “artificial intelligence” and “machine learning” familiar concepts not just to data experts, but also to the general public. But how familiar? And to whom?"
 original_url: "https://susansivek.medium.com/whos-curious-about-ai-and-ml-628a0347e483"
+publication: "Medium"
+categories: [data-science]
+We have a special audio treat this week: a bonus episode of the…"
 ---
-
 *Originally published at [https://susansivek.medium.com/whos-curious-about-ai-and-ml-628a0347e483](https://susansivek.medium.com/whos-curious-about-ai-and-ml-628a0347e483)*
 
 ## Everyday examples have made “artificial intelligence” and “machine learning” familiar concepts not just to data experts, but also to the general public. But *how* familiar? And to whom?

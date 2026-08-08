@@ -3,8 +3,10 @@ title: "LLMs Alone Won’t Solve Your Business’s Predictive Needs"
 date: 2023-12-08
 excerpt: "In a nutshell: Large language models (LLMs) aren't suitable for all predictive tasks in businesses. LLMs are designed for words, not numbers, and are inefficient for analyzing numerical, tabular data. Traditional machine learning models are better…"
 original_url: "https://www.pecan.ai/blog/llm-prediction-business/"
+publication: "Pecan AI"
+categories: [data-science]
+featured: true
 ---
-
 *Originally published at [https://www.pecan.ai/blog/llm-prediction-business/](https://www.pecan.ai/blog/llm-prediction-business/)*
 
 **In a nutshell:**

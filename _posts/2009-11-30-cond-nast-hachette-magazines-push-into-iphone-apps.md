@@ -3,8 +3,9 @@ title: "Condé Nast, Hachette Magazines Push into iPhone Apps"
 date: 2009-11-30
 excerpt: "Turning a magazine into an iPhone app might seem as simple as shrinking the printed page to about a sixth of its normal size. But as magazines develop iPhone and other mobile applications to supplement their print editions, they’re finding that…"
 original_url: "http://mediashift.org/2009/11/conde-nast-hachette-magazines-push-into-iphone-apps-334/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2009/11/conde-nast-hachette-magazines-push-into-iphone-apps-334/](http://mediashift.org/2009/11/conde-nast-hachette-magazines-push-into-iphone-apps-334/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-e1a049d4d6deca688643c81bc292a25a-gqmain.jpg)

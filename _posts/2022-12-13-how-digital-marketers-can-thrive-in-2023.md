@@ -3,8 +3,9 @@ title: "How Digital Marketers Can Thrive in 2023"
 date: 2022-12-13
 excerpt: "Today’s top digital marketing managers use data to rise above challenges. Learn which habits and tools maximize this capability. Whatever your industry, the role of a digital marketing campaign manager is challenging. The demands are many. The pace…"
 original_url: "https://www.pecan.ai/blog/how-digital-marketers-thrive-2023/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/blog/how-digital-marketers-thrive-2023/](https://www.pecan.ai/blog/how-digital-marketers-thrive-2023/)*
 
 Today’s top digital marketing managers use data to rise above challenges. Learn which habits and tools maximize this capability.

@@ -3,8 +3,10 @@ title: "The Contribution of City Magazines to the Urban Information Environment"
 date: 2011-07-13
 excerpt: "Abstract American city magazines today must appeal to audiences who have new ways to find community information. User-generated digital content and social media have supplanted not just newspapers but also city magazines’ service stories and…"
 original_url: "https://aejmcmagazine.arizona.edu/Journal/Fall2015/Sivek.pdf"
+publication: "Journal of Magazine Media"
+categories: [academic, features]
+featured: true
 ---
-
 *Originally published at [https://aejmcmagazine.arizona.edu/Journal/Fall2015/Sivek.pdf](https://aejmcmagazine.arizona.edu/Journal/Fall2015/Sivek.pdf)*
 
 Abstract

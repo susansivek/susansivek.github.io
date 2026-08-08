@@ -1,11 +1,11 @@
 ---
 title: "‘Netflix for Magazines’ Services Explain Why They’re Not Doomed"
 date: 2015-03-23
-excerpt: "It must be depressing to hear so many people say that your company’s business model has no future.
-Some magazine industry observers have recently said that the “all-you-can-read” or “Netflix for magazines” subscription model is doomed. They cite the…"
+excerpt: "\"It must be depressing to hear so many people say that your company’s business model has no future."
 original_url: "http://mediashift.org/2015/03/netflix-for-magazines-services-explain-why-theyre-not-doomed/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2015/03/netflix-for-magazines-services-explain-why-theyre-not-doomed/](http://mediashift.org/2015/03/netflix-for-magazines-services-explain-why-theyre-not-doomed/)*
 
 ![](https://i0.wp.com/mediashift.org/wp-content/uploads/2015/03/paper-spiral.png?w=514)

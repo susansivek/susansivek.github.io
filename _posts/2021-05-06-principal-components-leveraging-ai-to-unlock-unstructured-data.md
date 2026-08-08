@@ -1,12 +1,11 @@
 ---
 title: "Principal Components: Leveraging AI to Unlock Unstructured Data"
 date: 2021-05-06
-excerpt: "Principal Components: Leveraging AI to Unlock Unstructured Data
-Video, audio, images and text can all be rich sources of insights, but they can also be challenging to analyze. New tools offer easier access to the information within them.
-Susan Currie…"
+excerpt: "\"Principal Components: Leveraging AI to Unlock Unstructured Data"
 original_url: "https://susansivek.medium.com/principal-components-leveraging-ai-to-unlock-unstructured-data-51cd6c9a1161"
+publication: "Medium"
+categories: [data-science, profiles]
 ---
-
 *Originally published at [https://susansivek.medium.com/principal-components-leveraging-ai-to-unlock-unstructured-data-51cd6c9a1161](https://susansivek.medium.com/principal-components-leveraging-ai-to-unlock-unstructured-data-51cd6c9a1161)*
 
 # **Principal Components: Leveraging AI to Unlock Unstructured Data**

@@ -3,8 +3,9 @@ title: "How to Be Successful in Your Data Internship"
 date: 2020-09-03
 excerpt: "With internship season well underway, we reached out to some Alteryx ACEs, top analytics experts and participants in the Alteryx Community, to see what advice they’d offer to interns in data analytics and data science. How can…"
 original_url: "https://towardsdatascience.com/how-to-be-successful-in-your-data-internship-6ed718003df3"
+publication: "Towards Data Science"
+categories: [data-science]
 ---
-
 *Originally published at [https://towardsdatascience.com/how-to-be-successful-in-your-data-internship-6ed718003df3](https://towardsdatascience.com/how-to-be-successful-in-your-data-internship-6ed718003df3)*
 
 ![](https://miro.medium.com/max/1200/1*_GZO1oEtSkFY405QQK02VA.jpeg)

@@ -3,8 +3,9 @@ title: "Balancing Act: Classification with Imbalanced Data"
 date: 2021-11-04
 excerpt: "Help your data find balance to make sure you create a quality classification model. Susan Currie Sivek, Ph.D. 1 hour ago·10 min read Yoga, relaxation, a gratitude journal: All of these might help you find peace and harmony. But your datasets also…"
 original_url: "https://susansivek.medium.com/balancing-act-classification-with-imbalanced-data-cea06df39781"
+publication: "Medium"
+categories: [data-science]
 ---
-
 *Originally published at [https://susansivek.medium.com/balancing-act-classification-with-imbalanced-data-cea06df39781](https://susansivek.medium.com/balancing-act-classification-with-imbalanced-data-cea06df39781)*
 
 ## Help your data find balance to make sure you create a quality classification model.

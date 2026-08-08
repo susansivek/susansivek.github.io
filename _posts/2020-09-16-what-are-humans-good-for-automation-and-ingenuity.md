@@ -3,15 +3,16 @@ title: "What Are Humans Good For? Automation and Ingenuity"
 date: 2020-09-16
 excerpt: "On August 26, Alteryx hosted its first Twitter chat, which featured our ACEs and involved many other Community members! This conversation revolved around six key questions that covered digital transformation, the role of Analytic Process Automation™,…"
 original_url: "https://community.alteryx.com/t5/Data-Science/What-Are-Humans-Good-For-Automation-and-Ingenuity/ba-p/633398"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/What-Are-Humans-Good-For-Automation-and-Ingenuity/ba-p/633398](https://community.alteryx.com/t5/Data-Science/What-Are-Humans-Good-For-Automation-and-Ingenuity/ba-p/633398)*
 
 On August 26, Alteryx hosted its first Twitter chat, which featured our ACEs and involved many other Community members! This conversation revolved around six key questions that covered digital transformation, the role of Analytic Process Automation™, the democratization of data and the challenge of upskilling. You can check out the rich discussion by visiting the [#AlteryxChat](https://twitter.com/hashtag/AlteryxChat) hashtag on Twitter, and read more about the first three questions in the chat [on our INPUT blog](https://www.alteryx.com/input/lets-alteryxchat-ace-edition).
 
 Here on the Data Science blog, we thought it’d be worth digging into question #5 a bit more deeply:
 
-![SusanCS_0-1600114150769.jpeg](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/133094i759003C4F0F44A15/image-size/medium?v=1.0&px=400)
+![SusanCS_0-1600114150769.jpeg](/assets/images/posts/what-are-humans-good-for-automation-and-ingenuity/medium.jpeg)
 
 A research paper I read recently also has led me to ask: Could process automation not just empower humans by helping us avoid dull tasks, but also by fundamentally changing the way we think? Considering automated processes as collaborators with humans, not merely as simple replacements, opens up a whole new realm of possibilities for both humans and algorithms.
 
@@ -41,8 +42,6 @@ There’s another perk of changing error-prone humans’ role:
 
 We humans have fancy brains capable of complex reasoning, but we still make mistakes. Tedious tasks can become so mind-numbing that bored humans start to blunder. Fortunately, algorithms don’t get fatigued; they continue cleaning, classifying and predicting as requested, row after row.
 
-![SusanCS_1-1600114150775.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/133096iC9A45A69237973EE/image-size/medium?v=1.0&px=400)
-
 Automation frees human brain power to focus on the tasks where it’s best applied:
 
 > A5 Absence of people? The opposite is true. What restricts creativity and resourcefulness more than boring routine activities? This is exactly what process automation takes away from people and gives them more time and freedom to develop ideas and find solutions.[#AlteryxChat](https://twitter.com/hashtag/AlteryxChat?src=hash&ref_src=twsrc%5Etfw) <https://t.co/N99EY5VsIM>
@@ -55,8 +54,6 @@ Imagine this (only slightly) futuristic scenario. You’re behind the steering w
 
 But automated driving technology isn’t yet perfected or common. There’s still a “human in the loop” of driving decision-making who has critical thinking abilities.
 
-![SusanCS_2-1600114150771.jpeg](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/133095i8B09E6F1241EF2F9/image-size/medium?v=1.0&px=400)
-
 Image from the SAE
 
 ## **If Automation is 💯, What is Lost?**
@@ -66,8 +63,6 @@ Someday, however, we’ll have widespread, skilled automated driving technology.
 As AI can handle more and more complex tasks, humans will still be, well, human. We still need to feel valued so that we are motivated to engage in automated processes’ outcomes. If we could build a perfect self-driving car and ensure always-ideal driving conditions, there would be zero incentive for a human to watch the road.
 
 Similarly, if we could use AI to *perfectly* select applicants for mortgage loans, or the ideal placement of ads in various media to generate leads, or the location of new retail stores — why would the humans related to these processes expend additional time researching the applicants, media or locations thoroughly?
-
-![giphy-downsized](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/133102iBB9DEED6F33C6087/image-size/large?v=1.0&px=999)
 
 Humans might be tempted to just say, “Oh, I’m sure the AI got it right.” We could lose the important nuances and advanced critical thinking that humans bring to those processes.
 
@@ -81,8 +76,6 @@ These researchers do *not* conclude that humans ought to make all decisions. The
 
 What’s also cool about this research is its different way of thinking about AI. The authors suggest we might not always want the most technically high-performing models that routinely offer near-perfect predictions and that might automate away the human role (what they call a “replacement AI”). Sometimes that’s fine, but “imperfect” suggestions from AI might be more beneficial in some situations, they say.
 
-![SusanCS_4-1600114150773.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/133097i4E370C701B35614D/image-size/small?v=1.0&px=200)
-
 An “augmentation AI” that performs *reasonably* well and informs humans, but doesn’t take over the final decision-making, could be the most productive (and also profit-maximizing) for many situations. Though imperfect from a technical standpoint, this collaboration keeps humans motivated to stay engaged in evaluating data from their uniquely insightful, valuable perspective. This human/AI “augmentation” allows for both efficient, boredom-reducing automation of decisions and humans’ motivation to maintain awareness and catch errors.
 
 ## **🍦 or 🏋️? Annoying Humans on Purpose with AI 😡**
@@ -94,8 +87,6 @@ Unreliable AI might be ideal, they say, when there’s a need to keep humans esp
 The “antagonistic AI” goes a step further by making decisions that actively “antagonize” or frustrate the humans who receive the AI’s results. These decisions would be known to conflict with the humans’ existing biases, forcing them to reconsider their preferences and think harder about why they want to make a certain decision.
 
 Imagine now that you’ve input your destination — the local ice cream parlor — into your self-driving car’s navigation system, and it responds, “Really? Are you sure? No, let’s go to the gym instead,” and starts driving you to the gym. You’d have to actively override the system to get back on track for your ice cream. While you might find the car’s response pretty annoying, you’d also (maybe reluctantly) have to ask yourself: Where *should* I be going right now: to get ice cream or to work out?
-
-![SusanCS_5-1600114151218.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/133098i5AEE911DC0D4BE0D/image-size/medium?v=1.0&px=400)
 
 The antagonistic AI makes decisions that humans may dislike so that the humans have to participate more deeply in decision-making — and, perhaps, will reevaluate their tendencies and biases in the process. The researchers use the example of a hiring manager whose AI tools suggest job candidates whose characteristics conflict with the manager’s biases (e.g., [affinity bias](https://hbr.org/2019/06/how-to-reduce-personal-bias-when-hiring), a commonly held bias toward hiring people with similar backgrounds to one’s own). The manager may find these suggestions frustrating, but they will have to make a more reasoned effort to explain to themselves and others why those less-similar candidates should or should not be considered for the job. Ultimately, antagonistic AI’s ability to help humans make stronger decisions based on more thorough reasoning could support organizational goals and increase profit.
 

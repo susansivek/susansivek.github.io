@@ -1,18 +1,18 @@
 ---
 title: "Looking Forward to 2021 in Data Science and Analytics"
 date: 2020-12-08
-excerpt: "Oh, 2020. We’re ready to leave this year behind for so many reasons. But there are some bright spots for data professionals as we head into 2021.
-In this week’s Alter Everything podcast episode, guest Steve Mann from Alteryx partner Propel32…"
+excerpt: "\"Oh, 2020. We’re ready to leave this year behind for so many reasons. But there are some bright spots for data professionals as we head into 2021."
 original_url: "https://community.alteryx.com/t5/Data-Science/Looking-Forward-to-2021-in-Data-Science-and-Analytics/ba-p/677135"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Looking-Forward-to-2021-in-Data-Science-and-Analytics/ba-p/677135](https://community.alteryx.com/t5/Data-Science/Looking-Forward-to-2021-in-Data-Science-and-Analytics/ba-p/677135)*
 
 Oh, 2020. We’re ready to leave this year behind for so many reasons. But there are some bright spots for data professionals as we head into 2021.
 
 In this week’s Alter Everything [podcast episode](https://community.alteryx.com/t5/Alter-Everything-Podcast/76-Analytics-simplicity-A-guide-for-staying-out-of-an-analytics/ba-p/677227), guest Steve Mann from Alteryx partner Propel32 Analytics discusses the increasing importance of analytics in the mergers and acquisitions field in recent years. Data analysts and data scientists must constantly adapt to that kind of change, and there’s always something new to learn!
 
-![SusanCS_0-1607360659740.gif](https://community.alteryx.com/t5/image/serverpage/image-id/148133i08709654462E931F/image-size/medium?v=1.0&px=400)
+![SusanCS_0-1607360659740.gif](/assets/images/posts/looking-forward-to-2021-in-data-science-and-analytics-2/medium.jpeg)
 
 Image via GIPHY
 

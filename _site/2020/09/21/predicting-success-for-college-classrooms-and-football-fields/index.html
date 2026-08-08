@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Predicting Success for College Classrooms and Football Fields — Susan Currie Sivek</title>
+  <meta name="description" content=""Caps, gowns, diplomas … and data!">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="site">
+    <header class="masthead">
+      <p class="masthead-brand">
+        <a href="/">Susan Currie Sivek</a>
+      </p>
+      <p class="masthead-tagline">
+        Data science writer, researcher, hiker, knitter. Former journalism professor. Curious about everything.
+        View <a href="https://www.linkedin.com/in/ssivek/">my LinkedIn profile</a>.
+      </p>
+      <nav class="site-nav" aria-label="Portfolio sections">
+  <ul>
+    <li>
+      <a href="/">All</a>
+    </li>
+    <li>
+      <a href="/favorites/">Favorites</a>
+    </li>
+    <li>
+      <a href="/categories/data-science/">Data Science and Tech</a>
+    </li>
+    <li>
+      <a href="/categories/features/">Features</a>
+    </li>
+    <li>
+      <a href="/categories/profiles/">Profiles</a>
+    </li>
+    <li>
+      <a href="/categories/academic/">Academic Life</a>
+    </li>
+    <li>
+      <a href="/categories/media/">Media Industry</a>
+    </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main class="content" id="main">
+      <article class="post">
+  <header class="post-header">
+    <h1>Predicting Success for College Classrooms and Football Fields</h1>
+    <div class="post-meta">
+      <span>September 21, 2020</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><span>Alteryx Community</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><a class="post-source" href="https://community.alteryx.com/t5/Data-Science/Predicting-Success-for-College-Classrooms-and-Football-Fields/ba-p/634499" rel="noopener">View original &#8599;</a>
+    </div>
+    
+    <ul class="post-categories">
+      
+      <li>
+        
+          <a href="/categories/data-science/">Data Science and Tech</a>
+        
+      </li>
+      
+    </ul>
+    
+  </header>
+
+  <div class="post-body">
+    <p><em>Originally published at <a href="https://community.alteryx.com/t5/Data-Science/Predicting-Success-for-College-Classrooms-and-Football-Fields/ba-p/634499">https://community.alteryx.com/t5/Data-Science/Predicting-Success-for-College-Classrooms-and-Football-Fields/ba-p/634499</a></em></p>
+
+<p>Caps, gowns, diplomas … and data!</p>
+
+<p>Each student’s journey through a higher education institution creates lots of data. <a href="https://youtu.be/S0ejeB1OPR0">Recruitment</a>, advising, <a href="https://community.alteryx.com/t5/Alteryx-Use-Cases/Predicting-and-Improving-Student-Retention/ta-p/599950">retention</a>, financial aid, <a href="https://community.alteryx.com/t5/Alteryx-Use-Cases/Hkust-Saves-15-Hours-Month-with-Code-Free-Expense-Allocation/ta-p/599103">administrative</a> <a href="https://community.alteryx.com/t5/Alteryx-Use-Cases/Solving-Student-Number-Projections-Work-in-2-Minutes-Using/ta-p/497570">processes</a>, <a href="https://community.alteryx.com/t5/Alteryx-Use-Cases/The-Thrill-of-Solving-in-Higher-Education-Alteryx-PolyU/ta-p/167050">assessment measures</a>, course work, athletics and alumni activities all can be tracked in detail.</p>
+
+<p>That data can be put to work in predictive models that advance institutional goals and aid student success. In addition to the effective use cases linked above, here are two more innovative ways researchers have used machine learning to make predictions in the world of higher ed. While there are challenges, of course, predictive analytics can provide insights into all kinds of higher ed data.</p>
+
+<p><img src="/assets/images/posts/predicting-success-for-college-classrooms-and-football-fields/medium.jpeg" alt="SusanCS_0-1600271922113.jpeg" /></p>
+
+<p>Photo by MD Duran on Unsplash</p>
+
+<h2 id="kiss-keep-it-simple-for-students--and-models"><strong>KISS: Keep It Simple for Students (… and Models)</strong></h2>
+
+<p>With many colleges and universities primarily teaching online right now, students are facing unusual learning challenges. Online learning management systems (LMS) offer tons of data on how students engage with course activities, online resources and each other. But which data best predict which students may struggle, and which models offer the most utility?</p>
+
+<p><a href="https://www.mdpi.com/2076-3417/10/15/5371">A team of researchers</a> gathered data from Moodle, a popular LMS, across four semesters of an online introductory computer programming course. The data included students’ “cognitive interactions” with course content, their “social interactions” with each other, and their “teaching interactions” with the instructor; the researchers thought these categories might have differing predictive power. They also collected more data, such as the students’ total LMS interactions overall, and gave students a questionnaire about motivation and demographics. Finally, they built new features, including a “commitment factor,” a ratio of a student’s weekly total of interactions to the average for all students in the class.</p>
+
+<p>With all this intriguing data on hand, the researchers tested 13 different combinations of data and six different predictive algorithms to see which would best identify students at risk of dropping out of the course or failing by the eighth week.</p>
+
+<p>Surprisingly, they found that — despite trying to develop new ways to examine students’ data — “the simple counting of interactions can be used to generate predictive models,” though other research had suggested this might not be enough sophistication. Their top-performing model for predicting at-risk students was an <a href="https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Tool-Mastery-Boosted-Model/ta-p/419302">AdaBoost</a> classifier trained on total counts of all student interactions, and the second-best model also used AdaBoost with the same counts plus the “commitment factor” feature. Even the student questionnaire didn’t enhance the models beyond these few simple data points.</p>
+
+<p>“We are able to conclude that a more structured course, with dozens of materials, best fits the students’ needs, because they can have good interactions with the course and, consequently, succeed. It also seems that student interaction means engagement, and more engagement leads students to succeed,” the researchers wrote.</p>
+
+<p>While it seems like a no-brainer — build a robust online course, and students are more likely to succeed! — these results are helpful for those wanting to try out learning analytics and prediction themselves. You don’t necessarily have to build a super-complex model to identify and reach out to at-risk students. A simpler approach that tracks students’ online engagement and identifies those less engaged could still contribute to students’ success.</p>
+
+<h2 id="predictive-analytics-in-college-athletics-tweets-for-success"><strong>Predictive Analytics in College Athletics: Tweets for Success</strong></h2>
+
+<p>Machine learning isn’t just for universities’ academic and administrative needs. Another <a href="https://ir.uiowa.edu/cgi/viewcontent.cgi?article=7872&amp;context=etd">research project</a>, “From Hashtags to Heismans: Social Media and Networks in College Football Recruiting,” demonstrated how <a href="https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Tool-Mastery-Logistic-Regression/ta-p/159461">logistic regression</a> could be used with football student-athletes’ Twitter posts to predict with 87% accuracy whether they would receive a scholarship offer in the month after those tweets.</p>
+
+<p>Logistic regression outperformed other algorithms, including <a href="https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Seeing-the-Forest-for-the-Trees-An-Introduction-to-Random-Forest/ta-p/158062">random forest</a> and <a href="https://community.alteryx.com/t5/Data-Science/And-For-My-Next-Trick-An-Introduction-to-Support-Vector-Machines/ba-p/360762">SVM</a>, in correctly predicting the offers. The researcher hand-labeled over 7,000 tweets, but automated natural language processing, like <a href="https://community.alteryx.com/t5/Data-Science-Blog/Try-Sentiment-Analysis-with-Designer-You-Must/ba-p/589153">sentiment analysis</a>, could also have been useful.</p>
+
+<p>Though selecting an athlete for a team would seem like a complex decision with a lot of intangible elements, it’s interesting that Twitter content by itself turned out to be predictive. Important variables included whether the athletes posted “self-promoting” tweets, “ingratiating” tweets praising specific coaches and teams, and information such as camps they attended or coaches who had visited them. Bigsby also created another logistic regression model that could predict whether the athletes would commit or “decommit” to certain teams.</p>
+
+<p>Beyond athletics and higher education, the research also offers ideas for how this predictive approach could be creatively used for recruitment for all kinds of jobs.</p>
+
+<p>Photo by Roman Mager on Unsplash</p>
+
+<h2 id="potential-issues"><strong>Potential Issues</strong></h2>
+
+<p>While these examples use data that’s pretty easy to access from LMSes or public social media, higher education data can be tough to gather and analyze in practice. Institutional silos, decentralized data, and concerns about student privacy and biases all pose challenges.</p>
+
+<p>This recent <a href="https://hechingerreport.org/predictive-analytics-boosting-college-graduation-rates-also-invade-privacy-and-reinforce-racial-inequities/">article</a> from The Hechinger Report covers some potential unintended consequences of using predictive analytics for student outcomes in particular. A model (and an advisor interpreting it) could steer a student away from a first-choice major that’s predicted to be too ambitious for that student … but the student might have been able to rise to the challenge. Is the model and advisor’s guidance in the student’s best interests? That’s not an easy question to answer. Questions about privacy and systemic biases also come into play.</p>
+
+<p>To be sure, there are complex questions here. With care, though, there are many ways that predictive analytics can be used to help students and everyone else involved in crafting a quality higher ed experience.</p>
+
+<p>For more inspiration on how to use predictive analytics, watch the video below from Educause, where some institutional leaders explain the role of predictive analytics at their institutions. You can also check out this <a href="https://www.alteryx.com/e-book/data-innovators-in-higher-ed?UTM_Content=community">free e-book</a> from Alteryx that showcases seven different schools’ use of analytics in different areas of their institutions.</p>
+
+<p>Finally, <a href="https://community.alteryx.com/t5/forums/filteredbylabelpage/board-id/industry-discussions/label-name/higher%20education">join our higher ed discussions</a> to share how you’re using data in higher education!</p>
+
+  </div>
+</article>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Susan Currie Sivek</p>
+      
+      <p><a href="mailto:susan.sivek@gmail.com">susan.sivek@gmail.com</a></p>
+      
+    </footer>
+  </div>
+</body>
+</html>

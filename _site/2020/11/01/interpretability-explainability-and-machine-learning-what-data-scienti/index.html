@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interpretability, Explainability, and Machine Learning – What Data Scientists Need to Know — Susan Currie Sivek</title>
+  <meta name="description" content="I use one of those credit monitoring services that regularly emails me about my credit score: “Congratulations, your score has gone up!” “Uh oh, your score h...">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="site">
+    <header class="masthead">
+      <p class="masthead-brand">
+        <a href="/">Susan Currie Sivek</a>
+      </p>
+      <p class="masthead-tagline">
+        Data science writer, researcher, hiker, knitter. Former journalism professor. Curious about everything.
+        View <a href="https://www.linkedin.com/in/ssivek/">my LinkedIn profile</a>.
+      </p>
+      <nav class="site-nav" aria-label="Portfolio sections">
+  <ul>
+    <li>
+      <a href="/">All</a>
+    </li>
+    <li>
+      <a href="/favorites/">Favorites</a>
+    </li>
+    <li>
+      <a href="/categories/data-science/">Data Science and Tech</a>
+    </li>
+    <li>
+      <a href="/categories/features/">Features</a>
+    </li>
+    <li>
+      <a href="/categories/profiles/">Profiles</a>
+    </li>
+    <li>
+      <a href="/categories/academic/">Academic Life</a>
+    </li>
+    <li>
+      <a href="/categories/media/">Media Industry</a>
+    </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main class="content" id="main">
+      <article class="post">
+  <header class="post-header">
+    <h1>Interpretability, Explainability, and Machine Learning – What Data Scientists Need to Know</h1>
+    <div class="post-meta">
+      <span>November 1, 2020</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><span>KDnuggets</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><a class="post-source" href="https://www.kdnuggets.com/2020/11/interpretability-explainability-machine-learning.html" rel="noopener">View original &#8599;</a>
+    </div>
+    
+    <ul class="post-categories">
+      
+      <li>
+        
+          <a href="/categories/data-science/">Data Science and Tech</a>
+        
+      </li>
+      
+    </ul>
+    
+  </header>
+
+  <div class="post-body">
+    <p><em>Originally published at <a href="https://www.kdnuggets.com/2020/11/interpretability-explainability-machine-learning.html">https://www.kdnuggets.com/2020/11/interpretability-explainability-machine-learning.html</a></em></p>
+
+<p>I use one of those credit monitoring services that regularly emails me about my credit score: “Congratulations, your score has gone up!” “Uh oh, your score has gone down!”</p>
+
+<p>These fluctuations of a couple of points don’t mean much. I shrug and delete the emails. But what’s causing those fluctuations?</p>
+
+<p>Credit scores are just one example of the many automated decisions made about us as individuals on the basis of complex models. I don’t know exactly what causes those little changes in my score.</p>
+
+<p>Some machine learning models are “black boxes,” a term often used to describe models whose inner workings — the ways different variables ended up related to one another by an algorithm — may be impossible for even their designers to completely interpret and explain.</p>
+
+<p><img src="/assets/images/posts/interpretability-explainability-and-machine-learning-what-data-scienti/medium.svg" alt="" /></p>
+
+<p><em>Photo by</em> <a href="https://unsplash.com/@christianfregnan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"><em>Christian Fregnan</em></a> <em>on</em> <a href="https://unsplash.com/s/photos/box?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"><em>Unsplash</em></a>.</p>
+
+<p>This strange situation has resulted in questions about priorities: How do we prioritize accuracy, interpretability, and explainability in the development of models? Does there have to be a tradeoff among those values?</p>
+
+<p>But first, a disclaimer: There are a lot of different ways of defining some of the terms you’ll see here. This article is just one take on this complex issue!</p>
+
+<h3 id="interpreting-and-explaining-models">Interpreting and Explaining Models</h3>
+
+<p>Let’s take a closer look at <em>interpretability</em> and <em>explainability</em> with regard to machine learning models. Imagine I were to create a highly accurate model for predicting a disease diagnosis based on symptoms, family history, and so forth.</p>
+
+<p>If I created a logistic regression model for this purpose, you would be able to see exactly what weights were assigned to each variable in my model to predict the diagnosis (i.e., how much each variable contributed to my prediction).</p>
+
+<p>But what if I built a complex neural network model using those same variables? We could look at the layers of the model and their weights, but we might have a difficult time understanding what that configuration actually meant in the “real world,” or, in other words, how the layers and their weights corresponded in recognizable ways to our variables. The neural network model might have lower <em>interpretability</em>, even for experts.</p>
+
+<p>Additionally, we can consider <em>global</em> interpretability (how does the model work for all our observations?) and <em>local</em> interpretability (given these specific data points, how is the model generating a specific prediction?). Both of those levels of understanding have value.</p>
+
+<p>As you can imagine, with something like disease prediction, patients would want to know exactly how my model predicted that they had or didn’t have a disease. Similarly, my credit score calculation could have a significant impact on my life. Therefore, we’d ideally like to have models that are not just interpretable by the experts who construct them but also <em>explainable</em> to people affected by them.</p>
+
+<p><img src="/assets/images/posts/interpretability-explainability-and-machine-learning-what-data-scienti/medium-7adb4871.svg" alt="" /></p>
+
+<p>This explainability is so important that it has even been legislated in some places. The EU’s General Data Protection Regulation (GDPR) includes a <a href="https://www.privacy-regulation.eu/en/recital-71-GDPR.htm">“right to explanation”</a> that has proven somewhat <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3196985">challenging to interpret</a>, but that mandates greater “algorithmic accountability” for institutions making data-driven decisions that affect individuals. The U.S. Equal Credit Opportunity Act requires that financial institutions provide people who are denied credit or given less favorable lending terms a clear explanation of how that decision was made. If an algorithm was used in that decision, it should be explainable. As the <a href="https://www.ftc.gov/news-events/blogs/business-blog/2020/04/using-artificial-intelligence-algorithms">Federal Trade Commission says</a>, “… the use of AI tools should be transparent, explainable, fair, and empirically sound while fostering accountability.”</p>
+
+<p>But even if explainability isn’t legally required for a particular situation, it’s still important to be able to communicate about a model’s workings to stakeholders affected by it. Some kinds of models are inherently easier to translate to a less technical audience. For example, some models can be visualized readily and shared. <a href="https://community.alteryx.com/t5/Alteryx-Knowledge-Base/Planting-Seeds-An-Introduction-to-Decision-Trees/ta-p/134623">Decision tree models</a> can often be plotted in a familiar flowchart-esque form that will be explainable in many cases. (If you want to see a super cool animated visualization, scroll through <a href="http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">this tutorial</a> on decision trees.) Some natural language processing methods, like <a href="https://community.alteryx.com/t5/Data-Science-Blog/Getting-to-the-Point-with-Topic-Modeling-Part-1-What-is-LDA/ba-p/611874">topic modeling</a> with LDA, may <a href="http://bl.ocks.org/AlessandraSozzi/raw/ce1ace56e4aed6f2d614ae2243aab5a5/">provide visuals</a> that help viewers understand the rationale for their results.</p>
+
+<p>In other cases, you may have to rely on quantitative measures that demonstrate how a model was constructed, but their meaning is less obviously apparent, especially for non-technical audiences. For example, many statistical models display how each variable is related to the model’s output (e.g., the coefficients for predictor variables in linear regression). Even a <a href="https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Seeing-the-Forest-for-the-Trees-An-Introduction-to-Random-Forest/ta-p/158062">random forest model</a> can offer a measure of the relative importance of each variable in generating the model’s predictions. However, you won’t know exactly how all the trees were constructed and how they all contributed together to the final predictions offered by the model.</p>
+
+<p><img src="/assets/images/posts/interpretability-explainability-and-machine-learning-what-data-scienti/medium-8bb4dd60.svg" alt="" /></p>
+
+<p><em>An example of the variable (feature) importance plot generated by the</em> <a href="https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Tool-Mastery-Forest-Model/ta-p/305724"><em>Forest Model Tool</em></a><em>.</em></p>
+
+<p>Whichever method is used to gain insight into a model’s operation, being able to discuss how it makes predictions with stakeholders is important for improving the model with their informed input, ensuring the model’s fairness, and increasing trust in its output. This need for insight into the model might make you wonder if black boxes are worth the challenges they pose.</p>
+
+<h3 id="should-black-boxes-be-avoided-what-about-accuracy">Should Black Boxes be Avoided? What About Accuracy?</h3>
+
+<p>There are some tasks that today rely on black-box models. For example, image classification tasks are often handled by <a href="https://machinelearningmastery.com/convolutional-layers-for-deep-learning-neural-networks/">convolutional neural networks</a> whose detailed operation humans struggle to understand — even though humans built them! As I’ll discuss in the next section, fortunately, humans have also built some tools to peek into those black boxes a little bit. But right now, we have many tools in our everyday lives that rely on difficult-to-interpret models, such as devices using facial recognition.</p>
+
+<p>However, a model that is a “black box” doesn’t necessarily promise greater accuracy in its predictions just because it’s opaque. As <a href="https://www.nature.com/articles/s42256-019-0048-x">one researcher</a> puts it, “When considering problems that have structured data with meaningful features, there is often no significant difference in performance between more complex classifiers (deep neural networks, boosted decision trees, random forests) and much simpler classifiers (logistic regression, decision lists) after preprocessing.”</p>
+
+<p>It appears there doesn’t always have to be a tradeoff between accuracy and interpretability, especially given new tools and strategies being developed that lend insight into the operation of complex models. <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8882211">Some researchers</a> have also proposed “stacking” or otherwise combining “white-box” (explainable) models with black-box models to maximize both accuracy and explainability. These are sometimes called “gray-box” models.</p>
+
+<h3 id="tools-for-peeking-into-black-boxes">Tools for Peeking Into Black Boxes</h3>
+
+<p>As mentioned above, humans are building tools to better understand the tools they’ve already created! In addition to the visual and quantitative approaches described above, there are a few other techniques that can be used to glimpse the workings of these opaque models.</p>
+
+<p>Python and R packages for model interpretability can lend insight into your models’ functioning. For example, LIME (Local Interpretable Model-agnostic Explanations), creates a local, linear, interpretable model around a specific observation in order to understand how the global model generates a prediction with that data point. (Check out the <a href="https://github.com/marcotcr/lime">Python</a> package, the <a href="https://cran.r-project.org/web/packages/lime/index.html">R</a> port and <a href="https://cran.r-project.org/web/packages/lime/vignettes/Understanding_lime.html">vignette</a>, an <a href="https://www.oreilly.com/content/introduction-to-local-interpretable-model-agnostic-explanations-lime/">introductory overview</a>, or the <a href="https://arxiv.org/pdf/1602.04938.pdf">original research paper</a>.)</p>
+
+<p><em>This video offers a quick overview of LIME from its creators.</em></p>
+
+<p>Another toolkit called <a href="https://github.com/slundberg/shap">SHAP</a>, which relies on the concept of Shapley values drawn from game theory, calculates each feature’s contribution toward the model’s predictions. This approach provides both global and local interpretability for any kind of model. (Here again, you have options in <a href="https://github.com/slundberg/shap">Python</a> or <a href="https://github.com/ModelOriented/shapper">R</a>, and can read the <a href="http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf">original paper</a> explaining how SHAP works.)</p>
+
+<p><a href="https://christophm.github.io/interpretable-ml-book/pdp.html">Partial dependence plots</a> can be used with many models and allow you to see how a model’s prediction “depends” on the magnitude of different variables. These plots are limited to just two features each, though, which may make them less useful for complex, high-dimensional models. Partial dependence plots can be built with <a href="https://scikit-learn.org/stable/modules/partial_dependence.html">scikit-learn</a> in Python or <a href="https://bgreenwell.github.io/pdp/articles/pdp.html">pdp</a> in R.</p>
+
+<p><em>Image from the</em> <a href="https://scikit-learn.org/stable/modules/partial_dependence.html"><em>scikit-learn documentation</em></a> <em>that shows how each feature affected the outcome variable of house value.</em></p>
+
+<p><a href="https://www.researchgate.net/profile/Josua_Krause/publication/301931162_Interacting_with_Predictions_Visual_Inspection_of_Black-box_Machine_Learning_Models/links/5a299994a6fdccfbbf8178ae/Interacting-with-Predictions-Visual-Inspection-of-Black-box-Machine-Learning-Models.pdf">This paper</a> shows an interesting example of an interactive interface built to explain a random forest model for a diabetes diagnosis to stakeholders. The interface used the concept of partial dependence in a user-friendly format. With this explanation, the stakeholders not only better understood how the model operated but also felt more confident about supporting further development of additional predictive tools.</p>
+
+<p>Even the operation of complex image recognition algorithms can be glimpsed in part. “Adversarial patches,” or image modifications, can be used to manipulate the classifications predicted by neural networks, and in doing so, <a href="https://www.wired.com/story/inside-black-box-of-neural-network/">offer insight</a> into what features the algorithm is using to generate its predictions. The modifications can sometimes be very small but still produce an incorrect prediction for an image that the algorithm previously classified accurately. Check out <a href="https://christophm.github.io/interpretable-ml-book/adversarial.html">some examples here</a>. (Cool/worrisome side note: This approach can also be used to fool computer vision systems, like <a href="https://openaccess.thecvf.com/content_CVPRW_2019/papers/CV-COPS/Thys_Fooling_Automated_Surveillance_Cameras_Adversarial_Patches_to_Attack_Person_Detection_CVPRW_2019_paper.pdf">tricking surveillance systems</a>, sometimes with a change to just one pixel of an image.)</p>
+
+<p>Whatever approach you take to peek inside your model, being able to interpret and explain its operation can increase trust in the model, satisfy regulatory requirements, and help you communicate your analytic process and results to others.</p>
+
+<p><strong>Recommended reading:</strong></p>
+
+<ul>
+  <li><a href="https://arxiv.org/pdf/1606.03490.pdf">The Mythos of Model Interpretability</a>, paper by Zachary C. Lipton, for a deep dive into definitions and their usefulness</li>
+  <li><a href="https://christophm.github.io/interpretable-ml-book/">Interpretable Machine Learning: A Guide for Making Black Box Models Explainable</a>, free online book by Christoph Molnar</li>
+  <li>“Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead,” <a href="https://www.nature.com/articles/s42256-019-0048-x">article</a> by Cynthia Rudin in <em>Nature Machine Intelligence</em></li>
+</ul>
+
+<p><a href="https://community.alteryx.com/t5/Data-Science/Interpretability-Explainability-and-Machine-Learning/ba-p/630765">Original</a>. Reposted with permission.</p>
+
+<p><strong>Bio:</strong> <a href="https://www.linkedin.com/in/ssivek/"><strong>Susan Currie Sivek</strong></a><strong>, Ph.D.</strong>, is a writer and data geek who enjoys figuring out how to explain complicated ideas in everyday language. After 15 years as a journalism professor and researcher in academia, Susan shifted her focus to data science and analytics, but still loves to share knowledge in creative ways. She appreciates good food, science fiction, and dogs.</p>
+
+  </div>
+</article>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Susan Currie Sivek</p>
+      
+      <p><a href="mailto:susan.sivek@gmail.com">susan.sivek@gmail.com</a></p>
+      
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,12 +1,11 @@
 ---
 title: "Smartphone Sensors Could Revolutionize Digital Magazines"
 date: 2011-07-01
-excerpt: "We’ve all done those personality and health quizzes in magazines. You know, the ones where you suspect that answer A will categorize you as the personality type you’re trying to avoid, so you choose B instead.
-Everyone does that, right?
-These evasive…"
+excerpt: "\"We’ve all done those personality and health quizzes in magazines. You know, the ones where you suspect that answer A will categorize you as the personality type you’re trying to avoid, so you choose B instead."
 original_url: "http://mediashift.org/2011/07/smartphone-sensors-could-revolutionize-digital-magazines182/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2011/07/smartphone-sensors-could-revolutionize-digital-magazines182/](http://mediashift.org/2011/07/smartphone-sensors-could-revolutionize-digital-magazines182/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-fbb6a37097cbb01a53af44e9d5732da7-data-sensors.jpg)

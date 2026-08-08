@@ -3,8 +3,9 @@ title: "Make Confident Marketing Campaign Decisions"
 date: 2023-01-10
 excerpt: "[INT. A nondescript office.] The marketer stares at a computer monitor displaying rows of conversion, ROAS, and cost-per-purchase data. The mouse cursor hovers indecisively over an on/off switch for a Facebook ad set. A single tear catches the light…"
 original_url: "https://www.pecan.ai/resource/confident-marketing-campaign/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/confident-marketing-campaign/](https://www.pecan.ai/resource/confident-marketing-campaign/)*
 
 ![](https://www.pecan.ai/wp-content/uploads/2023/01/milan-seitler-qRy81CYhLHY-unsplash-scaled-e1673393660794.jpg)

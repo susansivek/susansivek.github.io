@@ -1,11 +1,11 @@
 ---
 title: "Did the Web Kill Gourmet Magazine?"
 date: 2009-10-26
-excerpt: "The murder happened in the kitchen with a laptop.
-That possible explanation for the death of Gourmet magazine sounds like a solution from the game Clue. The 68-year-old food magazine met its end this month when publisher Condé Nast cut it and two…"
+excerpt: "\"The murder happened in the kitchen with a laptop."
 original_url: "http://mediashift.org/2009/10/did-the-web-kill-gourmet-magazine299/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2009/10/did-the-web-kill-gourmet-magazine299/](http://mediashift.org/2009/10/did-the-web-kill-gourmet-magazine299/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-6d6c9b54bba84e0b8039e5ccf468b268-gourmet%20mags.jpg)

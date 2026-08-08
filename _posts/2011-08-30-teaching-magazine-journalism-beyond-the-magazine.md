@@ -1,11 +1,11 @@
 ---
 title: "Teaching Magazine Journalism Beyond the Magazine"
 date: 2011-08-30
-excerpt: "Photo illustration by Susan Currie Sivek. Original photos by \"thebittenword.com\":http://www.thebittenword.com and \"Blake Patterson on Flickr\":http://www.flickr.com/people/blakespot/.
-While magazine industry professionals struggle to come up with the…"
+excerpt: "\"Photo illustration by Susan Currie Sivek. Original photos by \\\"thebittenword.com\\\":http://www.thebittenword.com and \\\"Blake Patterson on Flickr\\\":http://www.flickr.com/people/blakespot/."
 original_url: "http://mediashift.org/2011/08/teaching-magazine-journalism-beyond-the-magazine242/"
+publication: "MediaShift"
+categories: [media, academic]
 ---
-
 *Originally published at [http://mediashift.org/2011/08/teaching-magazine-journalism-beyond-the-magazine242/](http://mediashift.org/2011/08/teaching-magazine-journalism-beyond-the-magazine242/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-0700c9bba200932360dc26822506a83f-mags-in-ipad2.jpg)

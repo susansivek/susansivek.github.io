@@ -3,13 +3,14 @@ title: "Balancing Act: Classification with Imbalanced Data"
 date: 2021-11-04
 excerpt: "Yoga, relaxation, a gratitude journal: All of these might help you find peace and harmony. But your datasets also need your help to achieve an ideal balance — and, like self-care for humans, things can go awry if we don’t take time to find…"
 original_url: "https://community.alteryx.com/t5/Data-Science/Balancing-Act-Classification-with-Imbalanced-Data/ba-p/841878"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Balancing-Act-Classification-with-Imbalanced-Data/ba-p/841878](https://community.alteryx.com/t5/Data-Science/Balancing-Act-Classification-with-Imbalanced-Data/ba-p/841878)*
 
 Yoga, relaxation, a gratitude journal: All of these might help you find peace and harmony. But your datasets also need your help to achieve an ideal balance — and, like self-care for humans, things can go awry if we don’t take time to find equilibrium.
 
-![SusanCS_0-1635870878126.gif](https://community.alteryx.com/t5/image/serverpage/image-id/209209iF98B71450F9AFA9F/image-size/medium?v=v2&px=400)
+![SusanCS_0-1635870878126.gif](/assets/images/posts/balancing-act-classification-with-imbalanced-data-2/medium.jpeg)
 
 Image via GIPHY
 
@@ -25,7 +26,7 @@ Of course, things rarely work out that smoothly. Let’s take a look at the [cre
 
 In Designer, it’s easy to get quick insight into your variables’ distribution with the [Basic Data Profile Tool](https://help.alteryx.com/20213/designer/basic-data-profile-tool) and the [Frequency Table Tool](https://help.alteryx.com/20213/designer/frequency-table-tool), among other options. The latter generates a histogram like the one below that makes the imbalance in this dataset painfully obvious.
 
-![SusanCS_1-1635870874309.png](https://community.alteryx.com/t5/image/serverpage/image-id/209208i05EE13DA47F5E145/image-size/medium?v=v2&px=400)
+![SusanCS_1-1635870874309.png](/assets/images/posts/balancing-act-classification-with-imbalanced-data-2/medium.bin)
 
 *A histogram for the 0 and 1 labels in the “Class” field, where 1 represents the comparatively few fraudulent transactions.*
 
@@ -33,13 +34,13 @@ In Designer, it’s easy to get quick insight into your variables’ distributio
 
 If you repeatedly picked a row of this dataset at random and asked me whether it was one of the fraudulent transactions or not, I’d have pretty good odds of being right if I just said, “No,” over and over again. Similarly, if you simply jumped into training a model on these imbalanced data and only looked at your model’s accuracy, it would seem like you had an amazing model. You can read more about choosing the right metrics for classification models [in this article](https://community.alteryx.com/t5/Data-Science/Metric-Matters-Part-1-Evaluating-Classification-Models/ba-p/719190); for now, just keep in mind that accuracy alone is really misleading for imbalanced data.
 
-![SusanCS_2-1635870878467.gif](https://community.alteryx.com/t5/image/serverpage/image-id/209210iD0DB0B10D8E9BA33/image-size/medium?v=v2&px=400)
+![SusanCS_2-1635870878467.gif](/assets/images/posts/balancing-act-classification-with-imbalanced-data-2/medium.png)
 
 Image via GIPHY
 
 As a quick example, let’s split my mini-dataset with 70% for training and 30% for validation. I could naively build a random forest model with no adjustment to the balance between the target classes. (You can follow along by opening the Alteryx package attached to this post.) I might be impressed at first: Wow, the model only misclassified 70 observations out of 40,149! But let’s take a closer look:
 
-![SusanCS_3-1635870873826.png](https://community.alteryx.com/t5/image/serverpage/image-id/209211iFEF38C9EB669C71C/image-size/large?v=v2&px=999)
+![SusanCS_3-1635870873826.png](/assets/images/posts/balancing-act-classification-with-imbalanced-data-2/large.bin)
 
 Unfortunately, as you can see, the model did great on predicting non-fraudulent transactions — but, sorry, credit card account holders; it didn’t do nearly as well at its actual job of detecting fraud. Time to make some adjustments for better results!
 
@@ -47,7 +48,7 @@ Unfortunately, as you can see, the model did great on predicting non-fraudulent 
 
 We have some ways to balance our datasets to avoid this situation, thankfully. Let’s explore some options, ranked from least involved to most complex (but still very manageable!).
 
-![SusanCS_4-1635870878322.gif](https://community.alteryx.com/t5/image/serverpage/image-id/209213i35604B654AEA649F/image-size/medium?v=v2&px=400)
+![SusanCS_4-1635870878322.gif](/assets/images/posts/balancing-act-classification-with-imbalanced-data-2/medium-3de1eab1.png)
 
 *Alteryx Machine Learning*
 
@@ -55,7 +56,7 @@ You’re in luck if you’re one of the first users of [Alteryx Machine Learning
 
 In the initial “Auto Insight” data exploration stage, Alteryx Machine Learning produces an easily downloadable plot, like the one below, that displays the distribution of class labels for your target variable.
 
-![SusanCS_5-1635870873839.png](https://community.alteryx.com/t5/image/serverpage/image-id/209212iF58B959D46677BD4/image-size/medium?v=v2&px=400)
+![SusanCS_5-1635870873839.png](/assets/images/posts/balancing-act-classification-with-imbalanced-data-2/medium-e1e64d0f.bin)
 
 Bar plot of target variable label distribution from Alteryx Machine Learning
 
@@ -63,23 +64,23 @@ In this case, as shown on the right side of the image below, Alteryx Machine Lea
 
 Here, I selected balanced accuracy as the metric for evaluating the models, and a random forest classifier comes out on top in that comparison. The model performs even better in the next step of the process when it’s evaluated on the holdout data, with 91% balanced accuracy.
 
-![SusanCS_6-1635870874407.png](https://community.alteryx.com/t5/image/serverpage/image-id/209217i972D62074DF9E2D0/image-size/large?v=v2&px=999)
+![SusanCS_6-1635870874407.png](/assets/images/posts/balancing-act-classification-with-imbalanced-data-2/large.png)
 
 *Alteryx Intelligence Suite*
 
 With the Intelligence Suite in Designer, you have a couple of options. First, you can use the AutoML Tool to automatically build and evaluate models that prioritize the metric you choose. In the tool’s Advanced Parameters options, you can select a [metric](https://community.alteryx.com/t5/Data-Science/Metric-Matters-Part-1-Evaluating-Classification-Models/ba-p/719190) better suited to an imbalanced dataset, or try multiple options to see how they compare. For example, you could tell the tool to prioritize balanced accuracy or log loss in its evaluation of various models.
 
-![SusanCS_7-1635870874309.png](https://community.alteryx.com/t5/image/serverpage/image-id/209216i2F245EB5C398BF99/image-size/medium?v=v2&px=400)
+![SusanCS_7-1635870874309.png](/assets/images/posts/balancing-act-classification-with-imbalanced-data-2/medium-57884715.png)
 
 Setting up AutoML with two different objective function options suited for imbalanced data
 
-![SusanCS_8-1635870873827.png](https://community.alteryx.com/t5/image/serverpage/image-id/209215i1DB60FB4171B26EA/image-size/large?v=v2&px=999)
+![SusanCS_8-1635870873827.png](/assets/images/posts/balancing-act-classification-with-imbalanced-data-2/large-5b25778e.png)
 
 *Results from two AutoML-generated models*
 
 Assisted Modeling is also an option here, but you’ll want to take a close look at the model leaderboard to see how the various metrics look. Again, accuracy isn’t the only measure to consider, so be sure to check out the balanced accuracy and F1 scores provided for each model as well, and make sure you’re pleased with how your chosen model(s) performs across the classes.
 
-![SusanCS_9-1635870874000.png](https://community.alteryx.com/t5/image/serverpage/image-id/209218i56AC3BA0FC2D0986/image-size/large?v=v2&px=999)
+![SusanCS_9-1635870874000.png](/assets/images/posts/balancing-act-classification-with-imbalanced-data-2/large-562ec3aa.png)
 
 Results from Assisted Modeling’s classification models for these data
 
@@ -95,7 +96,7 @@ Another balancing method would be to stratify your training data by the values o
 
 Fortunately, wise machine learning researchers have developed more sophisticated approaches to achieving balance.
 
-![SusanCS_10-1635870878759.gif](https://community.alteryx.com/t5/image/serverpage/image-id/209220i606AC1DEA1B62F44/image-size/medium?v=v2&px=400)
+![SusanCS_10-1635870878759.gif](/assets/images/posts/balancing-act-classification-with-imbalanced-data-2/medium-aa973dd8.png)
 
 *Introducing SMOTE*
 
@@ -111,7 +112,7 @@ For example, in the attached workflow, passing the data through the SMOTE Family
 
 Let’s then revisit the random forest model I attempted earlier, but now using the post-SMOTE dataset. My model can now learn about fraudulent transactions from more examples (even if most of them are synthetic), and as such, it does a better job of classifying the data:
 
-![SusanCS_11-1635870873784.png](https://community.alteryx.com/t5/image/serverpage/image-id/209219i996C8FF2D79DB2A9/image-size/large?v=v2&px=999)
+![SusanCS_11-1635870873784.png](/assets/images/posts/balancing-act-classification-with-imbalanced-data-2/large-c6f81bf8.bin)
 
 Performance of the model built with data processed through the SMOTE Family Macro
 
@@ -119,7 +120,7 @@ The post-SMOTE model isn’t perfect, but it only misclassified 27 transactions,
 
 In addition to the configuration options provided in the macro, remember that you can also open the macro and alter its code however you’d like to suit your needs. [This article](https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/A-Cheat-Sheet-of-Functions-to-Use-in-the-R-Tool/ta-p/178979) provides some of the ins and outs of working with R in Designer.
 
-![SusanCS_12-1635870876609.gif](https://community.alteryx.com/t5/image/serverpage/image-id/209223iD7EDDDCBD5F8D837/image-size/medium?v=v2&px=400)
+![SusanCS_12-1635870876609.gif](/assets/images/posts/balancing-act-classification-with-imbalanced-data-2/medium-16ff5d3c.png)
 
 *SMOTE in Python*
 
@@ -129,7 +130,7 @@ You will need to install the package, as it’s not included with Designer; that
 
 I did exactly that and then again used the Forest Model Tool to build a random forest model. The results look much like the results from the model built on the SMOTE Family Macro data above:
 
-![new-smote-python.png](https://community.alteryx.com/t5/image/serverpage/image-id/209468i0A828D178E61E8CF/image-size/large?v=v2&px=999)
+![new-smote-python.png](/assets/images/posts/balancing-act-classification-with-imbalanced-data-2/large-3b6e18b4.bin)
 
 Performance of the model built with data processed through SMOTE, implemented through imbalanced-learn in the Python Tool
 
@@ -137,7 +138,7 @@ Here again, overall accuracy is better, and the model’s mistakes are evenly sp
 
 Let’s toss all three models — the naive model and the two SMOTE’d models — into the Model Comparison Tool to take a holistic look:
 
-![SusanCS_14-1635870873944.png](https://community.alteryx.com/t5/image/serverpage/image-id/209222iC208873BE5C3F0EF/image-size/large?v=v2&px=999)
+![SusanCS_14-1635870873944.png](/assets/images/posts/balancing-act-classification-with-imbalanced-data-2/large-6e276c07.png)
 
 The Model Comparison Tool’s report on the three models’ performance
 

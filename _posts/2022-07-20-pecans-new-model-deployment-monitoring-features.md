@@ -3,8 +3,9 @@ title: "Pecan’s New Model Deployment & Monitoring Features"
 date: 2022-07-20
 excerpt: "Data science is amazingly powerful, and yet there seems to be a brick wall that data science teams routinely hit: the model deployment and monitoring phase. This morning, Pecan released powerful new capabilities that not only make those critical…"
 original_url: "https://www.pecan.ai/resource/new-model-deployment-monitoring/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/new-model-deployment-monitoring/](https://www.pecan.ai/resource/new-model-deployment-monitoring/)*
 
 Data science is amazingly powerful, and yet there seems to be a brick wall that data science teams routinely hit: the model deployment and monitoring phase. This morning, [Pecan released powerful new capabilities](https://www.pecan.ai/resource/announce-data-science-model-deployment) that not only make those critical steps in the process much easier to implement, but also supercharge the role of the data analyst even more. While data analysts could always use their SQL skills to build sophisticated ML models in Pecan, now they can also readily manage those “last mile” tasks of model deployment and monitoring, all within the Pecan platform.

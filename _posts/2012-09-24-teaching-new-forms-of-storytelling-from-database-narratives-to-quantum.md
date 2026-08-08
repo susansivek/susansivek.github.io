@@ -3,8 +3,9 @@ title: "Teaching New Forms of Storytelling, from Database Narratives to Quantum 
 date: 2012-09-24
 excerpt: "When college students get a syllabus on the first day of class, they expect it to lay out exactly what will happen during the course: its goals, tasks and deadlines. Finding that they’re expected to deal with “flexibility,” “adaptability,” “rapid…"
 original_url: "http://mediashift.org/2012/09/teaching-new-forms-of-storytelling-from-database-narratives-to-quantum-journalism268/"
+publication: "MediaShift"
+categories: [media, academic]
 ---
-
 *Originally published at [http://mediashift.org/2012/09/teaching-new-forms-of-storytelling-from-database-narratives-to-quantum-journalism268/](http://mediashift.org/2012/09/teaching-new-forms-of-storytelling-from-database-narratives-to-quantum-journalism268/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-a169c5a2e8cb7e2516c6bc2555888722-students-storyboard.jpg)

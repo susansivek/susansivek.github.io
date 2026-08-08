@@ -1,11 +1,11 @@
 ---
 title: "Hearst Sponsors Stadium Hackathon to Inspire Innovation"
 date: 2013-09-30
-excerpt: "The MHacks hackathon drew more than 1,200 students from colleges around the country. Students were able to go on the field at the University of Michigan's football stadium. Photo from MHacks' Facebook page.
-The geeks have taken over the football…"
+excerpt: "\"The MHacks hackathon drew more than 1,200 students from colleges around the country. Students were able to go on the field at the University of Michigan's football stadium. Photo from MHacks' Facebook page."
 original_url: "http://mediashift.org/2013/09/hearst-sponsors-stadium-hackathon-to-inspire-innovation/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2013/09/hearst-sponsors-stadium-hackathon-to-inspire-innovation/](http://mediashift.org/2013/09/hearst-sponsors-stadium-hackathon-to-inspire-innovation/)*
 
 ![](https://i0.wp.com/mediashift.org/wp-content/uploads/2013/09/mhacks-stadium-shoot.jpg?w=515)

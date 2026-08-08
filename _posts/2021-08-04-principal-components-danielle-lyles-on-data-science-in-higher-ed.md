@@ -1,13 +1,11 @@
 ---
 title: "Principal Components: Danielle Lyles on Data Science in Higher Ed"
 date: 2021-08-04
-excerpt: "How does data science power the university student experience behind the scenes? Danielle Lyles, data and evaluation scientist at the University of Colorado Boulder, tells us about her work.
-Susan Currie Sivek, Ph.D.
-Just now·3 min read
-Photo by on…"
+excerpt: "\"How does data science power the university student experience behind the scenes? Danielle Lyles, data and evaluation scientist at the University of Colorado Boulder, tells us about her work."
 original_url: "https://susansivek.medium.com/principal-components-danielle-lyles-on-data-science-in-higher-ed-2eab154dc779"
+publication: "Medium"
+categories: [data-science, profiles]
 ---
-
 *Originally published at [https://susansivek.medium.com/principal-components-danielle-lyles-on-data-science-in-higher-ed-2eab154dc779](https://susansivek.medium.com/principal-components-danielle-lyles-on-data-science-in-higher-ed-2eab154dc779)*
 
 ## *How does data science power the university student experience behind the scenes? Danielle Lyles, data and evaluation scientist at the University of Colorado Boulder, tells us about her work.*
@@ -16,7 +14,7 @@ original_url: "https://susansivek.medium.com/principal-components-danielle-lyles
 
 [Just now·3 min read](https://susansivek.medium.com/principal-components-danielle-lyles-on-data-science-in-higher-ed-2eab154dc779?source=post_page-----2eab154dc779--------------------------------)
 
-![](https://miro.medium.com/max/10000/0*lak7YIi9tr0CJMA4000000)
+![](/assets/images/posts/principal-components-danielle-lyles-on-data-science-in-higher-ed/0-lak7YIi9tr0CJMA4000000.webp)
 
 Photo by on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 

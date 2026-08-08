@@ -1,11 +1,11 @@
 ---
 title: "Locating Sustainable Living with Data Science + an Analytic App"
 date: 2021-01-25
-excerpt: "With more companies accepting that remote work is feasible for their employees, some formerly location-locked workers are exploring new possibilities for places to live.
-Our very own @ewoodard suggested that we could use data and Alteryx to check out…"
+excerpt: "\"With more companies accepting that remote work is feasible for their employees, some formerly location-locked workers are exploring new possibilities for places to live."
 original_url: "https://community.alteryx.com/t5/Data-Science/Locating-Sustainable-Living-with-Data-Science-an-Analytic-App/ba-p/706297"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Locating-Sustainable-Living-with-Data-Science-an-Analytic-App/ba-p/706297](https://community.alteryx.com/t5/Data-Science/Locating-Sustainable-Living-with-Data-Science-an-Analytic-App/ba-p/706297)*
 
 With more companies accepting that remote work is feasible for their employees, some formerly location-locked workers are exploring new possibilities for places to live.
@@ -14,8 +14,6 @@ Our very own [@ewoodard](https://community.alteryx.com/t5/user/viewprofilepage/u
 
 While you can find plenty of lists of “green cities” on the interwebz, neighborhoods vary within cities. And since Alteryx lets us work through big datasets very quickly, why not consider, oh, every neighborhood in the U.S.? Mashing up public data with spatial information, and applying some analytic thinking and data science, all resulted in [an analytic app](https://gallery.alteryx.com/#!app/Sustainable%2BNeighborhood%2BFinder/6008dcf9826fd310d446c742) you can try now in the Alteryx Analytics Gallery! (But first, read on to find out how it works …)
 
-![SusanCS_0-1611248811750.gif](https://community.alteryx.com/t5/image/serverpage/image-id/166567iCDDA8E1C86117F91/image-size/medium?v=1.0&px=400)
-
 ## **Gathering Neighborhood Data**
 
 I gathered data on the level of the [census block group](https://tigerweb.geo.census.gov/tigerwebmain/TIGERweb_geography_details.html#BLKGRP) (CBG), which is the smallest unit for which the U.S. Census Bureau provides its sample data. Each CBG typically contains 600 to 3,000 people. CBGs may work a bit better than ZIP codes for grouping households in consistent ways. (Check out [this article](https://carto.com/blog/zip-codes-spatial-analysis/) for a full discussion of some of the possible issues with ZIP codes.)
@@ -23,8 +21,6 @@ I gathered data on the level of the [census block group](https://tigerweb.geo.ce
 The analytic app uses data from these sources:
 
 Fortunately, many government agencies offer data at the CBG level, letting us drill down to small areas that best fit our sustainability criteria. When the agencies didn’t specify CBGs, I was able to use Alteryx’s [Spatial Match](https://help.alteryx.com/current/designer/spatial-match-tool) and/or [Allocate Append](https://help.alteryx.com/current/designer/allocate-append-tool) tools to identify them myself.
-
-![SusanCS_1-1611248812444.gif](https://community.alteryx.com/t5/image/serverpage/image-id/166568i20F331DDC3341F2C/image-size/medium?v=1.0&px=400)
 
 Finally, CBG-level data wasn’t available for air quality, so I assigned each neighborhood the air quality metrics for its metro area, when available. Air does move around, after all!
 
@@ -35,8 +31,6 @@ Unfortunately, it can be tricky to find neighborhoods that satisfy *all* of the 
 I used [clustering](https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Tool-Mastery-K-Centroids-Cluster-Analysis/ta-p/302154) (the K-Centroids Cluster Analysis and Append Clusters tools) to identify and assign groups to all of the neighborhoods. With the clusters identified, the app will offer not just the perfect matches for the user’s chosen criteria, but also offer five more neighborhoods from the same cluster.
 
 In addition to ensuring every user sees more than just a few results, this approach also might spark new ideas for the user, in terms of thinking of new geographic possibilities, and perhaps even noticing patterns or rethinking their original criteria selections.
-
-![SusanCS_2-1611248813899.gif](https://community.alteryx.com/t5/image/serverpage/image-id/166569iBDC380043948387F/image-size/medium?v=1.0&px=400)
 
 ## **Building the App**
 

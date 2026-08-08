@@ -1,11 +1,11 @@
 ---
 title: "Interpretability, Explainability, and Machine Learning"
 date: 2020-09-10
-excerpt: "I use one of those credit monitoring services that regularly emails me about my credit score: “Congratulations, your score has gone up!” “Uh oh, your score has gone down!”
-These fluctuations of a couple of points don’t mean much. I shrug and delete…"
+excerpt: "\"I use one of those credit monitoring services that regularly emails me about my credit score: “Congratulations, your score has gone up!” “Uh oh, your score has gone down!”"
 original_url: "https://community.alteryx.com/t5/Data-Science/Interpretability-Explainability-and-Machine-Learning/ba-p/630765"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Interpretability-Explainability-and-Machine-Learning/ba-p/630765](https://community.alteryx.com/t5/Data-Science/Interpretability-Explainability-and-Machine-Learning/ba-p/630765)*
 
 I use one of those credit monitoring services that regularly emails me about my credit score: “Congratulations, your score has gone up!” “Uh oh, your score has gone down!”
@@ -15,8 +15,6 @@ These fluctuations of a couple of points don’t mean much. I shrug and delete t
 Credit scores are just one example of the many automated decisions made about us as individuals on the basis of complex models. I don’t know exactly what causes those little changes in my score.
 
 Some machine learning models are “black boxes,” a term often used to describe models whose inner workings — the ways different variables ended up related to one another by an algorithm — may be impossible for even their designers to completely interpret and explain.
-
-![christian-fregnan-ewiYQxLTGEU-unsplash.jpg](https://community.alteryx.com/t5/image/serverpage/image-id/132118i20EC116FE722170F/image-size/medium?v=1.0&px=400)
 
 Photo by Christian Fregnan on Unsplash
 
@@ -36,19 +34,13 @@ Additionally, we can consider *global* interpretability (how does the model work
 
 As you can imagine, with something like disease prediction, patients would want to know exactly how my model predicted that they had or didn’t have a disease. Similarly, my credit score calculation could have a significant impact on my life. Therefore, we’d ideally like to have models that are not just interpretable by the experts who construct them, but also *explainable* to people affected by them.
 
-![SusanCS_1-1599604572025.gif](https://community.alteryx.com/t5/image/serverpage/image-id/132111i92B4370C2FAD5302/image-size/medium?v=1.0&px=400)
-
 This explainability is so important that it has even been legislated in some places. The EU’s General Data Protection Regulation (GDPR) includes a [“right to explanation”](https://www.privacy-regulation.eu/en/recital-71-GDPR.htm) that has proven somewhat [challenging to interpret](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3196985), but that mandates greater “algorithmic accountability” for institutions making data-driven decisions that affect individuals. The U.S. Equal Credit Opportunity Act requires that financial institutions provide people who are denied credit or given less favorable lending terms a clear explanation of how that decision was made. If an algorithm was used in that decision, it should be explainable. As the [Federal Trade Commission says](https://www.ftc.gov/news-events/blogs/business-blog/2020/04/using-artificial-intelligence-algorithms), “... the use of AI tools should be transparent, explainable, fair, and empirically sound, while fostering accountability.”
 
 But even if explainability isn’t legally required for a particular situation, it’s still important to be able to communicate about a model’s workings to stakeholders affected by it. Some kinds of models are inherently easier to translate to a less technical audience. For example, some models can be visualized readily and shared. [Decision tree models](https://community.alteryx.com/t5/Alteryx-Knowledge-Base/Planting-Seeds-An-Introduction-to-Decision-Trees/ta-p/134623) can often be plotted in a familiar flowchart-esque form that will be explainable in many cases. (If you want to see a super cool animated visualization, scroll through [this tutorial](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) on decision trees.) Some natural language processing methods, like [topic modeling](https://community.alteryx.com/t5/Data-Science-Blog/Getting-to-the-Point-with-Topic-Modeling-Part-1-What-is-LDA/ba-p/611874) with LDA, may [provide visuals](http://bl.ocks.org/AlessandraSozzi/raw/ce1ace56e4aed6f2d614ae2243aab5a5/) that help viewers understand the rationale for their results.
 
-![SusanCS_2-1599604571143.jpeg](https://community.alteryx.com/t5/image/serverpage/image-id/132110iFA8B5A36ACD2DA88/image-size/medium?v=1.0&px=400)
-
 Photo by Morning Brew on Unsplash
 
 In other cases, you may have to rely on quantitative measures that demonstrate how a model was constructed, but their meaning is less obviously apparent, especially for non-technical audiences. For example, many statistical models display how each variable is related to the model’s output (e.g., the coefficients for predictor variables in linear regression). Even a [random forest model](https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Seeing-the-Forest-for-the-Trees-An-Introduction-to-Random-Forest/ta-p/158062) can offer a measure of the relative importance of each variable in generating the model’s predictions. However, you won’t know exactly how all the trees were constructed and how they all contributed together to the final predictions offered by the model.
-
-![SusanCS_3-1599604571141.png](https://community.alteryx.com/t5/image/serverpage/image-id/132112i0A3CC604257BED13/image-size/medium?v=1.0&px=400)
 
 An example of the variable (feature) importance plot generated by the Forest Model Tool.
 
@@ -62,8 +54,6 @@ However, a model that is a “black box” doesn’t necessarily promise greater
 
 It appears there doesn’t always have to be a tradeoff between accuracy and interpretability, especially given new tools and strategies being developed that lend insight into the operation of complex models. [Some researchers](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8882211) have also proposed “stacking” or otherwise combining “white-box” (explainable) models with black-box models to maximize both accuracy and explainability. These are sometimes called “gray-box” models.
 
-![SusanCS_4-1599604571223.gif](https://community.alteryx.com/t5/image/serverpage/image-id/132114i61A9E1136B48FB24/image-size/medium?v=1.0&px=400)
-
 ## **Tools for Peeking Into Black Boxes**
 
 As mentioned above, humans are building tools to better understand the tools they’ve already created! In addition to the visual and quantitative approaches described above, there are a few other techniques that can be used to glimpse the workings of these opaque models.
@@ -75,8 +65,6 @@ Python and R packages for model interpretability can lend insight into your mode
 Another toolkit called [SHAP](https://github.com/slundberg/shap), which relies on the concept of Shapley values drawn from game theory, calculates each feature’s contribution toward the model’s predictions. This approach provides both global and local interpretability for any kind of model. (Here again, you have options in [Python](https://github.com/slundberg/shap) or [R](https://github.com/ModelOriented/shapper), and can read the [original paper](http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions.pdf) explaining how SHAP works.)
 
 [Partial dependence plots](https://christophm.github.io/interpretable-ml-book/pdp.html) can be used with many models and allow you to see how a model’s prediction “depends” on the magnitude of different variables. These plots are limited to just two features each, though, which may make them less useful for complex, high-dimensional models. Partial dependence plots can be built with [scikit-learn](https://scikit-learn.org/stable/modules/partial_dependence.html) in Python or [pdp](https://bgreenwell.github.io/pdp/articles/pdp.html) in R.
-
-![SusanCS_5-1599604571173.png](https://community.alteryx.com/t5/image/serverpage/image-id/132113iD78C6192084EDF72/image-size/medium?v=1.0&px=400)
 
 *Image from the* [*scikit-learn documentation*](https://scikit-learn.org/stable/modules/partial_dependence.html) *that shows how each feature affected the outcome variable of house value.*
 

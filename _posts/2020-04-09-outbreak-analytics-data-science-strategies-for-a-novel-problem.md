@@ -1,12 +1,11 @@
 ---
 title: "Outbreak Analytics: Data Science Strategies for a Novel Problem"
 date: 2020-04-09
-excerpt: "You walk down one aisle of the grocery store to get your favorite cereal. On the dairy aisle, someone sick from COVID-19 coughs.
-Did your decision to grab your cereal before your milk possibly keep you healthy?
-It’s the kind of question we’re all…"
+excerpt: "\"You walk down one aisle of the grocery store to get your favorite cereal. On the dairy aisle, someone sick from COVID-19 coughs."
 original_url: "https://community.alteryx.com/t5/Data-Science/Outbreak-Analytics-Data-Science-Strategies-for-a-Novel-Problem/ba-p/552108"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Outbreak-Analytics-Data-Science-Strategies-for-a-Novel-Problem/ba-p/552108](https://community.alteryx.com/t5/Data-Science/Outbreak-Analytics-Data-Science-Strategies-for-a-Novel-Problem/ba-p/552108)*
 
 You walk down one aisle of the grocery store to get your favorite cereal. On the dairy aisle, someone sick from COVID-19 coughs.
@@ -25,7 +24,7 @@ I explored some recent research to learn a little bit how these researchers go a
 
 *- the movie Contagion*
 
-![contagion.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/107012iADB37B7B9C3127C4/image-size/large?v=1.0&px=999)
+![contagion.gif](/assets/images/posts/outbreak-analytics-data-science-strategies-for-a-novel-problem/large-b448267d.svg)
 
 The [*reproduction number*, or R0](https://sph.umich.edu/pursuit/2020posts/how-scientists-quantify-outbreaks.html) (pronounced “R naught”), refers to the number of people someone who is ill is likely to infect. The R0 changes in every time and place that a disease occurs due to factors like demographics, climate, social structures, and social distancing measures. Researchers calculate the R0 by determining the time between a first infection and a second infection (the *generation time*, which can then be charted as a *generation time distribution* when this time is known for many pairs of sick people). Estimating the R0 is critical to predicting a disease’s spread. For SARS-CoV-2, which causes COVID-19, the R0 is currently [thought to vary](https://sph.umich.edu/pursuit/2020posts/how-scientists-quantify-outbreaks.html) between 1.5 to 3.5 in different places.
 
@@ -33,13 +32,9 @@ The [*reproduction number*, or R0](https://sph.umich.edu/pursuit/2020posts/how-s
 
 There’s also a similar R package, `EpiEstim`, developed by [a different group of researchers](https://academic.oup.com/aje/article/178/9/1505/89262), that has [an Excel option](http://tools.epidemiology.net/EpiEstim.xls). `EpiEstim` is based on a [branching process model](https://en.wikipedia.org/wiki/Branching_process) and estimates the R0 based on simple time series data. This model tries to capture the number of people each infected person will infect, but with an element of randomness (or stochasticity) -- like a random encounter in the grocery store with an infected person. The chart below (part of [a larger graphic](https://academic.oup.com/view-large/figure/86224225/kwt13301.tiff)) shows the estimates of R0 generated with this model for five past outbreaks.
 
-![SusanCS_1-1586192578451.png](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/106548i7E83E7800467536D/image-size/large?v=1.0&px=999)
-
 # Sequencing Pathogen Genomes
 
 *“It shows novel characteristics. … It’s Godzilla, King Kong and Frankenstein all in one.” -- Contagion*
-
-![SusanCS_2-1586192579503.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/106550i6681BB88AF0D63B1/image-size/medium?v=1.0&px=400)
 
 Genetic analysis of SARS-CoV-2 samples from patients who become ill in different places and at different times can help researchers track the spread and mutation of the virus. This analysis can also help the quick identification of possible treatments. [Researchers recently demonstrated](https://www.biorxiv.org/content/10.1101/2020.02.03.932350v3.full.pdf) a new machine learning approach to identifying the type of an unknown virus and its various strains based on its genome (i.e., figuring out its taxonomic classification, like the [broad category of “coronavirus”](https://www.nature.com/articles/s41564-020-0695-z)).
 
@@ -47,15 +42,13 @@ This approach converted the SARS-CoV-2 genomic sequence into a numerical represe
 
 The graphic below shows the researchers’ results from their last two tests, which classified 153 viral sequences into four sub-genera and COVID-19, and then classified 76 viral sequences either as other Sarbecovirus types or as COVID-19.
 
-![3d.png](https://community.alteryx.com/t5/image/serverpage/image-id/107008i9861FF7DF7E32A11/image-size/large?v=1.0&px=999)
+![3d.png](/assets/images/posts/outbreak-analytics-data-science-strategies-for-a-novel-problem/large-8bb4dd60.svg)
 
 This strategy helped identify not only that SARS-CoV-2 should be correctly classified with other Coronaviridae and Betacoronavirus pathogens, but also that it has important similarities to other viruses found among bats. The researchers argue that their approach is faster (under 10 minutes, including 10-fold cross-validation) and can compare more, and more diverse, samples than previous analytic processes. While there may be insights here for the current pandemic, this kind of approach could be helpful in future outbreaks.
 
 # Predicting Disease Spread Despite Uncertainty
 
 *“And from there, using our model, based on the R**0* *of 3.2 … here is where we expect to be in 48 hours.” -- Contagion*
-
-![SusanCS_4-1586192578076.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/106552i90D91C16CAF89CDD/image-size/medium?v=1.0&px=400)
 
 One epidemiological modeling approach is to create an “SIR model,” which divides the population as a whole into “compartments”: those who are Susceptible to the disease, Infected, and Removed (either recovered from the illness and presumably granted some degree of immunity, or no longer in the population because they died).
 
@@ -66,8 +59,6 @@ To deal with all the sources of uncertainty, [one group of researchers](https://
 To further incorporate uncertainty into the model, the researchers used a Markov chain Monte Carlo (MCMC) algorithm. (Here are two explanations for MCMC: [one simpler](https://towardsdatascience.com/a-zero-math-introduction-to-markov-chain-monte-carlo-methods-dcba889e0c50), [one more complex](https://link.springer.com/article/10.3758/s13423-016-1015-8).) The MCMC approach allows for the approximation of a distribution that can’t be directly known -- like the true number of SARS-CoV-2 infections -- or that is too expensive to figure out. The eSIR model’s forecasts aim to reveal “turning points” in the outbreak. Turning points include when the daily number of new cases stops growing and when the number of infected cases reaches its highest point. The model can also provide an estimate of the R0.
 
 The researchers are distributing an R package called `eSIR` that generates the models, `ggplot2` objects, and summary statistics. What’s useful about this approach is that it can help determine which quarantine strategies might be most useful and when. As the researchers say, “... too strict quarantine can cause backfire; people may lose their trust and patience in their committed system, and consequently may try to reduce compliance or even avoid quarantine.” The risk of implementing strict quarantine systems for prolonged periods has to be weighed against the gains in disease prevention. This model provides one approach to that important calculation.
-
-![SusanCS_5-1586192578098.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/106553i46CDED2DEC057619/image-size/medium?v=1.0&px=400)
 
 # Takeaways for All Modeling
 

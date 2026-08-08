@@ -1,11 +1,11 @@
 ---
 title: "On-Demand Publishing Opens Up Magazine Industry"
 date: 2010-02-01
-excerpt: "Publishing a magazine independently used to mean spending a lot of money ordering hundreds or thousands of printed copies, and then hoarding the unsold inventory in dusty boxes in your garage for the next decade.
-The new pioneers in on-demand…"
+excerpt: "\"Publishing a magazine independently used to mean spending a lot of money ordering hundreds or thousands of printed copies, and then hoarding the unsold inventory in dusty boxes in your garage for the next decade."
 original_url: "http://mediashift.org/2010/02/on-demand-publishing-opens-up-magazine-industry032/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2010/02/on-demand-publishing-opens-up-magazine-industry032/](http://mediashift.org/2010/02/on-demand-publishing-opens-up-magazine-industry032/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-ee0be32502cbb59d44486b9c4a90497b-4014880333_de23d6dd08.jpg)

@@ -3,8 +3,9 @@ title: "Principal Components: Alex Engler on the Future of Policy for AI"
 date: 2021-05-17
 excerpt: "The Brookings Institution research fellow and civic data scientist shares his expertise on policy and governance shaping the future of AI worldwide. Alex Engler, research fellow at the Brookings Institution and civic data scientist, joined us on the…"
 original_url: "https://towardsdatascience.com/principal-components-alex-engler-on-the-future-of-policy-for-ai-39af4bbd3bf9"
+publication: "Towards Data Science"
+categories: [data-science, profiles]
 ---
-
 *Originally published at [https://towardsdatascience.com/principal-components-alex-engler-on-the-future-of-policy-for-ai-39af4bbd3bf9](https://towardsdatascience.com/principal-components-alex-engler-on-the-future-of-policy-for-ai-39af4bbd3bf9)*
 
 ## *The Brookings Institution research fellow and civic data scientist shares his expertise on policy and governance shaping the future of AI worldwide.*

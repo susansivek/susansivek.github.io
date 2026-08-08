@@ -3,8 +3,9 @@ title: "Bringing order to the data supply chain with Snowflake | Kristen Werner"
 date: 2021-03-09
 excerpt: "Kristen Werner, Director of Data Science and Engineering at Snowflake, highlights how data engineering and automation can enhance the human experience of being a data scientist.Share your thoughts in our Cocktail Conversation on the Alteryx Community…"
 original_url: "https://community.alteryx.com/t5/Data-Science-Mixer-Podcast/Guiding-data-science-teams-at-Snowflake-Kristen-Werner/ba-p/727844"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science-Mixer-Podcast/Guiding-data-science-teams-at-Snowflake-Kristen-Werner/ba-p/727844](https://community.alteryx.com/t5/Data-Science-Mixer-Podcast/Guiding-data-science-teams-at-Snowflake-Kristen-Werner/ba-p/727844)*
 
 Kristen Werner, Director of Data Science and Engineering at Snowflake, highlights how data engineering and automation can enhance the human experience of being a data scientist.

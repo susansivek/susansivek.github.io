@@ -3,8 +3,9 @@ title: "The Data Science Celebrity Q&A: Meet P. Value (aka p-value)"
 date: 2021-04-07
 excerpt: "The mystery and influence of P. Value (also known as the p-value) have made it the most popular celebrity calculation of our time — and maybe also the most misunderstood. Despite “significant” starring roles in thousands of data analyses, many still…"
 original_url: "https://community.alteryx.com/t5/Data-Science/The-Data-Science-Celebrity-Q-amp-A-Meet-P-Value-aka-p-value/ba-p/743016"
+publication: "Alteryx Community"
+categories: [data-science, profiles]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/The-Data-Science-Celebrity-Q-amp-A-Meet-P-Value-aka-p-value/ba-p/743016](https://community.alteryx.com/t5/Data-Science/The-Data-Science-Celebrity-Q-amp-A-Meet-P-Value-aka-p-value/ba-p/743016)*
 
 The mystery and influence of P. Value (also known as the p-value) have made it the most popular celebrity calculation of our time — and maybe also the most misunderstood. Despite “significant” starring roles in thousands of data analyses, many still find P. Value mystifying, or even misleading.
@@ -13,7 +14,7 @@ So who is P. Value, really? Our interviewer sat down with P. Value for an exclus
 
 Read on for our no-holds-barred conversation!
 
-![SusanCS_0-1617644508619.gif](https://community.alteryx.com/t5/image/serverpage/image-id/178952i95C9EF47DC17A814/image-size/medium?v=v2&px=400)
+![SusanCS_0-1617644508619.gif](/assets/images/posts/the-data-science-celebrity-q-a-meet-p-value-aka-p-value/medium.bin)
 
 Image via GIPHY
 
@@ -27,7 +28,7 @@ It was one day sometime in the early 1920s. This coworker of my dad’s, [Muriel
 
 Anyway, apparently, my dad and a biochemist, William Roach, set up an experiment to see if Muriel really could tell which was which. And it inspired him to think about me.
 
-![SusanCS_1-1617644505090.png](https://community.alteryx.com/t5/image/serverpage/image-id/178950iD72EF4BFEC9DDF12/image-size/medium?v=v2&px=400)
+![SusanCS_1-1617644505090.png](/assets/images/posts/the-data-science-celebrity-q-a-meet-p-value-aka-p-value/medium.png)
 
 Ronald Fisher and Muriel Bristol
 
@@ -41,7 +42,7 @@ That’s where I came in. Basically, my dad made me up to solve this problem. I�
 
 And, spoiler: Muriel could actually taste the difference! She even married William Roach.
 
-![SusanCS_2-1617644506304.gif](https://community.alteryx.com/t5/image/serverpage/image-id/178951iBD29F8B99BA9FBCA/image-size/medium?v=v2&px=400)
+![SusanCS_2-1617644506304.gif](/assets/images/posts/the-data-science-celebrity-q-a-meet-p-value-aka-p-value/medium-5eee6d43.bin)
 
 ## **OK, but talk more about this “results are different enough” business — what does that mean?**
 
@@ -57,7 +58,7 @@ For example, if you build a regression model, you’ll see p-values next to each
 
 If you’ve got p-values below that 0.05 (or your chosen threshold) for a specific independent variable, that just means that within that regression model, there’s a statistically significant relationship between that variable and your outcome variable.
 
-![giphy](https://community.alteryx.com/t5/image/serverpage/image-id/179164i07FBEC792B36EF69/image-size/large?v=v2&px=999)
+![giphy](/assets/images/posts/the-data-science-celebrity-q-a-meet-p-value-aka-p-value/large.bin)
 
 ## **Yay! So you're telling me which variables better predict my outcome.**
 
@@ -75,7 +76,7 @@ A final mind-blowing fact: You can have a model that’s significant overall but
 
 There’s one more thing I have to tell you, before you start telling everybody how your alternative hypothesis you came up with is totally the real explanation for things. Tiny p-values don’t “prove” your alternative hypothesis is “true.” It just means your null hypothesis is less likely to be the case.
 
-![giphy-downsized](https://community.alteryx.com/t5/image/serverpage/image-id/179168iC568F5B517335010/image-size/large?v=v2&px=999)
+![giphy-downsized](/assets/images/posts/the-data-science-celebrity-q-a-meet-p-value-aka-p-value/large-17f59abf.bin)
 
 ## **Where can we find you working your magic in different statistical analyses today?**
 
@@ -83,14 +84,14 @@ I get awesome roles in all the statistical genres! You’ll see me starring (get
 
 Of course, I also play a part in analyzing [correlations](https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Tool-Mastery-Association-Analysis/ta-p/40459), like you see below. The numbers in the lower table of this output are my values for each of these correlations.
 
-![SusanCS_4-1617644505107.png](https://community.alteryx.com/t5/image/serverpage/image-id/178953iA5A2248D0486D0B9/image-size/large?v=v2&px=999)
-![SusanCS_5-1617644507109.gif](https://community.alteryx.com/t5/image/serverpage/image-id/178955i9A8905EA75D319E8/image-size/medium?v=v2&px=400)
+![SusanCS_4-1617644505107.png](/assets/images/posts/the-data-science-celebrity-q-a-meet-p-value-aka-p-value/large.png)
+![SusanCS_5-1617644507109.gif](/assets/images/posts/the-data-science-celebrity-q-a-meet-p-value-aka-p-value/medium-db3df1dd.bin)
 
 Image via GIPHY
 
 If you’re into modeling, well, I do that, too, in addition to my other glamorous jobs. We talked about regression earlier. If you build a regression model, like we said, I’ll pop up by each of your independent variables to show you which ones have a statistically significant relationship with your outcome variable. Again, that statistical significance just means that the result found by analyzing your variables’ relationship is *surprising* and potentially meaningful, but not that the variables found to have lower p-values are necessarily the stronger predictors for your outcome variable. And, of course, you'd want to check that p-value for the F-test to see how the whole model did.
 
-![SusanCS_6-1617644505108.png](https://community.alteryx.com/t5/image/serverpage/image-id/178956i4A50352A4383FCFB/image-size/large?v=v2&px=999)
+![SusanCS_6-1617644505108.png](/assets/images/posts/the-data-science-celebrity-q-a-meet-p-value-aka-p-value/large-19ac1bb3.png)
 
 That's a model predicting a wine quality score with the [red wine dataset](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009). Look at that [Pr(>|t|)](https://stats.stackexchange.com/questions/49939/interpreting-summary-function-for-lm-model-in-r) column on the right and be starstruck! The \*\*\* means that alcohol and sulphates have a p-value of less than 0.001, but the blank spot by residual sugar means its p-value was over 0.05. So, in this particular model and this dataset, residual sugar is probably less relevant to wine quality than the other two variables, given that it didn’t show an unexpected or surprising connection to the outcome variable of wine quality. However, sulphates and alcohol may be relevant to the wine quality in this specific data situation.
 
@@ -98,7 +99,7 @@ You can also see me playing a supporting role in [comparing machine learning mod
 
 Basically, if you’ve got a hypothesis, I can help you test it.
 
-![SusanCS_7-1617644505115.gif](https://community.alteryx.com/t5/image/serverpage/image-id/178957i0D20D9743D8D1D86/image-size/medium?v=v2&px=400)
+![SusanCS_7-1617644505115.gif](/assets/images/posts/the-data-science-celebrity-q-a-meet-p-value-aka-p-value/medium-e49531d3.bin)
 
 Image via GIPHY
 
@@ -116,7 +117,7 @@ And also, a significant relationship, well, it might not actually make a differe
 
 That’s deep. We all have to ask, what really matters in this world? I just want to do my part to help answer that question.
 
-![SusanCS_8-1617644509194.gif](https://community.alteryx.com/t5/image/serverpage/image-id/178958iD860524B4B603344/image-size/medium?v=v2&px=400)
+![SusanCS_8-1617644509194.gif](/assets/images/posts/the-data-science-celebrity-q-a-meet-p-value-aka-p-value/medium-332e72c8.bin)
 
 *I hope you enjoyed this interview with celebrity guest P. Value! Do you still have questions? Which other tools or data science concepts would you like to see addressed here on the blog? (Many thanks to [@damc](https://community.alteryx.com/t5/user/viewprofilepage/user-id/101793) for* [*requesting*](https://docs.google.com/document/d/1RWvBd8JZ8_OyWlacZZ8ESKwiXP8KxeyMcwXygZoJkZs/edit?usp=sharing) *the topic of p-values!) Put your questions or requests in the comments below, and subscribe to the blog to get future articles.*
 

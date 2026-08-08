@@ -3,6 +3,6 @@ title: "Accelerate Success in Retail and E-Commerce With AI-Powered Predictive A
 date: 1900-01-01
 undated: true
 excerpt: "Using AI in retail"
+categories: [data-science]
 ---
-
-[Download pdf]({{authoryimagedfe14910-7800-11ed-9e62-995020abab8e.pdf}})
+[Download pdf](PDF)

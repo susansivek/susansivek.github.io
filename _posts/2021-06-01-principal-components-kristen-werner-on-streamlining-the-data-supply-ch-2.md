@@ -1,13 +1,11 @@
 ---
 title: "Principal Components: Kristen Werner on Streamlining the Data Supply Chain"
 date: 2021-06-01
-excerpt: "Kristen Werner, director of data science and engineering at Snowflake, highlights how data engineering and automation can enhance the human experience of being a data scientist.
-Susan Currie Sivek, Ph.D.
-4 hours ago·4 min read
-Kristen Werner,…"
+excerpt: "\"Kristen Werner, director of data science and engineering at Snowflake, highlights how data engineering and automation can enhance the human experience of being a data scientist."
 original_url: "https://susansivek.medium.com/principal-components-kristen-werner-on-streamlining-the-data-supply-chain-c10eca9dc601"
+publication: "Medium"
+categories: [data-science, profiles]
 ---
-
 *Originally published at [https://susansivek.medium.com/principal-components-kristen-werner-on-streamlining-the-data-supply-chain-c10eca9dc601](https://susansivek.medium.com/principal-components-kristen-werner-on-streamlining-the-data-supply-chain-c10eca9dc601)*
 
 ## *Kristen Werner, director of data science and engineering at Snowflake, highlights how data engineering and automation can enhance the human experience of being a data scientist.*

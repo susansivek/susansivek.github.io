@@ -1,11 +1,11 @@
 ---
 title: "Notable Nodes: Identifying Influencers with Network Analysis"
 date: 2021-09-08
-excerpt: "My dog loves napping in his super-fuzzy dog bed. And I have to confess: I like to think I’m a rational consumer, but I bought him the bed because of cute photos and a discount code shared by a social media influencer.
-Identifying social media…"
+excerpt: "\"My dog loves napping in his super-fuzzy dog bed. And I have to confess: I like to think I’m a rational consumer, but I bought him the bed because of cute photos and a discount code shared by a social media influencer."
 original_url: "https://community.alteryx.com/t5/Data-Science/Notable-Nodes-Identifying-Influencers-with-Network-Analysis/bc-p/819746"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Notable-Nodes-Identifying-Influencers-with-Network-Analysis/bc-p/819746](https://community.alteryx.com/t5/Data-Science/Notable-Nodes-Identifying-Influencers-with-Network-Analysis/bc-p/819746)*
 
 My dog loves napping in his super-fuzzy dog bed. And I have to confess: I like to think I’m a rational consumer, but I bought him the bed because of cute photos and a discount code shared by a social media influencer.
@@ -14,7 +14,7 @@ Identifying social media influencers who can help promote your business is both 
 
 Let’s take a closer look at the Network Analysis Tool and build our own workflow to identify potential Twitter influencers.
 
-![SusanCS_0-1618848621022.gif](https://community.alteryx.com/t5/image/serverpage/image-id/180785i5C05C3FA79F6B2E4/image-size/medium?v=v2&px=400)
+![SusanCS_0-1618848621022.gif](/assets/images/posts/notable-nodes-identifying-influencers-with-network-analysis/medium-ebf8723a.jpeg)
 
 Image via GIPHY
 
@@ -28,16 +28,11 @@ I’m going to look at tweets with the hashtag #ODSCEast from the recent [Open D
 
 I retrieved tweets using that hashtag twice a day for all three days of the conference, resulting in a collection of 600 tweets. Unfortunately, Twitter’s [standard search](https://developer.twitter.com/en/docs/twitter-api/v1/tweets/search/overview) [limits](https://developer.twitter.com/en/docs/twitter-api/v1/rate-limits) access to tweets, but this sample is a good starting point.
 
-![SusanCS_1-1618848621039.gif](https://community.alteryx.com/t5/image/serverpage/image-id/180786iC01B523618F5B826/image-size/medium?v=v2&px=400)
-
 Image via GIPHY
 
 The number of followers someone has is just one possible measure of influence on Twitter. Another way to think about influence might be to examine who is often connected with other people in actual tweets — who often is linked with others due to common interests and broad recognition. In the case of this conference, people might be mentioned together in tweets related to upcoming sessions or talks, revealing connections that wouldn’t be evident otherwise. Users who co-occurred often with other users in the collected tweets could be key connections, helpful for reaching a wide audience. This is the approach we’ll try here.
 
 After parsing the Twitter data, I wanted just the usernames of everyone mentioned in the tweets, so I used the [RegEx Tool](https://help.alteryx.com/current/designer/regex-tool) and the expression *@(\w+)* to tokenize the usernames into rows. With a big assist from [@NeilR](https://community.alteryx.com/t5/user/viewprofilepage/user-id/1443) on the data wrangling, plus some ideas from [this post](https://community.alteryx.com/t5/Alteryx-Designer-Discussions/Help-needed-Network-Analysis/td-p/161952) by [@BenMoss](https://community.alteryx.com/t5/user/viewprofilepage/user-id/5143), everything eventually got into the form I wanted prior to network analysis: a two-field, 155-row table with the pairs of usernames that had actually appeared together in tweets, and a one-field, 115-row table with just the unique usernames of everyone who had shown up in any tweet. The first rows of each table are below.
-
-![SusanCS_2-1618848620379.png](https://community.alteryx.com/t5/image/serverpage/image-id/180784i556D4BA218BB9510/image-size/medium?v=v2&px=400)
-![SusanCS_3-1618848620337.png](https://community.alteryx.com/t5/image/serverpage/image-id/180787i7866AA751407DB27/image-size/small?v=v2&px=200)
 
 ## **Constructing the Network**
 
@@ -49,8 +44,6 @@ In this diagram, the circles are “nodes.” Each Twitter user identified here 
 
 However, as I mouse over and click on the individual nodes, it looks like nodes other than @odsc are also pretty well interconnected. For example, [@aliciaframe1](https://twitter.com/aliciaframe1) mentioned other users or was mentioned by them fairly often, as revealed by the blue nodes and edges below:
 
-![SusanCS_5-1618848620373.png](https://community.alteryx.com/t5/image/serverpage/image-id/180789iEE4F1BF7A1D5C9E6/image-size/medium?v=v2&px=400)
-
 In addition to exploring the interactive diagram, I can also use the numeric output from the Network Analysis Tool to examine my potential influencers more closely. The output includes five network centrality measures, each of which reflect different ways of evaluating how “central” a node is to a network. You can read about [all the centrality measures](https://en.wikipedia.org/wiki/Centrality), but here are simplified definitions of each:
 
 * Betweenness: the number of times a node serves as a bridge on the shortest path between other nodes. A node that is often a bridge can control the spread of information, allowing or limiting its flow.
@@ -60,8 +53,6 @@ In addition to exploring the interactive diagram, I can also use the numeric out
 * PageRank: yes, [that](https://en.wikipedia.org/wiki/PageRank) PageRank you may have heard of. It’s somewhat similar to eigenvalue centrality, but it also includes the direction of the links between nodes and the weight or importance of those links, which can help identify people perceived as authoritative by others.
 
 As you would expect from the top diagram above, the @odsc account scores most highly on all the centrality measures. However, looking further into the data reveals which individuals and companies were notable nodes during the conference.
-
-![SusanCS_6-1618848621329.gif](https://community.alteryx.com/t5/image/serverpage/image-id/180790i90219D4A04EDB529/image-size/medium?v=v2&px=400)
 
 Image via GIPHY
 
@@ -79,4 +70,3 @@ Whether you’re selling dog beds to indulgent pet parents, building a podcast a
 
 ## **Recommended Reading**
 
-![Twitter_on_my_blog.JPG](https://community.alteryx.com/t5/image/serverpage/image-id/201697i3B7CE3C044CBF89F/image-size/large?v=v2&px=999)

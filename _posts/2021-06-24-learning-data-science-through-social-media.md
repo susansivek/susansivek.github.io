@@ -1,11 +1,11 @@
 ---
 title: "Learning Data Science Through Social Media"
 date: 2021-06-24
-excerpt: "My social media feeds largely consist of news headlines, puppies, baked goods, and friends’ vacation photos. However, I’ve got a little data science sprinkled in, just the right amount to jolt my brain awake occasionally as I mindlessly scroll.
-If…"
+excerpt: "\"My social media feeds largely consist of news headlines, puppies, baked goods, and friends’ vacation photos. However, I’ve got a little data science sprinkled in, just the right amount to jolt my brain awake occasionally as I mindlessly scroll."
 original_url: "https://www.alteryx.com/input/learning-data-science-through-social-media"
+publication: "Alteryx"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.alteryx.com/input/learning-data-science-through-social-media](https://www.alteryx.com/input/learning-data-science-through-social-media)*
 
 My social media feeds largely consist of news headlines, puppies, baked goods, and friends’ vacation photos. However, I’ve got a little data science sprinkled in, just the right amount to jolt my brain awake occasionally as I mindlessly scroll.
@@ -16,7 +16,7 @@ On Twitter, I follow a lot of data science news sources, but I also appreciate a
 
 * Data Science Fact ([@DataSciFact](https://twitter.com/datascifact?lang=en)) posts quick facts about a wide variety of data science concepts.
 
-![Data Science Fact Twitter](https://www.alteryx.com/sites/default/files/inline-images/Screen%20Shot%202021-06-10%20at%2010.01.14%20AM.png)
+![Data Science Fact Twitter](/assets/images/posts/learning-data-science-through-social-media/Screen-20Shot-202021-06-10-20at-2010.01.14-20AM.webp)
 
 * Daily Python Tip ([@python\_tip](https://twitter.com/python_tip?lang=en)) offers a neatly summarized idea or tool suggestion each day.
 

@@ -1,11 +1,11 @@
 ---
 title: "Lessons Learned From Indie iPad Magazine Publishers"
 date: 2012-06-25
-excerpt: "Being a successful iPad magazine means knowing how to market, including how to interact with Apple's Newsstand.
-It seems like publishing a digital magazine on the iPad should be pretty easy. With some basic design skills, time, and a bit of money,…"
+excerpt: "\"Being a successful iPad magazine means knowing how to market, including how to interact with Apple's Newsstand."
 original_url: "http://mediashift.org/2012/06/lessons-learned-from-indie-ipad-magazine-publishers177/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2012/06/lessons-learned-from-indie-ipad-magazine-publishers177/](http://mediashift.org/2012/06/lessons-learned-from-indie-ipad-magazine-publishers177/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-1edcba222e566b7415cc5d04da66e09a-newsstand-indies.jpg)

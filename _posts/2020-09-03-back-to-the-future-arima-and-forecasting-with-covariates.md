@@ -3,8 +3,9 @@ title: "Back to the Future: ARIMA and Forecasting with Covariates"
 date: 2020-09-03
 excerpt: "Crafting a reliable forecast of a phenomenon feels like having a very specialized crystal ball on your desk that can answer critical questions. Time series analysis and forecasting are powerful methods of understanding how something has changed over…"
 original_url: "https://community.alteryx.com/t5/Data-Science/Back-to-the-Future-ARIMA-and-Forecasting-with-Covariates/bc-p/628887"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Back-to-the-Future-ARIMA-and-Forecasting-with-Covariates/bc-p/628887](https://community.alteryx.com/t5/Data-Science/Back-to-the-Future-ARIMA-and-Forecasting-with-Covariates/bc-p/628887)*
 
 Crafting a reliable forecast of a phenomenon feels like having a very specialized crystal ball on your desk that can answer critical questions. Time series analysis and forecasting are powerful methods of understanding how something has changed over time and how it may occur in the future.
@@ -17,8 +18,6 @@ When you build a time series model with the [ARIMA tool](https://help.alteryx.co
 
 Let’s explore criteria for good covariate time series to include in your model and forecasts, and how you might think about their role in your analysis.
 
-![SusanCS_0-1596813071183.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/127237i50583E12FDC9CFC3/image-size/medium?v=1.0&px=400)
-
 ## **Choosing Your Covariates**
 
 Consider a time series situation like the one provided in the Designer sample workflow for time series forecasting (Help>Sample Workflows>Predictive tool samples>Predictive Analytics>15 Time\_Series\_Forecasting\_Sample), which demonstrates how to forecast room bookings at a mountain lodge using 10 years of monthly data. The original time series is simple. It covers 120 months, each with a single number representing the number of bookings for that month.
@@ -28,8 +27,6 @@ Now we’ll use our imaginations: It’s not just a mountain lodge, but a *ski* 
 I’m no skier, but I’m thinking *snow* could be important! Could high amounts of snow correlate with the number of people wanting to go to a ski lodge? I mean, I’d go just to drink hot chocolate and read a novel by one of those fireplaces, but snow is the main attraction for most folks.
 
 We’ll think about “bookings” as our *response variable* here, and “snow” as a *predictor* variable. We need to evaluate the snow and bookings relationship, though. Importantly, a series of snow measurements would be *external* to the system that created your primary time series of interest, the lodge bookings. It’s hard for humans to affect the quantity of natural snow (setting aside our impact on climate change for the moment). Certainly the number of lodge bookings does not affect the amount of snow. But the snow quantity *could* perhaps affect whether people want to stay at the lodge.
-
-![SusanCS_1-1596813071235.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/127239i83D413A784F73108/image-size/medium?v=1.0&px=400)
 
 Side note: What if your model’s “outputs” (response variables) *do* affect the “inputs” (predictor variables)? Ideally, you’d use a more complex modeling approach with multiple equations. These kinds of analyses are typically projects for econometrician-type experts who are used to analyzing complicated systems with theory and models.
 
@@ -47,8 +44,6 @@ If you want to create a forecast using an ARIMA model that includes a covariate,
 
 Yes. You need future values. I know, right?! Getting information from the future is not easy, or at least that’s what science fiction tells me.
 
-![SusanCS_2-1596813071232.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/127238iE727273075468D02/image-size/medium?v=1.0&px=400)
-
 In a perfect world, you would know what’s going to happen in the future with regard to your covariate predictor variable. For example, the availability of a certain component for manufacturing may be known for the next year. In many situations, though, data about the future will itself need to be forecasted. For example, economic forecasts may be offered by government agencies (such as [U.S. housing forecasts](http://www.freddiemac.com/research/forecast/20200616_quarterly_forecast_economy_recovering.page?) from Freddie Mac). Specialized forecasts may be offered by private firms focused on different industries.
 
 However, these forecasts need to: 1) cover the time span you want to forecast in its entirety; 2) be structured in the same time increments in which you want your forecast, and in which you have your original data; and 3) be reasonably accurate. As you can imagine, these may be difficult criteria to satisfy in some circumstances. As described in Chatfield and Xing’s time series text (details below), “a multivariate model is only able to give ‘good’ forecasts when forecasts of explanatory variables can be made (much) more accurately than those of the response variable.”
@@ -58,8 +53,6 @@ However, these forecasts need to: 1) cover the time span you want to forecast in
 The concept of leading and lagging indicators is important for understanding covariate time series as well. A *leading indicator* is a predictor variable whose change precedes change in your response variable. For example, increased demand for residential building permits in a specific area (the predictor) might occur prior to increased demand for space in nearby schools (the response). More homes being built for families would “indicate” that more students will soon need to go to a nearby school.
 
 Identifying a leading indicator that reliably relates to your desired response variable could be valuable, though it can be difficult to know the right way to use it. For example, the time gap between the leading indicator and the response of interest may not occur consistently. For example, sometimes the effect of the leading indicator may be visible in a month, but at other times, it may take two months.
-
-![SusanCS_3-1596813072294.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/127240iF73F3D8FF0DB7E55/image-size/medium?v=1.0&px=400)
 
 A *lagging indicator* is a measure that is not known until an action is taken. For example, in a human resources scenario, there would be a “time lag” or gap between employees becoming dissatisfied with their jobs and their eventual resignations. The resignations indicate dissatisfaction -- though they arrive a little too late to make changes.
 

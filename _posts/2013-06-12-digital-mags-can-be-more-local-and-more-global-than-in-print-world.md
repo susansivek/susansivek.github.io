@@ -1,11 +1,11 @@
 ---
 title: "Digital Mags Can Be More Local, and More Global, Than in Print World"
 date: 2013-06-12
-excerpt: "The magazine newsstand at Blue Scorcher Cafe & Bakery in Astoria, Ore., could take digital form with a new app.
-For magazine lovers, traveling used to mean loading up on print editions to read on the road, and then packing up exotic publications as…"
+excerpt: "\"The magazine newsstand at Blue Scorcher Cafe & Bakery in Astoria, Ore., could take digital form with a new app."
 original_url: "http://mediashift.org/2013/06/location-matters-for-digital-magazines/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2013/06/location-matters-for-digital-magazines/](http://mediashift.org/2013/06/location-matters-for-digital-magazines/)*
 
 ![](https://i0.wp.com/mediashift.org/wp-content/uploads/2013/06/cafe-newsstand.jpg?w=513)

@@ -1,11 +1,11 @@
 ---
 title: "Market Basket Analysis 102: Alteryx Designer + Python"
 date: 2020-11-16
-excerpt: "Learn how to do market basket analysis using Alteryx Designer and make data visualizations of your results with Python.
-Have you ever abandoned a shopping cart in an online store and gotten a reminder email about it later? Your poor digital cart was…"
+excerpt: "\"Learn how to do market basket analysis using Alteryx Designer and make data visualizations of your results with Python."
 original_url: "https://susansivek.medium.com/market-basket-analysis-102-alteryx-designer-python-1792228eb0bb"
+publication: "Medium"
+categories: [data-science]
 ---
-
 *Originally published at [https://susansivek.medium.com/market-basket-analysis-102-alteryx-designer-python-1792228eb0bb](https://susansivek.medium.com/market-basket-analysis-102-alteryx-designer-python-1792228eb0bb)*
 
 ## Learn how to do market basket analysis using Alteryx Designer and make data visualizations of your results with Python.

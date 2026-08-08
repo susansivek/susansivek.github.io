@@ -3,8 +3,9 @@ title: "Principal Components: Renee Teate on Becoming a Data Scientist"
 date: 2021-05-24
 excerpt: "Renee Teate shared her career move into data science publicly through social media and her podcast, Becoming a Data Scientist. Now director of data science at HelioCampus, she offers more advice for advancing data science careers. Susan Currie Sivek,…"
 original_url: "https://towardsdatascience.com/principal-components-renee-teate-on-becoming-a-data-scientist-221c5c860e0e"
+publication: "Towards Data Science"
+categories: [data-science, profiles]
 ---
-
 *Originally published at [https://towardsdatascience.com/principal-components-renee-teate-on-becoming-a-data-scientist-221c5c860e0e](https://towardsdatascience.com/principal-components-renee-teate-on-becoming-a-data-scientist-221c5c860e0e)*
 
 ## *Renee Teate shared her career move into data science publicly through social media and her podcast, Becoming a Data Scientist. Now director of data science at HelioCampus, she offers more advice for advancing data science careers.*

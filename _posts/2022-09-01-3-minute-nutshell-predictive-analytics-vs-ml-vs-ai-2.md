@@ -3,8 +3,9 @@ title: "3-Minute Nutshell: Predictive Analytics vs. ML vs. AI"
 date: 2022-09-01
 excerpt: "Welcome to our 3-Minute Nutshell series, where we’ll answer FAQs about predictive analytics in just a few minutes of your time! Get up to speed on key ideas you need to know to start your business’s journey toward AI success. Catch up on our first…"
 original_url: "https://www.pecan.ai/blog/3-minute-nutshell-predictive-analytics-vs-ml-vs-ai/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/blog/3-minute-nutshell-predictive-analytics-vs-ml-vs-ai/](https://www.pecan.ai/blog/3-minute-nutshell-predictive-analytics-vs-ml-vs-ai/)*
 
 *Welcome to our 3-Minute Nutshell series, where we’ll answer FAQs about predictive analytics in just a few minutes of your time! Get up to speed on key ideas you need to know to start your business’s journey toward AI success. Catch up on our first post,* [What Is Predictive Analytics?](https://www.pecan.ai/blog/what-is-predictive-analytics/)*, if you missed it!*

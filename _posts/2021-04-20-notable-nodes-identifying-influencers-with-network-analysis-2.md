@@ -1,11 +1,11 @@
 ---
 title: "Notable Nodes: Identifying Influencers with Network Analysis"
 date: 2021-04-20
-excerpt: "My dog loves napping in his super-fuzzy dog bed. And I have to confess: I like to think I’m a rational consumer, but I bought him the bed because of cute photos and a discount code shared by a social media influencer.
-Identifying social media…"
+excerpt: "\"My dog loves napping in his super-fuzzy dog bed. And I have to confess: I like to think I’m a rational consumer, but I bought him the bed because of cute photos and a discount code shared by a social media influencer."
 original_url: "https://towardsdatascience.com/notable-nodes-identifying-influencers-with-network-analysis-2f51f1d8fec4"
+publication: "Towards Data Science"
+categories: [data-science]
 ---
-
 *Originally published at [https://towardsdatascience.com/notable-nodes-identifying-influencers-with-network-analysis-2f51f1d8fec4](https://towardsdatascience.com/notable-nodes-identifying-influencers-with-network-analysis-2f51f1d8fec4)*
 
 ![](https://miro.medium.com/fit/c/56/56/2*hZfc88aZ_kt98p5b_2REOw.jpeg)

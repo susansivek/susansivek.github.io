@@ -3,23 +3,20 @@ title: "Dealing with Data Leakage"
 date: 2021-09-30
 excerpt: "You’re studying for an upcoming exam. The exam is open-book, so you’re using your reference materials as you review, and you’re doing great. But when you show up on test day, suddenly you’re told the exam isn’t open-book anymore. It doesn’t go so…"
 original_url: "https://community.alteryx.com/t5/Data-Science/Dealing-with-Data-Leakage/ba-p/827583"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Dealing-with-Data-Leakage/ba-p/827583](https://community.alteryx.com/t5/Data-Science/Dealing-with-Data-Leakage/ba-p/827583)*
 
 You’re studying for an upcoming exam. The exam is open-book, so you’re using your reference materials as you review, and you’re doing great.
 
 But when you show up on test day, suddenly you’re told the exam isn’t open-book anymore. It doesn’t go so well.
 
-![SusanCS_0-1632773011857.gif](https://community.alteryx.com/t5/image/serverpage/image-id/204422i9ADFF19010070826/image-size/medium?v=v2&px=400)
-
 Image via GIPHY
 
 This sounds like an academic overachiever’s anxiety dream, but it’s similar to what’s happening when target leakage occurs in a machine learning model. Say you build a model that’s intended to predict a certain outcome, and you train it with information that helps the model make its prediction. That model may perform well ... perhaps *suspiciously* well. But if some of that information won’t be available to the model at the actual time it has to make its prediction, its real performance will be lower. That’s the result of target leakage — a data scientist’s anxiety dream!
 
 I recently heard one of our in-house Alteryx experts call target leakage the toughest problem in machine learning. But how does it happen, and how can you avoid this issue with your models? And how does it relate to “data leakage” more generally?
-
-![SusanCS_1-1632773011842.gif](https://community.alteryx.com/t5/image/serverpage/image-id/204421iC3240D468EBF1D49/image-size/medium?v=v2&px=400)
 
 Image via GIPHY
 
@@ -41,8 +38,6 @@ Even seemingly innocent details like file size or timestamps can unintentionally
 
 What results from data leakage is overfitting to your training data. Your model can be very good at predicting with that extra knowledge — excelling on the open-book exam — but not so good when that information isn’t provided at prediction time.
 
-![SusanCS_2-1632773010897.gif](https://community.alteryx.com/t5/image/serverpage/image-id/204420i16EA5B1575E95B88/image-size/medium?v=v2&px=400)
-
 Image via GIPHY
 
 ## **Train-Test Contamination**
@@ -59,8 +54,6 @@ Another issue can emerge if you’re using [k-fold cross-validation](https://com
 
 For example, you may end up using training data from person A to predict an outcome for test data from person A, if observations from person A end up included in both the training group and the test group. The model will seem to perform better on the test set — which again includes person A — because it already knows something about person A from the training set. But in production, it won’t have that advantage of prior exposure. For more elaboration on this issue (sometimes called “group leakage”), check out [this article](https://machinelearningmastery.com/k-fold-cross-validation/).
 
-![SusanCS_3-1632773011434.gif](https://community.alteryx.com/t5/image/serverpage/image-id/204424i894347EB8DB61CF8/image-size/medium?v=v2&px=400)
-
 Image via GIPHY
 
 ## **Repairing Data Leakage**
@@ -73,15 +66,11 @@ To try to stave off data leakage in the first place, you can do thorough [explor
 
 To avoid train-test contamination, be sure to split your data into training/test/holdout sets prior to applying any transformations such as normalization, then train the model on the training set. Follow up by applying the transformations to the test/holdout sets with the same parameters applied to the training set, then test your model’s performance.
 
-![SusanCS_4-1632773010314.gif](https://community.alteryx.com/t5/image/serverpage/image-id/204423iB1FF1132AFC2E50F/image-size/medium?v=v2&px=400)
-
 Image via GIPHY
 
 Additionally, be sure you fully understand all the features in your dataset. [This Kaggle example](https://www.kaggle.com/alexisbcook/data-leakage) shows how a feature named “expenditures” in a credit card application approval dataset could cause target leakage if used in a model to predict approved applications. “Expenditures” as a feature name could mean a lot of things, but in this case, it referred to how much credit card users spent on their cards. That feature implied that they were indeed approved for the cards and informed the model’s prediction of approvals inappropriately, since expenditure information would not be available at the time of prediction.
 
 Finally, checking your features’ relative importance and reviewing other interpretability tools could help you catch leakage. In the credit card application approval example above, “expenditures” might have looked like a really important feature in a prediction of credit card approvals. If in doubt, you can try removing a feature to see how your model’s performance changes, and then determine whether the model suddenly performs at a more realistic level.
-
-![SusanCS_5-1632773013209.gif](https://community.alteryx.com/t5/image/serverpage/image-id/204425i509948A9316A6DE4/image-size/medium?v=v2&px=400)
 
 Image via GIPHY
 
@@ -96,8 +85,6 @@ If using this lightly fictionalized dataset to create a model to predict the 201
 Even though I knew this could be an issue, I asked Assisted Modeling to walk me step-by-step through building a regression model for the “most recent sales price,” and handed it the whole dataset.
 
 At the feature selection step, sure enough, Assisted Modeling noticed that my “current asking price” variable was “too highly correlated” with my target variable, and it automatically eliminated that variable from inclusion in the models it built for me. Thanks for saving me from that target leakage, Assisted Modeling!
-
-![SusanCS_6-1632773009913.png](https://community.alteryx.com/t5/image/serverpage/image-id/204426iC3D84D1039597D86/image-size/large?v=v2&px=999)
 
 ## **Leakproofing Your Models**
 

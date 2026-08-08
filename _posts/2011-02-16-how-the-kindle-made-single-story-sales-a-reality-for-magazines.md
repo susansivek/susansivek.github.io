@@ -1,11 +1,11 @@
 ---
 title: "How the Kindle Made Single-Story Sales a Reality for Magazines"
 date: 2011-02-16
-excerpt: "Original photo by \"hectorir\":http://www.flickr.com/photos/hectoralejandro/3967217852/ on Flickr. Photo illustration by Susan Currie Sivek.
-I’ve never seen a “Not for Individual Sale” label on a magazine story. So why can’t I buy most individual…"
+excerpt: "\"Original photo by \\\"hectorir\\\":http://www.flickr.com/photos/hectoralejandro/3967217852/ on Flickr. Photo illustration by Susan Currie Sivek."
 original_url: "http://mediashift.org/2011/02/how-the-kindle-made-single-story-sales-a-reality-for-magazines-047/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2011/02/how-the-kindle-made-single-story-sales-a-reality-for-magazines-047/](http://mediashift.org/2011/02/how-the-kindle-made-single-story-sales-a-reality-for-magazines-047/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-8115fe05c0b496cb619c45e188845b7d-mags_puzzle%20final.jpg)

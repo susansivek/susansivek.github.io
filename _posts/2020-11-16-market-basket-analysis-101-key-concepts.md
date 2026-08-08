@@ -1,11 +1,11 @@
 ---
 title: "Market Basket Analysis 101: Key Concepts"
 date: 2020-11-16
-excerpt: "Find the patterns of customer or user behavior within your data. Market basket analysis can provide those new insights.
-I cook green bean casserole just once a year. Although it’s kind of a culinary travesty, we still make it with Thanksgiving dinner…"
+excerpt: "\"Find the patterns of customer or user behavior within your data. Market basket analysis can provide those new insights."
 original_url: "https://susansivek.medium.com/market-basket-analysis-101-key-concepts-1ddc6876cd00"
+publication: "Medium"
+categories: [data-science]
 ---
-
 *Originally published at [https://susansivek.medium.com/market-basket-analysis-101-key-concepts-1ddc6876cd00](https://susansivek.medium.com/market-basket-analysis-101-key-concepts-1ddc6876cd00)*
 
 ## Find the patterns of customer or user behavior within your data. Market basket analysis can provide those new insights.

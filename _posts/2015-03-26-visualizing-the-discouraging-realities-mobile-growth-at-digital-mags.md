@@ -1,11 +1,11 @@
 ---
 title: "Visualizing the Discouraging Realities, Mobile Growth at Digital Mags"
 date: 2015-03-26
-excerpt: "Photo remix with images by Open Clips (graph) and Michael Zimmerman (magazines), both via Pixabay and used under Creative Commons license.
-Every month, the Magazine Media 360° audience report lands in my email inbox. I’ve always wanted to dig deeper…"
+excerpt: "\"Photo remix with images by Open Clips (graph) and Michael Zimmerman (magazines), both via Pixabay and used under Creative Commons license."
 original_url: "http://mediashift.org/2015/03/visualizing-the-discouraging-realities-mobile-growth-at-digital-mags/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2015/03/visualizing-the-discouraging-realities-mobile-growth-at-digital-mags/](http://mediashift.org/2015/03/visualizing-the-discouraging-realities-mobile-growth-at-digital-mags/)*
 
 ![](https://i1.wp.com/mediashift.org/wp-content/uploads/2015/03/mag-data.png?w=515)

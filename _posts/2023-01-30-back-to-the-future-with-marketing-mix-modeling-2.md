@@ -3,8 +3,9 @@ title: "Back to the Future With Marketing Mix Modeling"
 date: 2023-01-30
 excerpt: "Was this quote from the 1989 film Back to the Future II actually about marketing mix modelingA statistical approach used to quantify the impact of various elements of a company’s marketing strategy on sales and other key performance indicators…"
 original_url: "https://www.pecan.ai/resource/future-marketing-mix-modeling/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/future-marketing-mix-modeling/](https://www.pecan.ai/resource/future-marketing-mix-modeling/)*
 
 ![Pecan's MMM solution reveals channel saturation and carryover effects, plus additional insights](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20383'%3E%3C/svg%3E)

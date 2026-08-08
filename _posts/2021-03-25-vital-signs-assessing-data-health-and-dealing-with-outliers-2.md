@@ -3,8 +3,9 @@ title: "Vital Signs: Assessing Data Health and Dealing with Outliers"
 date: 2021-03-25
 excerpt: "At the doctor’s office, you and the medical assistant go through a familiar routine before the doctor arrives. They’ll check your vital signs — pulse, blood pressure, respiration rate and more — and collect some general information. Those steps…"
 original_url: "https://community.alteryx.com/t5/Data-Science/Vital-Signs-Assessing-Data-Health-and-Dealing-with-Outliers/ba-p/738655"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Vital-Signs-Assessing-Data-Health-and-Dealing-with-Outliers/ba-p/738655](https://community.alteryx.com/t5/Data-Science/Vital-Signs-Assessing-Data-Health-and-Dealing-with-Outliers/ba-p/738655)*
 
 At the doctor’s office, you and the medical assistant go through a familiar routine before the doctor arrives. They’ll check your vital signs — pulse, blood pressure, respiration rate and more — and collect some general information. Those steps summarize some important aspects of your health, letting the doctor jump right into more complex analysis.
@@ -17,7 +18,7 @@ Let’s take a look at the best way to use these new diagnostic powers and how y
 
 The Data Health Tool gathers “vital signs” for your dataset that reveal whether it’s ready to yield robust, accurate insights, or if it would benefit from some special treatment first. Specifically, the tool offers a look at your dataset’s missing values, whether it has outliers, and its sparsity. (A dataset is “sparse” if it contains many zero values; for example, datasets used by many shopping recommender systems are sparse, as each individual shopper will not have purchased or even viewed many of the products on offer.) Data Health also checks that the number of unique values for each variable makes sense for its data type and the dataset’s size.
 
-![giphy](https://community.alteryx.com/t5/image/serverpage/image-id/177461iE6A190924EE06031/image-size/large?v=v2&px=999)
+![giphy](/assets/images/posts/vital-signs-assessing-data-health-and-dealing-with-outliers-2/large.bin)
 
 Image via GIPHY
 
@@ -31,13 +32,13 @@ Before using Data Health, it’s best to use the [Feature Types Tool](https://he
 
 In addition to all that other actionable information, it’s awesome to have a tool that quickly finds outliers that could pose challenges in analysis and modeling. The Data Health Tool uses a method established in [peer-reviewed research](https://www.sciencedirect.com/science/article/abs/pii/S0167947307004434#!) in 2008 ([read it here](https://wis.kuleuven.be/stat/robust/papers/2008/adjboxplot-revision.pdf)). It’s based on a data visualization method you’ve probably heard of: the [boxplot](https://vita.had.co.nz/papers/boxplots.pdf) or box-and-whisker plot.
 
-![Beispielboxplot.png](https://community.alteryx.com/t5/image/serverpage/image-id/177460i970EF1F15188D200/image-size/large?v=v2&px=999)
+![Beispielboxplot.png](/assets/images/posts/vital-signs-assessing-data-health-and-dealing-with-outliers-2/large.png)
 
 Image by Schlurcher, Wikimedia Commons
 
 Here’s [a refresher](https://www.simplypsychology.org/boxplots.html#:~:text=When%20reviewing%20a%20box%20plot,whiskers%20of%20the%20box%20plot.&text=For%20example%2C%20outside%201.5%20times,Q3%20%2B%201.5%20*%20IQR).) on reading these plots. We’re mainly interested here in the dots, which represent outliers. How can we know which data points should be defined as outliers and be shown as those lonely little dots? This identification gets trickier, too, when you have skewed data. Some methods for identifying outliers assume that you will have a nice, [normally distributed](https://www.statisticshowto.com/probability-and-statistics/normal-distributions/) dataset, but that may not be the case.
 
-![giphy-downsized](https://community.alteryx.com/t5/image/serverpage/image-id/177462i75BA2517EFD4D4C1/image-size/large?v=v2&px=999)
+![giphy-downsized](/assets/images/posts/vital-signs-assessing-data-health-and-dealing-with-outliers-2/large-03f9d0ce.bin)
 
 Image via GIPHY
 
@@ -45,7 +46,7 @@ Regardless of what your data’s distribution looks like, Data Health’s method
 
 Looking for outliers without an automated tool is a bit more complicated. Some options in Designer are discussed in [this thread](https://community.alteryx.com/t5/Alteryx-Designer-Discussions/Find-Outliers-from-the-data-of-previous-months/td-p/634265). You can try using Python and pandas as explained [here](https://stackoverflow.com/questions/23199796/detect-and-exclude-outliers-in-pandas-data-frame), calculating z-scores for the values in each column, then potentially eliminating rows that contain an outlier in one or more columns. Another Python option is to use the local outlier factor, [available in sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.LocalOutlierFactor.html). This approach, [demonstrated here](https://scikit-learn.org/stable/auto_examples/neighbors/plot_lof_outlier_detection.html#sphx-glr-auto-examples-neighbors-plot-lof-outlier-detection-py) and shown in the plot below, is based on *k*-nearest neighbors and determines whether a data point is an outlier based on its isolation relative to the neighborhood around it. Poor lonely outliers!
 
-![SusanCS_3-1616613932747.png](https://community.alteryx.com/t5/image/serverpage/image-id/177452iEECC2CAFD4BA018E/image-size/medium?v=v2&px=400)
+![SusanCS_3-1616613932747.png](/assets/images/posts/vital-signs-assessing-data-health-and-dealing-with-outliers-2/medium.png)
 
 Data points with the local outlier factor for each displayed by the diameter of the red circles. Plot from [scikit-learn example.](https://scikit-learn.org/stable/auto_examples/neighbors/plot_lof_outlier_detection.html#sphx-glr-auto-examples-neighbors-plot-lof-outlier-detection-py)
 
@@ -64,7 +65,7 @@ This examination will shape your next steps. Your options for handling your outl
 
 If you have lots of data, simply dropping outliers may be fine. This deletion is sometimes called “trimming” your data. Typically you’d drop the same percentage of the highest and lowest values from your data. Think of this as trimming off the tails of the bell curve of your data. However, you are pretty dramatically modifying your data, with all the questions that might raise, and you’ll want to have a good rationale for this approach.
 
-![SusanCS_4-1616613935727.png](https://community.alteryx.com/t5/image/serverpage/image-id/177454i957B5554581ABB49/image-size/medium?v=v2&px=400)
+![SusanCS_4-1616613935727.png](/assets/images/posts/vital-signs-assessing-data-health-and-dealing-with-outliers-2/medium-f9a7c598.png)
 
 Trimming outliers
 
@@ -73,7 +74,7 @@ Modifying your outliers is another strategy. Outliers can definitely affect mach
 * [Transformation](https://en.wikipedia.org/wiki/Data_transformation_(statistics)): log, square root, or inverse transformations are sometimes used in preprocessing to reduce the skewness of data (i.e., make it look like a more normal distribution) and to diminish the potential impact of outliers. The [LOG(x) function](https://help.alteryx.com/current/designer/math-functions) in Designer’s Formula Tool can help with a log transformation.
 * [Clipping, aka winsorization](https://en.wikipedia.org/wiki/Winsorizing#:~:text=Winsorizing%20or%20winsorization%20is%20the,Winsor%20(1895%E2%80%931951).): This method places a limit on the values a variable can have. For example, a 90% winsorization of the data would take the top 10% and bottom 10% of the values and replace them with the values at the 90th percentile and 10th percentile respectively. In contrast to trimming, you aren’t deleting the data points; you’re replacing the furthest-out values on both tails of the curve — the former outliers — with values closer to the rest of your data.
 
-![SusanCS_5-1616613935630.png](https://community.alteryx.com/t5/image/serverpage/image-id/177453i3A142647A6DB453A/image-size/medium?v=v2&px=400)
+![SusanCS_5-1616613935630.png](/assets/images/posts/vital-signs-assessing-data-health-and-dealing-with-outliers-2/medium-6e9e537f.png)
 
 Clipping or winsorization replaces outliers with more central values
 

@@ -1,11 +1,11 @@
 ---
 title: "New Book Gives Tips on Starting a Magazine in the Digital Age"
 date: 2014-03-03
-excerpt: "Starting a new magazine is no easy task in today’s competitive, complex media world, but a new book offers aspiring magazine entrepreneurs, students, and instructors a resource for the adventure.
-I recently interviewed Mary Hogarth, the author of the…"
+excerpt: "\"Starting a new magazine is no easy task in today’s competitive, complex media world, but a new book offers aspiring magazine entrepreneurs, students, and instructors a resource for the adventure."
 original_url: "http://mediashift.org/2014/03/new-book-gives-tips-on-starting-a-magazine-in-the-digital-age/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2014/03/new-book-gives-tips-on-starting-a-magazine-in-the-digital-age/](http://mediashift.org/2014/03/new-book-gives-tips-on-starting-a-magazine-in-the-digital-age/)*
 
 ![](https://i0.wp.com/mediashift.org/wp-content/uploads/2014/03/8417742500_d4ed2ccdda_h.jpg?w=1280)

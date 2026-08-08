@@ -3,8 +3,9 @@ title: "Don’t Delay—Use First-Party Data for Foresight Now"
 date: 2022-08-09
 excerpt: "It’s like a roller-coaster diet: Yes to cookies! No to cookies! OK, yes, cookies. With yet another change to Google’s timeline for phasing out third-party cookies, marketing teams have to wonder how to move forward. Plans for collecting and using…"
 original_url: "https://www.pecan.ai/resource/first-party-data-predictive/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/first-party-data-predictive/](https://www.pecan.ai/resource/first-party-data-predictive/)*
 
 It’s like a roller-coaster diet: Yes to cookies! No to cookies! OK, yes, cookies. With yet another change to Google’s timeline for phasing out third-party cookies, marketing teams have to wonder how to move forward. Plans for collecting and using first-party data may now seem less urgent — but in reality, the delay offers invaluable time for more thoughtful, impactful strategy.

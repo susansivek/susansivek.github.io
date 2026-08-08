@@ -2,11 +2,37 @@
 layout: default
 ---
 <article class="post">
-  <h1>{{ page.title }}</h1>
-  <div class="post-meta">
-    <span>{% if page.undated %}Date unknown{% else %}{{ page.date | date: "%B %-d, %Y" }}{% endif %}</span>
-    {% if page.original_url %}<a class="post-source" href="{{ page.original_url }}">View original &#8599;</a>{% endif %}
-  </div>
+  <header class="post-header">
+    <h1>{{ page.title }}</h1>
+    <div class="post-meta">
+      <span>{% if page.undated %}Date unknown{% else %}{{ page.date | date: "%B %-d, %Y" }}{% endif %}</span>
+      {% if page.publication %}<span class="post-meta-sep" aria-hidden="true">·</span><span>{{ page.publication }}</span>{% endif %}
+      {% if page.original_url %}<span class="post-meta-sep" aria-hidden="true">·</span><a class="post-source" href="{{ page.original_url }}" rel="noopener">View original &#8599;</a>{% endif %}
+    </div>
+    {% if page.categories and page.categories.size > 0 %}
+    <ul class="post-categories">
+      {% for cat in page.categories %}
+      <li>
+        {% if cat == "data-science" %}
+          <a href="{{ '/categories/data-science/' | relative_url }}">Data Science and Tech</a>
+        {% elsif cat == "features" %}
+          <a href="{{ '/categories/features/' | relative_url }}">Features</a>
+        {% elsif cat == "profiles" %}
+          <a href="{{ '/categories/profiles/' | relative_url }}">Profiles</a>
+        {% elsif cat == "academic" %}
+          <a href="{{ '/categories/academic/' | relative_url }}">Academic Life</a>
+        {% elsif cat == "media" %}
+          <a href="{{ '/categories/media/' | relative_url }}">Media Industry</a>
+        {% else %}
+          {{ cat }}
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </header>
 
-  {{ content }}
+  <div class="post-body">
+    {{ content }}
+  </div>
 </article>

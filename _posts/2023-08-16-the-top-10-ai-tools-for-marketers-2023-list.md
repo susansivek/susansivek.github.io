@@ -3,8 +3,9 @@ title: "The Top 10 AI Tools for Marketers (2023 List)"
 date: 2023-08-16
 excerpt: "In a nutshell: Companies are adopting AI capabilities in marketing to gain a competitive edge.AI tools in marketing offer time savings, audience insights, data-driven decision-making, revenue growth, and personalization.Today’s top AI marketing tools…"
 original_url: "https://www.pecan.ai/resource/the-top-10-ai-tools-for-marketers-2023-list/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/the-top-10-ai-tools-for-marketers-2023-list/](https://www.pecan.ai/resource/the-top-10-ai-tools-for-marketers-2023-list/)*
 
 In a nutshell:

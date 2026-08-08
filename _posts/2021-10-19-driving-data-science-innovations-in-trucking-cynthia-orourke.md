@@ -3,8 +3,9 @@ title: "Driving data science innovations in trucking | Cynthia O'Rourke"
 date: 2021-10-19
 excerpt: "Join us behind the scenes of the trucking industry to learn how data science keeps the supply chain moving.Join in on our Cocktail Conversation on the Alteryx Community or on social media with #DataScienceMixer!Want more from Alteryx? Follow @Alteryx…"
 original_url: "https://community.alteryx.com/t5/Data-Science-Mixer/Driving-data-science-innovations-in-trucking/ba-p/822637"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science-Mixer/Driving-data-science-innovations-in-trucking/ba-p/822637](https://community.alteryx.com/t5/Data-Science-Mixer/Driving-data-science-innovations-in-trucking/ba-p/822637)*
 
 Join us behind the scenes of the trucking industry to learn how data science keeps the supply chain moving.

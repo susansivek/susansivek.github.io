@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ho, Ho … Ow! Identifying Holiday Hazards with Topic Modeling — Susan Currie Sivek</title>
+  <meta name="description" content=""Let’s use data science to find out where danger lurks among the sparkly lights and shiny ornaments. One dangerous item is something you probably use year-ro...">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="site">
+    <header class="masthead">
+      <p class="masthead-brand">
+        <a href="/">Susan Currie Sivek</a>
+      </p>
+      <p class="masthead-tagline">
+        Data science writer, researcher, hiker, knitter. Former journalism professor. Curious about everything.
+        View <a href="https://www.linkedin.com/in/ssivek/">my LinkedIn profile</a>.
+      </p>
+      <nav class="site-nav" aria-label="Portfolio sections">
+  <ul>
+    <li>
+      <a href="/">All</a>
+    </li>
+    <li>
+      <a href="/favorites/">Favorites</a>
+    </li>
+    <li>
+      <a href="/categories/data-science/">Data Science and Tech</a>
+    </li>
+    <li>
+      <a href="/categories/features/">Features</a>
+    </li>
+    <li>
+      <a href="/categories/profiles/">Profiles</a>
+    </li>
+    <li>
+      <a href="/categories/academic/">Academic Life</a>
+    </li>
+    <li>
+      <a href="/categories/media/">Media Industry</a>
+    </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main class="content" id="main">
+      <article class="post">
+  <header class="post-header">
+    <h1>Ho, Ho … Ow! Identifying Holiday Hazards with Topic Modeling</h1>
+    <div class="post-meta">
+      <span>December 21, 2020</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><span>Medium</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><a class="post-source" href="https://susansivek.medium.com/ho-ho-ow-identifying-holiday-hazards-with-topic-modeling-e42026217795" rel="noopener">View original &#8599;</a>
+    </div>
+    
+    <ul class="post-categories">
+      
+      <li>
+        
+          <a href="/categories/data-science/">Data Science and Tech</a>
+        
+      </li>
+      
+    </ul>
+    
+  </header>
+
+  <div class="post-body">
+    <p><em>Originally published at <a href="https://susansivek.medium.com/ho-ho-ow-identifying-holiday-hazards-with-topic-modeling-e42026217795">https://susansivek.medium.com/ho-ho-ow-identifying-holiday-hazards-with-topic-modeling-e42026217795</a></em></p>
+
+<h2 id="lets-use-data-science-to-find-out-where-danger-lurks-among-the-sparkly-lights-and-shiny-ornaments-one-dangerous-item-is-something-you-probably-use-year-round">Let’s use data science to find out where danger lurks among the sparkly lights and shiny ornaments. One dangerous item is something you probably use year-round.</h2>
+
+<p><img src="https://miro.medium.com/max/10000/1*ZRUNexZsJYqqfS5JJLjYrA.jpeg?q=20000000" alt="" /></p>
+
+<p>Photo by <a href="https://unsplash.com/@chadmadden?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Chad Madden</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+
+<p>When I think of dangerous Christmas decorations, I always think of scenes like this one from “National Lampoon’s Christmas Vacation”:</p>
+
+<p>And yet the most dangerous part of holiday decorating doesn’t involve electricity.</p>
+
+<p>I downloaded and analyzed the U.S. Consumer Product Safety Commission’s latest 10 years of data on injuries involving Christmas-related products. Applying a bit of data science, we’ll find where danger might lurk among the sparkly lights and shiny ornaments. You might be surprised: One dangerous item is something you probably use year-round.</p>
+
+<h1 id="unwrapping-the-data">Unwrapping the Data</h1>
+
+<p>There are 3,917 injuries related to Christmas products in the dataset from the CPSC’s <a href="https://www.cpsc.gov/Research--Statistics/NEISS-Injury-Data">National Electronic Injury Surveillance System</a>. Covering the years 2010 to 2019, the data include the injured person’s gender, age, involved body part, diagnosis, location (e.g., home, school), whether they were admitted to a hospital or not, and a brief text narrative of the incident. Although I retrieved data only for injuries including Christmas products, other involved products or key features of the injuries are also included (e.g., the injury occurred on a porch).</p>
+
+<p>Here’s the first surprise: In about half of the injuries, non-electric Christmas decorations were a major culprit. People aren’t primarily getting shocked by their decorations; instead, they’re stepping on them, getting cut by them and even eating them (well, those are mostly very young folks, unfortunately!). Sometimes they just want to stay festive by attempting to permanently wear the ornaments: “13-month-old male has a Christmas jingle bell stuck on thumb.” (Don’t worry; it was successfully removed.)</p>
+
+<p><img src="https://miro.medium.com/max/10000/0*jBAhy9fC182h_Ma0?q=20000000" alt="" /></p>
+
+<p>Infographic by author</p>
+
+<p>Christmas tree light bulbs were also often chewed or ingested by little ones. Adults strained their backs, necks and other body parts while hanging their lights. Be sure to warm up and stretch before decorating, folks!</p>
+
+<p><img src="https://miro.medium.com/max/10000/0*lgFS2ZKA6u9MD21n?q=20000000" alt="" /></p>
+
+<p><em>Image via</em> <a href="https://giphy.com/gifs/filmeditor-will-ferrell-elf-xUySTUriHMB9TOipBS"><em>GIPHY</em></a></p>
+
+<p>But most frightening of all: the ladders. I converted the “disposition” variable, which showed whether an injured person was treated and released or admitted to the hospital, into a 0 or 1 “severity” score, respectively. Looking just at the primary product identified for each incident, I averaged those severity scores across all the incidents for each product to see how often various products were associated with trips to the hospital. An average closer to 1 indicates a greater proportion of more severe incidents.</p>
+
+<p><img src="https://miro.medium.com/max/10000/0*wvNCB9QKgzTDYTrV?q=20000000" alt="" /></p>
+
+<p>Image by author</p>
+
+<p>Although ladders weren’t the most frequently occurring product among these injuries, they stand out among the products for the relative frequency and severity of incidents. 😧</p>
+
+<h1 id="the-stories-behind-the-injuries">The Stories Behind the Injuries</h1>
+
+<p>Although <a href="https://community.alteryx.com/t5/Data-Science/Adventures-in-Data-Exploratory-Data-Analysis/ba-p/545267">exploratory data analysis</a> reveals some of the potential risks of different Christmas items, we also have in this dataset a potentially rich source of information about Christmas injuries: the text narratives about each incident. Reading almost 4,000 of them doesn’t sound like much fun, but what if Designer could handle that task for us?</p>
+
+<p>Fortunately, the <a href="https://community.alteryx.com/t5/Analytics/Unleashing-Advanced-Analytics-with-the-Alteryx-Intelligence/ba-p/574803">Intelligence Suite</a> is an ideal tool for this task! We can feed the narratives to the Text Pre-Processing, Topic Modeling and Word Cloud tools to gain insights into the stories behind the data.</p>
+
+<p>First, the topic modeling (check out <a href="https://community.alteryx.com/t5/Data-Science/Getting-to-the-Point-with-Topic-Modeling-Part-1-What-is-LDA/ba-p/611874">this blog post series</a> if you need a refresher!): I ran the narratives through pre-processing and into the Topic Modeling tool. I asked the model to look for three primary topics. The topics don’t come back neatly labeled, and sometimes it can be difficult to discern something coherent from the groupings of words provided to represent each topic. However, in this case, the topics seem readily apparent, as shown in the GIF below:</p>
+
+<p><img src="https://miro.medium.com/max/10000/0*1TdKQPf43dBL7R4N?q=20000000" alt="" /></p>
+
+<p>Image by author</p>
+
+<p>Topic 1 looks tree-decorating related, with “decoration,” “strain,” “putt” (the <a href="https://community.alteryx.com/t5/Data-Science/Text-Normalization-in-Alteryx/ba-p/611283">lemmatized</a> version of “putting,” not a golf reference!), and “lumbar” showing up. Topic 2 is more focused on ornament-related injuries and ingestion, with “foot,” “glass,” “swallow,” “foreign” (as in “foreign body”) and “piece” coinciding. (Anyone else cringing? Sorry!) Finally, Topic 3 is where ladders, lights and gravity coincide. “Fall,” “light,” “ladder” and “hang” are the top words here.</p>
+
+<p>The scores for each topic are added to each incident in the dataset; I used a formula to identify the highest scoring topic for each incident. We can check out which topics, or kinds of incidents, might potentially occur more often alongside other variables. For example, we can see if age might relate to varieties of injuries. I used the <a href="https://help.alteryx.com/current/designer/tile-tool">Tile</a> tool to quickly create age groups: up to age 5; 5 to 24; 25 to 54; and 55 and up. I made a <a href="https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Tool-Mastery-Contingency-Table/ta-p/356042">Contingency Table</a> showing the percentage of each age group’s injuries that best fit into each topic:</p>
+
+<p><img src="https://miro.medium.com/max/10000/0*SBuW5R1o-wGhySOE?q=20000000" alt="" /></p>
+
+<p>Image by author</p>
+
+<p>Christmas product injuries definitely shift as we age. We eventually learn not to try to eat ornaments, but physical strains and falls become more prevalent among older folks.</p>
+
+<p>And finally, this “festive” word cloud sums it all up: the text of all the narratives, minus a few obvious <a href="https://en.wikipedia.org/wiki/Stop_word">stop words</a> that were already self-evident from the theme, like “Christmas.”</p>
+
+<p><img src="https://miro.medium.com/max/10000/0*wwMa4WMauLMQZTrc?q=20000000" alt="" /></p>
+
+<p>Image by author</p>
+
+<h1 id="a-bonus-analytic-method">A Bonus Analytic Method</h1>
+
+<p>We could also use market basket analysis on this dataset in a somewhat atypical way. (Refresh your knowledge of this approach with our two-part <a href="https://community.alteryx.com/t5/Data-Science/Market-Basket-Analysis-101-An-Introduction/ba-p/661963">blog</a> <a href="https://community.alteryx.com/t5/Data-Science/Market-Basket-Analysis-102-Alteryx-Designer-Python/ba-p/662029">discussion</a>!) We could consider each of these injury reports like a “transaction,” and determine the most frequent co-occurrences of the involved products.</p>
+
+<p><img src="https://miro.medium.com/max/10000/0*rVucHRkLao9mk1dh?q=20000000" alt="" /></p>
+
+<p><em>Image via</em> <a href="https://giphy.com/gifs/hulu-blackish-l0MYN7mdvcZBBpEly"><em>GIPHY</em></a></p>
+
+<p>Using the market basket tools, we can identify the combination of injury products/features with the highest <a href="https://community.alteryx.com/t5/Data-Science/Market-Basket-Analysis-101-An-Introduction/ba-p/661963">lift</a>: balconies and electric Christmas decorations (other than lights). Yikes. Combinations of decorations with porches, shelves and fireplaces also earned high rankings among the product combinations, even above combinations including ladders. I’m sure you can imagine many possible scenarios.</p>
+
+<p>The moral of this data-driven holiday tale? Stay low to the ground, handle ornaments gently and beware of ladders! Don’t become part of next year’s dataset; have a fun and safe holiday season. 🎄</p>
+
+  </div>
+</article>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Susan Currie Sivek</p>
+      
+      <p><a href="mailto:susan.sivek@gmail.com">susan.sivek@gmail.com</a></p>
+      
+    </footer>
+  </div>
+</body>
+</html>

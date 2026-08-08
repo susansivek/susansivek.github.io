@@ -3,8 +3,9 @@ title: "Predicting the Effects of Holidays on Service with Data Science"
 date: 2021-11-22
 excerpt: "Classification models can help us understand factors related to service delays, evaluate the effects of holidays, and predict future delays based on important criteria. Susan Currie Sivek, Ph.D. 2 hours ago·7 min read While many of us happily feast…"
 original_url: "https://susansivek.medium.com/predicting-the-effects-of-holidays-on-service-with-data-science-5adf8bddb974"
+publication: "Medium"
+categories: [data-science]
 ---
-
 *Originally published at [https://susansivek.medium.com/predicting-the-effects-of-holidays-on-service-with-data-science-5adf8bddb974](https://susansivek.medium.com/predicting-the-effects-of-holidays-on-service-with-data-science-5adf8bddb974)*
 
 ## Classification models can help us understand factors related to service delays, evaluate the effects of holidays, and predict future delays based on important criteria.

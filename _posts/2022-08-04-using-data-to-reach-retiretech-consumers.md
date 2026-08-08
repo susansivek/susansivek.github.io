@@ -3,8 +3,9 @@ title: "Using Data to Reach Retiretech Consumers"
 date: 2022-08-04
 excerpt: "Learning about annuities from TikTok. Reallocating your retirement investments with help from a chatbot. Taking a YouTuber’s advice about Social Security. Today’s retirees probably didn’t use these methods in their retirement planning. But both…"
 original_url: "https://www.pecan.ai/resource/using-data-in-retiretech/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/using-data-in-retiretech/](https://www.pecan.ai/resource/using-data-in-retiretech/)*
 
 Learning about annuities from TikTok. Reallocating your retirement investments with help from a chatbot. Taking a YouTuber’s advice about Social Security.

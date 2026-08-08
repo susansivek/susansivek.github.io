@@ -3,8 +3,9 @@ title: "Metric Matters, Part 2: Evaluating Regression Models"
 date: 2021-03-02
 excerpt: "Welcome to part 2 of our discussion of metrics for evaluating your machine learning models! If you missed part 1 and would like a general intro to the meaning of “metrics,” plus a deep dive into the metrics often used for classification models, be…"
 original_url: "https://community.alteryx.com/t5/Data-Science/Metric-Matters-Part-2-Evaluating-Regression-Models/ba-p/722596"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Metric-Matters-Part-2-Evaluating-Regression-Models/ba-p/722596](https://community.alteryx.com/t5/Data-Science/Metric-Matters-Part-2-Evaluating-Regression-Models/ba-p/722596)*
 
 Welcome to part 2 of our discussion of metrics for evaluating your machine learning models! If you missed part 1 and would like a general intro to the meaning of “metrics,” plus a deep dive into the metrics often used for classification models, be sure to [check out that post](https://community.alteryx.com/t5/Data-Science/Metric-Matters-Part-1-Evaluating-Classification-Models/ba-p/719190).
@@ -14,8 +15,6 @@ In this post, we’ll refresh our knowledge of regression before reviewing some 
 ## **Regression, Residuals and Error**
 
 As mentioned in part 1, regression models use a different set of metrics from classification models because what you’re trying to predict is a numeric value, not one of a predetermined set of outcomes or classes. Instead of predicting something like “high” or “low,” you’re seeking to predict “1,390,000” or “15.” (Here’s a refresher on [linear regression](https://community.alteryx.com/t5/Data-Science/Simply-Powerful-Solving-Nonprofits-Data-Challenges-with-Linear/ba-p/565913) for the basics of that approach. [Random forest](https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Tool-Mastery-Forest-Model/ta-p/305724) and [decision tree](https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Tool-Mastery-Decision-Tree/ta-p/144452) models can also be used for regression, among other options.)
-
-![SusanCS_5-1614618200008.gif](https://community.alteryx.com/t5/image/serverpage/image-id/172714i3FCDBA4F84E4A3F0/image-size/medium?v=1.0&px=400)
 
 Image via GIPHY
 
@@ -28,8 +27,6 @@ For example, if we’re trying to predict houses’ selling prices, and we have 
 We have different options for summarizing a model’s error across all its predictions. That’s where things can get a little fuzzy, because there are a lot of different approaches. As in our discussion of classification metrics, you have to decide which strategy works best for your particular situation: your data, your preferred kind of prediction error, and your need for [explainability](https://community.alteryx.com/t5/Data-Science/Interpretability-Explainability-and-Machine-Learning/ba-p/630765).
 
 Let’s walk through the different options for metrics you can use in evaluating your regression model. (There are still more, but we’ll just look at the choices offered for the optional customization of the objective function in [the AutoML tool](https://community.alteryx.com/t5/Analytics/Power-to-the-Process-in-2021-1/ba-p/713080), as in part 1 of this post.)
-
-![SusanCS_6-1614618201811.gif](https://community.alteryx.com/t5/image/serverpage/image-id/172716i03AD40C4E5758C96/image-size/medium?v=1.0&px=400)
 
 Image via GIPHY
 
@@ -49,8 +46,6 @@ First we’ll check out some different ways of looking at your model’s blunder
 * This metric is calculated across all of your model’s predictions.
 * Using the absolute value here means positive and negative errors are treated the same way. It doesn’t matter for this metric if your model makes errors above or below the true values, but that may matter to you, so that’s something to consider about this metric.
 * The MAE is in the same units as your original outcome variable, which can make it easier to understand and explain to others. In other words, if you’re trying to predict a price in dollars, you can easily think about the MAE as showing how much the predictions deviate from reality in dollars.
-
-![SusanCS_7-1614618201407.gif](https://community.alteryx.com/t5/image/serverpage/image-id/172715i19A9FB4CB079CD1A/image-size/medium?v=1.0&px=400)
 
 Image via GIPHY
 
@@ -80,8 +75,6 @@ Image via GIPHY
 * This metric differs from MSE in that it will be in the same units as your original data, and so it may be more explainable. It also differs from the above error calculations because it doesn’t try to summarize all the errors across all the predictions in one value; instead, it represents the model’s *single* biggest error in prediction.
 * If you are concerned that your model’s biggest prediction error or “worst case” is below a certain threshold, this could be a useful metric to evaluate.
 
-![SusanCS_8-1614618199705.gif](https://community.alteryx.com/t5/image/serverpage/image-id/172717i3AA1C9438CF4728B/image-size/medium?v=1.0&px=400)
-
 Our last two metrics assess how well your model and its chosen set of predictors can account for the variation in the outcome variable’s values.
 
 ## **Coefficient of determination (R****2****)**
@@ -102,8 +95,6 @@ Our last two metrics assess how well your model and its chosen set of predictors
 
 * Here again, even though “explained” is in the metric’s name, this metric doesn’t say anything about an actual explanation for the outcome variable, in the sense of establishing a causal relationship.
 * This metric and R2 may be equivalent if your mean error is 0, which is true for ordinary least squares (OLS) linear regression. If your data aren’t linear, though, the values will differ. The linearity (or nonlinearity) of your data then may determine whether you want to use this metric instead of R2. Exploratory data analysis may help you here, too.
-
-![SusanCS_9-1614618198122.gif](https://community.alteryx.com/t5/image/serverpage/image-id/172718iE87E83647B8E4FDF/image-size/medium?v=1.0&px=400)
 
 Image via GIPHY
 

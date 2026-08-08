@@ -3,11 +3,12 @@ title: "Still More Data Science Myths Debunked by Experts"
 date: 2021-11-05
 excerpt: "Haven’t we debunked all the data science myths yet? The answer is no; the myths just keep on coming. On the Data Science Mixer podcast, I always ask our guests the same “Alternative Hypothesis” question: “What’s one thing that people think is true…"
 original_url: "https://www.alteryx.com/blog/still-more-data-science-myths-debunked-by-experts"
+publication: "Alteryx"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.alteryx.com/blog/still-more-data-science-myths-debunked-by-experts](https://www.alteryx.com/blog/still-more-data-science-myths-debunked-by-experts)*
 
-![](https://www.alteryx.com/wp-content/uploads/2022/08/ayx-blue-pattern.jpg)
+![](/assets/images/posts/still-more-data-science-myths-debunked-by-experts/ayx-blue-pattern.jpg)
 
 ## Haven’t we debunked all the data science myths yet?
 

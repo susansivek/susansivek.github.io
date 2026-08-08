@@ -3,8 +3,9 @@ title: "What is MMM?"
 date: 2023-03-02
 excerpt: "In a nutshell: What is MMM? Marketing mix modeling (MMM) is a statistical analysis technique that helps marketers analyze the effectiveness of different marketing tactics and their impact on sales. MMM considers factors like product pricing,…"
 original_url: "https://www.pecan.ai/blog/what-is-mmm-marketing-mix/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/blog/what-is-mmm-marketing-mix/](https://www.pecan.ai/blog/what-is-mmm-marketing-mix/)*
 
 **In a nutshell:**

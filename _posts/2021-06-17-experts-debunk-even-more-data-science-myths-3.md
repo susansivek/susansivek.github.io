@@ -1,11 +1,11 @@
 ---
 title: "Experts Debunk (Even More!) Data Science Myths"
 date: 2021-06-17
-excerpt: "Is machine learning the actual focus of data scientists’ everyday work? Do you need to learn all the things to be a data scientist? And, most importantly: Do data scientists have a sense of humor?
-On the Data Science Mixer podcast, I always ask our…"
+excerpt: "\"Is machine learning the actual focus of data scientists’ everyday work? Do you need to learn all the things to be a data scientist? And, most importantly: Do data scientists have a sense of humor?"
 original_url: "https://www.alteryx.com/input/experts-debunk-even-more-data-science-myths"
+publication: "Alteryx"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.alteryx.com/input/experts-debunk-even-more-data-science-myths](https://www.alteryx.com/input/experts-debunk-even-more-data-science-myths)*
 
 Is machine learning the actual focus of data scientists’ everyday work? Do you need to learn all the things to be a data scientist? And, most importantly: Do data scientists have a sense of humor?

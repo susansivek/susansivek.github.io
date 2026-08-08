@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fighting Disease with Data: Q&A with Epidemiologist Amrish Baidjoe — Susan Currie Sivek</title>
+  <meta name="description" content="Data science tools are powerful for investigating the current pandemic and other outbreaks, when accurate and actionable data are crucial. But they become ev...">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="site">
+    <header class="masthead">
+      <p class="masthead-brand">
+        <a href="/">Susan Currie Sivek</a>
+      </p>
+      <p class="masthead-tagline">
+        Data science writer, researcher, hiker, knitter. Former journalism professor. Curious about everything.
+        View <a href="https://www.linkedin.com/in/ssivek/">my LinkedIn profile</a>.
+      </p>
+      <nav class="site-nav" aria-label="Portfolio sections">
+  <ul>
+    <li>
+      <a href="/">All</a>
+    </li>
+    <li>
+      <a href="/favorites/">Favorites</a>
+    </li>
+    <li>
+      <a href="/categories/data-science/">Data Science and Tech</a>
+    </li>
+    <li>
+      <a href="/categories/features/">Features</a>
+    </li>
+    <li>
+      <a href="/categories/profiles/">Profiles</a>
+    </li>
+    <li>
+      <a href="/categories/academic/">Academic Life</a>
+    </li>
+    <li>
+      <a href="/categories/media/">Media Industry</a>
+    </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main class="content" id="main">
+      <article class="post">
+  <header class="post-header">
+    <h1>Fighting Disease with Data: Q&A with Epidemiologist Amrish Baidjoe</h1>
+    <div class="post-meta">
+      <span>June 1, 2020</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><span>KDnuggets</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><a class="post-source" href="https://www.kdnuggets.com/2020/06/fighting-disease-data-qa-epidemiologist.html" rel="noopener">View original &#8599;</a>
+    </div>
+    
+    <ul class="post-categories">
+      
+      <li>
+        
+          <a href="/categories/data-science/">Data Science and Tech</a>
+        
+      </li>
+      
+      <li>
+        
+          <a href="/categories/profiles/">Profiles</a>
+        
+      </li>
+      
+    </ul>
+    
+  </header>
+
+  <div class="post-body">
+    <p><em>Originally published at <a href="https://www.kdnuggets.com/2020/06/fighting-disease-data-qa-epidemiologist.html">https://www.kdnuggets.com/2020/06/fighting-disease-data-qa-epidemiologist.html</a></em></p>
+
+<p>Data science tools are powerful for investigating the current pandemic and other outbreaks, when accurate and actionable data are crucial. But they become even more powerful combined with complementary, varied domain expertise and tools for automation.</p>
+
+<p>As I researched data science topics related to the COVID-19 pandemic, I ran across the article <a href="https://royalsocietypublishing.org/doi/full/10.1098/rstb.2018.0276?url_ver=Z39.88-2003&amp;rfr_id=ori%3Arid%3Acrossref.org&amp;rfr_dat=cr_pub%3Dpubmed&amp;">“Outbreak Analytics: A Developing Data Science for Informing the Response to Emerging Pathogens”</a>. I was fascinated by the article’s approach to using data analytics to cope with disease outbreaks. I reached out to one of its authors, <a href="https://twitter.com/Ammer_B">Amrish Baidjoe</a>, honorary assistant professor at the London School of Hygiene and Tropical Medicine and president of the European Alumni Association for Field Epidemiology. Baidjoe also was vice-president of the <a href="https://www.repidemicsconsortium.org/">R Epidemics Consortium</a> (RECON), a group that developed R tools and training for use in epidemics.</p>
+
+<p>Here’s some of my conversation with Baidjoe about the strengths and challenges of fighting diseases with data.</p>
+
+<p><img src="/assets/images/posts/fighting-disease-with-data-q-a-with-epidemiologist-amrish-baidjoe/medium.svg" alt="Figure" /></p>
+
+<h3 id="your-co-authored-article-breaks-down-the-outbreak-analytics-process-all-the-way-from-data-collection-in-the-field-to-policy-makers-sitting-in-a-conference-room-how-would-you-define-outbreak-analytics"><strong>Your co-authored article breaks down the “outbreak analytics” process, all the way from data collection in the field to policy makers sitting in a conference room. How would you define outbreak analytics?</strong></h3>
+
+<p>Outbreak analytics could be defined as the types of data analytics that you do not just during outbreaks of infectious disease, but also as the analytics of humanitarian health emergencies. It encompasses the data you need to inform decision-making and policy, in terms of estimating how disease trends are developing and how they will develop, assessing efficacy of interventions that you’re deploying, or even doing more comprehensive analysis, like identifying risk groups in the population.</p>
+
+<p>Most of the analysis is in support of the field epidemiology, which focuses very much on the operational response, in terms of collecting data, analyzing data, and then using the data to inform action, which includes advocacy. It takes time for data to be centrally collected and especially for more complex analyses – for example, forecasting or modeling. Data often has to be sent to specialized centers in the northern part of the world, and after analysis the data has to be sent back. This adds many delays, moving from data gathering to using meaningful results from analyses. The field of modern outbreak analytics mostly looks at how you can perform real-time analytics, and how you can perform it locally.</p>
+
+<h3 id="what-does-your-data-analysis-process-look-like-are-parts-of-that-process-becoming-easier-to-deal-with-as-new-tools-become-available"><strong>What does your data analysis process look like? Are parts of that process becoming easier to deal with as new tools become available?</strong></h3>
+
+<p>Absolutely. Data from the field is often very messy, not because of ill intent but because of the tremendous pressure many people work under. Data collection is incredibly important because data you can’t make sense of, due to typos or whatever, is basically lost data.</p>
+
+<p>Imagine this: During an Ebola outbreak, you’d get maybe five or maybe 100 different Excel sheets daily from different health facilities, which you have to merge into a coherent database. Merging them only works when there is consistency among datasets. The use of spaces or special characters – for example, in variable names – makes it less straightforward to merge such data and will cost a lot of time.</p>
+
+<p>Once you have managed to merge these data sets, you ideally end up with a very long <a href="https://outbreaktools.ca/background/line-lists/">line list</a> of data, one case or individual per row. You need to start analyzing. But then you discover that in the variable ‘age,’ someone is 167 years old. Sometimes people write down male as a 1 and a zero for female, and there’s no data dictionary attached to the datasets you received. Statistical packages just don’t know how to deal with that. These are just a few of the practical examples of first shaping the data in a way that it can be analyzed. This can sometimes take up 90% of your time. Now imagine having to do this on a daily basis; how much time do you then actually have to do your real job, to use the data for action.</p>
+
+<p>Now, if you can automate this type of process, imagine the amount of time that you would win back with it, time that you can actually spend on doing your job. Maybe you’re working as an epidemiologist in the field, and there’s a big outbreak of Ebola ongoing. On a day-to-day basis, you need to produce reports. The format of the reports doesn’t change much. But the figures and the tables might change depending on changing trends, right? A few cases more there, less cases there. Normally, this would be a manual procedure. But you can fully automate this process, which means you win a lot of time you can now spend on data interpretation. How should we interpret the observed trends, and what type of action should be connected to that?</p>
+
+<blockquote>
+  <p>If you can <strong>automate</strong> this type of process, imagine the amount of time that you would <strong>win</strong> back with it. … You can fully automate this process, which means you win a lot of time you can now spend on data <strong>interpretation</strong>.</p>
+</blockquote>
+
+<h3 id="what-about-the-next-step-after-data-cleaning--the-modeling-and-forecasting-its-a-challenge-to-accommodate-the-nuances-of-the-real-world-in-disease-modeling-im-curious-about-your-perspective"><strong>What about the next step after data cleaning – the modeling and forecasting? It’s a challenge to accommodate the nuances of the real world in disease modeling. I’m curious about your perspective.</strong></h3>
+
+<p>The reliance on modeling might sometimes be a little bit too much, but there is a stronger collaboration between mathematicians, classical epidemiologists and field epidemiologists these days. At one point, you say, “Well, it’s amazing,” because you don’t understand it, and you produce nice graphs, and it tells you something about the future. And who doesn’t want to know what’s going to happen in the future?</p>
+
+<p>We’re not very good at communicating uncertainty. Good modelers always mention the caveats, but you find them downstairs in the report. And I always think they should be on top, in red, in capitals. That’s where you outline all the assumptions you have made and all the uncertainties around the model and data you used.</p>
+
+<p>Modeling is also very much being in touch with public health professionals, and having your ear to the ground verifying that the assumptions are correct. What are the parameters of transmission? How fast is the disease spreading? How many people are asymptomatic – how many infections are we not seeing, and what is their role in transmission? These are all estimates that you can derive from data, but especially at the onset of an outbreak with a novel pathogen as we have now with COVID-19, these are all question marks, or at least parameters with a lot of uncertainty.</p>
+
+<p>When operational people and modelers work closer together, you are more likely to gain better estimates of many of these parameters. Operational people will be able to say to modelers, “Well, I see what your model says, but I don’t think that that is happening in the field, because your model estimates, in this region, a really steep increase in cases. And that was inflated because one event happened here and there, and that boosted the numbers. It’s not the true trend for the whole country.” You need to have a healthy dialogue with all these different roles.</p>
+
+<p>That’s why we had different people in the R Epidemics Consortium: the operational people, the field people, the people who are advanced in methodology, the programmers, and the more policy-oriented people. That’s incredibly important. That’s a healthy mixture of the different disciplines that you draw together.</p>
+
+<p>Unfortunately, I don’t think we have done very well in this pandemic yet with regard to interdisciplinary work. Most of us epidemiology folks are very much into health indicators, but we also always have social scientists and anthropologists around the table for their feedback into whether what we’re seeing in the trend is explainable, not just medically plausible – the things that we see in behavior, things that you hear and feel. That’s incredibly important, especially during this outbreak, where due to lack of vaccines and treatments, all the interventions we have are aimed at behavior. The multidisciplinary nature of all of this work has been our best output. I don’t think it has been solidly adopted more widely in the current response, but then again, change is slow.</p>
+
+<blockquote>
+  <p>That’s why we had <strong>different people</strong> in the R Epidemics Consortium: the operational people, the field people, the people who are advanced in methodology, the programmers, and the more policy-oriented people. That’s incredibly important. That’s a <strong>healthy mixture</strong> of the different disciplines that you draw together.</p>
+</blockquote>
+
+<h3 id="which-aspects-of-data-science-do-you-think-are-going-to-be-particularly-important-for-outbreak-analytics-now-or-in-the-future"><strong>Which aspects of data science do you think are going to be particularly important for outbreak analytics, now or in the future?</strong></h3>
+
+<p>When it comes to the utility I see in these types of tools, what’s really important is reproducibility and transparency on how the analysis was performed. The open-source nature allows for a lot of people to develop all kinds of analytical packages. So they’re much more powerful beyond the traditional analytical packages. For example, with the inclusion of geospatial data, you can use R to make maps. With more software having open APIs, you can more easily connect to other data sources. There is an increase in data that has been made publicly: for example, on <a href="https://data.humdata.org/">Humanitarian Data Exchange</a>, or data that has been crowdsourced in projects such as the <a href="https://www.hotosm.org/">Humanitarian OpenStreetMap project</a>, which provides important GIS data and population estimates for analyses. There is also <a href="https://healthsites.io/">healthsites</a>, which provides data on locations of health facilities and their capabilities.</p>
+
+<p>There’s also a lot of hype, and I think that’s important to address. When I hear people talking about AI or blockchain and its utility in the humanitarian sector – I mean, I am all about innovation, but we need to be realistic in terms of what is usable in the humanitarian setting and how slow transitions are. Technologies haven’t been truly developed; the user case hasn’t been fully defined, nor how this technology is actually going to help us when there are still major worries about quality of data and how we even collect data. At times we focus a little too much energy on the hype and not so much on the solutions that we should be providing. Many of the needed solutions are relatively simple evolutions of existing practices.</p>
+
+<p>To directly improve the quality and speed of data analyses in field situations, a project titled <a href="https://r4epis.netlify.com/">R4Epis</a> and funded by Médecins Sans Frontières/Doctors Without Borders involved the MSF epidemiologists and different experts within the R Epidemics Consortium.</p>
+
+<p><img src="/assets/images/posts/fighting-disease-with-data-q-a-with-epidemiologist-amrish-baidjoe/large-b448267d.svg" alt="Figure" /></p>
+
+<p>This project, <a href="https://blogs.msf.org/bloggers/r4epis-team/r4epis-hackathon">R4Epis</a>, brought together many amazing people across relevant disciplines and focused on the needs for humanitarian organizations in the field, and what can technical people – in terms of data scientists and R programmers and applied epidemiologists – provide in terms of epidemiological methodologies. By fusing these different disciplines, you keep everybody close to the reality check. You let technical people explain what is possible in terms of technology. You let the operational people tell you, “Well, great. But this will work, or this will not work.” And this is how you evolve it into something that is useful. That takes a lot of time and effort but is the most collaborative way of working towards usable solutions.</p>
+
+<h3 id="you-also-mention-in-your-article-the-challenge-of-getting-certain-kinds-of-geographic-and-background-data-to-inform-your-analysis-what-are-the-issues-in-finding-and-using-those-kinds-of-data"><strong>You also mention in your article the challenge of getting certain kinds of geographic and background data to inform your analysis. What are the issues in finding and using those kinds of data?</strong></h3>
+
+<p>When you work in a health emergency, you want to initially look at, what are the disease transmission variables? How many cases in the hospital? How bad is the disease? How well are my interventions working? Often there is a dedicated health surveillance team that gathers that type of data, and ideally all organisations working in an area share their data.</p>
+
+<p>But then it comes to adding a layer of data – for example, geographical data. Where are the roads? How are the buildings looking? Where are the households? This type of data is available on different platforms like Humanitarian OpenStreetMap. All this data has been collected by a lot of hard work and then been made publicly available for use, and it can actually strengthen your analysis and estimates. It’s the same for climatological factors, which basically is remote-sensing imagery. This data is available – in some parts of the world, it’s available in excess. But for a lot of it, you have to pay for expensive licenses.</p>
+
+<p>Other incredibly important “background” data is what we call denominator data. So you want to compare how many cases are in this region and that region over time. But the only fair way of comparing that is by knowing what the exact population is in the different areas, right? The characteristics of population and age – these often come from central bureaus of statistics. Some countries have those, some countries don’t, or data might be outdated.</p>
+
+<h3 id="what-are-some-of-the-privacy-and-confidentiality-issues-that-come-up-with-collecting-data-on-patients-especially-in-areas-where-data-security-might-not-be-as-developed"><strong>What are some of the privacy and confidentiality issues that come up with collecting data on patients, especially in areas where data security might not be as developed?</strong></h3>
+
+<p>This is a complicated matter because often, not just in epidemics but in humanitarian health emergencies, in some areas there can be stigma. Maybe the law doesn’t take into account data privacy. But there might be implications for names coming out, or even prosecution. You never know how data will be mined or used in the future.</p>
+
+<p>Traditionally, a lot of people think if you have removed your first name, your last name, and GPS coordinates, basically, you’ve anonymized the data. But especially nowadays, with the use of metadata, you could still identify people based on their proximity to each other, or by comparing different data indicators or metadata from person to person.</p>
+
+<p>So one of the things that the <a href="https://www.repidemicsconsortium.org/">RECON packages</a> provide is automation of anonymizing data. Linking the data back to the individual has been made impossible. Again, this is quite a complicated exercise, especially if you’re somewhere in the field that is focusing on operations and not so much on the technological solutions to these questions.</p>
+
+<blockquote>
+  <p><strong>Data literacy</strong> is really important – not necessarily being 100% versatile in coding yourself, but the understanding of <strong>what data can and cannot tell you.</strong> … Having an upcoming generation that is more literate when it comes to data and methodology means that it will be more able to see what is <strong>sense</strong> and what is <strong>nonsense.</strong></p>
+</blockquote>
+
+<h3 id="many-people-who-work-professionally-with-data-or-who-are-developing-data-skills-have-been-interested-in-contributing-to-the-effort-to-analyze-pandemic-data-how-would-you-suggest-they-can-contribute-to-data-analysis-or-support-others-data-literacy-in-the-context-of-outbreak-analytics"><strong>Many people who work professionally with data or who are developing data skills have been interested in contributing to the effort to analyze pandemic data. How would you suggest they can contribute to data analysis or support others’ data literacy in the context of outbreak analytics?</strong></h3>
+
+<p>Data literacy is really important – not necessarily being 100% versatile in coding yourself, but the understanding of what data can and cannot tell you. Hobby modelers have written all these pieces around what is happening with the trends, and some are creating more noise than actually making factual contributions. And, to be honest, academics have also contributed to this.</p>
+
+<p>Having an upcoming generation that is more literate when it comes to data and methodology means that it will be more able to see what is sense and what is nonsense. And [data literacy] is incredibly important especially if you want to help inform policy makers or have the ambition to become a policy maker yourself.</p>
+
+<p>If you want to contribute, you should always start doing things. But you should carefully look at what’s out there already. If we can get all this expertise and, more importantly, all these motivated people together, we can actually utilize our strengths to make something better.</p>
+
+<p><em>This interview has been edited for length and clarity.</em></p>
+
+<p><strong>Bio: <a href="https://www.linkedin.com/in/ssivek/">Susan Currie Sivek, Ph.D.</a></strong>, is a writer and data geek who enjoys figuring out how to explain complicated ideas in everyday language, sometimes in silly ways. She appreciates good food, science fiction, and dogs.</p>
+
+<p><a href="https://community.alteryx.com/t5/Data-Science-Blog/Fighting-Disease-with-Data-Q-amp-A-with-Epidemiologist-Amrish/ba-p/577203">Original</a>. Reposted with permission.</p>
+
+  </div>
+</article>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Susan Currie Sivek</p>
+      
+      <p><a href="mailto:susan.sivek@gmail.com">susan.sivek@gmail.com</a></p>
+      
+    </footer>
+  </div>
+</body>
+</html>

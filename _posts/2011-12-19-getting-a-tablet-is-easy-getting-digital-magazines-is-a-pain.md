@@ -3,8 +3,9 @@ title: "Getting a Tablet Is Easy; Getting Digital Magazines Is a Pain"
 date: 2011-12-19
 excerpt: "Buying that new iPad, Kindle or Nook for Christmas is just the first step to becoming a digital magazine reader. While shopping for books and movies is a fairly straightforward process, getting your favorite magazines onto your new e-reading device…"
 original_url: "http://mediashift.org/2011/12/getting-a-tablet-is-easy-getting-digital-magazines-is-a-pain353/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2011/12/getting-a-tablet-is-easy-getting-digital-magazines-is-a-pain353/](http://mediashift.org/2011/12/getting-a-tablet-is-easy-getting-digital-magazines-is-a-pain353/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-97aabf9ea8c1bce1c614cac433ab4192-ipad-kindle-labels.jpg)

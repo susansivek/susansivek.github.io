@@ -1,11 +1,11 @@
 ---
 title: "Data Visualization and Accessibility: Three Recommended Reads and Top Tips"
 date: 2020-06-23
-excerpt: "You could make a data visualization that you think is the most beautiful thing ever -- but it could be mostly useless for many viewers.
-This week’s Alter Everything podcast episode features a fascinating discussion of accessibility and universal…"
+excerpt: "\"You could make a data visualization that you think is the most beautiful thing ever -- but it could be mostly useless for many viewers."
 original_url: "https://community.alteryx.com/t5/Data-Science/Data-Visualization-and-Accessibility-Three-Recommended-Reads-and/ba-p/592374"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Data-Visualization-and-Accessibility-Three-Recommended-Reads-and/ba-p/592374](https://community.alteryx.com/t5/Data-Science/Data-Visualization-and-Accessibility-Three-Recommended-Reads-and/ba-p/592374)*
 
 You could make a data visualization that you think is the most beautiful thing ever -- but it could be mostly useless for many viewers.
@@ -24,7 +24,7 @@ To learn more about this important issue, I sought out some resources from exper
 
 For example, in the chart below, I’ve added region labels to the pieces of the pie chart and hidden the legend, as it becomes redundant. Now the region information is immediately available instead of asking the viewer to look back and forth to see what the colors mean. Even if someone can’t perceive the chart, they can still obtain the numerical information.
 
-![SusanCS_0-1592846655980.png](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/119499i503B0FA4700F7232/image-size/medium?v=1.0&px=400)
+![SusanCS_0-1592846655980.png](/assets/images/posts/data-visualization-and-accessibility-three-recommended-reads-and-top-t-2/medium.jpeg)
 
 **Recommended read 2:** [“Accessible Data Viz is Better Data Viz,”](http://www.storytellingwithdata.com/blog/2018/6/26/accessible-data-viz-is-better-data-viz) by Cole Nussbaumer Knaflic, founder and CEO of Storytelling with Data
 
@@ -33,9 +33,6 @@ For example, in the chart below, I’ve added region labels to the pieces of the
 **Use it:** White space isn’t wasted space if it helps your viewer gain value from your visualization! One way you can do this in Designer is to add more white space to a bar chart that might become more readable with a little more empty area inside it.
 
 The default is that each bar will be at 80% of its potential width; increasing that number to 100% pushes the bars right up against each other, with zero gap between them. Decreasing the bar width could make some charts a bit more readable. The chart below has bars set at 65% width.
-
-![bar.png](https://community.alteryx.com/t5/image/serverpage/image-id/119508i80DBA91601C9081F/image-size/large?v=1.0&px=999)
-![SusanCS_2-1592846656049.png](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/119498i5C8968072C02146C/image-size/medium?v=1.0&px=400)
 
 This chart also uses a subtitle that summarizes its creator’s main takeaway message, which helps people quickly gain key information from the visualization.
 
@@ -50,8 +47,6 @@ It’s always tempting to pack a few more details into your visualization or rep
 But even though those meanings seem useful to apply to our data visualizations, we might inadvertently prevent some people from experiencing the visualization. We have to use caution in our color choices to make sure they are clearly visible to people with the various forms of color blindness. More importantly, be sure that color alone isn’t the only way you are communicating meaning in your data visualization.
 
 If you’ve opted for your own custom palette or your company colors instead of the provided palettes, you can check your finished graphics’ ease of interpretation using an online simulator like [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/).
-
-![chart colorblindness comparison.png](https://community.alteryx.com/t5/image/serverpage/image-id/119515iE815302252A60A3F/image-size/large?v=1.0&px=999)
 
 Three views of the same chart shown in the section above, simulated for different types of colorblindness by Coblis.
 

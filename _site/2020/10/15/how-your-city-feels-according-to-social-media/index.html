@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How Your City Feels, According to Social Media — Susan Currie Sivek</title>
+  <meta name="description" content=""What’s the mood in your town right now? What’s the public’s attitude toward a local or state agency? Are people happy with the services they’re getting? Wha...">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="site">
+    <header class="masthead">
+      <p class="masthead-brand">
+        <a href="/">Susan Currie Sivek</a>
+      </p>
+      <p class="masthead-tagline">
+        Data science writer, researcher, hiker, knitter. Former journalism professor. Curious about everything.
+        View <a href="https://www.linkedin.com/in/ssivek/">my LinkedIn profile</a>.
+      </p>
+      <nav class="site-nav" aria-label="Portfolio sections">
+  <ul>
+    <li>
+      <a href="/">All</a>
+    </li>
+    <li>
+      <a href="/favorites/">Favorites</a>
+    </li>
+    <li>
+      <a href="/categories/data-science/">Data Science and Tech</a>
+    </li>
+    <li>
+      <a href="/categories/features/">Features</a>
+    </li>
+    <li>
+      <a href="/categories/profiles/">Profiles</a>
+    </li>
+    <li>
+      <a href="/categories/academic/">Academic Life</a>
+    </li>
+    <li>
+      <a href="/categories/media/">Media Industry</a>
+    </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main class="content" id="main">
+      <article class="post">
+  <header class="post-header">
+    <h1>How Your City Feels, According to Social Media</h1>
+    <div class="post-meta">
+      <span>October 15, 2020</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><span>Alteryx Community</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><a class="post-source" href="https://community.alteryx.com/t5/Data-Science/How-Your-City-Feels-According-to-Social-Media/ba-p/649518" rel="noopener">View original &#8599;</a>
+    </div>
+    
+    <ul class="post-categories">
+      
+      <li>
+        
+          <a href="/categories/data-science/">Data Science and Tech</a>
+        
+      </li>
+      
+    </ul>
+    
+  </header>
+
+  <div class="post-body">
+    <p><em>Originally published at <a href="https://community.alteryx.com/t5/Data-Science/How-Your-City-Feels-According-to-Social-Media/ba-p/649518">https://community.alteryx.com/t5/Data-Science/How-Your-City-Feels-According-to-Social-Media/ba-p/649518</a></em></p>
+
+<p>What’s the mood in your town right now? What’s the public’s attitude toward a local or state agency? Are people happy with the services they’re getting? What other needs do they have?</p>
+
+<p>We’ve all got our own sense of what’s going on in public opinion, but social media are a rich source of data to challenge our intuition. While national politics might seem to dominate online discussions, issues closer to home also appear in people’s daily status updates. They’re full of insights into how people are feeling about local or regional affairs.</p>
+
+<p>Various social media management platforms offer their own varieties of analytics. But they don’t necessarily show you all the original data and let you dig into its nuances just how you want. Naturally, we’ve got a way to make this process easier with Designer, using tools you already know and love! Read all about it, and be sure to check out the video walkthrough and ready-to-use workflow at the bottom of this post, too.</p>
+
+<p>Twitter in particular offers an easy route to downloading public posts through its API and keywords you choose. Keywords can be general, like the name of your town or state, or they can include usernames of interest, like the official accounts of agencies or services. You can dissect the relevant tweets every which way to see what themes emerge and where action may be needed. (And you can tailor this approach to your own interests; use any keywords you’re curious about in this analysis!)</p>
+
+<p>Let’s look at one way to retrieve tweets and crunch through some of their significant features with Designer. (Want a different strategy? Here’s <a href="https://community.alteryx.com/t5/Engine-Works/GET-Trends-an-Example-of-Working-With-the-Twitter-API/ba-p/458971#">another post</a> by ACE <a href="https://community.alteryx.com/t5/user/viewprofilepage/user-id/5143">@BenMoss</a> that talks about more ways to gather tweets!)</p>
+
+<p>To use this approach, you’ll need Twitter developer credentials. <a href="https://developer.twitter.com/en/apply-for-access">Apply here</a> to get access. Once you have them, you’ll need to create an app, then grab your consumer API key and API secret key from <a href="https://developer.twitter.com/en/apps">the Apps page</a> on the Twitter developer site.</p>
+
+<p>Once you have this information, you can plug it into the <a href="https://gallery.alteryx.com/#!app/Twitter-API-Authorization-Header/5bb29ea4826fd30c4cd5533e">Twitter API Authorization Header macro</a> included in the package attached to this post.</p>
+
+<p>There are some limitations to Twitter’s <a href="https://developer.twitter.com/en/docs/twitter-api/v1/tweets/search/overview/standard">standard search</a>, without upgrading to a paid option. You’ll only get tweets from the last seven days, and not <em>all</em> tweets during that time, but a “sample.” Twitter says those sampled results will be based “on relevance <em>and not completeness</em>” (their italics). If you need a comprehensive collection of <em>all</em> tweets related to your search terms, you’ll need to explore other options.</p>
+
+<p>Also, be forewarned: You may come across some tweets that are NSFW! Even off-color content is useful for sentiment analysis — yes, the <a href="https://github.com/cjhutto/vaderSentiment/blob/master/vaderSentiment/vader_lexicon.txt">VADER lexicon</a> used in our Sentiment Analysis Tool includes four-letter words and creative variations on them! — but you might need to be careful about displaying your results to others.</p>
+
+<h2 id="analyzing-tweets">Analyzing Tweets</h2>
+
+<p>You have a number of options for digging into the tweets’ content, depending on your interests. You can…</p>
+
+<ul>
+  <li>Use <a href="https://community.alteryx.com/t5/Data-Science/Try-Sentiment-Analysis-with-Designer-You-Must/ba-p/589153">sentiment analysis</a> to assign scores to the tweets for positive/neutral/negative content, then look more deeply at the kinds of things people make positive and negative statements about.</li>
+  <li>Use regex to extract usernames of people involved in these discussions to locate influencers and to respond to questions and concerns.</li>
+  <li>Create word clouds of tweet content, either for positive/negative tweets specifically or those related to a particular topic, or simply of words from all tweets, to look for recurring interests or concerns.</li>
+  <li>Filter tweets by user location to see only what locals think (acknowledging, however, that this user-provided information is potentially inaccurate).</li>
+  <li>Include specific usernames in your search. In the attached workflow, I look for tweets including the City of New York’s account, @nycgov.</li>
+</ul>
+
+<p>The workflow attached to this post includes these analyses. Note that the text mining tools used are part of the <a href="https://www.alteryx.com/products/alteryx-platform/intelligence-suite?UTM_Content=community">Intelligence Suite</a>, so be sure to check that out if you haven’t already!</p>
+
+<p>Notice that depending on how busy your search terms are, you may get different results every time you run your workflow! As you can imagine, some places, usernames and keywords are more active than others. Additionally, you are <a href="https://developer.twitter.com/en/docs/twitter-api/v1/rate-limits">limited</a> in the number of tweets you can retrieve through Twitter’s free search API. You may want to cache your data when you retrieve the tweets, or output your data (then <a href="https://help.alteryx.com/current/designer/output-data-tool#convert-output-data-tool-to-input-data-tool">turn it into an input</a>) to “freeze” it while you do your analysis.</p>
+
+<h2 id="feeling-geographical">Feeling Geographical?</h2>
+
+<p>Another option to drill into tweets for a specific geographic area is to modify your call to the Twitter API to include latitude and longitude for a specific point, plus a radius around that point. With a Text Input Tool, you can make columns for latitude, longitude and the desired radius in miles or kilometers, potentially for multiple points (for example, to represent the major cities with your state). The retrieved tweets will be those for which the user has opted to provide geolocation information.</p>
+
+<p>Feed your lat/long and radius information into a Formula Tool that builds a URL in the following pattern, replacing the numbers in the geocode section with the latitude and longitude for your point of interest:</p>
+
+<p><a href="https://api.twitter.com/1.1/search/tweets.json?q=&amp;geocode=-22.912214,-43.230182,1km&amp;lang=pt&amp;result_type=recent"><code class="language-plaintext highlighter-rouge">https://api.twitter.com/1.1/search/tweets.json?q=&amp;geocode=-22.912214,-43.230182,1km</code></a></p>
+
+<p>You will likely need to use <code class="language-plaintext highlighter-rouge">ToString()</code> to convert your latitude and longitude to strings that can be appended to the rest of the URL text, and use mi or km as the abbreviation with the radius. No spaces should appear in the resulting URL.</p>
+
+<h2 id="putting-the-analysis-to-work">Putting the Analysis to Work</h2>
+
+<p>Although social media posts can vary in, er, quality, you can still find useful information. Public relations outreach on various issues can be refined and targeted based on the community sentiment and major topics found in social media content. For example, regardless of the location I chose for running my sample workflow, I found plenty of discussions around pandemic concerns and specific questions that could be addressed through a city or area’s own outreach.</p>
+
+<p>Area residents’ feedback on particular services or issues could be gathered and analyzed easily, even with large numbers of posts. As <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3370217&amp;download=yes">this report</a> describes, getting people to respond to surveys or fill out feedback forms is challenging, but spontaneously provided, public social media reactions and opinions are a ready-to-use resource — and maybe even more authentic and honest. Social media can also provide a window into the opinions of younger people and others who may be less inclined or unable to send letters or attend public meetings.</p>
+
+<p>Of course, there is a privacy concern to keep in mind here. The Twitter users whose tweets have been collected are sharing their thoughts publicly, but they don’t necessarily intend for their ideas to be gathered and analyzed. Care needs to be taken with the names and any personal details of the users whose tweets show up in analyses.</p>
+
+<p><a href="https://community.alteryx.com/t5/video/gallerypage/video-id/6200697961001">(view in My Videos)</a></p>
+
+<p>Check out the workflow attached below and see what you can learn about your hometown! Comment to share how you might put this approach to work for your own area of interest.</p>
+
+  </div>
+</article>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Susan Currie Sivek</p>
+      
+      <p><a href="mailto:susan.sivek@gmail.com">susan.sivek@gmail.com</a></p>
+      
+    </footer>
+  </div>
+</body>
+</html>

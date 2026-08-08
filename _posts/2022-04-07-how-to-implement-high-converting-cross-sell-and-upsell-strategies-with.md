@@ -3,8 +3,9 @@ title: "How to Implement High-Converting Cross-Sell and Upsell Strategies with P
 date: 2022-04-07
 excerpt: "This article is part of our Predictive Frameworks series, which explores the most effective use cases for predictive analytics. Have limitless funds for sales and marketing? Nah, us either. That’s why you’re reading a blog post instead of watching…"
 original_url: "https://www.pecan.ai/resource/high-converting-cross-sell-upsell-strategies-predictive/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/high-converting-cross-sell-upsell-strategies-predictive/](https://www.pecan.ai/resource/high-converting-cross-sell-upsell-strategies-predictive/)*
 
 *This article is part of our Predictive Frameworks series, which explores the most effective use cases for predictive analytics.*

@@ -3,11 +3,10 @@ title: "Job Search Advice from a Pro"
 date: 2020-07-10
 excerpt: "This article contains a series of videos from an interview I recorded and edited. The playlist can be viewed here: https://www.youtube.com/playlist?list=PLfSLx4WE4q52yoFdWY8NFxFquKoAssKswLots of people are searching for jobs and even making big…"
 original_url: "https://community.alteryx.com/t5/Alter-Nation/Job-Search-Advice-from-a-Pro/ba-p/601074"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Alter-Nation/Job-Search-Advice-from-a-Pro/ba-p/601074](https://community.alteryx.com/t5/Alter-Nation/Job-Search-Advice-from-a-Pro/ba-p/601074)*
-
-![job_search_banner.jpg](https://community.alteryx.com/t5/image/serverpage/image-id/122449i87201F41FA887605/image-size/large?v=1.0&px=999)
 
 *This article contains a series of videos from an interview I recorded and edited. The playlist can be viewed here: https://www.youtube.com/playlist?list=PLfSLx4WE4q52yoFdWY8NFxFquKoAssKsw*
 

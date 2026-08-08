@@ -3,8 +3,9 @@ title: "Data Science and Disability: Enhancing Care With Innovation"
 date: 2020-08-20
 excerpt: "Data science has presented new possibilities for greater independence, improved care, and better outcomes for people with disabilities. Here are some examples of this kind of innovation. Could the time it takes for you to…"
 original_url: "https://medium.com/swlh/data-science-and-disability-enhancing-care-with-innovation-35577b3c992a"
+publication: "Medium"
+categories: [data-science]
 ---
-
 *Originally published at [https://medium.com/swlh/data-science-and-disability-enhancing-care-with-innovation-35577b3c992a](https://medium.com/swlh/data-science-and-disability-enhancing-care-with-innovation-35577b3c992a)*
 
 ![](https://miro.medium.com/max/330/0*kdTXR-2yBCEw-cz4)

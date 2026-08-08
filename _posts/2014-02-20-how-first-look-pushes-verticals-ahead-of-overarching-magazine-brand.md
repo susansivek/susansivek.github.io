@@ -3,8 +3,9 @@ title: "How First Look Pushes Verticals Ahead of Overarching ‘Magazine’ Bran
 date: 2014-02-20
 excerpt: "First Look Media has gotten plenty of coverage for its strategy of creating “digital magazines” based on the work of specific journalists with unique voices who will dive deeply into focused topics. Its first magazine, The Intercept, went live on…"
 original_url: "http://mediashift.org/2014/02/how-first-look-pushes-verticals-ahead-of-overarching-magazine-brand/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2014/02/how-first-look-pushes-verticals-ahead-of-overarching-magazine-brand/](http://mediashift.org/2014/02/how-first-look-pushes-verticals-ahead-of-overarching-magazine-brand/)*
 
 ![](https://i1.wp.com/mediashift.org/wp-content/uploads/2014/02/firstlook-covers.png?w=481)

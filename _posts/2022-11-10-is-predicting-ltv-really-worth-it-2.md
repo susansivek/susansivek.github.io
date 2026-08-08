@@ -3,8 +3,9 @@ title: "Is Predicting LTV Really Worth It?"
 date: 2022-11-10
 excerpt: "This article is part of our Predictive Frameworks series, which explores the most effective use cases for predictive analytics. In an earlier post, we discussed why a predictive approach to customer lifetime value (LTV) is critical for businesses…"
 original_url: "https://www.pecan.ai/resource/is-predicting-ltv-really-worth-it/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/is-predicting-ltv-really-worth-it/](https://www.pecan.ai/resource/is-predicting-ltv-really-worth-it/)*
 
 ***This article is part of our Predictive Frameworks series, which explores the most effective use cases for predictive analytics.***

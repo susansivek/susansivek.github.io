@@ -1,20 +1,16 @@
 ---
 title: "Try Sentiment Analysis with Designer, You Must"
 date: 2020-06-18
-excerpt: "Does it mean the writer thinks Vader is actually evil? Or do the emoji add a hint of sarcasm and admiration, suggesting the writer maybe thinks he’s ... kind of cool?
-Understanding the nuances of text is hard for humans, and even more so for…"
+excerpt: "\"Does it mean the writer thinks Vader is actually evil? Or do the emoji add a hint of sarcasm and admiration, suggesting the writer maybe thinks he’s ... kind of cool?"
 original_url: "https://community.alteryx.com/t5/Data-Science/Try-Sentiment-Analysis-with-Designer-You-Must/ba-p/589153"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Try-Sentiment-Analysis-with-Designer-You-Must/ba-p/589153](https://community.alteryx.com/t5/Data-Science/Try-Sentiment-Analysis-with-Designer-You-Must/ba-p/589153)*
-
-![SusanCS_0-1592329539445.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/118592i6B1EE69C3637AFEA/image-size/medium?v=1.0&px=400)
 
 Does it mean the writer thinks Vader is *actually* evil? Or do the emoji add a hint of sarcasm and admiration, suggesting the writer maybe thinks he’s ... kind of cool?
 
 Understanding the nuances of text is hard for humans, and even more so for algorithms. Despite the challenge, identifying feelings in text data can be incredibly helpful. Maybe you want to make sure customers are happy with your products and services. Maybe you want to figure out what people are saying about your company on social media and whether it’s positive or negative. Or maybe you want to find customer email inquiries that are especially pleased or upset to provide them special attention. Sentiment analysis is exactly what you need to explore these issues.
-
-![SusanCS_1-1592329538336.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/118590iADA3CBA80AFB650D/image-size/medium?v=1.0&px=400)
 
 It sounds complicated, but don’t worry! You’ll quickly become a sentiment analysis Jedi. With the release of the [Alteryx Intelligence Suite](https://www.alteryx.com/products/alteryx-platform/intelligence-suite) and its text mining tools (check out this [video demo](https://www.youtube.com/watch?reload=9&v=40iYJe_zd2A) for a comprehensive look), you can explore all that tricky text data. And don’t worry -- this post’s theme will make sense very soon.
 
@@ -28,8 +24,6 @@ Social media content added a new type of text to study that presented new challe
 
 The algorithm used by the [Sentiment Analysis tool](http://downloads.alteryx.com/betawh_xnext/SentimentAnalysis.htm) in the Intelligence Suite is called [VADER](https://github.com/cjhutto/vaderSentiment): the Valence Aware Dictionary for sEntiment Reasoner. (Clearly it was a bit of a challenge to get that acronym, but so worth it.) VADER’s first version was released in 2014, and [this paper](https://www.aaai.org/ocs/index.php/ICWSM/ICWSM14/paper/download/8109/8122) explains it in detail; it’s now been integrated into the `nltk` Python package. As its authors note, VADER builds upon previous approaches like the Linguistic Inquiry and Word Count lexicon (yep, that’s LIWC, pronounced “Luke” … see a theme here?).
 
-![SusanCS_2-1592329539305.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/118593iE4DD8A8556E90AD6/image-size/medium?v=1.0&px=400)
-
 Yes. That Luke.
 
 A “lexicon” in sentiment analysis is a list of words judged by humans to be positive or negative (their “valence”), each with a score (“magnitude”) representing their relative intensity. In part, VADER uses a lexicon; for example, “OK" has a positive valence of 0.9, while “good" gets a positive valence of 1.9 and “great” scores a 3.1. The researchers determined these valences after gathering thousands of human ratings from [Amazon Mechanical Turk](https://www.mturk.com/) workers.
@@ -37,8 +31,6 @@ A “lexicon” in sentiment analysis is a list of words judged by humans to be 
 In addition to its lexicon, VADER also uses a set of five rules reflecting how humans use grammar, punctuation, and syntax to amplify their expressions’ emotional intensity. For example, the sentence “Star Wars is awesome!!!” would be rated as more positive than “Star Wars is awesome.” The same is true for capitalization used for emphasis.
 
 Another challenge in sentiment analysis is negation. A reviewer who says “The latest Star Wars movie wasn’t great” is actually giving a negative opinion, despite the presence of the word “great.” VADER can account for that nuance because it understands how “not” works subtly in everyday language.
-
-![giphy](https://community.alteryx.com/t5/image/serverpage/image-id/118687iD384AF3D98639936/image-size/large?v=1.0&px=999)
 
 *That added “oooooooo” would tell VADER that this is a more extreme expression of sentiment.* 😆
 
@@ -55,8 +47,6 @@ It’s important to note that although VADER is great at mimicking human raters 
 [(view in My Videos)](https://community.alteryx.com/t5/video/gallerypage/video-id/6165407366001)
 
 The video above shows you a walkthrough of the new Sentiment Analysis tool in a workflow that analyzes text from clothing reviews. The tool is easy to use and offers a quick path to new insights. I find it incredibly fun to see how text is so rapidly interpreted, and how you can easily connect those interpretations to other aspects of your data.
-
-![SusanCS_4-1592329538379.png](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/118594iED76B61173039FDF/image-size/large?v=1.0&px=999)
 
 Configuration options for the Sentiment Analysis tool.
 
@@ -80,8 +70,6 @@ Compound sentiment score: 0.262
 
 This review is pretty even-handed; it says some good things, but also has some cautions for other shoppers. The classification as “neutral” overall seems fair, and we can see how a compound sentiment score on the positive side -- but not highly so -- makes a lot of sense.
 
-![SusanCS_5-1592329538326.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/118596i383C0FD52C29C778/image-size/medium?v=1.0&px=400)
-
 ## **Using Insights from Sentiment Analysis**
 
 > *"Your focus determines your reality." - Qui-Gon Jinn*
@@ -89,7 +77,5 @@ This review is pretty even-handed; it says some good things, but also has some c
 What can you do with your sentiment-analyzed text data? As in my example here, maybe you want to see which products are getting the most positive and negative reviews, with a little more sophistication than a simple star-based review, and quickly find patterns in the praise and complaints. For social media data, maybe you want to identify recurring themes in positive and negative public discussions of your company (or your competitors) that could be useful for campaigns or strategy. For customer email inquiries, maybe especially fiery ones could be more quickly escalated to representatives with more authority to quickly resolve issues.
 
 Whatever your particular application, the Sentiment Analysis tool is a new way to find all kinds of harder-to-access insights. And, hey, another awesome analytic approach might make you say, “This is SO FUN!!! 😃” -- which VADER would give a very positive score.
-
-![SusanCS_6-1592329538335.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/118597iC3D88270544CAA26/image-size/medium?v=1.0&px=400)
 
 The end.

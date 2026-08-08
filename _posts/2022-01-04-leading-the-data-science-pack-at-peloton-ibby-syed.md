@@ -3,8 +3,9 @@ title: "Leading the data science pack at Peloton | Ibby Syed"
 date: 2022-01-04
 excerpt: "As one of the first data scientists at Peloton, Ibby Syed has a passion for enabling others to access powerful data science tools and techniques in order to drive insights and learning.Join in on our Cocktail Conversation on the Alteryx Community or…"
 original_url: "https://community.alteryx.com/t5/Data-Science-Mixer/Leading-the-data-science-pack-at-Peloton-Ibby-Syed/ba-p/882282"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science-Mixer/Leading-the-data-science-pack-at-Peloton-Ibby-Syed/ba-p/882282](https://community.alteryx.com/t5/Data-Science-Mixer/Leading-the-data-science-pack-at-Peloton-Ibby-Syed/ba-p/882282)*
 
 As one of the first data scientists at Peloton, Ibby Syed has a passion for enabling others to access powerful data science tools and techniques in order to drive insights and learning.

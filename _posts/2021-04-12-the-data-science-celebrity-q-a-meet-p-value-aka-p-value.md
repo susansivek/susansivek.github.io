@@ -3,8 +3,9 @@ title: "The Data Science Celebrity Q&A: Meet P. Value (aka p-value)"
 date: 2021-04-12
 excerpt: "The mystery and influence of P. Value (also known as the p-value) have made it the most popular celebrity calculation of our time — and maybe also the most misunderstood. Despite “significant” starring roles in thousands of data analyses, many still…"
 original_url: "https://susansivek.medium.com/the-data-science-celebrity-q-a-meet-p-value-aka-p-value-5dc021d078f6"
+publication: "Medium"
+categories: [data-science, profiles]
 ---
-
 *Originally published at [https://susansivek.medium.com/the-data-science-celebrity-q-a-meet-p-value-aka-p-value-5dc021d078f6](https://susansivek.medium.com/the-data-science-celebrity-q-a-meet-p-value-aka-p-value-5dc021d078f6)*
 
 Image by Jake Blucker on Unsplash

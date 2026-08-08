@@ -1,18 +1,16 @@
 ---
 title: "Using Data to Seek Racial Justice and Transparency"
 date: 2020-06-04
-excerpt: "Today’s societal challenges feel insurmountable. We’re immersed in news and social media posts about racism and violence that overwhelm and challenge us.
-There is no single dataset of insights, no workflow of cleverly connected tools, that can bring…"
+excerpt: "\"Today’s societal challenges feel insurmountable. We’re immersed in news and social media posts about racism and violence that overwhelm and challenge us."
 original_url: "https://community.alteryx.com/t5/Alter-Nation/Using-Data-to-Seek-Racial-Justice-and-Transparency/bc-p/582893"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Alter-Nation/Using-Data-to-Seek-Racial-Justice-and-Transparency/bc-p/582893](https://community.alteryx.com/t5/Alter-Nation/Using-Data-to-Seek-Racial-Justice-and-Transparency/bc-p/582893)*
 
 Today’s societal challenges feel insurmountable. We’re immersed in news and social media posts about racism and violence that overwhelm and challenge us.
 
 There is no single dataset of insights, no workflow of cleverly connected tools, that can bring about resolution and justice. But we can each bring our expertise, our compassion and our voices to the effort to effect change.
-
-![logan-weaver-uwyqYYWUQJw-unsplash.jpg](https://community.alteryx.com/t5/image/serverpage/image-id/116728iF9694BC2F3BD7B5E/image-size/medium?v=1.0&px=400)
 
 Photo by Logan Weaver
 

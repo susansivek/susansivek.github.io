@@ -1,11 +1,11 @@
 ---
 title: "Looking Forward to 2021 in Data Science and Analytics"
 date: 2020-12-08
-excerpt: "Oh, 2020. We’re ready to leave this year behind for so many reasons. But there are some bright spots for data professionals as we head into 2021.
-In this week’s Alter Everything podcast episode, guest Steve Mann from Alteryx partner Propel32…"
+excerpt: "\"Oh, 2020. We’re ready to leave this year behind for so many reasons. But there are some bright spots for data professionals as we head into 2021."
 original_url: "https://susansivek.medium.com/looking-forward-to-2021-in-data-science-and-analytics-54b5bf1fcb3c"
+publication: "Medium"
+categories: [data-science]
 ---
-
 *Originally published at [https://susansivek.medium.com/looking-forward-to-2021-in-data-science-and-analytics-54b5bf1fcb3c](https://susansivek.medium.com/looking-forward-to-2021-in-data-science-and-analytics-54b5bf1fcb3c)*
 
 ## Oh, 2020. We’re ready to leave this year behind for so many reasons. But there are some bright spots for data professionals as we head into 2021.

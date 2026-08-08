@@ -3,13 +3,12 @@ title: "Data Science Portal Discussion Highlights, September 2021"
 date: 2021-10-05
 excerpt: "The leaves may be changing colors, but the enthusiasm for data conversation on our Data Science Portal is evergreen! Mandatory seasonal reference: check. 🍁 Now let’s jump right into September’s top data science conversations. Time Series Tips A few…"
 original_url: "https://community.alteryx.com/t5/Data-Science/Data-Science-Portal-Discussion-Highlights-September-2021/ba-p/830296"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Data-Science-Portal-Discussion-Highlights-September-2021/ba-p/830296](https://community.alteryx.com/t5/Data-Science/Data-Science-Portal-Discussion-Highlights-September-2021/ba-p/830296)*
 
 The leaves may be changing colors, but the enthusiasm for data conversation on our Data Science Portal is evergreen!
-
-![SusanCS_0-1633363402403.gif](https://community.alteryx.com/t5/image/serverpage/image-id/205281iBA292A78BD7E9992/image-size/medium?v=v2&px=400)
 
 Image via GIPHY
 
@@ -21,8 +20,6 @@ A few good questions came up in September about using time series tools in Desig
 
 [@Aleks\_Data](https://community.alteryx.com/t5/user/viewprofilepage/user-id/241908) also [asked how to retrieve](https://community.alteryx.com/t5/Alteryx-Designer-Discussions/ARIMA-Residuals/m-p/827028#M202494) the [residuals](https://otexts.com/fpp2/residuals.html) generated when a model is fitted (typically, residuals are the differences between observed values and fitted values). [@NeilR](https://community.alteryx.com/t5/user/viewprofilepage/user-id/1443) and [@apathetichell](https://community.alteryx.com/t5/user/viewprofilepage/user-id/198910) conspired to come up with the right solution for the job, ultimately finding resolution in a blast-from-the-past post by [@cwkoops](https://community.alteryx.com/t5/user/viewprofilepage/user-id/39705) from 2019.
 
-![SusanCS_1-1633363390111.gif](https://community.alteryx.com/t5/image/serverpage/image-id/205279iB8ADDB3D0FFBA528/image-size/medium?v=v2&px=400)
-
 If you can’t tour the chocolate factory, the forecast factory will have to do. Image via
 
 [*GIPHY*](https://media.giphy.com/media/11E0hI5eDiCpiM/giphy.gif)
@@ -31,15 +28,11 @@ If you can’t tour the chocolate factory, the forecast factory will have to do.
 
 If you have favorite macros like TS Forecast Factory, why not make them permanent features of your Designer tool palette? [@tomtveidt](https://community.alteryx.com/t5/user/viewprofilepage/user-id/251324) asked [how to keep those tools handy](https://community.alteryx.com/t5/Alteryx-Designer-Discussions/From-Gallery-to-Tool-Palette/m-p/826039#M202184) in Designer, and [@Garabujo7](https://community.alteryx.com/t5/user/viewprofilepage/user-id/88413) hopped in with the magic to make that happen. Grab [your favorite data science tools](https://community.alteryx.com/t5/Data-Science/Free-Data-Science-Tools-for-Designer-A-Gallery-Tour/ba-p/669590) and customize your tool categories for convenience with this awesome Designer trick.
 
-![SusanCS_2-1633363393468.gif](https://community.alteryx.com/t5/image/serverpage/image-id/205280i50B7608959231CC1/image-size/medium?v=v2&px=400)
-
 Custom homes for your tools. Image via
 
 ## **Dataframes in Columns in Dataframes**
 
 [@Hamder83](https://community.alteryx.com/t5/user/viewprofilepage/user-id/114466) ran into an interesting challenge when [using the Python package tabula](https://community.alteryx.com/t5/Alteryx-Designer-Discussions/Python-and-alteryx-Tabula/m-p/827829#M202783) to extract data from a PDF within Designer. [@clmc9601](https://community.alteryx.com/t5/user/viewprofilepage/user-id/190284) diagnosed the issue, detecting that pandas was combining dataframes of different sizes within single columns. [@dbmurray](https://community.alteryx.com/t5/user/viewprofilepage/user-id/248621) dropped by to mention that tabula is also available as an R package, for those who prefer that flavor of code.
-
-![SusanCS_3-1633363399588.gif](https://community.alteryx.com/t5/image/serverpage/image-id/205282iC7B8D65DC8F862AE/image-size/medium?v=v2&px=400)
 
 Dataframes getting squished. Image via GIPHY
 

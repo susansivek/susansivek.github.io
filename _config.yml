@@ -3,12 +3,8 @@ description: Writing, editing, and content portfolio
 author: Susan Currie Sivek
 email: susan.sivek@gmail.com
 
-remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-  - jekyll-remote-theme
   - jekyll-paginate
-
-show_downloads: false
 
 paginate: 15
 paginate_path: "/page:num/"
@@ -22,9 +18,17 @@ defaults:
     values:
       layout: "post"
 
-collections:
-  posts:
-    output: true
-
 exclude:
   - README.md
+  - scripts
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - duplicate-posts-report.md
+  - image-recovery-report.json
+  - image-recovery-pass2.json
+  - image-recovery-summary.md
+  - broken-images-report.json
+  - broken-images-report.md
+  - _plugins
+

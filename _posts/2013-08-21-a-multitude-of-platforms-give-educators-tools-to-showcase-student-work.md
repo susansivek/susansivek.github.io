@@ -1,11 +1,11 @@
 ---
 title: "A Multitude of Platforms Give Educators Tools to Showcase Student Work"
 date: 2013-08-21
-excerpt: "Platforms have begun to pop up that give educators the tools to put together professional publications featuring student work. Image courtesy of TMAB2003 of Flickr.
-Whether teaching magazine production or other types of journalism, educators…"
+excerpt: "\"Platforms have begun to pop up that give educators the tools to put together professional publications featuring student work. Image courtesy of TMAB2003 of Flickr."
 original_url: "http://mediashift.org/2013/08/publishing-journalism-students-work-on-third-party-platforms/"
+publication: "MediaShift"
+categories: [media, academic]
 ---
-
 *Originally published at [http://mediashift.org/2013/08/publishing-journalism-students-work-on-third-party-platforms/](http://mediashift.org/2013/08/publishing-journalism-students-work-on-third-party-platforms/)*
 
 ![](https://i1.wp.com/mediashift.org/wp-content/uploads/2013/11/why-journalism-needs-ward.jpg?w=1280)

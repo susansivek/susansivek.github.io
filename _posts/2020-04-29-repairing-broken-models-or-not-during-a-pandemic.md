@@ -3,8 +3,9 @@ title: "Repairing Broken Models (or Not) During a Pandemic"
 date: 2020-04-29
 excerpt: "With such immense disruption in so many systems, it’s hard to know what to do with your existing models. Here are some ways to adapt — and some reasons you might not try to repair those models. What do you do when you have an…"
 original_url: "https://towardsdatascience.com/repairing-broken-models-or-not-during-a-pandemic-63ec1ade6897"
+publication: "Towards Data Science"
+categories: [data-science]
 ---
-
 *Originally published at [https://towardsdatascience.com/repairing-broken-models-or-not-during-a-pandemic-63ec1ade6897](https://towardsdatascience.com/repairing-broken-models-or-not-during-a-pandemic-63ec1ade6897)*
 
 ![](https://miro.medium.com/max/640/1*CBQ2zhhryhNX4KN0ha360Q.jpeg)

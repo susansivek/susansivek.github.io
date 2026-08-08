@@ -3,8 +3,9 @@ title: "Still More Data Science Myths Debunked by Experts"
 date: 2021-11-18
 excerpt: "The answer is no; the myths just keep on coming. On the Data Science Mixer podcast, I always ask our guests the same “Alternative Hypothesis” question: “What’s one thing that people think is true about data science or about being a data scientist…"
 original_url: "https://medium.com/codex/still-more-data-science-myths-debunked-by-experts-2e4b050e77dc?source=user_profile---------3----------------------------"
+publication: "Medium"
+categories: [data-science]
 ---
-
 *Originally published at [https://medium.com/codex/still-more-data-science-myths-debunked-by-experts-2e4b050e77dc?source=user_profile---------3----------------------------](https://medium.com/codex/still-more-data-science-myths-debunked-by-experts-2e4b050e77dc?source=user_profile---------3----------------------------)*
 
 ![](https://miro.medium.com/max/1400/0*_LlxloRLpvTszk3I)

@@ -3,8 +3,9 @@ title: "Data Science Volunteering: Ways to Help"
 date: 2020-12-01
 excerpt: "Alteryx recently featured two nonprofits that benefited from the hard work of data analytics students in the Alteryx for Good Data Challenge held at February’s Alteryx Inspire conference in Sydney. The competition, co-sponsored by Alteryx partner…"
 original_url: "https://www.kdnuggets.com/2020/12/data-science-volunteering.html"
+publication: "KDnuggets"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.kdnuggets.com/2020/12/data-science-volunteering.html](https://www.kdnuggets.com/2020/12/data-science-volunteering.html)*
 
 Alteryx recently featured two nonprofits that benefited from the hard work of data analytics students in the Alteryx for Good Data Challenge held at February’s Alteryx Inspire conference in Sydney. The competition, co-sponsored by Alteryx partner RXP, brought new analytic approaches and insights to these invaluable organizations.
@@ -13,7 +14,7 @@ Though a major goal of the AFG competition was to help the organizations with th
 
 No matter what career level you’re at, you too can participate in “data for good” events and activities. Whether you’re established in or aspiring to a data career, there are plenty of opportunities for you to contribute. You’ll get experience in new domains, new portfolio projects, and new connections with other data enthusiasts, plus you’ll feel great about contributing to a good cause!
 
-![](https://community.alteryx.com/t5/image/serverpage/image-id/140220i87F749B4D7378261/image-size/medium?v=1.0&px=400)
+![](/assets/images/posts/data-science-volunteering-ways-to-help/medium.svg)
 
 While there are many general tech-related causes out there that you can join, we’ll look here at those that are primarily data-oriented.
 
@@ -27,7 +28,7 @@ Join a short- or long-term analytics or data science project or collaboration ru
 * [Statistics Without Borders](https://swb.wildapricot.org/page-1075198): Organizes data professionals to help international causes through their statistical expertise.
 * [United Nations Volunteers](https://www.onlinevolunteering.org/en): Recruits volunteers from all backgrounds to assist projects supporting peace and development worldwide — currently including opportunities focused on spatial/GIS and data visualization.
 
-![](https://community.alteryx.com/t5/image/serverpage/image-id/140219iAE4ED1F5F66B066D/image-size/medium?v=1.0&px=400)
+![](/assets/images/posts/data-science-volunteering-ways-to-help/medium-7adb4871.svg)
 
 ### Hackathons and Competitions
 
@@ -40,7 +41,7 @@ Sure, you could enter a data competition to seek fame and (maybe) some fortune�
 
 You might also have an opportunity to help out with an event as a judge, mentor, or coach. Through our own [Alteryx for Good](https://community.alteryx.com/t5/Alteryx-For-Good/ct-p/afg) program, I recently served as a judge for a data case competition run by the [Information Systems & Business Analytics Students Society](https://uoaibss.co.nz/) at the University of Auckland. It was inspiring and fun to see these impressive students apply their Alteryx skills, their critical thinking, and their analytic mindset to the challenge.
 
-![](https://community.alteryx.com/t5/image/serverpage/image-id/140217iAF9C3589EEE0EB61/image-size/medium?v=1.0&px=400)
+![](/assets/images/posts/data-science-volunteering-ways-to-help/medium-92b733d3.svg)
 
 ### Open-source Opportunities
 
@@ -56,7 +57,7 @@ There are plenty of challenging problems out there that you can address, even if
 
 You might also have a nonprofit in mind that you’d like to help. Regardless of the tools you want to use to help them, think about the best way to approach them and how you’ll collaborate, as explored in [this guide](https://community.alteryx.com/t5/Alter-Nation/Starting-Conversations-with-Non-Profit-Partners-for-AFG-Part-1/ba-p/604436).
 
-![](https://community.alteryx.com/t5/image/serverpage/image-id/140221iCB0DA10B8ADFC6D8/image-size/medium?v=1.0&px=400)
+![](/assets/images/posts/data-science-volunteering-ways-to-help/medium-8bb4dd60.svg)
 
 ### Help Others with Your Alteryx Skills
 

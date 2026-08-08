@@ -1,11 +1,11 @@
 ---
 title: "Gourmet Live, Quilting eMag Rethink Magazines in Digital Form"
 date: 2010-08-09
-excerpt: "Gourmet magazine will live on in the Gourmet Live app for the iPad and other platforms
-In an earlier age, we learned new skills as apprentices to master craftspeople, absorbing expertise by working side by side. Today, though, you might be more…"
+excerpt: "\"Gourmet magazine will live on in the Gourmet Live app for the iPad and other platforms"
 original_url: "http://mediashift.org/2010/08/gourmet-live-quilting-emag-rethink-magazines-in-digital-form221/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2010/08/gourmet-live-quilting-emag-rethink-magazines-in-digital-form221/](http://mediashift.org/2010/08/gourmet-live-quilting-emag-rethink-magazines-in-digital-form221/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-59c812e8be5e43f05cc4603d5d2edb40-gourmet%20live.jpg)

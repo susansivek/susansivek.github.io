@@ -1,11 +1,11 @@
 ---
 title: "Using iPads and Google Forms to Introduce Students to Media Research Methods"
 date: 2013-06-06
-excerpt: "Like most instructors of introductory media studies courses, I include a brief overview of scholarly research methods in my class. The mostly lower-division students in this class find the concept of research daunting.
-Using Google Documents and my…"
+excerpt: "\"Like most instructors of introductory media studies courses, I include a brief overview of scholarly research methods in my class. The mostly lower-division students in this class find the concept of research daunting."
 original_url: "http://mediacommons.org/fieldguide/question/what-does-use-digital-teaching-tools-look-classroom/response/using-ipads-and-google-forms-i"
+publication: "MediaCommons"
+categories: [media]
 ---
-
 *Originally published at [http://mediacommons.org/fieldguide/question/what-does-use-digital-teaching-tools-look-classroom/response/using-ipads-and-google-forms-i](http://mediacommons.org/fieldguide/question/what-does-use-digital-teaching-tools-look-classroom/response/using-ipads-and-google-forms-i)*
 
 Like most instructors of introductory media studies courses, I include a brief overview of scholarly research methods in my class. The mostly lower-division students in this class find the concept of research daunting.

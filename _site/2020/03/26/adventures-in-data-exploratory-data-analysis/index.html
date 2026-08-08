@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adventures in Data: Exploratory Data Analysis — Susan Currie Sivek</title>
+  <meta name="description" content=""It can be so tempting. You finally have that dataset you’ve been longing for. Its secrets and insights are just sitting there waiting for you. You want to s...">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="site">
+    <header class="masthead">
+      <p class="masthead-brand">
+        <a href="/">Susan Currie Sivek</a>
+      </p>
+      <p class="masthead-tagline">
+        Data science writer, researcher, hiker, knitter. Former journalism professor. Curious about everything.
+        View <a href="https://www.linkedin.com/in/ssivek/">my LinkedIn profile</a>.
+      </p>
+      <nav class="site-nav" aria-label="Portfolio sections">
+  <ul>
+    <li>
+      <a href="/">All</a>
+    </li>
+    <li>
+      <a href="/favorites/">Favorites</a>
+    </li>
+    <li>
+      <a href="/categories/data-science/">Data Science and Tech</a>
+    </li>
+    <li>
+      <a href="/categories/features/">Features</a>
+    </li>
+    <li>
+      <a href="/categories/profiles/">Profiles</a>
+    </li>
+    <li>
+      <a href="/categories/academic/">Academic Life</a>
+    </li>
+    <li>
+      <a href="/categories/media/">Media Industry</a>
+    </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main class="content" id="main">
+      <article class="post">
+  <header class="post-header">
+    <h1>Adventures in Data: Exploratory Data Analysis</h1>
+    <div class="post-meta">
+      <span>March 26, 2020</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><span>Alteryx Community</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><a class="post-source" href="https://community.alteryx.com/t5/Data-Science/Adventures-in-Data-Exploratory-Data-Analysis/ba-p/545267" rel="noopener">View original &#8599;</a>
+    </div>
+    
+    <ul class="post-categories">
+      
+      <li>
+        
+          <a href="/categories/data-science/">Data Science and Tech</a>
+        
+      </li>
+      
+    </ul>
+    
+  </header>
+
+  <div class="post-body">
+    <p><em>Originally published at <a href="https://community.alteryx.com/t5/Data-Science/Adventures-in-Data-Exploratory-Data-Analysis/ba-p/545267">https://community.alteryx.com/t5/Data-Science/Adventures-in-Data-Exploratory-Data-Analysis/ba-p/545267</a></em></p>
+
+<p>It can be so tempting. You finally have that dataset you’ve been longing for. Its secrets and insights are just sitting there waiting for you. You want to start running your analysis right away and find the amazingness within.</p>
+
+<p>But wait. Take a breath. Prepare yourself, because instead of jumping right in, we’re going on a little journey through your data. But it’ll be a great adventure with a lot to see along the way!</p>
+
+<p>Investing the time to deeply explore your data is worthwhile in itself, and it can save you time and trouble later on. Exploratory data analysis (EDA) is the name for this effort, and it’s a critical part of <a href="https://community.alteryx.com/t5/Data-Science-Blog/The-Data-Science-Lifecycle/ba-p/408625">the data science lifecycle</a>. It usually includes checking specific aspects of your data, investigating it numerically and visually, and identifying potential issues before continuing your analysis. It may sound boring, but EDA pays off. There are some terrific tools in Designer (and Python and R) to empower your exploration.</p>
+
+<h3 id="waypoints-on-your-eda-journey"><strong>Waypoints on Your EDA Journey</strong></h3>
+
+<p>Here are some waypoints to guide your EDA process.</p>
+
+<ul>
+  <li>
+    <p>Figure out your <strong>data cleansing and wrangling strategy</strong>. Your EDA process can show you where data might need to be tidied up, where it might be necessary to <a href="https://bambielli.com/til/2018-02-11-one-hot-encoding/">one-hot encode</a> a categorical variable, or where you might like to use binning to make categories for a numerical variable. (An example of binning is converting ages into age ranges; the Tile and Multi-Field Binning tools in Designer can help).</p>
+  </li>
+  <li>
+    <p>Look for <strong>weird data points</strong> that may need to be corrected or omitted. These could be outliers you want to delete or ignore. Sometimes outliers are just data entry errors – someone typed 1,000 but meant 100. Other times, they reveal unexpected elements you may want to investigate further. Some statistical and machine learning methods are “robust” to outliers, meaning your results won’t be too affected by them. Still, you’ll want to look at them closely, and make an informed decision about whether they should get corrected, be left alone, be deleted or get adjusted. <a href="https://statisticsbyjim.com/basics/remove-outliers/">Read more</a> about handling outliers.</p>
+  </li>
+  <li>
+    <p>Check your <strong>data types</strong>. I may be the only one who sees it when I try to find a mean for string-formatted data, but I still cringe a little! Avoid wasting time later by verifying all your data types right away during EDA.</p>
+  </li>
+  <li>
+    <p>Contend with <strong>missing data</strong>. You might notice missing data – empty cells, zeroes and/or nulls – for one variable or across your dataset. Dealing with missing data deserves its own article (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3668100/">here’s one</a>), but the first step is to know you have a missing-data problem. You run the risk of developing faulty conclusions if you don’t deal with missing data appropriately.</p>
+  </li>
+  <li>
+    <p>Watch for <strong>important patterns</strong>. Some initial visual investigation of your data – as with histograms or scatterplots – will quickly reveal intriguing trends and relationships (or their absence). You may also want to see whether numerical variables show something fairly close to a normal distribution (the familiar bell curve) and whether categorical variables show even distribution among categories (“balanced classes”). Some statistical and machine learning approaches can be thrown off more than others by skewed or imbalanced data. There are lots of methods for dealing with this situation, including <a href="https://medium.com/@ODSC/transforming-skewed-data-for-machine-learning-90e6cc364b0">transforming data</a> numerically or <a href="https://www.kdnuggets.com/2017/06/7-techniques-handle-imbalanced-data.html">over-/under-sampling</a> certain categories.</p>
+  </li>
+  <li>
+    <p>Think of even <strong>more interesting questions</strong>. You’re already brimming with questions to ask of your data, but this EDA process will spur even more curiosity! You’ll notice intriguing things as you explore, which will only enrich your analytic adventure.</p>
+  </li>
+</ul>
+
+<p><a href="https://media.giphy.com/media/14bWswbeWGzYEo/giphy.gif"></a></p>
+
+<p>You’ve got two main approaches for EDA – visual and non-visual (numerical) – and you’ll use a combination of both to get to know your data. Before you launch into these, I’d recommend just …. staring at your data. Scroll up and down, side to side – what’s going on in this dataset? This is the low-tech approach; just zone out and let your brain soak in data for a few minutes. You won’t look at every cell, of course, but you may notice some things popping out that warrant investigation, even before you launch into more formal analysis.</p>
+
+<p><strong>Numerical Exploration</strong></p>
+
+<p>Let’s deal with numbers first. Check out the measures of central tendency: our old friends, mean, median and mode. Take a gander at minimum and maximum values for numerical variables. Do they look reasonable? This is an opportunity to spot outliers; Is the minimum bizarrely tiny? The mean way different from what’s expected?</p>
+
+<p>Also, look at the standard deviation for numerical variables, which tells you how spread out your data are, i.e., how much variation there is. The handy thing about standard deviation is that it’s in the same units as your original measurement so you can interpret it easily. (Here’s a <a href="https://www.mathsisfun.com/data/standard-deviation.html">helpful resource</a> on standard deviation. Extra motivation: It includes dogs.)</p>
+
+<p>You’ll want to check out correlations among your different variables – both how the predictors relate to your target/outcome variable, and how the predictors relate to each other. You can look at raw numbers (such as the R2 values), checking for numbers closer to 1 that show where higher correlations (meaning, stronger relationships) exist between variables. You can also look at a correlation matrix, a visual representation that overlays your variables with themselves in a color-coded grid; color intensity usually reflects correlation level. (You can generate one in Designer with the <a href="https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Tool-Mastery-Association-Analysis/ta-p/40459">Association Analysis</a> tool.)</p>
+
+<p>However you look for them, these correlations are super important to understand. You may want to remove predictor variables that are correlated with each other from your modeling. There are many <a href="http://www.biostat.jhsph.edu/~iruczins/teaching/jf/ch10.pdf">different methods</a> for choosing the best set of predictor variables for your model (aka feature selection), and there are other approaches you can take (such as <a href="https://help.alteryx.com/current/Principal_Components.htm">principal components analysis</a> or PCA).</p>
+
+<p><strong>Visual Exploration</strong></p>
+
+<p>In addition to correlation matrices, you have other visual options for EDA. Two familiar tools are the histogram (aka bar chart) and the scatterplot.</p>
+
+<p>A histogram shows how your data are distributed across different numerical values or categories. You can see whether your data fit the “bell curve” of a normal distribution, whether they are skewed higher or lower, or whether one or a few categories are over- or underrepresented in your dataset.</p>
+
+<p>A scatterplot usually maps two variables as points positioned on an X and Y axis, showing how variables are related to each other. (You might make the points different colors to represent a third variable.) Scatterplots reveal whether variables are correlated, and can also show clusters in your data. You might also see a clear linear or curvilinear relationship reflected in the massed shape of the points on the plot.</p>
+
+<p><a href="https://media.giphy.com/media/fnHxVS8gD2Z0SBFuYn/giphy.gif"></a></p>
+
+<p>But wait, there’s another plot to consider! Box plots are also nifty for understanding at a glance what numerical data look like, and they combine some of the intriguing items described above. A box plot contains a box (surprising, no?) that indicates the edges of the first and third quartile of values for this variable (in other words, the middle 50%, or everything from the 25th percentile to the 75th percentile). A line across the middle of the box indicates the median.</p>
+
+<p><a href="https://media.giphy.com/media/mtLsfrEXntTXO/giphy.gif"></a></p>
+
+<p>You might remember hearing about a “box-and-whiskers plot” in school, which adds a twist. Whiskers can be used in different ways, including to indicate maximum/minimum values or to show one standard deviation above/below the mean. Finally, dots or stars outside the ends of the whiskers represent outliers. As a whole, once you get used to looking at them, box plots provide a terrific visual shorthand for understanding your data at a glance.</p>
+
+<p>Depending on your favorite tools, you have options for the EDA portion of your analysis process.</p>
+
+<p><strong>Alteryx Designer</strong></p>
+
+<p>Designer offers a fantastic way to quickly view your dataset’s overall profile with the new holistic data profiling feature, available on the Browse tool anywhere in your workflow. <a href="https://community.alteryx.com/t5/Analytics-Blog/A-360-View-of-Your-Data-Set-With-Holistic-Data-Profiling-in-2020/ba-p/539648">Check out</a> this full description and example. You can review not just the results window, but also see a summary in the left-hand pane for every. single. variable.</p>
+
+<p>When a particular variable looks interesting (or, um, somehow wrong), click its name to take a closer look. You’ll then see the data quality (including numbers of uniques, blanks, and nulls), min/max and average values, shortest and longest values, and quantity of values with leading or trailing whitespace. You’ll get a quick histogram and a list of top values for the variable. The workflow and data shown below are in the files attached to this post.</p>
+
+<p><strong>Python</strong></p>
+
+<p>If you’re working with data in Python, you’re likely using pandas. If so, let me introduce you to my friend <a href="https://pandas-profiling.github.io/pandas-profiling/docs/">pandas_profiling</a>. Here’s <a href="https://pandas-profiling.github.io/pandas-profiling/examples/census/census_report.html">an example</a> of what this package can do with just the line <code class="language-plaintext highlighter-rouge">df.profile_report()</code>. You’ll get a quick summary of many dataset characteristics mentioned above (counts of uniques, missing data, mean, minimum/maximum, both across the dataset and by each variable). You’ll see a histogram for each variable, laid out according to pandas_profiling’s best guess for the format that makes sense for that variable.</p>
+
+<p>Other fun items in the report include a visualization of variables’ interaction, like an abstracted scatterplot, and a correlation matrix. There’s a cool display of how data is missing across your dataset, available in four formats. Finally, you’ll see the 10 first and last rows of the dataset to glimpse your data <em>au naturale.</em></p>
+
+<p>I’ve set up a notebook with a quick example of what you might see when you put a raw dataset – that is admittedly very messy – into pandas_profiling. You can find it and a sample HTML report in the zipped file attached to this post.</p>
+
+<p>Of course, there are many great Python visualization packages that can introduce you to your data efficiently. Matplotlib and Plotly are standbys for many, and packages like Folium can be useful for geospatial data.</p>
+
+<p><strong>R</strong></p>
+
+<p>If you’re an R fan instead, you’ve got even more options. I’ve set up R notebooks that each show one EDA package at work, all with the same data used above. I chose <a href="https://cran.r-project.org/web/packages/DataExplorer/index.html">DataExplorer</a>, <a href="https://cran.r-project.org/web/packages/explore/index.html">explore</a>, and <a href="https://cran.r-project.org/web/packages/dataMaid/index.html">dataMaid</a>, but other popular possibilities are <a href="https://cran.r-project.org/web/packages/arsenal/index.html">arsenal</a>, <a href="https://cran.r-project.org/web/packages/exploreR/index.html">exploreR</a>, <a href="https://cran.r-project.org/web/packages/funModeling/index.html">funModeling</a>, <a href="https://cran.r-project.org/web/packages/summarytools/index.html">summarytools</a>, <a href="https://cran.r-project.org/web/packages/SmartEDA/index.html">SmartEDA</a>, and <a href="https://cran.r-project.org/web/packages/inspectdf/index.html">inspectdf</a>. For more info, check out <a href="https://arxiv.org/pdf/1904.02101.pdf">this detailed exploration</a>.</p>
+
+<p>Each of the three packages has its strengths. Much like pandas_profiling in Python described above, DataExplorer creates univariate histograms, a correlation matrix, and even a potential use of PCA (principal components analysis) to reduce the number of predictor variables. dataMaid is similar; it offers options to generate both a comprehensive dataset report and/or statistics and visualizations for all or selected variables. Explore() creates a fun, interactive Shiny interface that even includes a decision tree (though beware if your data is as messy as mine – initial results are not to be trusted!). The bit of code below is all you need to see this nifty view of your data.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>install.packages(explore)
+library(explore)
+explore(df) # generate report
+</code></pre></div></div>
+
+<p>Want to learn more? Notebooks for all three of these tools, plus PDFs of sample reports from DataExplorer and dataMaid, are in the zipped file attached to this post.</p>
+
+<h3 id="equipped-for-the-eda-adventure"><strong>Equipped for the EDA Adventure</strong></h3>
+
+<p>Whichever tool you choose, EDA is a critical first step in your analysis. Just like when you’re cooking, no matter how hungry you are, you can’t just start throwing ingredients into a pot and hope for the best. You’ll want to understand the ingredients and recipe. I’ve been that person, standing in the kitchen with a bowl full of cookie dough, excited to have warm, fresh cookies – but who forgot to preheat the oven, that necessary first step in the process!</p>
+
+<p>Enjoy the adventure through your data that EDA offers. It should be a delightful adventure with these tools at hand.</p>
+
+  </div>
+</article>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Susan Currie Sivek</p>
+      
+      <p><a href="mailto:susan.sivek@gmail.com">susan.sivek@gmail.com</a></p>
+      
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,11 +1,11 @@
 ---
 title: "City Magazines Expand Audience and Revenues with Web, Apps"
 date: 2010-11-15
-excerpt: "Local and regional magazines are finding ways to provide timely, interesting web content that can draw audiences between print issues
-Even back in 1888, King Kalakaua of Hawaii recognized the power of city and regional magazines. His royal charter…"
+excerpt: "\"Local and regional magazines are finding ways to provide timely, interesting web content that can draw audiences between print issues"
 original_url: "http://mediashift.org/2010/11/city-magazines-expand-audience-and-revenues-with-web-apps319/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2010/11/city-magazines-expand-audience-and-revenues-with-web-apps319/](http://mediashift.org/2010/11/city-magazines-expand-audience-and-revenues-with-web-apps319/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-472110c31e54cc2693d412275af6d605-magmontage2.jpg)

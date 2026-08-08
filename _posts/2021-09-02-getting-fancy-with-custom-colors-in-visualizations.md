@@ -3,8 +3,9 @@ title: "Getting Fancy with Custom Colors in Visualizations"
 date: 2021-09-02
 excerpt: "Use the Image Profile Tool in Alteryx Designer to quickly learn about your image dataset, then add just a few lines of Python to create a data visualization with a custom color palette It’s always fun to watch TV detectives notice details and solve…"
 original_url: "https://towardsdatascience.com/investigating-images-and-customizing-colors-in-visualizations-with-python-5226c834cb65?source=user_profile---------6----------------------------&gi=f0a7e2f4b0ae"
+publication: "Towards Data Science"
+categories: [data-science]
 ---
-
 *Originally published at [https://towardsdatascience.com/investigating-images-and-customizing-colors-in-visualizations-with-python-5226c834cb65?source=user_profile---------6----------------------------&gi=f0a7e2f4b0ae](https://towardsdatascience.com/investigating-images-and-customizing-colors-in-visualizations-with-python-5226c834cb65?source=user_profile---------6----------------------------&gi=f0a7e2f4b0ae)*
 
 ## Use the Image Profile Tool in Alteryx Designer to quickly learn about your image dataset, then add just a few lines of Python to create a data visualization with a custom color palette

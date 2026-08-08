@@ -3,8 +3,9 @@ title: "Supercharge Conversions With Predictive Cross-Sell and Upsell Strategies
 date: 2022-04-14
 excerpt: "This post is our second on cross-sell and upsell strategies; if you missed the first, check it out here! Both posts are part of our Predictive Frameworks series, which explores the most effective use cases for predictive analytics. Strong, sustained…"
 original_url: "https://www.pecan.ai/resource/conversions-with-predictive-cross-sell-upsell-strategies/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/conversions-with-predictive-cross-sell-upsell-strategies/](https://www.pecan.ai/resource/conversions-with-predictive-cross-sell-upsell-strategies/)*
 
 *This post is our second on cross-sell and upsell strategies; if you missed the first, [check it out here](https://www.pecan.ai/resource/high-converting-cross-sell-upsell-strategies-predictive/)! Both posts are part of our Predictive Frameworks series, which explores the most effective use cases for predictive analytics.*

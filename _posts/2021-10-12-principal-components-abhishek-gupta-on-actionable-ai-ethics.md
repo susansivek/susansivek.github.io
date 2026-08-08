@@ -1,14 +1,11 @@
 ---
 title: "Principal Components: Abhishek Gupta on Actionable AI Ethics"
 date: 2021-10-12
-excerpt: "Abhishek Gupta, author of the forthcoming book Actionable AI Ethics, discusses how to move from discussing AI ethics in the abstract to putting them into practice.
-Susan Currie Sivek, Ph.D.
-9 hours ago·4 min read
-Photo by on Unsplash
-Abhishek Gupta,…"
+excerpt: "\"Abhishek Gupta, author of the forthcoming book Actionable AI Ethics, discusses how to move from discussing AI ethics in the abstract to putting them into practice."
 original_url: "https://susansivek.medium.com/principal-components-abhishek-gupta-on-actionable-ai-ethics-ebcaf26aa04f"
+publication: "Medium"
+categories: [data-science, profiles]
 ---
-
 *Originally published at [https://susansivek.medium.com/principal-components-abhishek-gupta-on-actionable-ai-ethics-ebcaf26aa04f](https://susansivek.medium.com/principal-components-abhishek-gupta-on-actionable-ai-ethics-ebcaf26aa04f)*
 
 ## *Abhishek Gupta, author of the forthcoming book* Actionable AI Ethics*, discusses how to move from discussing AI ethics in the abstract to putting them into practice.*

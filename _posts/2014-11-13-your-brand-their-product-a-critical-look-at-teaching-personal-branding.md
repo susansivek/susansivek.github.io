@@ -3,8 +3,10 @@ title: "Your Brand, Their Product: A Critical Look at Teaching Personal Branding
 date: 2014-11-13
 excerpt: "Abstract: Journalism instructors today often teach the use of social media for the purpose of personal branding, or the strategic crafting of an online identity for career gain. However, this instruction has implications for students’ understanding…"
 original_url: "https://aejmc.us/spig/2014/your-brand-their-product-a-critical-look-at-teaching-personal-branding-in-journalism-education/"
+publication: "aejmc.us"
+categories: [academic, features]
+featured: true
 ---
-
 *Originally published at [https://aejmc.us/spig/2014/your-brand-their-product-a-critical-look-at-teaching-personal-branding-in-journalism-education/](https://aejmc.us/spig/2014/your-brand-their-product-a-critical-look-at-teaching-personal-branding-in-journalism-education/)*
 
 Abstract: Journalism instructors today often teach the use of social media for the purpose of personal branding, or the strategic crafting of an online identity for career gain. However, this instruction has implications for students’ understanding of themselves, their participation in journalism, and for the integrity of the profession itself. This essay investigates critical perspectives on personal branding and social media to delve deeply into this area of journalism education and to offer insights that may alter journalism instructors’ classroom choices. It also provides assignment and activity suggestions for the exploration of these issues in the classroom.

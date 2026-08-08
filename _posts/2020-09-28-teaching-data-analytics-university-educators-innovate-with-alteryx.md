@@ -1,11 +1,11 @@
 ---
 title: "Teaching Data Analytics: University Educators Innovate with Alteryx"
 date: 2020-09-28
-excerpt: "How can today’s college students prepare for careers where tools and methods are constantly changing?
-Ideally, they have amazing instructors who teach creatively with technology so students can be ready for constant evolution in the professional…"
+excerpt: "\"How can today’s college students prepare for careers where tools and methods are constantly changing?"
 original_url: "https://community.alteryx.com/t5/Alter-Nation/Teaching-Data-Analytics-University-Educators-Innovate-with/ba-p/639361"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Alter-Nation/Teaching-Data-Analytics-University-Educators-Innovate-with/ba-p/639361](https://community.alteryx.com/t5/Alter-Nation/Teaching-Data-Analytics-University-Educators-Innovate-with/ba-p/639361)*
 
 How can today’s college students prepare for careers where tools and methods are constantly changing?
@@ -19,8 +19,6 @@ I recently spoke with three faculty members (and a fortunate alumnus) about how 
 [Cory Ng](https://www.fox.temple.edu/about-fox/directory/cory-ng/) ([@coryng01](https://community.alteryx.com/t5/user/viewprofilepage/user-id/144616)) didn’t think of himself as a “tech person,” really, more of a “traditional accountant.” But then he took a weeklong online course on Tableau. The course was taught from Europe, so Ng signed on every day at 4 a.m. to learn.
 
 Those early mornings paid off. The experience ignited an enthusiasm for learning and teaching data analytics. “Now I’m passionate about it,” he says.
-
-![cory ng.png](https://community.alteryx.com/t5/image/serverpage/image-id/134847iC3B05844F0990EE5/image-size/medium?v=1.0&px=400)
 
 Cory Ng
 
@@ -49,8 +47,6 @@ Ng has parlayed his teaching innovations into journal articles and a book. He ha
 Executives used to have assistants who typed documents or prepared presentation graphics for them. But easy-to-use digital applications changed that.
 
 The same is happening with data analytics, Connie Pechmann ([@Cpechman](https://community.alteryx.com/t5/user/viewprofilepage/user-id/32016)) says. Her MBA students at the University of California, Irvine, are prepared to excel in that new reality through her courses.
-
-![connie-pechmann-web-2019.jpg](https://community.alteryx.com/t5/image/serverpage/image-id/134848i7845C6C68AA9AD25/image-size/large?v=1.0&px=999)
 
 Connie Pechmann
 
@@ -85,8 +81,6 @@ She has found Alteryx resources helpful, including Community participants and us
 Students may think their professors know it all already. In reality, professors often have to leave their comfort zones, too.
 
 “I started off with small baby steps. I mean, I did not know what I was getting into,” confesses [Sumantra Sarkar](https://www.binghamton.edu/som/research/profile.html?id=ssarkar).
-
-![SusanCS_2-1600966797456.jpeg](https://community.alteryx.com/t5/image/serverpage/image-id/134837iE5395CD1B337026B/image-size/medium?v=1.0&px=400)
 
 Sumantra Sarkar
 

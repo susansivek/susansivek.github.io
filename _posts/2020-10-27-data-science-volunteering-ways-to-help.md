@@ -1,11 +1,11 @@
 ---
 title: "Data Science Volunteering: Ways to Help"
 date: 2020-10-27
-excerpt: "Ready to put your data science skills to work — to help others?
-No matter what career level you’re at, you too can participate in “data for good” events and activities. Whether you’re established in or aspiring to a data career, there are plenty of…"
+excerpt: "\"Ready to put your data science skills to work — to help others?"
 original_url: "https://susansivek.medium.com/data-science-volunteering-ways-to-help-2c2d0f5dd9ff"
+publication: "Medium"
+categories: [data-science]
 ---
-
 *Originally published at [https://susansivek.medium.com/data-science-volunteering-ways-to-help-2c2d0f5dd9ff](https://susansivek.medium.com/data-science-volunteering-ways-to-help-2c2d0f5dd9ff)*
 
 ![](https://miro.medium.com/max/10000/1*JIFhLNh1crkJXZJtZbCfnQ.jpeg?q=20000000)

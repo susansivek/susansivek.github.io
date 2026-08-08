@@ -1,12 +1,11 @@
 ---
 title: "Collaboration with Automation: A Personal Coach for Data Science"
 date: 2020-05-12
-excerpt: "You’ve got some data. You’ve got some questions about it. And you’ve got a whole bunch of predictive tools at your disposal.
-Now what?
-I had the privilege of being a guest for this week’s episode of the Alter Everything podcast and interviewing Doris…"
+excerpt: "\"You’ve got some data. You’ve got some questions about it. And you’ve got a whole bunch of predictive tools at your disposal."
 original_url: "https://community.alteryx.com/t5/Data-Science/Collaboration-with-Automation-A-Personal-Coach-for-Data-Science/ba-p/568380"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Collaboration-with-Automation-A-Personal-Coach-for-Data-Science/ba-p/568380](https://community.alteryx.com/t5/Data-Science/Collaboration-with-Automation-A-Personal-Coach-for-Data-Science/ba-p/568380)*
 
 You’ve got some data. You’ve got some questions about it. And you’ve got a whole bunch of predictive tools at your disposal.
@@ -21,7 +20,7 @@ But there’s a lot more in that dataset, and my simple linear regression didn�
 
 Let’s reimagine the same movie rating prediction task from last week. My dataset includes movie ratings from IMDb, Rotten Tomatoes and Metacritic, including both user and critic ratings. Last week’s example was simple, literally; I used simple linear regression to see if I could predict Rotten Tomatoes user ratings with the Metacritic critic ratings. (I can’t prove from this regression that Metacritic critic ratings actually have any kind of causal effect on the Rotten Tomatoes user ratings, but I can at least see if there is a strong relationship between them.)
 
-![SusanCS_0-1589217600536.png](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/112196iADD10EDD67647111/image-size/medium?v=1.0&px=400)
+![SusanCS_0-1589217600536.png](/assets/images/posts/collaboration-with-automation-a-personal-coach-for-data-science/medium-078e2d46.png)
 
 My simple linear regression workflow from last week.
 
@@ -33,8 +32,6 @@ First, I’ll recreate last week’s simple linear regression. I tell Assisted M
 
 But, plot twist! The Assisted Modeling tool offers me not just linear regression, but also two other models: [Decision Tree](https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Planting-Seeds-An-Introduction-to-Decision-Trees/ta-p/134623) and [Random Forest](https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Seeing-the-Forest-for-the-Trees-An-Introduction-to-Random-Forest/ta-p/158062). You might first think of these models as tools for classification, but both can also be used for regression. The tool builds all three models for me and displays a neat leaderboard that succinctly summarizes the models’ performance for me. It even places a little medal next to the model it recommends I use. 🏅
 
-![SusanCS_1-1589217600204.png](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/112195i811214E54D9B5CB6/image-size/large?v=1.0&px=999)
-
 The Assisted Modeling leaderboard.
 
 Closer examination of those leaderboard results, though, reveals that none of the three models the tool and I initially generated does better than my simple, manually built linear regression. (This regression model likely differs from my manually built model because the Assisted Modeling tool splits data differently for building and testing.) Am I out of luck for coming up with a better model?
@@ -43,21 +40,19 @@ It turns out that I’m actually well positioned with Assisted Modeling to refin
 
 Right now, I’m leaving a whole bunch of other potentially useful data untouched in my dataset. Maybe I didn’t consider those variables at first or didn’t feel confident expanding the model beyond a couple of variables. But if I revisit the configuration option that allows me to choose predictor variables for Assisted Modeling, I see that the tool has identified other potentially “good predictors” for me:
 
-![SusanCS_2-1589217600356.png](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/112197iFC542EB2BA3ABC60/image-size/medium?v=1.0&px=400)
-
 Part of the Assisted Modeling analysis of the variables in my dataset.
 
 Here’s where my human “wisdom” -- well, my knowledge of my dataset, at least! -- is critical, though. The tool is simply looking for other variables in my dataset that are strongly related to my target. However, the first, second, and fourth checked items on that list are just other forms of my target variable that also happen to be in the dataset, so of course they are strongly related. I won’t want to use those as predictors. I also have three other variables here that are different forms of the same IMDb movie ratings, so I should choose only one of those to use. I’ll go with the “IMDB\_norm” variable. So, of all the potential options you see checked above, I ended up using only the last one, which represents IMDb users’ ratings of the movies.
 
 I then build the models again using *two* predictor variables -- getting fancy, with Assisted Modeling’s help! I get these results:
 
-![SusanCS_3-1589217600356.png](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/112198i212E50B4AF0AD9B3/image-size/large?v=1.0&px=999)
+![SusanCS_3-1589217600356.png](/assets/images/posts/collaboration-with-automation-a-personal-coach-for-data-science/large-eebbba3d.png)
 
 The second leaderboard for my two-variable modeling attempt.
 
 As you can see, adding that extra predictor variable helped quite a bit, with the RMSE for my new two-predictor Random Forest model dropping to 0.44. With a couple more clicks, I can add any or all of these models to my workflow and use them however I wish.
 
-![SusanCS_4-1589217600199.png](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/112199iF6076C17C4DCDC95/image-size/large?v=1.0&px=999)
+![SusanCS_4-1589217600199.png](/assets/images/posts/collaboration-with-automation-a-personal-coach-for-data-science/large-ed47465e.png)
 
 The three models shown on my canvas together.
 

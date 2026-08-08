@@ -3,8 +3,9 @@ title: "3-Minute Nutshell: Predictive Analytics vs. ML vs. AI"
 date: 2022-09-01
 excerpt: "Is predictive analyticsAnalytics is a business practice that uses descriptive and visualization techniques to gain insight into data; those insights can then be used to guide business… the same as data science, machine learning, and AI? If you’ve…"
 original_url: "https://www.pecan.ai/resource/predictive-vs-data-science-ai/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/predictive-vs-data-science-ai/](https://www.pecan.ai/resource/predictive-vs-data-science-ai/)*
 
 Is predictive [analytics](https://www.pecan.ai/glossary/analytics/)Analytics is a business practice that uses descriptive and visualization techniques to gain insight into data; those insights can then be used to guide business… the same as data science, machine learning, and AI? If you’ve tried to research this question, you’ve probably gone down a rabbit hole of Venn diagrams combined with some awkward tree and branch metaphors. Differentiating among [predictive analytics](https://www.pecan.ai/resource/nutshell-what-is-predictive-analytics/), machine learning, and artificial intelligence is definitely doable for non-experts. However, it can be confusing without the right balance of simplicity and technical detail.

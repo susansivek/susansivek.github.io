@@ -1,11 +1,11 @@
 ---
 title: "Gingras to AEJMC: Journalism Educators Must Embrace Change, Look Forward"
 date: 2012-08-10
-excerpt: "Embracing disruption? Rethinking everything? These are frightening demands in the world of higher education, usually hesitant to change. But for journalism educators, facing those fears is now a necessary part of their work.
-Before the audience he…"
+excerpt: "\"Embracing disruption? Rethinking everything? These are frightening demands in the world of higher education, usually hesitant to change. But for journalism educators, facing those fears is now a necessary part of their work."
 original_url: "http://mediashift.org/2012/08/gingras-to-aejmc-journalism-educators-must-embrace-change-look-forward223/"
+publication: "MediaShift"
+categories: [media, academic]
 ---
-
 *Originally published at [http://mediashift.org/2012/08/gingras-to-aejmc-journalism-educators-must-embrace-change-look-forward223/](http://mediashift.org/2012/08/gingras-to-aejmc-journalism-educators-must-embrace-change-look-forward223/)*
 
 ![](https://i2.wp.com/mediashift.org/wp-content/uploads/2012/08/gingas-to-aejmc-sivek.png?w=1280)

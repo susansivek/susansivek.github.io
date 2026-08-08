@@ -1,14 +1,14 @@
 ---
 title: "Principal Components: Tessa Jones on the Data Science Ecosystem"
 date: 2021-07-07
-excerpt: "From studying extreme environments to using data to answer business questions, Tessa Jones from Calligo shares how her science-focused mind has helped her succeed in data science.
-Tessa Jones, director of data science at Alteryx partner, Calligo, has…"
+excerpt: "\"From studying extreme environments to using data to answer business questions, Tessa Jones from Calligo shares how her science-focused mind has helped her succeed in data science."
 original_url: "https://www.alteryx.com/input/principal-components-tessa-jones-on-the-data-science-ecosystem"
+publication: "Alteryx"
+categories: [data-science, profiles]
 ---
-
 *Originally published at [https://www.alteryx.com/input/principal-components-tessa-jones-on-the-data-science-ecosystem](https://www.alteryx.com/input/principal-components-tessa-jones-on-the-data-science-ecosystem)*
 
-![](https://www.alteryx.com/sites/default/files/2021-07/Principal%20Components%201200x628%20Social.png)
+![](/assets/images/posts/principal-components-tessa-jones-on-the-data-science-ecosystem/Principal-20Components-201200x628-20Social.webp)
 
 *From studying extreme environments to using data to answer business questions, Tessa Jones from Calligo shares how her science-focused mind has helped her succeed in data science.*
 

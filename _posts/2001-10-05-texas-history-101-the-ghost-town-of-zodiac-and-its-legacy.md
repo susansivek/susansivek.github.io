@@ -3,8 +3,9 @@ title: "Texas History 101: The Ghost Town of Zodiac and its Legacy"
 date: 2001-10-05
 excerpt: "This past June, Mormon president Gordon B. Hinckley announced his decision to build the 125th Mormon temple in San Antonio. It may seem strange that there’s such a demand for Mormon worship facilities in Texas, more commonly known today as a building…"
 original_url: "https://www.texasmonthly.com/articles/texas-history-101-59/"
+publication: "Texas Monthly"
+categories: [media, features]
 ---
-
 *Originally published at [https://www.texasmonthly.com/articles/texas-history-101-59/](https://www.texasmonthly.com/articles/texas-history-101-59/)*
 
 This past June, Mormon president Gordon B. Hinckley announced his decision to build the 125th Mormon temple in San Antonio. It may seem strange that there’s such a demand for Mormon worship facilities in Texas, more commonly known today as a building block of the Bible Belt, a Baptist and Catholic stronghold. But in reality, the Mormon faith—formally the Church of Jesus Christ of Latter-day Saints—has been in Texas since the state was a republic, and Mormon settlers played an important role in the establishment of some of the state’s leading cities.

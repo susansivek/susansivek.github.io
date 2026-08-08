@@ -3,8 +3,9 @@ title: "Predictive Analytics for App Marketing — Without SDKs"
 date: 2022-05-25
 excerpt: "Using predictive analytics to enhance your app marketing is a powerful strategy. As we recently discussed in our recent post on campaign optimization, the potential to improve your ROAS with predictive analytics is immense. But is the effort required…"
 original_url: "https://www.pecan.ai/resource/app-marketing-sdks/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/app-marketing-sdks/](https://www.pecan.ai/resource/app-marketing-sdks/)*
 
 Using predictive analytics to enhance your app marketing is a powerful strategy. As we recently discussed in [our recent post on campaign optimization](https://www.pecan.ai/resource/campaign-optimization-predictive-analytics-marketing/), the potential to improve your ROAS with predictive analytics is immense. But is the effort required to implement predictive analytics really worth it?

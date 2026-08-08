@@ -3,8 +3,9 @@ title: "Happiness is a Network of Friends"
 date: 2020-04-21
 excerpt: "Even though we may be physically distant from the people who are our closest social connections right now, those relationships feel more precious than ever. Quantifying the quantity and quality of those treasured social ties might feel a little…"
 original_url: "https://community.alteryx.com/t5/Data-Science/Happiness-is-a-Network-of-Friends/ba-p/556129"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Happiness-is-a-Network-of-Friends/ba-p/556129](https://community.alteryx.com/t5/Data-Science/Happiness-is-a-Network-of-Friends/ba-p/556129)*
 
 Even though we may be physically distant from the people who are our closest social connections right now, those relationships feel more precious than ever. Quantifying the quantity and quality of those treasured social ties might feel a little strange. But the strength of individuals’ social relationships is an important variable in the “Analytics of Happiness,” as the most recent episode of our Alter Everything podcast describes.
@@ -15,11 +16,11 @@ One data point used in the WHR happiness measures -- which feels especially poig
 
 If you want to try analyzing your own network, data science (and Alteryx) have you covered. Although modeling and visualizing social networks have been part of multiple academic disciplines for over a century, data scientists have developed sophisticated ways of crunching much bigger data on interconnectivity. Designer’s own [Network Analysis Tool](https://help.alteryx.com/current/Network_Analysis.htm) provides a versatile way to explore and visualize network data. I tried out [this workflow](https://community.alteryx.com/t5/Alteryx-Designer-Discussions/Network-Analysis-Tool/m-p/5108/highlight/true#M2510) provided in the Community by [@Tim\_Napier](https://community.alteryx.com/t5/user/viewprofilepage/user-id/3596) and quickly generated this visualization of my own LinkedIn connections, grouped by company.
 
-![SusanCS_0-1586964627973.png](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/107991i8B6ED929BFAA4DF0/image-size/medium?v=1.0&px=400)
+![SusanCS_0-1586964627973.png](/assets/images/posts/happiness-is-a-network-of-friends/medium-e07c22d6.png)
 
 For Python and R folks, the package `igraph` is one option for exploring networks. [This example](https://rpubs.com/wctucker/302110) demonstrates the “Six Degrees of Kevin Bacon” game with `igraph` in R, and [this example](https://towardsdatascience.com/visualising-graph-data-with-python-igraph-b3cc81a495cf) shows how to use `igraph` in Python to analyze scholarly article authorship. Other uses for network analysis include social networking apps and analytics (obviously), recommender systems, user behavior analysis, text analysis and search engines.
 
-![SusanCS_1-1586964627966.jpeg](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/107990iB3F82DC60C18FA02/image-size/medium?v=1.0&px=400)
+![SusanCS_1-1586964627966.jpeg](/assets/images/posts/happiness-is-a-network-of-friends/medium-fb16b67c.jpg)
 
 *Phylogenetic network of 160 SARS-CoV-2 genomes (*[*source*](https://www.pnas.org/content/early/2020/04/07/2004999117)*).*
 

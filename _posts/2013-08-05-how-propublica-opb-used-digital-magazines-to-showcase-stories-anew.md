@@ -1,11 +1,11 @@
 ---
 title: "How ProPublica, OPB Used Digital Magazines to Showcase Stories Anew"
 date: 2013-08-05
-excerpt: "The July 2013 issues of digital magazines from non-profit news organizations Oregon Public Broadcasting and ProPublica.
-Digital magazine publishing is increasingly within reach for all kinds of content creators — big, small, non-profit, for profit.…"
+excerpt: "\"The July 2013 issues of digital magazines from non-profit news organizations Oregon Public Broadcasting and ProPublica."
 original_url: "http://mediashift.org/2013/08/non-profit-news-media-embrace-digital-magazines/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2013/08/non-profit-news-media-embrace-digital-magazines/](http://mediashift.org/2013/08/non-profit-news-media-embrace-digital-magazines/)*
 
 ![](https://i0.wp.com/mediashift.org/wp-content/uploads/2013/08/opb-propublica-mags-image.jpg?w=515)

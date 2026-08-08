@@ -3,8 +3,9 @@ title: "Shaping safety policies for children in AI enabled spaces | Steven Voslo
 date: 2021-12-14
 excerpt: "Do children interacting with AI-enabled systems need special protections? Steven Vosloo, policy specialist in digital connectivity at UNICEF, shares what data scientists should keep in mind to ensure the rights of children in digital spaces.Join in…"
 original_url: "https://community.alteryx.com/t5/Data-Science-Mixer/Shaping-safety-policies-for-children-in-AI-enabled-spaces-Steven/ba-p/879269"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science-Mixer/Shaping-safety-policies-for-children-in-AI-enabled-spaces-Steven/ba-p/879269](https://community.alteryx.com/t5/Data-Science-Mixer/Shaping-safety-policies-for-children-in-AI-enabled-spaces-Steven/ba-p/879269)*
 
 Do children interacting with AI-enabled systems need special protections? Steven Vosloo, policy specialist in digital connectivity at UNICEF, shares what data scientists should keep in mind to ensure the rights of children in digital spaces.

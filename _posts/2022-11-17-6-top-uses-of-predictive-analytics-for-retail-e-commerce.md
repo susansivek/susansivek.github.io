@@ -3,8 +3,9 @@ title: "6 Top Uses of Predictive Analytics for Retail & E-Commerce"
 date: 2022-11-17
 excerpt: "Build a fantastic customer experience. Make sure it’s consistent across all the channels where you reach customers. And, of course, personalize it, so customers know how much they mean to you and will remain loyal to your brand. That’s no small…"
 original_url: "https://www.pecan.ai/resource/6-top-uses-predictive-analytics-retail-ecommerce/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/6-top-uses-predictive-analytics-retail-ecommerce/](https://www.pecan.ai/resource/6-top-uses-predictive-analytics-retail-ecommerce/)*
 
 Build a fantastic customer experience. Make sure it’s consistent across all the channels where you reach customers. And, of course, personalize it, so customers know how much they mean to you and will remain loyal to your brand.
@@ -21,7 +22,7 @@ The challenge of high customer expectations is not new, but it is intensifying. 
 
 The applications of [predictive analytics](https://www.pecan.ai/glossary/predictive-analytics/) in e-commerce and retail are still new to many business leaders. Fortunately, predictive [analytics](https://www.pecan.ai/glossary/analytics/) is proven to help e-commerce and other retailers improve customer experience — and their bottom line.
 
-[![retail and ecommerce with ai-powered predictive analytics whitepaper cover](https://www.pecan.ai/wp-content/uploads/elementor/thumbs/retail-wp-1-pxuwsdlr42t7juf2lzev17ksc4foyuduf9s4bxsty8.jpg)](https://www.pecan.ai/resource/leverage-predictive-analytics-to-survive-recession/)
+[![retail and ecommerce with ai-powered predictive analytics whitepaper cover](/assets/images/posts/6-top-uses-of-predictive-analytics-for-retail-e-commerce/retail-wp-1-pxuwsdlr42t7juf2lzev17ksc4foyuduf9s4bxsty8.svg)](https://www.pecan.ai/resource/leverage-predictive-analytics-to-survive-recession/)
 
 Grab our new guide to dive deeper into how predictive analytics can accelerate success in retail and e-commerce.
 
@@ -29,7 +30,7 @@ Grab our new guide to dive deeper into how predictive analytics can accelerate s
 
 If you’d rather listen than read — or multitask by listening and reading! — check out the [on-demand video](https://www.pecan.ai/resource/leverage-predictive-analytics-to-survive-recession/) of our recent virtual discussion, co-hosted by Retail Dive. It features expert guests Ron Thurston, “Retail in America” host and bestselling author; Angelina Eng, VP of Measurement and Attribution at IAB; and Pecan’s own Danielle Gotkis, SVP of Global Marketing. They chat about how you can leverage [predictive analytics](https://www.pecan.ai/glossary/predictive-analytics/) and customer data to act faster, be more innovative, and execute with more agility during an unstable market.
 
-[![surviving the recession webinar intro screen](https://www.pecan.ai/wp-content/uploads/elementor/thumbs/Pecan-Surviving-the-Recession-Webinar-pxv5kncv3zb6baniyvc7nufx7f3mo9fk5a7apirju2.jpg)](https://www.pecan.ai/resource/leverage-predictive-analytics-to-survive-recession/)
+[![surviving the recession webinar intro screen](/assets/images/posts/6-top-uses-of-predictive-analytics-for-retail-e-commerce/Pecan-Surviving-the-Recession-Webinar-pxv5kncv3zb6baniyvc7nufx7f3mo9fk5a7apirju2.svg)](https://www.pecan.ai/resource/leverage-predictive-analytics-to-survive-recession/)
 
 Watch our on-demand discussion of using predictive analytics in retail and e-commerce.
 

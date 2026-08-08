@@ -1,11 +1,11 @@
 ---
 title: "Data-Driven Cocktail Challenge"
 date: 2021-02-25
-excerpt: "Ready for a refresher on your pandas skills — or just ready for a refreshing drink?
-Pandas, the widely used Python library for data analysis and data wrangling, has an incredible variety of useful functions. If you’re new to pandas or just want to…"
+excerpt: "\"Ready for a refresher on your pandas skills — or just ready for a refreshing drink?"
 original_url: "https://medium.com/swlh/data-driven-cocktail-challenge-ae29bd4d410b"
+publication: "Medium"
+categories: [data-science]
 ---
-
 *Originally published at [https://medium.com/swlh/data-driven-cocktail-challenge-ae29bd4d410b](https://medium.com/swlh/data-driven-cocktail-challenge-ae29bd4d410b)*
 
 ![](https://miro.medium.com/max/10000/1*WDTpJ-ZDiBEg8BCtF4qSIg.jpeg?q=20000000)

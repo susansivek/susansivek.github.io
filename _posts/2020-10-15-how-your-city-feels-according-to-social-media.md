@@ -1,11 +1,11 @@
 ---
 title: "How Your City Feels, According to Social Media"
 date: 2020-10-15
-excerpt: "What’s the mood in your town right now? What’s the public’s attitude toward a local or state agency? Are people happy with the services they’re getting? What other needs do they have?
-We’ve all got our own sense of what’s going on in public opinion,…"
+excerpt: "\"What’s the mood in your town right now? What’s the public’s attitude toward a local or state agency? Are people happy with the services they’re getting? What other needs do they have?"
 original_url: "https://community.alteryx.com/t5/Data-Science/How-Your-City-Feels-According-to-Social-Media/ba-p/649518"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/How-Your-City-Feels-According-to-Social-Media/ba-p/649518](https://community.alteryx.com/t5/Data-Science/How-Your-City-Feels-According-to-Social-Media/ba-p/649518)*
 
 What’s the mood in your town right now? What’s the public’s attitude toward a local or state agency? Are people happy with the services they’re getting? What other needs do they have?
@@ -18,17 +18,11 @@ Twitter in particular offers an easy route to downloading public posts through i
 
 Let’s look at one way to retrieve tweets and crunch through some of their significant features with Designer. (Want a different strategy? Here’s [another post](https://community.alteryx.com/t5/Engine-Works/GET-Trends-an-Example-of-Working-With-the-Twitter-API/ba-p/458971#) by ACE [@BenMoss](https://community.alteryx.com/t5/user/viewprofilepage/user-id/5143) that talks about more ways to gather tweets!)
 
-![SusanCS_0-1602619049516.gif](https://community.alteryx.com/t5/image/serverpage/image-id/138481i718ABC0B9314369E/image-size/medium?v=1.0&px=400)
-
 To use this approach, you’ll need Twitter developer credentials. [Apply here](https://developer.twitter.com/en/apply-for-access) to get access. Once you have them, you’ll need to create an app, then grab your consumer API key and API secret key from [the Apps page](https://developer.twitter.com/en/apps) on the Twitter developer site.
 
 Once you have this information, you can plug it into the [Twitter API Authorization Header macro](https://gallery.alteryx.com/#!app/Twitter-API-Authorization-Header/5bb29ea4826fd30c4cd5533e) included in the package attached to this post.
 
-![SusanCS_1-1602619049490.png](https://community.alteryx.com/t5/image/serverpage/image-id/138480i5A477C22A576D56E/image-size/medium?v=1.0&px=400)
-
 There are some limitations to Twitter’s [standard search](https://developer.twitter.com/en/docs/twitter-api/v1/tweets/search/overview/standard), without upgrading to a paid option. You’ll only get tweets from the last seven days, and not *all* tweets during that time, but a “sample.” Twitter says those sampled results will be based “on relevance *and not completeness*” (their italics). If you need a comprehensive collection of *all* tweets related to your search terms, you’ll need to explore other options.
-
-![SusanCS_2-1602619050349.gif](https://community.alteryx.com/t5/image/serverpage/image-id/138482i2B24280907FBEB8F/image-size/medium?v=1.0&px=400)
 
 Also, be forewarned: You may come across some tweets that are NSFW! Even off-color content is useful for sentiment analysis — yes, the [VADER lexicon](https://github.com/cjhutto/vaderSentiment/blob/master/vaderSentiment/vader_lexicon.txt) used in our Sentiment Analysis Tool includes four-letter words and creative variations on them! — but you might need to be careful about displaying your results to others.
 
@@ -50,8 +44,6 @@ Notice that depending on how busy your search terms are, you may get different r
 
 Another option to drill into tweets for a specific geographic area is to modify your call to the Twitter API to include latitude and longitude for a specific point, plus a radius around that point. With a Text Input Tool, you can make columns for latitude, longitude and the desired radius in miles or kilometers, potentially for multiple points (for example, to represent the major cities with your state). The retrieved tweets will be those for which the user has opted to provide geolocation information.
 
-![SusanCS_3-1602619050094.gif](https://community.alteryx.com/t5/image/serverpage/image-id/138484i44A94FA101E70905/image-size/medium?v=1.0&px=400)
-
 Feed your lat/long and radius information into a Formula Tool that builds a URL in the following pattern, replacing the numbers in the geocode section with the latitude and longitude for your point of interest:
 
 [`https://api.twitter.com/1.1/search/tweets.json?q=&geocode=-22.912214,-43.230182,1km`](https://api.twitter.com/1.1/search/tweets.json?q=&geocode=-22.912214,-43.230182,1km&lang=pt&result_type=recent)
@@ -62,13 +54,9 @@ You will likely need to use `ToString()` to convert your latitude and longitude 
 
 Although social media posts can vary in, er, quality, you can still find useful information. Public relations outreach on various issues can be refined and targeted based on the community sentiment and major topics found in social media content. For example, regardless of the location I chose for running my sample workflow, I found plenty of discussions around pandemic concerns and specific questions that could be addressed through a city or area’s own outreach.
 
-![SusanCS_4-1602619049509.gif](https://community.alteryx.com/t5/image/serverpage/image-id/138483i7904528FBA894D5C/image-size/medium?v=1.0&px=400)
-
 Area residents’ feedback on particular services or issues could be gathered and analyzed easily, even with large numbers of posts. As [this report](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3370217&download=yes) describes, getting people to respond to surveys or fill out feedback forms is challenging, but spontaneously provided, public social media reactions and opinions are a ready-to-use resource — and maybe even more authentic and honest. Social media can also provide a window into the opinions of younger people and others who may be less inclined or unable to send letters or attend public meetings.
 
 Of course, there is a privacy concern to keep in mind here. The Twitter users whose tweets have been collected are sharing their thoughts publicly, but they don’t necessarily intend for their ideas to be gathered and analyzed. Care needs to be taken with the names and any personal details of the users whose tweets show up in analyses.
-
-![](https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6058004171001/611d63d5-f094-48db-9fcd-4c3ad4bd8afe/main/1280x720/2m23s402ms/match/image.jpg)
 
 [(view in My Videos)](https://community.alteryx.com/t5/video/gallerypage/video-id/6200697961001)
 

@@ -3,8 +3,9 @@ title: "Vital Signs: Assessing Data Health and Dealing with Outliers"
 date: 2021-03-25
 excerpt: "At the doctor’s office, you and the medical assistant go through a familiar routine before the doctor arrives. They’ll check your vital signs — pulse, blood pressure, respiration rate and more — and collect some general information. Those steps…"
 original_url: "https://towardsdatascience.com/vital-signs-assessing-data-health-and-dealing-with-outliers-e6f1d2569a52"
+publication: "Towards Data Science"
+categories: [data-science]
 ---
-
 *Originally published at [https://towardsdatascience.com/vital-signs-assessing-data-health-and-dealing-with-outliers-e6f1d2569a52](https://towardsdatascience.com/vital-signs-assessing-data-health-and-dealing-with-outliers-e6f1d2569a52)*
 
 Photo by [jesse orrico](https://unsplash.com/@jessedo81?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/brain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

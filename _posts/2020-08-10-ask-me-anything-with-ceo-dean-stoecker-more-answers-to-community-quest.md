@@ -1,13 +1,14 @@
 ---
-title: "\"Ask Me Anything\" with CEO Dean Stoecker: More Answers to Community Questions"
+title: "\\\"Ask Me Anything\\\" with CEO Dean Stoecker: More Answers to Community Questions"
 date: 2020-08-10
 excerpt: "Alteryx CEO Dean Stoecker recently hosted an “Ask Me Anything” live video event, attended by members of the Alteryx Community from around the world. In addition to answering questions submitted by the Community in advance, Dean also took some…"
 original_url: "https://community.alteryx.com/t5/Alter-Nation/quot-Ask-Me-Anything-quot-with-CEO-Dean-Stoecker-More-Answers-to/ba-p/612894"
+publication: "Alteryx Community"
+categories: [data-science, profiles]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Alter-Nation/quot-Ask-Me-Anything-quot-with-CEO-Dean-Stoecker-More-Answers-to/ba-p/612894](https://community.alteryx.com/t5/Alter-Nation/quot-Ask-Me-Anything-quot-with-CEO-Dean-Stoecker-More-Answers-to/ba-p/612894)*
 
-***![MicrosoftTeams-image.png](https://community.alteryx.com/t5/image/serverpage/image-id/126304i9F9012A80493B8B4/image-size/large?v=1.0&px=999)***
+******
 
 ***Alteryx CEO Dean Stoecker recently hosted an “Ask Me Anything” live video event, attended by members of the Alteryx Community from around the world. In addition to answering questions submitted by the Community in advance, Dean also took some questions live — but there were too many questions to address during the event! Dean wanted to follow up with some of those additional questions asked by attendees, and we’re excited to share his answers here.***
 

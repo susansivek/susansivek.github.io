@@ -1,12 +1,12 @@
 ---
 title: "How Spooky is Your City? Mapping and Predicting Scary Stuff"
 date: 2020-10-29
-excerpt: "Interactive maps and predictive modeling for creepy phenomena…why not? Let’s have some Halloween fun with data science.
-Whether you’re the kind of person who seeks out the spooky or not, guess what: You probably live near some creepy things.
-To…"
+excerpt: "\"Interactive maps and predictive modeling for creepy phenomena…why not? Let’s have some Halloween fun with data science."
 original_url: "https://towardsdatascience.com/how-spooky-is-your-city-mapping-and-predicting-scary-stuff-26b7dea892bd"
+publication: "Towards Data Science"
+categories: [data-science]
+Whether you’re the kind of person who seeks out the spooky or not, guess what: You probably live near some creepy things.
 ---
-
 *Originally published at [https://towardsdatascience.com/how-spooky-is-your-city-mapping-and-predicting-scary-stuff-26b7dea892bd](https://towardsdatascience.com/how-spooky-is-your-city-mapping-and-predicting-scary-stuff-26b7dea892bd)*
 
 ## Interactive maps and predictive modeling for creepy phenomena…why not? Let’s have some Halloween fun with data science.

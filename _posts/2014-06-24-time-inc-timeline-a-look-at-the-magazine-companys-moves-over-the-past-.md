@@ -3,8 +3,9 @@ title: "Time Inc. Timeline: A Look at the Magazine Company’s Moves Over the Pa
 date: 2014-06-24
 excerpt: "Time Warner recently parted ways with its magazine unit, Time Inc., making Time Inc. its own independent magazine media company. Reactions to the move ranged from skepticism to hesitant optimism, and left magazine industry observers wondering if Time…"
 original_url: "http://mediashift.org/2014/06/time-inc-timeline-a-look-at-the-magazine-companys-moves-over-the-past-century/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2014/06/time-inc-timeline-a-look-at-the-magazine-companys-moves-over-the-past-century/](http://mediashift.org/2014/06/time-inc-timeline-a-look-at-the-magazine-companys-moves-over-the-past-century/)*
 
 ![](https://i1.wp.com/mediashift.org/wp-content/uploads/2014/06/ripp-nyse1.jpg?w=1280)

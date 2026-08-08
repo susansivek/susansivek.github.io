@@ -3,8 +3,9 @@ title: "How to Measure Offline Marketing ROI — the Right Way"
 date: 2023-05-31
 excerpt: "We all know digital marketing measurement isn’t perfect by any means. But tracking offline marketing campaigns and channels and their business impact can feel nearly impossible. You may or may not have more marketing budget to play with right now. If…"
 original_url: "https://www.pecan.ai/resource/how-to-measure-offline-marketing-roi-the-right-way/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/how-to-measure-offline-marketing-roi-the-right-way/](https://www.pecan.ai/resource/how-to-measure-offline-marketing-roi-the-right-way/)*
 
 We all know digital marketing measurement isn’t perfect by any means. But tracking offline marketing campaigns and channels and their business impact can feel nearly impossible.

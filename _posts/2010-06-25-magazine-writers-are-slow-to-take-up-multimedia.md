@@ -3,8 +3,9 @@ title: "Magazine Writers Are Slow to Take Up Multimedia"
 date: 2010-06-25
 excerpt: "An ideal pitch for a magazine story today would seem to require great possibilities for text and for multimedia. Freelance magazine writers, one would think, would be honing their multimedia skills so they could pitch well-rounded stories to editors…"
 original_url: "http://mediashift.org/2010/06/magazine-writers-are-slow-to-take-up-multimedia176/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2010/06/magazine-writers-are-slow-to-take-up-multimedia176/](http://mediashift.org/2010/06/magazine-writers-are-slow-to-take-up-multimedia176/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-04bfe37409201eb083a827285940f22b-writing-while-driving.jpg)

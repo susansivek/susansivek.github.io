@@ -3,8 +3,9 @@ title: "Maximize Marketing ROI Through Better Campaign Optimization With Predict
 date: 2022-04-28
 excerpt: "How much has your advertising budget increased in the last three years? Has the increase in spend correlated with an increase in conversions? If you advertise on social media and Google, your budget has probably swelled at least 25% or more — because…"
 original_url: "https://www.pecan.ai/resource/campaign-optimization-predictive-analytics-marketing/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/campaign-optimization-predictive-analytics-marketing/](https://www.pecan.ai/resource/campaign-optimization-predictive-analytics-marketing/)*
 
 ![](https://pecan.ai/wp-content/uploads/2022/04/campaign-opt-post-photo.png)

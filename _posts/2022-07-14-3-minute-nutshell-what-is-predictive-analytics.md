@@ -3,8 +3,9 @@ title: "3-Minute Nutshell: What Is Predictive Analytics?"
 date: 2022-07-14
 excerpt: "Welcome to our new 3-Minute Nutshell series, where we’ll answer FAQs about predictive analyticsAnalytics is a business practice that uses descriptive and visualization techniques to gain insight into data; those insights can then be used to guide…"
 original_url: "https://www.pecan.ai/resource/nutshell-what-is-predictive-analytics/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/nutshell-what-is-predictive-analytics/](https://www.pecan.ai/resource/nutshell-what-is-predictive-analytics/)*
 
 ![Predictive analytics finds patterns in complex data that can be used to predict future outcomes.](https://www.pecan.ai/wp-content/uploads/2021/05/vb-img.jpg.webp)

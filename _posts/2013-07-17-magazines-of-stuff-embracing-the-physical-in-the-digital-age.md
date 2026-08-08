@@ -1,11 +1,11 @@
 ---
 title: "Magazines of Stuff: Embracing the Physical in the Digital Age"
 date: 2013-07-17
-excerpt: "The digital disruption of the magazine world has, in some cases, spurred a return to the tangible with a new, physical \"magazine\" that is a curated collection of goods delivered to subscribers.
-One way to react to the digitization of magazines is to…"
+excerpt: "\"The digital disruption of the magazine world has, in some cases, spurred a return to the tangible with a new, physical \\\"magazine\\\" that is a curated collection of goods delivered to subscribers."
 original_url: "http://mediashift.org/2013/07/magazines-of-stuff-embracing-the-physical-in-the-digital-age/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2013/07/magazines-of-stuff-embracing-the-physical-in-the-digital-age/](http://mediashift.org/2013/07/magazines-of-stuff-embracing-the-physical-in-the-digital-age/)*
 
 ![](https://i1.wp.com/mediashift.org/wp-content/uploads/2013/07/quarterly-items.jpg?w=515)

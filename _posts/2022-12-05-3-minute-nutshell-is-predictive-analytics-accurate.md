@@ -3,8 +3,9 @@ title: "3-Minute Nutshell: Is Predictive Analytics Accurate?"
 date: 2022-12-05
 excerpt: "Welcome to the sixth article in our 3-Minute Nutshell series. We answer FAQs about predictive analytics in just a few minutes of your time! Get up to speed on the key things you need to know to start your business’s journey toward AI success. Catch…"
 original_url: "https://www.pecan.ai/resource/3-minute-nutshell-is-predictive-analytics-accurate/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/3-minute-nutshell-is-predictive-analytics-accurate/](https://www.pecan.ai/resource/3-minute-nutshell-is-predictive-analytics-accurate/)*
 
 Welcome to the sixth article in our 3-Minute Nutshell series. We answer FAQs about [predictive analytics](https://www.pecan.ai/glossary/predictive-analytics/) in just a few minutes of your time! Get up to speed on the key things you need to know to start your business’s journey toward [AI](https://www.pecan.ai/glossary/artificial-intelligence-ai/) success. Catch up with the series now:
@@ -25,7 +26,7 @@ Because accuracy is intuitive and easy to calculate, it’s a standard metric to
 
 If you got a grade of 98% on a test and your friend earned 95%, it’s obvious which grade is “better.” But the better option may not always be so apparent if you’re choosing between predictive models. Consider these two options:
 
-![choice between two models of accuracy](https://www.pecan.ai/wp-content/uploads/elementor/thumbs/Accuracy-blog-post-graphic-pyj1irq6tb3hdyma4ifbt85ki8xqbnjy953mruy468.jpg)
+![choice between two models of accuracy](/assets/images/posts/3-minute-nutshell-is-predictive-analytics-accurate/Accuracy-blog-post-graphic-pyj1irq6tb3hdyma4ifbt85ki8xqbnjy953mruy468.svg)
 
 Which would you choose?
 

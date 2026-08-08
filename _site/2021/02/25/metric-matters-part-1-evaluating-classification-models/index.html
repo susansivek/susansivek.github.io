@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Metric Matters, Part 1: Evaluating Classification Models — Susan Currie Sivek</title>
+  <meta name="description" content=""Imagine taking a 100-question multiple-choice test and giving the right answer to 85 questions. You get a score of 85%. You must have studied and learned th...">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="site">
+    <header class="masthead">
+      <p class="masthead-brand">
+        <a href="/">Susan Currie Sivek</a>
+      </p>
+      <p class="masthead-tagline">
+        Data science writer, researcher, hiker, knitter. Former journalism professor. Curious about everything.
+        View <a href="https://www.linkedin.com/in/ssivek/">my LinkedIn profile</a>.
+      </p>
+      <nav class="site-nav" aria-label="Portfolio sections">
+  <ul>
+    <li>
+      <a href="/">All</a>
+    </li>
+    <li>
+      <a href="/favorites/">Favorites</a>
+    </li>
+    <li>
+      <a href="/categories/data-science/">Data Science and Tech</a>
+    </li>
+    <li>
+      <a href="/categories/features/">Features</a>
+    </li>
+    <li>
+      <a href="/categories/profiles/">Profiles</a>
+    </li>
+    <li>
+      <a href="/categories/academic/">Academic Life</a>
+    </li>
+    <li>
+      <a href="/categories/media/">Media Industry</a>
+    </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main class="content" id="main">
+      <article class="post">
+  <header class="post-header">
+    <h1>Metric Matters, Part 1: Evaluating Classification Models</h1>
+    <div class="post-meta">
+      <span>February 25, 2021</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><span>Alteryx Community</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><a class="post-source" href="https://community.alteryx.com/t5/Data-Science/Metric-Matters-Part-1-Evaluating-Classification-Models/ba-p/719190" rel="noopener">View original &#8599;</a>
+    </div>
+    
+    <ul class="post-categories">
+      
+      <li>
+        
+          <a href="/categories/data-science/">Data Science and Tech</a>
+        
+      </li>
+      
+    </ul>
+    
+  </header>
+
+  <div class="post-body">
+    <p><em>Originally published at <a href="https://community.alteryx.com/t5/Data-Science/Metric-Matters-Part-1-Evaluating-Classification-Models/ba-p/719190">https://community.alteryx.com/t5/Data-Science/Metric-Matters-Part-1-Evaluating-Classification-Models/ba-p/719190</a></em></p>
+
+<p>Imagine taking a 100-question multiple-choice test and giving the right answer to 85 questions. You get a score of 85%. You must have studied and learned the material!</p>
+
+<p>But maybe the reality was a little different: You’d actually forgotten to study, so you just went down your answer sheet and picked answer A for every question. Your teacher had gotten tired of putting the right answer in different places, and just stuck 85 of the answers in option A. You lucked out!</p>
+
+<p><img src="/assets/images/posts/metric-matters-part-1-evaluating-classification-models/large.svg" alt="giphy" /></p>
+
+<p>There was probably a better way to measure your abilities than your score on this test. The same may be true of how you measure machine learning models’ prediction abilities.</p>
+
+<p>The metrics — the quantitative measures of model performance — that you choose to evaluate your models matter, but with so many choices, which one should you select? You’ll definitely have to face this decision if you’re hand-coding your own machine learning models. However, you might also like to know more about your options even if you’re using our awesome <a href="https://community.alteryx.com/t5/Analytics/Power-to-the-Process-in-2021-1/ba-p/713080">new AutoML tool</a> in Designer 21.1, or for using Assisted Modeling to guide your model creation in either <a href="https://community.alteryx.com/t5/Data-Science/Assisted-Modeling-The-Power-of-Augmented-Intelligence/ba-p/608237">assisted</a> or <a href="https://community.alteryx.com/t5/Data-Science/Inside-the-Model-Construction-Zone-with-Automatic-Mode/ba-p/649430">automatic</a> mode. This knowledge is also helpful for using a package like <a href="https://community.alteryx.com/t5/Data-Science/Easy-Open-Source-AutoML-in-Python-with-EvalML/ba-p/715052">EvalML</a>.</p>
+
+<h2 id="objective-function-vs-metric"><strong>Objective Function vs. Metric</strong></h2>
+
+<p>This is a distinction you’ll need if you want to delve into the optional “Advanced Parameters’’ of the <a href="https://help.alteryx.com/current/designer/automl">AutoML tool</a>. If you’d like to explore these terms further, pop open the spoiler below.</p>
+
+<p>Ready to move on? Let’s dive in.</p>
+
+<h2 id="which-metrics-matter"><strong>Which Metrics Matter?</strong></h2>
+
+<p>It depends. Don’t you love that answer?</p>
+
+<p>The first step is to understand what your options are; you can then decide which one best fits your situation. First, there are different metrics for classification problems than for regression problems. (Classification problems are when you want to find the category that something best fits, out of two or more choices, like true/false or low/medium/high. Regression is when you want to find a numeric value for something, like predicting a score or a home’s value.)</p>
+
+<p>We’ll check out metrics for classification here. In part 2 of this post, we’ll look at metrics for regression models.</p>
+
+<p><img src="/assets/images/posts/metric-matters-part-1-evaluating-classification-models/medium.svg" alt="giphy-downsized" /></p>
+
+<h2 id="dont-be-confused-or-imbalanced"><strong>Don’t Be Confused or Imbalanced</strong></h2>
+
+<p>This post relies on the idea of a <a href="https://community.alteryx.com/t5/Data-Science/What-is-a-Confusion-Matrix/ba-p/537567">confusion matrix</a> and what it means to have true positives, false positives, true negatives and false negatives. I’ve included a confusion matrix for each metric below, with blue text showing which results are used in its calculation. It’ll also be good to know what “balanced” and “imbalanced” datasets are.</p>
+
+<p>Want a refresher on confusion matrices and balanced/imbalanced data? Click the spoiler tag for more info. Otherwise, start reviewing your many metric options.</p>
+
+<h2 id="accuracy"><strong>Accuracy</strong></h2>
+
+<p><em>Definition:</em> Accuracy is the proportion of times your model predicted the right class out of all the predictions it made. Values range from 0 to 1, with higher values reflecting greater accuracy.</p>
+
+<p><em>Important to know:</em></p>
+
+<ul>
+  <li>This is the simplest metric to understand. It’s like your 85% on the test in our example above: 85% of your answers were right.</li>
+  <li>However, just like the test, accuracy as a metric can make your model look really good when your data aren’t evenly distributed among classes (or, as in our example above, the “answers” heavily tend toward one option).</li>
+  <li>Accuracy also considers errors in classification (false positives and false negatives) to be equally concerning to you. If one of those kinds of errors is especially risky for your use case, check out other metrics.</li>
+</ul>
+
+<h2 id="balanced-accuracy"><strong>Balanced accuracy</strong></h2>
+
+<p><em>Definition:</em> the average of the accuracy calculated for all classes (i.e., the proportion of correct predictions out of all predictions made). In a multiclass problem, there are different ways of calculating balanced accuracy, as <a href="https://scikit-learn.org/stable/modules/model_evaluation.html#balanced-accuracy-score">explained here</a> with links to full references. Values range from 0 to 1, with higher values reflecting higher accuracy across all classes.</p>
+
+<p><em>Important to know:</em></p>
+
+<ul>
+  <li>Balanced accuracy is a good way to ensure that a model isn’t just having good accuracy with one class in its predictions, and terrible accuracy with the others. Instead, we’re looking for a good rate of correct predictions across all classes on average.</li>
+  <li>
+    <p>This metric is an appropriate choice for imbalanced datasets because it considers all classes, so even if your model performs really well when predicting one class but terribly for another, you’ll see that reflected in this metric. (Want to see an example of this? Open the spoiler below.)</p>
+  </li>
+  <li>If the model performs equally well when predicting different classes, accuracy and balanced accuracy will have equal values.</li>
+  <li>If you’re wanting to see generally good performance across classes and are not especially concerned about the specific types of errors being made, balanced accuracy might be a good metric for you.</li>
+</ul>
+
+<p><img src="/assets/images/posts/metric-matters-part-1-evaluating-classification-models/medium-92b733d3.svg" alt="giphy" /></p>
+
+<h2 id="precision"><strong>Precision</strong></h2>
+
+<p><em>Definition:</em> For a binary classification problem, this is the proportion of times the model predicted outcome A correctly out of the total predictions of outcome A (whether correct or incorrect). For a multiclass classification problem, precision is calculated with <a href="https://sebastianraschka.com/faq/docs/multiclass-metric.html">averaging techniques</a>. For both binary and multiclass problems, values for precision range from 0 to 1, with higher values reflecting greater precision.</p>
+
+<p><em>Important to know:</em></p>
+
+<ul>
+  <li>If false positives are more of a concern to you than false negatives, precision may be a good metric to use. In other words, you really want your model to be right when it predicts a certain class because your action on that prediction will be expensive or significant.</li>
+  <li>For example, a model that predicts whether a patient has a disease might need to demonstrate high precision if the follow-up testing to diagnose the patient for certain is risky in itself. You wouldn’t want to undertake that testing unless you felt confident in the model’s prediction of a “true positive,” or that the disease is actually present.</li>
+</ul>
+
+<h2 id="f1-score"><strong>F1 score</strong></h2>
+
+<p><em>Definition:</em> The weighted average of precision and recall, and one of the most popular metrics for evaluating model performance. (Recall is the proportion of times a model predicted Outcome A when Outcome A was truly present. It can also be called “sensitivity” or “probability of detection,” both of which are more descriptive names than “recall.”) The F1 score is calculated by multiplying precision by recall, dividing that by their sum, and then multiplying by 2, or: 2 * [(precision * recall) / (precision + recall)]. This metric can also be used for multiclass problems by averaging the scores for each class. Values range from 0 to 1, with higher values reflecting more correct predictions overall.</p>
+
+<p><em>Important to know:</em></p>
+
+<ul>
+  <li>If you read about the metrics above and thought, “But I care about both how well my model predicts both positive and negative results,” this may be your happy place. The F1 score is frequently used in machine learning, particularly for imbalanced data like our weird multiple-choice test example above.</li>
+  <li>However, that doesn’t mean that the F1 score is always the perfect metric for all scenarios. This metric considers precision and recall to be <em>equally</em> important to your situation. That may be true, but what if different kinds of classification error present different degrees of concern for your situation? <a href="https://www.jstor.org/stable/41819855">Some researchers</a> have suggested ways of weighting precision and recall.</li>
+</ul>
+
+<h2 id="matthews-correlation-coefficient"><strong>Matthews correlation coefficient</strong></h2>
+
+<p><em>Definition:</em> This metric incorporates true and false positives and negatives, as well as the number of items in each class, so it can be used on imbalanced datasets. Another way to think of this metric is that it addresses all the cells of a <a href="https://community.alteryx.com/t5/Data-Science/What-is-a-Confusion-Matrix/ba-p/537567">confusion matrix</a>, unlike some other metrics, plus the number of items in each class. The MCC can be used for binary and multiclass problems. For a binary problem, values range from -1 to 1; 1 represents perfect predictions, 0 represents predictions equivalent to random guesses, and -1 represents inverse predictions (i.e., the model is predicting the opposite outcome consistently). The value ranges <a href="https://en.wikipedia.org/wiki/Matthews_correlation_coefficient#Multiclass_case">change for multiclass problems</a> depending on the data.</p>
+
+<p><em>Important to know:</em></p>
+
+<ul>
+  <li><a href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-6413-7">Some researchers</a> suggest that the MCC is more informative for binary classification problems than a measure like F1 or balanced accuracy because it considers all the outcomes of the model and the size of the classes.</li>
+</ul>
+
+<h2 id="auc"><strong>AUC</strong></h2>
+
+<p><em>Definition:</em> AUC is an acronym that stands for “area under the [receiver operating characteristic, or ROC] curve.” This one requires <a href="https://community.alteryx.com/t5/Data-Science/ROC-Curves-in-Python-and-R/ba-p/138430">an explanation of the ROC</a> as well; we’ll just say here that this metric looks at how likely your model is to predict the probability of model outcomes in the correct rank order. It doesn’t consider what threshold you might choose for accepting the model’s prediction of a particular class. (Here are some <a href="https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc">nice visuals</a> for this ranking process.) Values range from 0 to 1. An AUC of 0 means the model’s predictions are all wrong, and an AUC of 1 means they are all correct. An AUC greater than 0.5 shows that the model performs better than chance, i.e., better than simply guessing.</p>
+
+<p><em>Important to know:</em></p>
+
+<ul>
+  <li>AUC is probably not the best metric for use with <a href="https://academic.oup.com/bioinformatics/article/26/6/822/244957">small sample sizes</a>.</li>
+  <li>Because AUC doesn’t factor in the threshold you want your model to consider in making its predictions, this metric might not be the best choice if you want your model to be very sure about its predictions. For example, maybe you really want to avoid false positives or false negatives for some domain-specific reason. In that case, you might look to a metric that incorporates that threshold.</li>
+  <li>This metric might also be misleading for imbalanced datasets (see section 4 of <a href="https://arxiv.org/pdf/1812.01388.pdf">this paper</a> for an explanation with visuals).</li>
+</ul>
+
+<p><img src="/assets/images/posts/metric-matters-part-1-evaluating-classification-models/medium-8bb4dd60.svg" alt="giphy-downsized" /></p>
+
+<h2 id="log-loss"><strong>Log loss</strong></h2>
+
+<p><em>Definition:</em> a measure that penalizes the model for incorrect predictions, but also incorporates the model’s confidence about its predictions. This metric is used for binary and multiclass classification, and is suited for models that provide the probabilities for assigning each potential class. Lower scores are considered ‘better’ with regard to model performance, but this value is not very informative if you’re looking at just one model; it is more useful for model comparison. Values can range from 0 (probabilities were perfectly predicted) to, well, infinity.</p>
+
+<p><em>Important to know:</em></p>
+
+<ul>
+  <li>If a model predicts a certain class with a high confidence but is totally wrong, log loss will increase.</li>
+  <li>Here’s one way to think about log loss: Imagine you have a friend who sometimes makes incorrect predictions, but always proclaims loudly how correct their predictions will be. You’d probably be less likely to trust that friend’s predictions than those of a different friend who also sometimes makes incorrect predictions, but who isn’t so arrogant about whether they’ll be right. Log loss essentially gives you a measure of how much you can trust your model’s predictions, while considering how strongly it asserts those predictions’ truth. If the model says, well, I predict A but only with 42% certainty, then that prediction, if incorrect, wouldn’t be penalized as harshly as predicting A with 89% certainty.</li>
+  <li>Log loss may be a good choice for imbalanced datasets.</li>
+</ul>
+
+<p>Remember, no one metric is right for every situation, so choose the option that makes the most sense for your particular goals and desired outcomes. It’s an important decision, but I hope this list has helped you evaluate your choices.</p>
+
+<p>In the next post, we’ll talk about metrics for evaluating regression models, so stay “tuned” for that one! (Yes, that was a goofy machine learning pun. 😜 )</p>
+
+<h2 id="additional-resources"><strong>Additional Resources</strong></h2>
+
+<p><a href="https://community.alteryx.com/t5/user/viewprofilepage/user-id/143008">Susan Currie Sivek</a>  <br />
+<strong>Data Science Journalist</strong></p>
+
+<p>Susan Currie Sivek, Ph.D., is the data science journalist for the Alteryx Community, where she explores data science concepts with a global audience. Her background in academia and social science informs her approach to investigating data and communicating complex ideas — with a dash of creativity from her training in journalism. Susan also loves getting outdoors with her dog and relaxing with some good science fiction.</p>
+
+  </div>
+</article>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Susan Currie Sivek</p>
+      
+      <p><a href="mailto:susan.sivek@gmail.com">susan.sivek@gmail.com</a></p>
+      
+    </footer>
+  </div>
+</body>
+</html>

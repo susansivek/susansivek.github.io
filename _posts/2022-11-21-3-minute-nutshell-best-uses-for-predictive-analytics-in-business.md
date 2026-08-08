@@ -3,8 +3,9 @@ title: "3-Minute Nutshell: Best Uses for Predictive Analytics in Business"
 date: 2022-11-21
 excerpt: "Welcome to the fifth article in our 3-Minute Nutshell series. We answer FAQs about predictive analytics in just a few minutes of your time! Get up to speed on the key things you need to know to start your business’s journey toward AI success. Catch…"
 original_url: "https://www.pecan.ai/resource/best-uses-predictive-analytics-business/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/best-uses-predictive-analytics-business/](https://www.pecan.ai/resource/best-uses-predictive-analytics-business/)*
 
 Welcome to the fifth article in our 3-Minute Nutshell series. We answer FAQs about [predictive analytics](https://www.pecan.ai/glossary/predictive-analytics/) in just a few minutes of your time! Get up to speed on the key things you need to know to start your business’s journey toward [AI](https://www.pecan.ai/glossary/artificial-intelligence-ai/) success. Catch up with the series now:
@@ -17,7 +18,7 @@ That confidence is available across all the different uses of predictive [analyt
 
 Let’s explore some [business problems](https://online.hbs.edu/blog/post/predictive-analytics) where predictive analytics can benefit business leaders.
 
-![using predictive analytics in business](https://www.pecan.ai/wp-content/uploads/elementor/thumbs/Uses-of-PA-py1poictytfj6mhtlazluznejkud3atfj2njuc1868.jpg)
+![using predictive analytics in business](/assets/images/posts/3-minute-nutshell-best-uses-for-predictive-analytics-in-business/Uses-of-PA-py1poictytfj6mhtlazluznejkud3atfj2njuc1868.svg)
 
 Uses of PA
 

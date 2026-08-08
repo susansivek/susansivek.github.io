@@ -3,8 +3,9 @@ title: "Unleash Your Data’s Predictive Potential: You’re More Ready Than You
 date: 2022-02-01
 excerpt: "You have plenty of customer and market data. Your business has potential to grow. And things are changing so fast in the world that you need every means possible to keep up. Predictive analytics could be the right next move to maximize your…"
 original_url: "https://www.pecan.ai/resource/unleash-your-datas-predictive-potential/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/unleash-your-datas-predictive-potential/](https://www.pecan.ai/resource/unleash-your-datas-predictive-potential/)*
 
 ![](https://pecan.ai/wp-content/uploads/2022/02/Frame-2146.png)

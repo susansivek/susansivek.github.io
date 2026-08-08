@@ -3,8 +3,9 @@ title: "Do Journalists Need a Journalism Degree? Educators, Practitioners Disagr
 date: 2013-08-12
 excerpt: "The age old question has cropped up again, but this time with a digital angle: Does a journalist today still need a degree in journalism? Journalism educators and professionals aren’t necessarily on the same page about what journalism students need…"
 original_url: "http://mediashift.org/2013/08/do-journalists-need-a-journalism-degree-educators-practitioners-disagree/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2013/08/do-journalists-need-a-journalism-degree-educators-practitioners-disagree/](http://mediashift.org/2013/08/do-journalists-need-a-journalism-degree-educators-practitioners-disagree/)*
 
 ![](https://i2.wp.com/mediashift.org/wp-content/uploads/2014/01/classroom-college-3.jpg?w=1280)

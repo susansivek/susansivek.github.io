@@ -1,24 +1,20 @@
 ---
 title: "Free Data Science Tools for Designer: A Gallery Tour"
 date: 2020-11-24
-excerpt: "Did you know there are even more data science tools available for Alteryx, beyond what you see in your Designer palettes, for statistics, data prep, modeling and more?
-In this week’s episode of our Alter Everything podcast, Chris @mceleavey talks…"
+excerpt: "\"Did you know there are even more data science tools available for Alteryx, beyond what you see in your Designer palettes, for statistics, data prep, modeling and more?"
 original_url: "https://community.alteryx.com/t5/Data-Science/Free-Data-Science-Tools-for-Designer-A-Gallery-Tour/ba-p/669590"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Free-Data-Science-Tools-for-Designer-A-Gallery-Tour/ba-p/669590](https://community.alteryx.com/t5/Data-Science/Free-Data-Science-Tools-for-Designer-A-Gallery-Tour/ba-p/669590)*
 
 Did you know there are even more data science tools available for Alteryx, beyond what you see in your Designer palettes, for statistics, data prep, modeling and more?
-
-![SusanCS_0-1606169037276.gif](https://community.alteryx.com/t5/image/serverpage/image-id/145806iD383AE8708CBBA51/image-size/medium?v=1.0&px=400)
 
 Image via GIPHY
 
 In [this week’s episode](https://community.alteryx.com/t5/Alter-Everything-Podcast/75-Fun-analytics-for-all/ba-p/670517) of our Alter Everything podcast, Chris [@mceleavey](https://community.alteryx.com/t5/user/viewprofilepage/user-id/3589) talks about building his own Alteryx tools. One of Chris’s projects is especially helpful for many modeling tasks: a [one-hot encoding tool](https://gallery.alteryx.com/#!app/One-Hot-Encoder/5b100277826fd31ed0054c28) that handles that pesky but important step. (He also wrote a [blog post](https://community.alteryx.com/t5/Data-Science/One-Hot-Encoding-What-s-It-All-About/ba-p/578652) about one-hot encoding!)
 
 Alongside Chris’s work, there are many more useful tools for data science in the [Alteryx Analytics Gallery](https://gallery.alteryx.com/), our public repository of workflows, macros and analytic apps. Many of these tools reside in the [Predictive District](https://gallery.alteryx.com/#!districts/56327e37aa690a17f0760bdc), but we scrounged up more from other corners of the Gallery.
-
-![SusanCS_1-1606169036352.gif](https://community.alteryx.com/t5/image/serverpage/image-id/145803i176E5B8A4E0377FE/image-size/medium?v=1.0&px=400)
 
 Image via GIPHY
 
@@ -29,8 +25,6 @@ Here’s a list of freely available macros, tools and sample workflows for data 
 + Use for [Box-Cox transformation](https://towardsdatascience.com/box-cox-transformation-explained-51d745e34203), which transforms a variable with a non-normal distribution so that it has a normal distribution
 
 + Allows you to group records by one field prior to calculating Pearson correlations
-
-![SusanCS_2-1606169037126.gif](https://community.alteryx.com/t5/image/serverpage/image-id/145805iB73AE6FA9FBE1963/image-size/medium?v=1.0&px=400)
 
 Image via GIPHY
 
@@ -49,8 +43,6 @@ Image via GIPHY
 + Carries out [survival analysis](https://sphweb.bumc.bu.edu/otlt/mph-modules/bs/bs704_survival/BS704_Survival_print.html) ([documentation](https://help.alteryx.com/current/designer/survival-analysis-tool)) and generates relative risk and survival time when used with the [Survival Score](https://gallery.alteryx.com/#!app/Survival-Score/5d926a18826fd30b84537864) macro; see them at work in the [sample workflow](https://gallery.alteryx.com/#!app/Survival-Analysis-Sample/5d926a750462d7065c3fd8e2)
 
 + Creator: Alteryx Innovation
-
-![SusanCS_3-1606169036345.gif](https://community.alteryx.com/t5/image/serverpage/image-id/145808i4D8658CE31FF54A8/image-size/medium?v=1.0&px=400)
 
 Image via GIPHY
 
@@ -72,8 +64,6 @@ Image via GIPHY
 
 + Creator: Alteryx Innovation
 + Compares how models perform on a test set, and provides error measures and prediction results for each model, as shown in the [sample workflow](https://gallery.alteryx.com/#!app/Model-Comparison-Sample/5d9274848a933711e4473bad)
-
-![SusanCS_4-1606169036943.gif](https://community.alteryx.com/t5/image/serverpage/image-id/145809i565CD6F45D19BDF0/image-size/medium?v=1.0&px=400)
 
 Image via GIPHY
 

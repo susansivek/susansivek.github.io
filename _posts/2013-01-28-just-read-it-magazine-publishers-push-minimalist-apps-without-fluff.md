@@ -1,11 +1,11 @@
 ---
 title: "Just Read It: Magazine Publishers Push Minimalist Apps Without Fluff"
 date: 2013-01-28
-excerpt: "Image by \"Daniel Llamas Soto\":http://www.flickr.com/photos/yamasoto/8121449827/in/set-72157631848768015/ on Flickr. Used here with Creative Commons license.
-“Internet Users Demand Less Interactivity,” read the headline of a recent article at The…"
+excerpt: "\"Image by \\\"Daniel Llamas Soto\\\":http://www.flickr.com/photos/yamasoto/8121449827/in/set-72157631848768015/ on Flickr. Used here with Creative Commons license."
 original_url: "http://mediashift.org/2013/01/just-read-it-magazine-publishers-push-minimalist-apps-without-fluff028/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2013/01/just-read-it-magazine-publishers-push-minimalist-apps-without-fluff028/](http://mediashift.org/2013/01/just-read-it-magazine-publishers-push-minimalist-apps-without-fluff028/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-e18f367a159427fbd03f4ee12e77939d-minimalist-tablet.jpg)

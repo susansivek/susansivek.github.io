@@ -3,8 +3,10 @@ title: "Refining retention strategies for mobile games at SciPlay"
 date: 2023-07-24
 excerpt: "Pecan’s predictions identify which players may need a nudge to return, helping better target ads and conserve marketing resources. With refined foresight into player behavior, SciPlay is saving millions annually. Overview Knowing which mobile game…"
 original_url: "https://www.pecan.ai/customer/optimizing-retargeting-sciplay-pecan/"
+publication: "Pecan AI"
+categories: [data-science]
+featured: true
 ---
-
 *Originally published at [https://www.pecan.ai/customer/optimizing-retargeting-sciplay-pecan/](https://www.pecan.ai/customer/optimizing-retargeting-sciplay-pecan/)*
 
 ***Pecan’s predictions identify which players may need a nudge to return, helping better target ads and conserve marketing resources. With refined foresight into player behavior, SciPlay is saving millions annually.***

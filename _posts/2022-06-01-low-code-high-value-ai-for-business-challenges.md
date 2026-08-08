@@ -3,8 +3,9 @@ title: "Low Code, High Value: AI for Business Challenges"
 date: 2022-06-01
 excerpt: "Low-code predictive analytics platforms are developed and tested more deeply than single-use code. Scale AI to address more business concerns — at lower cost and faster. June 1, 2022 The myth: Low-code predictive analytics platforms can’t offer the…"
 original_url: "https://www.pecan.ai/blog/low-code-high-value-ai/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/blog/low-code-high-value-ai/](https://www.pecan.ai/blog/low-code-high-value-ai/)*
 
 Low-code predictive analytics platforms are developed and tested more deeply than single-use code. Scale AI to address more business concerns — at lower cost and faster.

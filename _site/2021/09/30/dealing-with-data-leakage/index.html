@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dealing with Data Leakage — Susan Currie Sivek</title>
+  <meta name="description" content="You’re studying for an upcoming exam. The exam is open-book, so you’re using your reference materials as you review, and you’re doing great. But when you sho...">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="site">
+    <header class="masthead">
+      <p class="masthead-brand">
+        <a href="/">Susan Currie Sivek</a>
+      </p>
+      <p class="masthead-tagline">
+        Data science writer, researcher, hiker, knitter. Former journalism professor. Curious about everything.
+        View <a href="https://www.linkedin.com/in/ssivek/">my LinkedIn profile</a>.
+      </p>
+      <nav class="site-nav" aria-label="Portfolio sections">
+  <ul>
+    <li>
+      <a href="/">All</a>
+    </li>
+    <li>
+      <a href="/favorites/">Favorites</a>
+    </li>
+    <li>
+      <a href="/categories/data-science/">Data Science and Tech</a>
+    </li>
+    <li>
+      <a href="/categories/features/">Features</a>
+    </li>
+    <li>
+      <a href="/categories/profiles/">Profiles</a>
+    </li>
+    <li>
+      <a href="/categories/academic/">Academic Life</a>
+    </li>
+    <li>
+      <a href="/categories/media/">Media Industry</a>
+    </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main class="content" id="main">
+      <article class="post">
+  <header class="post-header">
+    <h1>Dealing with Data Leakage</h1>
+    <div class="post-meta">
+      <span>September 30, 2021</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><span>Alteryx Community</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><a class="post-source" href="https://community.alteryx.com/t5/Data-Science/Dealing-with-Data-Leakage/ba-p/827583" rel="noopener">View original &#8599;</a>
+    </div>
+    
+    <ul class="post-categories">
+      
+      <li>
+        
+          <a href="/categories/data-science/">Data Science and Tech</a>
+        
+      </li>
+      
+    </ul>
+    
+  </header>
+
+  <div class="post-body">
+    <p><em>Originally published at <a href="https://community.alteryx.com/t5/Data-Science/Dealing-with-Data-Leakage/ba-p/827583">https://community.alteryx.com/t5/Data-Science/Dealing-with-Data-Leakage/ba-p/827583</a></em></p>
+
+<p>You’re studying for an upcoming exam. The exam is open-book, so you’re using your reference materials as you review, and you’re doing great.</p>
+
+<p>But when you show up on test day, suddenly you’re told the exam isn’t open-book anymore. It doesn’t go so well.</p>
+
+<p>Image via GIPHY</p>
+
+<p>This sounds like an academic overachiever’s anxiety dream, but it’s similar to what’s happening when target leakage occurs in a machine learning model. Say you build a model that’s intended to predict a certain outcome, and you train it with information that helps the model make its prediction. That model may perform well … perhaps <em>suspiciously</em> well. But if some of that information won’t be available to the model at the actual time it has to make its prediction, its real performance will be lower. That’s the result of target leakage — a data scientist’s anxiety dream!</p>
+
+<p>I recently heard one of our in-house Alteryx experts call target leakage the toughest problem in machine learning. But how does it happen, and how can you avoid this issue with your models? And how does it relate to “data leakage” more generally?</p>
+
+<p>Image via GIPHY</p>
+
+<h2 id="target-leakage"><strong>Target Leakage</strong></h2>
+
+<p>Target leakage occurs when a model is trained with data that it will not have available at the time of prediction. The model does well when it is initially trained and tested, but when it’s put into production, the lack of that now-missing data causes the model to perform poorly. Just like you studying with your books, then taking the exam without them, the model is missing helpful information that improved its performance during training.</p>
+
+<p>Here are some scenarios that represent target leakage:</p>
+
+<ul>
+  <li>Including the outcome to be predicted as a feature in the dataset used to train the model (this may sound silly, but it could happen; for example, duplicating and renaming your target variable field, then forgetting about that duplication, could lead you to inadvertently use the extra version of the target as a predictor);</li>
+  <li>Including a feature representing the number of years a student attended a college in a model predicting whether the student would accept an offer of admission to that college;</li>
+  <li>Including a feature representing the number of months of a subscription in a model predicting whether a potential customer would subscribe or not;</li>
+  <li>Including a feature representing whether a fire-related insurance claim was approved in a model predicting fires in homes with a certain type of siding; and</li>
+  <li>Including information from other datasets that introduces details not otherwise available to the model at the time of prediction.</li>
+</ul>
+
+<p>In all of these cases, information that can’t be known at the time of prediction was included when the model was built. We can’t know how many months a customer will subscribe when we are still trying to figure out if they’ll subscribe in the first place. (Can we build a model that could try to predict how many months a subscriber will subscribe? Sure. But we’d base that on our data about <em>known</em> subscribers, not the entire pool of those who may or may not subscribe.) Similarly, if we’ve told a model that people in homes built with certain materials have made fire insurance claims, we’re introducing knowledge from <em>after</em> the fires have occurred into our model trying to predict the fires.</p>
+
+<p>Even seemingly innocent details like file size or timestamps can unintentionally be proxies for a target variable. For example, a 2013 Kaggle competition <a href="https://www.kaggle.com/c/the-icml-2013-whale-challenge-right-whale-redux/discussion/4865#25839">had to be paused</a> and the dataset revamped because of this kind of issue. The team that discovered (and diligently reported) the leakage enjoyed a brief stint on the top of the leaderboard!</p>
+
+<p>What results from data leakage is overfitting to your training data. Your model can be very good at predicting with that extra knowledge — excelling on the open-book exam — but not so good when that information isn’t provided at prediction time.</p>
+
+<p>Image via GIPHY</p>
+
+<h2 id="train-test-contamination"><strong>Train-Test Contamination</strong></h2>
+
+<p>Another form of data leakage is sometimes called “train-test contamination.” This problem may not specifically involve your target variable, but it does affect model performance. It’s another way we might inadvertently add knowledge about future data into our training data, resulting in performance metrics that look better than they would in production. (By the way, if you look for more reading on this topic, be forewarned that “data leakage” is also a term sometimes used by cybersecurity folks to talk about <a href="https://en.wikipedia.org/wiki/Data_breach">data breaches</a>.)</p>
+
+<p>A common way train-test contamination occurs is preprocessing your dataset in its entirety <em>before</em> splitting it into training and test sets or prior to using cross-validation.</p>
+
+<p>For example, <a href="https://community.alteryx.com/t5/Data-Science/Normalization-Standardization-and-Regularization-in-Alteryx-and/ba-p/733996">normalizing data</a> requires using the numerical range of each variable in the dataset. Normalizing the entire dataset as a whole provides that “knowledge” to the model when it’s evaluated. However, a model that is put into production won’t have that knowledge, and so won’t perform as well when it is used for prediction. Similarly, standardizing the full dataset would inappropriately inform the model about the mean and standard deviation of the entire dataset. <a href="https://help.alteryx.com/20213/designer/imputation-tool">Imputing missing values</a> also uses summary statistics about your dataset (e.g., median, mean).</p>
+
+<p>All of these clues can help the model perform better on your training and test data than it will when it is eventually introduced to brand-new data. <a href="https://machinelearningmastery.com/data-preparation-without-data-leakage/">This article</a> provides an in-depth exploration of this kind of data leakage, including code to demonstrate.</p>
+
+<p>Another issue can emerge if you’re using <a href="https://community.alteryx.com/t5/Data-Science/Holdouts-and-Cross-Validation-Why-the-Data-Used-to-Evaluate-your/ba-p/448982">k-fold cross-validation</a> to evaluate your model. As long as your dataset includes only <em>one</em> observation from each individual person/source, this type of leakage should not be an issue for you. However, if you have multiple observations (i.e., rows of data) from each person or source in your dataset, all of those observations from the same source need to be grouped together when the subsets or “folds” of your data are created for training and testing the model.</p>
+
+<p>For example, you may end up using training data from person A to predict an outcome for test data from person A, if observations from person A end up included in both the training group and the test group. The model will seem to perform better on the test set — which again includes person A — because it already knows something about person A from the training set. But in production, it won’t have that advantage of prior exposure. For more elaboration on this issue (sometimes called “group leakage”), check out <a href="https://machinelearningmastery.com/k-fold-cross-validation/">this article</a>.</p>
+
+<p>Image via GIPHY</p>
+
+<h2 id="repairing-data-leakage"><strong>Repairing Data Leakage</strong></h2>
+
+<p>When a faucet drips in your house, you know it by the sound and puddles. But these types of leakage can be difficult to detect. There are still preventive maintenance and repairs you can do to address this challenge.</p>
+
+<p>Unusually good model performance may be a sign of leakage. If your model is performing shockingly, remarkably well, resist the temptation to pat yourself on the back and ship it. That performance might be the result of garden-variety overfitting, but it may also be reflecting target or data leakage.</p>
+
+<p>To try to stave off data leakage in the first place, you can do thorough <a href="https://community.alteryx.com/t5/Data-Science/Adventures-in-Data-Exploratory-Data-Analysis/ba-p/545267">exploratory data analysis</a> (EDA) and look for features that have especially high correlations with your outcome variable. It’s worth looking closely at those relationships to ensure there isn’t the potential for leakage if the highly correlated features are used together in the model. This review can be challenging if you have a high-dimensional dataset with many features, so using a tool like the <a href="https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Tool-Mastery-Pearson-Correlation/ta-p/388744">Pearson Correlation Tool</a> in Designer and filtering and/or visualizing its output could be helpful.</p>
+
+<p>To avoid train-test contamination, be sure to split your data into training/test/holdout sets prior to applying any transformations such as normalization, then train the model on the training set. Follow up by applying the transformations to the test/holdout sets with the same parameters applied to the training set, then test your model’s performance.</p>
+
+<p>Image via GIPHY</p>
+
+<p>Additionally, be sure you fully understand all the features in your dataset. <a href="https://www.kaggle.com/alexisbcook/data-leakage">This Kaggle example</a> shows how a feature named “expenditures” in a credit card application approval dataset could cause target leakage if used in a model to predict approved applications. “Expenditures” as a feature name could mean a lot of things, but in this case, it referred to how much credit card users spent on their cards. That feature implied that they were indeed approved for the cards and informed the model’s prediction of approvals inappropriately, since expenditure information would not be available at the time of prediction.</p>
+
+<p>Finally, checking your features’ relative importance and reviewing other interpretability tools could help you catch leakage. In the credit card application approval example above, “expenditures” might have looked like a really important feature in a prediction of credit card approvals. If in doubt, you can try removing a feature to see how your model’s performance changes, and then determine whether the model suddenly performs at a more realistic level.</p>
+
+<p>Image via GIPHY</p>
+
+<h2 id="another-option-assisted-modeling-and-automl"><strong>Another Option: Assisted Modeling and AutoML</strong></h2>
+
+<p>If you’re reading this and thinking, <em>I don’t want to worry about all this</em> — well, we can’t remove the worry entirely, but be reassured that the Alteryx Intelligence Suite tools for Assisted Modeling and AutoML have some safeguards in place to help you identify features that may be duplicative of, or suspiciously highly correlated with, your target variable.</p>
+
+<p>I tinkered with the housing price dataset (included in Designer under Help &gt; Sample Datasets). Imagine we wanted to use that dataset, which includes details of houses’ square footage and characteristics, in a model to predict the “price” variable. Let’s say that “price” actually represented the house’s “most recent sale price” in the year 2019, and let’s add a pretend variable for “current asking price,” the price for which the house was listed in 2021 (created by adding 20% to the “price” variable).</p>
+
+<p>If using this lightly fictionalized dataset to create a model to predict the 2019 sales prices, one might inadvertently include the 2021 data, causing target leakage. Predicting 2019 prices while using 2021 data would obviously be a temporal problem, giving the model anachronistic information it shouldn’t have.</p>
+
+<p>Even though I knew this could be an issue, I asked Assisted Modeling to walk me step-by-step through building a regression model for the “most recent sales price,” and handed it the whole dataset.</p>
+
+<p>At the feature selection step, sure enough, Assisted Modeling noticed that my “current asking price” variable was “too highly correlated” with my target variable, and it automatically eliminated that variable from inclusion in the models it built for me. Thanks for saving me from that target leakage, Assisted Modeling!</p>
+
+<h2 id="leakproofing-your-models"><strong>Leakproofing Your Models</strong></h2>
+
+<p>I hope this overview has provided you some new plumbing skills to help you avoid these leaky situations! With careful EDA and thorough knowledge of your dataset, as well as correct preprocessing and cross-validation setup, you should be able to keep your targets nicely contained and your datasets free from contamination.</p>
+
+<p><strong><em>Do you still have questions? Which other tools or data science concepts would you like to see addressed here on the blog? Let me know with a comment below, and subscribe to the blog to get future articles.</em></strong></p>
+
+<h2 id="recommended-reading"><strong>Recommended Reading</strong></h2>
+
+  </div>
+</article>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Susan Currie Sivek</p>
+      
+      <p><a href="mailto:susan.sivek@gmail.com">susan.sivek@gmail.com</a></p>
+      
+    </footer>
+  </div>
+</body>
+</html>

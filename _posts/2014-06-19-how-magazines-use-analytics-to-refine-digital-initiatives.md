@@ -1,11 +1,11 @@
 ---
 title: "How Magazines Use Analytics to Refine Digital Initiatives"
 date: 2014-06-19
-excerpt: "Editor’s note: This is part two of a two-part series from Susan Currie Sivek on magazines and analytics. Click here for part one.
-Magazines have made major strides in integrating multimedia production into their existing production processes. Digital…"
+excerpt: "\"Editor’s note: This is part two of a two-part series from Susan Currie Sivek on magazines and analytics. Click here for part one."
 original_url: "http://mediashift.org/2014/06/how-magazines-use-analytics-to-refine-digital-initiatives/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2014/06/how-magazines-use-analytics-to-refine-digital-initiatives/](http://mediashift.org/2014/06/how-magazines-use-analytics-to-refine-digital-initiatives/)*
 
 ![](https://i1.wp.com/mediashift.org/wp-content/uploads/2014/06/graph.jpg?w=1280)

@@ -3,8 +3,10 @@ title: "What Is Marketing Mix Modeling?"
 date: 2023-03-03
 excerpt: "Ever tried to bake cookies and left out the sugar? Or made a cocktail and forgotten a key ingredient? Your finished product probably didn’t taste quite right. That might seem like a stretch as a metaphor for marketing, but it’s true. For marketing,…"
 original_url: "https://www.pecan.ai/resource/what-is-marketing-mix-modeling/"
+publication: "Pecan AI"
+categories: [data-science]
+featured: true
 ---
-
 *Originally published at [https://www.pecan.ai/resource/what-is-marketing-mix-modeling/](https://www.pecan.ai/resource/what-is-marketing-mix-modeling/)*
 
 ![A visualization of channel saturation. The effect on the target (e.g., sales) plateaus at around $800K, meaning spending additional money on this channel beyond that point shows negligible incremental returns.](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20413'%3E%3C/svg%3E)

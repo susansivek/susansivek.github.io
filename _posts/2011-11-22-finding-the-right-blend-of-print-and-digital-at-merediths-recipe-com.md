@@ -1,11 +1,11 @@
 ---
 title: "Finding the Right Blend of Print and Digital at Meredith’s Recipe.com"
 date: 2011-11-22
-excerpt: "I’ll take the Florentine lasagna, please, with a 2D barcode and a mobile app on the side.
-Food magazines pride themselves on delectable recipes and luscious photography. Recipe.com, whose title is also its website’s URL, is a new publication from…"
+excerpt: "\"I’ll take the Florentine lasagna, please, with a 2D barcode and a mobile app on the side."
 original_url: "http://mediashift.org/2011/11/finding-the-right-blend-of-print-and-digital-at-merediths-recipe-com326/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2011/11/finding-the-right-blend-of-print-and-digital-at-merediths-recipe-com326/](http://mediashift.org/2011/11/finding-the-right-blend-of-print-and-digital-at-merediths-recipe-com326/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-642013f146d20404f5b3571a84987ff2-cooking-laptop.jpg)

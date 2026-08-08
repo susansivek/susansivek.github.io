@@ -3,8 +3,9 @@ title: "Solving the App Development Conundrum for Small Magazines"
 date: 2011-06-08
 excerpt: "Even a small magazine can make a powerful impression with a well-designed mobile presence. In some ways, digital platforms can level the playing field for small publishers wanting to attract readers’ attention with innovative content and…"
 original_url: "http://mediashift.org/2011/06/solving-the-app-development-conundrum-for-small-magazines159/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2011/06/solving-the-app-development-conundrum-for-small-magazines159/](http://mediashift.org/2011/06/solving-the-app-development-conundrum-for-small-magazines159/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-0700c9bba200932360dc26822506a83f-mags-in-ipad2.jpg)

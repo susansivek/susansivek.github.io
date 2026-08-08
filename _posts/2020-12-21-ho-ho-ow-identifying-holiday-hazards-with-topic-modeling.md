@@ -1,11 +1,11 @@
 ---
 title: "Ho, Ho … Ow! Identifying Holiday Hazards with Topic Modeling"
 date: 2020-12-21
-excerpt: "Let’s use data science to find out where danger lurks among the sparkly lights and shiny ornaments. One dangerous item is something you probably use year-round.
-When I think of dangerous Christmas decorations, I always think of scenes like this one…"
+excerpt: "\"Let’s use data science to find out where danger lurks among the sparkly lights and shiny ornaments. One dangerous item is something you probably use year-round."
 original_url: "https://susansivek.medium.com/ho-ho-ow-identifying-holiday-hazards-with-topic-modeling-e42026217795"
+publication: "Medium"
+categories: [data-science]
 ---
-
 *Originally published at [https://susansivek.medium.com/ho-ho-ow-identifying-holiday-hazards-with-topic-modeling-e42026217795](https://susansivek.medium.com/ho-ho-ow-identifying-holiday-hazards-with-topic-modeling-e42026217795)*
 
 ## Let’s use data science to find out where danger lurks among the sparkly lights and shiny ornaments. One dangerous item is something you probably use year-round.

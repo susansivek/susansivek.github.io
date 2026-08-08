@@ -1,11 +1,11 @@
 ---
 title: "National Geographic, Fulbright Partner for Digital Storytelling Fellowship"
 date: 2014-01-13
-excerpt: "The new Fulbright-National Geographic Digital Storytelling Fellowship is a unique collaboration between the State Department and National Geographic.
-Rarely does a job opportunity circulate on Twitter with such enthusiasm. Called a “dream job” and a…"
+excerpt: "\"The new Fulbright-National Geographic Digital Storytelling Fellowship is a unique collaboration between the State Department and National Geographic."
 original_url: "http://mediashift.org/2014/01/national-geographic-fulbright-partner-for-international-digital-storytelling/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2014/01/national-geographic-fulbright-partner-for-international-digital-storytelling/](http://mediashift.org/2014/01/national-geographic-fulbright-partner-for-international-digital-storytelling/)*
 
 ![](https://i1.wp.com/mediashift.org/wp-content/uploads/2014/01/natgeo-fulbright-web.png?w=515)

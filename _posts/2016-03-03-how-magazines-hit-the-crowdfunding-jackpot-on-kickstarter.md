@@ -1,11 +1,11 @@
 ---
 title: "How Magazines Hit the Crowdfunding Jackpot on Kickstarter"
 date: 2016-03-03
-excerpt: "It’s sadly unusual to see magazines at the top of any media-related list these days. So when I noticed a recent crowdfunding report where that happened, I had to check it out.
-The Pew Research Center released a report in January on crowdfunded…"
+excerpt: "\"It’s sadly unusual to see magazines at the top of any media-related list these days. So when I noticed a recent crowdfunding report where that happened, I had to check it out."
 original_url: "http://mediashift.org/2016/03/how-magazines-hit-the-crowdfunding-jackpot-on-kickstarter/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2016/03/how-magazines-hit-the-crowdfunding-jackpot-on-kickstarter/](http://mediashift.org/2016/03/how-magazines-hit-the-crowdfunding-jackpot-on-kickstarter/)*
 
 ![](https://i1.wp.com/mediashift.org/wp-content/uploads/2016/02/crowdfund.png?w=1280)

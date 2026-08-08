@@ -1,18 +1,16 @@
 ---
 title: "Interactivity That Works: Designing COVID-19 Data Experiences"
 date: 2020-04-09
-excerpt: "This week’s Alter Everything podcast features Avi Schiffman, the 17-year-old high school student who built the popular ncov2019.live website that displays global data on the COVID-19 pandemic.
-Tracking any phenomenon -- especially one as complex as a…"
+excerpt: "\"This week’s Alter Everything podcast features Avi Schiffman, the 17-year-old high school student who built the popular ncov2019.live website that displays global data on the COVID-19 pandemic."
 original_url: "https://community.alteryx.com/t5/Data-Science/Interactivity-That-Works-Designing-COVID-19-Data-Experiences/ba-p/553664"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Interactivity-That-Works-Designing-COVID-19-Data-Experiences/ba-p/553664](https://community.alteryx.com/t5/Data-Science/Interactivity-That-Works-Designing-COVID-19-Data-Experiences/ba-p/553664)*
 
 This week’s [Alter Everything podcast](https://community.alteryx.com/t5/Alter-Everything-Podcast/57-17-year-old-Avi-Schiffmann-on-enabling-the-world-to-track/ba-p/551328) features Avi Schiffman, the 17-year-old high school student who built the popular [ncov2019.live](http://ncov2019.live) website that displays global data on the COVID-19 pandemic.
 
 Tracking any phenomenon -- especially one as complex as a global pandemic -- with an interactive data dashboard requires some tough design choices, and some trust in the user’s ability to interpret that information. Schiffman aced this challenge and delivered a data product that has attracted over a hundred million viewers globally, according to [his *New Yorker* profile](https://www.newyorker.com/magazine/2020/03/30/the-high-schooler-who-became-a-covid-19-watchdog). (Yes, he has already been profiled in the *New Yorker*, at the age of 17!)
-
-![avi-rs.png](https://community.alteryx.com/t5/image/serverpage/image-id/107075iCED5112E8C28CD04/image-size/medium?v=1.0&px=400)
 
 Avi Schiffman's site
 
@@ -26,8 +24,6 @@ These challenges still come up for more routine kinds of data. How do you figure
 
 * [10 Rules for Better Dashboard Design](https://uxplanet.org/10-rules-for-better-dashboard-design-ef68189d734c): One of the key takeaways from this top 10 list? The number of times the word “consistency” appears. Also, one more design item to think about: white space! The empty zones of your design can be so important to the user’s experience.
 * [Designing a Data Visualization Dashboard Like It Was a Game](https://medium.com/nightingale/designing-a-data-visualization-dashboard-like-it-was-a-game-b347858c1bce): What if you thought of your dashboard as a Choose Your Own Adventure novel? Every click and movement causes a new plot to unfold: “As in a game, with each new view your user is shown a new room. They move into and out of areas of that room via interactivity, creating different paths and different experiences in the same way they would in exploring an open world game. Map it, make it explicit, plan for it and think about how you want them to move through those paths.” It’s all about the player user experience. The data themselves might not be fun, but good designs enable the user to wander purposefully, gain insights, and feel fulfilled after spending some time exploring.
-
-![you-are-a-shark.jpg](https://community.alteryx.com/t5/image/serverpage/image-id/107063i704533C2546CE4F7/image-size/medium?v=1.0&px=400)
 
 Yes, that was a real Choose Your Own Adventure book.
 

@@ -1,13 +1,11 @@
 ---
 title: "Principal Components: Tessa Jones on the Data Science Ecosystem"
 date: 2021-07-08
-excerpt: "From studying extreme environments to using data to answer business questions, Tessa Jones from Calligo shares how her science-focused mind has helped her succeed in data science.
-Susan Currie Sivek, Ph.D.
-2 hours ago·3 min read
-Tessa Jones, director…"
+excerpt: "\"From studying extreme environments to using data to answer business questions, Tessa Jones from Calligo shares how her science-focused mind has helped her succeed in data science."
 original_url: "https://susansivek.medium.com/principal-components-tessa-jones-on-the-data-science-ecosystem-654aef41e707"
+publication: "Medium"
+categories: [data-science, profiles]
 ---
-
 *Originally published at [https://susansivek.medium.com/principal-components-tessa-jones-on-the-data-science-ecosystem-654aef41e707](https://susansivek.medium.com/principal-components-tessa-jones-on-the-data-science-ecosystem-654aef41e707)*
 
 ## *From studying extreme environments to using data to answer business questions, Tessa Jones from Calligo shares how her science-focused mind has helped her succeed in data science.*

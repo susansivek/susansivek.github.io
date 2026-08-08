@@ -3,8 +3,9 @@ title: "Shaping the future of AutoML systems | Kalyan Veeramachaneni"
 date: 2021-11-16
 excerpt: "What’s next forAutoMLsystems?We’re joined by Kalyan Veeramachaneni,who is aprincipal research scientist andfacultymemberin computer science at MIT, as well asanAlteryx fellow working with the Innovation Labs team.Kalyanshares exciting possibilities…"
 original_url: "https://community.alteryx.com/t5/Data-Science-Mixer/Shaping-the-future-of-AutoML-systems-Kalyan-Veeramachaneni/ba-p/845504"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science-Mixer/Shaping-the-future-of-AutoML-systems-Kalyan-Veeramachaneni/ba-p/845504](https://community.alteryx.com/t5/Data-Science-Mixer/Shaping-the-future-of-AutoML-systems-Kalyan-Veeramachaneni/ba-p/845504)*
 
 What’s next forAutoMLsystems?We’re joined by Kalyan Veeramachaneni,who is aprincipal research scientist andfacultymemberin computer science at MIT, as well asanAlteryx fellow working with the Innovation Labs team.Kalyanshares exciting possibilities forAutoMLsystems, and explains that the future for these systems is right aroundthe corner.

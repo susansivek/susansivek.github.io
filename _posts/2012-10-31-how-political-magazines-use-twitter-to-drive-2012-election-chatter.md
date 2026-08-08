@@ -1,11 +1,11 @@
 ---
 title: "How Political Magazines Use Twitter to Drive 2012 Election Chatter"
 date: 2012-10-31
-excerpt: "Political magazines are finding innovative ways to connect with and cover this election thanks to Twitter.
-Political magazines have found a new way to be opinion leaders during this election — in just 140 characters. Twitter is helping them publicize…"
+excerpt: "\"Political magazines are finding innovative ways to connect with and cover this election thanks to Twitter."
 original_url: "http://mediashift.org/2012/10/how-political-magazines-use-twitter-to-drive-2012-election-chatter305/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2012/10/how-political-magazines-use-twitter-to-drive-2012-election-chatter305/](http://mediashift.org/2012/10/how-political-magazines-use-twitter-to-drive-2012-election-chatter305/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-ef26f843b718e94902444cb10c0f45d1-polmags-winnowed%20down%20copy.jpg)

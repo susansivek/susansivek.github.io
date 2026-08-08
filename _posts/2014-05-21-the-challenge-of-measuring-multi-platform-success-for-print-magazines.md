@@ -1,11 +1,11 @@
 ---
 title: "The Challenge of Measuring Multi-Platform Success for Print Magazines"
 date: 2014-05-21
-excerpt: "It seems like a simple task: Keep track of new magazine launches, monitor the results, and see how much the industry grows and changes.
-But when you start digging into that project in more detail, it gets complicated. What qualifies as a magazine?…"
+excerpt: "\"It seems like a simple task: Keep track of new magazine launches, monitor the results, and see how much the industry grows and changes."
 original_url: "http://mediashift.org/2014/05/the-challenge-of-measuring-multi-platform-success-for-print-magazines/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2014/05/the-challenge-of-measuring-multi-platform-success-for-print-magazines/](http://mediashift.org/2014/05/the-challenge-of-measuring-multi-platform-success-for-print-magazines/)*
 
 ![](https://i1.wp.com/mediashift.org/wp-content/uploads/2014/05/ruler-lettersrs1.jpg?w=515)

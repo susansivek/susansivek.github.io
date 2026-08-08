@@ -3,11 +3,12 @@ title: "All About Alteryx Open-Source"
 date: 2021-07-14
 excerpt: "Making analytics and data science accessible to more people is essential to us at Alteryx. The Alteryx APA Platform is all about that, of course — but you might not know that we’ve also released open-source Python libraries through Alteryx Open…"
 original_url: "https://www.alteryx.com/input/all-about-alteryx-open-source"
+publication: "Alteryx"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.alteryx.com/input/all-about-alteryx-open-source](https://www.alteryx.com/input/all-about-alteryx-open-source)*
 
-![](https://www.alteryx.com/sites/default/files/2021-07/OSS%201200x628%20Social.png)
+![](/assets/images/posts/all-about-alteryx-open-source/OSS-201200x628-20Social.webp)
 
 Making analytics and data science accessible to more people is essential to us at Alteryx. The Alteryx APA Platform is all about that, of course — but you might not know that we’ve also released open-source Python libraries through [Alteryx Open Source](https://community.alteryx.com/t5/Data-Science/Introducing-Alteryx-Open-Source/ba-p/703289) so everyone can achieve new breakthroughs with machine learning.
 

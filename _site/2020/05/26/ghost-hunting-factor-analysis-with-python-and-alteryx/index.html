@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ghost Hunting: Factor Analysis with Python and Alteryx — Susan Currie Sivek</title>
+  <meta name="description" content=""Update: Keep reading here for all the details on factor analysis, but also check out this follow-up article where we provide a macro for easier use of this ...">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="site">
+    <header class="masthead">
+      <p class="masthead-brand">
+        <a href="/">Susan Currie Sivek</a>
+      </p>
+      <p class="masthead-tagline">
+        Data science writer, researcher, hiker, knitter. Former journalism professor. Curious about everything.
+        View <a href="https://www.linkedin.com/in/ssivek/">my LinkedIn profile</a>.
+      </p>
+      <nav class="site-nav" aria-label="Portfolio sections">
+  <ul>
+    <li>
+      <a href="/">All</a>
+    </li>
+    <li>
+      <a href="/favorites/">Favorites</a>
+    </li>
+    <li>
+      <a href="/categories/data-science/">Data Science and Tech</a>
+    </li>
+    <li>
+      <a href="/categories/features/">Features</a>
+    </li>
+    <li>
+      <a href="/categories/profiles/">Profiles</a>
+    </li>
+    <li>
+      <a href="/categories/academic/">Academic Life</a>
+    </li>
+    <li>
+      <a href="/categories/media/">Media Industry</a>
+    </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main class="content" id="main">
+      <article class="post">
+  <header class="post-header">
+    <h1>Ghost Hunting: Factor Analysis with Python and Alteryx</h1>
+    <div class="post-meta">
+      <span>May 26, 2020</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><span>Alteryx Community</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><a class="post-source" href="https://community.alteryx.com/t5/Data-Science/Ghost-Hunting-Factor-Analysis-with-Python-and-Alteryx/bc-p/577065" rel="noopener">View original &#8599;</a>
+    </div>
+    
+    <ul class="post-categories">
+      
+      <li>
+        
+          <a href="/categories/data-science/">Data Science and Tech</a>
+        
+      </li>
+      
+    </ul>
+    
+  </header>
+
+  <div class="post-body">
+    <p><em>Originally published at <a href="https://community.alteryx.com/t5/Data-Science/Ghost-Hunting-Factor-Analysis-with-Python-and-Alteryx/bc-p/577065">https://community.alteryx.com/t5/Data-Science/Ghost-Hunting-Factor-Analysis-with-Python-and-Alteryx/bc-p/577065</a></em></p>
+
+<p><em>Update: Keep reading here for all the details on factor analysis, but also check out <a href="https://community.alteryx.com/t5/Data-Science-Blog/A-Factor-Analysis-Macro-for-Designer/ba-p/573354">this follow-up article</a> where we provide a macro for easier use of this analytic method!</em></p>
+
+<p>Those cheesy “ghost hunting” TV shows usually start the same way. Mysterious things are happening in a family’s home, with no clear explanation. The ghost hunters bring in fancy equipment to look for a hidden, supernatural cause of the strange events disturbing the peace and quiet.</p>
+
+<p>Today I’ll introduce you to the equivalent of ghost hunting for your data. What if you believe something is happening in your data that isn’t precisely reflected by a single variable you measured – maybe because it wasn’t or couldn’t be observed? Do you want to hunt for that mysterious explanation?</p>
+
+<p>Factor analysis is your ghost hunting tool. This method is especially popular in market research, finance, and survey research (e.g., for human resources). The concept here is that patterns in your observed variables – the ones you measured – actually are the result of some hidden <em>latent</em> variables that are not directly present in your dataset, but that could be identified by identifying relationships among your observed variables. Factor analysis looks for those relationships and helps you determine whether there may actually be a “ghost in the machine.”</p>
+
+<h1 id="basics-of-factor-analysis">Basics of Factor Analysis</h1>
+
+<p>We’ll focus here on exploratory factor analysis, which is geared toward identifying those hypothetical “ghosts,” or latent variables, shaping your data. (There’s another variety called confirmatory factor analysis, but that will have to wait for a future post!) In exploratory factor analysis, the goal is to condense multiple observed variables into a smaller number of unobserved “factors” that represent a large amount of the variance and covariance among the observed variables. Your original variables are transformed into linear combinations of the factors; in other words, the observed variables can be restated using the factors calculated through the data analysis.</p>
+
+<p>After factor analysis, we may see our observed data in a new light. If a subset of variables shows a high level of correlation, perhaps one latent “factor” shaped all of them together. We can examine how each variable, along with a subset of our other variables, contributes to a previously unobserved “factor” that was unrecognized among our data.</p>
+
+<p><img src="/assets/images/posts/ghost-hunting-factor-analysis-with-python-and-alteryx/medium-a7ab7eee.gif" alt="SusanCS_1-1588786321474.gif" /></p>
+
+<p>You might be thinking that this sounds a lot like <a href="https://community.alteryx.com/t5/Data-Science-Blog/Tidying-up-with-PCA-An-Introduction-to-Principal-Components/ba-p/382557">Principal Components Analysis (PCA)</a>, and you’d be right. Both are “dimensionality reduction” techniques that try to reduce the number of variables, or dimensions, you have to cope with. But they <em>are</em> different in key ways. In PCA, the goal is to reduce a large number of variables to a small number of “principal components” that each explain a big chunk of the total variance among all the <em>observations</em>. The components are linear combinations of the original variables, and it can be hard to identify exactly how each observed variable plays a part in those components. PCA is a useful tool, but it has a different goal.</p>
+
+<h1 id="an-illustration-of-factor-analysis">An Illustration of Factor Analysis</h1>
+
+<p>In the attached workflow, I’ve provided an example of how factor analysis works and code for executing it in the Python Tool within Designer. We’ll get into its mechanics in a moment, but first let’s look at the “ghosts” we found in the data to better understand what factor analysis can do for us.</p>
+
+<p>For my example, I’m using data from <a href="https://data.tempe.gov/dataset/employee-survey">a 2018 survey of employee satisfaction</a> conducted by the city of Tempe, Arizona. I excluded a few questions that did not use a five-point Likert scale (the familiar Strongly Agree to Strongly Disagree range of choices). The 71 remaining <a href="https://gis.tempe.gov/employee-survey-dict-2018/">questions</a> range broadly over many parts of an employee’s work life, including communication, infrastructure needs, support for development, and so forth. Understanding the responses to all of those questions holistically and finding deeper patterns could be challenging.</p>
+
+<p><img src="/assets/images/posts/ghost-hunting-factor-analysis-with-python-and-alteryx/medium-000bf700.gif" alt="SusanCS_2-1588786321720.gif" /></p>
+
+<p>But – factor analysis to the rescue! I can extract four possible factors that capture much of the variation in the employees’ responses across the board. These each reflect my original variables (responses to the 71 survey questions), but were not <em>directly</em> measured in this way in the survey. I’ve examined the factors and made a judgment call about how best to characterize each of them, which is a subjective part of factor analysis. That’s part of the reason this process is considered exploratory.</p>
+
+<p>Factor 1 appears to reflect employees’ sense of mutual respect and positive relationships with their supervisors. We could call this factor “strong employee-supervisor relationships.” Looking at the top eight questions in this factor (as ranked by their factor loadings, which I’ll explain shortly), all of them relate to comfort expressing opinions, clear expectations, respect, appreciation, and constructive feedback. (Choosing eight top questions is a bit of an arbitrary cut-off here, but for most of the factors, the loadings shrink after that point.)</p>
+
+<p>Factor 2 includes issues of relationships among employees and departments, as well as motivation. We might label this factor “empowered, connected employees.” The top eight questions here all connect to communication between peers, feelings of innovation and motivation, and being encouraged to provide input on decisions.</p>
+
+<p>Factor 3 reflects perceptions of parts of the city bureaucracy and how well they support employees. The questions all ask the employee about different parts of the city government that should offer services and guidance for employees. This factor could be called “perceptions of institutional support.”</p>
+
+<p>Finally, Factor 4 is clearly focused on “employee compensation and benefits,” with the top questions all related to these issues.</p>
+
+<p>How is this reduction to four factors helpful? We could, of course, just calculate averages of employees’ responses to different questions and see how they feel about different areas of their work experience. However, if we want to try to understand potential, larger underlying factors – the “ghosts” that might quietly shape employees’ experiences but are not directly observable in a comprehensive way – factor analysis helps us understand which combinations of our variables best explain differences in employees’ experiences.</p>
+
+<p><img src="/assets/images/posts/ghost-hunting-factor-analysis-with-python-and-alteryx/medium-305d626e.gif" alt="SusanCS_3-1588786320654.gif" /></p>
+
+<h1 id="the-details-of-factor-analysis-in-python-and-alteryx">The Details of Factor Analysis in Python and Alteryx</h1>
+
+<p>To generate this example, I first loaded and lightly cleaned the Tempe survey data in Designer, then brought it into the Python Tool.</p>
+
+<p>In Python, you have a few options for factor analysis: <code class="language-plaintext highlighter-rouge">scikit-learn</code>, <code class="language-plaintext highlighter-rouge">statsmodels</code>, or <code class="language-plaintext highlighter-rouge">factor_analyzer</code>. The first two packages are loaded by default for you when you use the Python Tool, and both have factor analysis components. However, the <code class="language-plaintext highlighter-rouge">scikit-learn</code> module for factor analysis (<code class="language-plaintext highlighter-rouge">sklearn.decomposition.FactorAnalysis</code>) doesn’t include an option for rotation, an element I’ll explain in a moment; <code class="language-plaintext highlighter-rouge">statsmodels.multivariate.factor</code> does have that option, but only in an experimental state right now.</p>
+
+<p>I chose to use <code class="language-plaintext highlighter-rouge">factor_analyzer</code>, which does include rotation options and plays very nicely with the Python Tool. You can install it with <code class="language-plaintext highlighter-rouge">Package.installPackages(factor_analyzer)</code> in your Python Tool’s Jupyter Notebook. Be sure you’re <a href="https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/How-to-Always-Run-Alteryx-as-an-Administrator/ta-p/28440">running Designer as an administrator</a> to install the package successfully.</p>
+
+<p>You’ll need two more lines to get going with <code class="language-plaintext highlighter-rouge">factor_analyzer</code>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from factor_analyzer import FactorAnalyzer
+from factor_analyzer.factor_analyzer import calculate_bartlett_sphericity
+</code></pre></div></div>
+
+<p>That second line imports a tool for <a href="https://www.statology.org/a-guide-to-bartletts-test-of-sphericity/">Bartlett’s test of sphericity</a>. That test, briefly summarized, makes sure that your dataset actually contains correlated variables among which potential hidden factors can be recognized and built. The value returned from this test needs to be statistically significant, so as you’ll see in my notebook in the attached workflow, I print the value of <em>p</em> from this test before proceeding with my factor analysis. It shows up as “0.0,” meaning it’s tiny, so I can proceed as planned.</p>
+
+<p>There’s one more interesting wrinkle in the factor analysis process: How many factors should you be looking for? You do have to provide <code class="language-plaintext highlighter-rouge">factor_analyzer</code> a number in its parameter <code class="language-plaintext highlighter-rouge">n_factors</code>. There are a variety of ways to determine a good number of factors, but one of the easiest to interpret is the scree plot, so named because it looks like a steep cliffside. The scree plot displays the eigenvalues for the various numbers of factors you might consider, ranging from 1 to the number of variables in your dataset (which would be a bit pointless, given that we’re trying to reduce dimensionality here). Factors with an eigenvalue of 1 or greater explain more variance in the observed variables than any single variable alone.</p>
+
+<p>Typically the scree plot of factor numbers vs. eigenvalues will show a sharp drop, followed by a straight or only slightly sloped line. You’ll want to choose the number of factors that’s right before the straight line begins. The scree plot is demonstrated in my sample workflow’s Jupyter Notebook and is shown below. Four points are plotted on the “cliff” before the start of the straight line. Though this seems like a really simplistic method of choosing your number of factors, it works well in practice.</p>
+
+<p>Scree plot for this dataset</p>
+
+<p>There’s one more choice to make in setting the parameters for your factor analysis, which is whether and how your factors should be <a href="https://www.theanalysisfactor.com/rotations-factor-analysis/">rotated</a>. This is a complex topic, and you can find all sorts of opinions about how to make this decision. One key item is whether you care if your factors are allowed to correlate with each other or not. If you don’t care if they’re correlated, you can use an <em>oblique</em> rotation method; if you do want to avoid correlated factors, you should choose an <em>orthogonal</em> rotation method. The default in <code class="language-plaintext highlighter-rouge">factor_analyzer</code> is a type of oblique rotation (‘<code class="language-plaintext highlighter-rouge">promax</code>’) but you can choose a common orthogonal rotation if you prefer (‘<code class="language-plaintext highlighter-rouge">varimax</code>’), or one of five other options. For my example, correlated factors aren’t a concern, so I am using the default oblique method.</p>
+
+<p>You’ll then fit the factor analysis model to the data and generate the factor loadings. Factor loadings reflect the degree to which a particular variable (in my example, a survey question) is correlated to the underlying, latent, “ghost” variable that we are assuming exists. Loadings closer to 1 or -1 show a stronger relationship, and the sign reflects whether the observed variable has a positive or negative effect on the latent variable. For example, the survey question “I am comfortable expressing my opinions about work-related issues to my immediate supervisor” has a loading of 0.95 for our Factor 1 described above. This high value suggests a very strong relationship between this observed variable and the latent variable we’re calling “strong employee-supervisor relationships.”</p>
+
+<p>So we’ve got four interesting, intuitively sensible factors in these data. How much are they explaining about this dataset? That’s where examining the factors’ <em>proportional variance</em> comes into play. We can see that Factor 1, supervisor relationships, explains about 20% of the differences among employees’ responses in these data; Factor 2, peer/interdepartmental relationships, explains about 13%; Factor 3, institutional support, explains about 7%; and Factor 4, another 7% – so we’re at about 48% total in <em>cumulative variance</em> across these four factors.</p>
+
+<p>We’re still leaving over half of the variance in these data unexplained. That also makes sense, though. There are a great many personal and contextual issues that go into employee satisfaction, and we probably can’t find them all with a survey and a factor analysis. So maybe explaining 48% of the variation isn’t such a bad result. Depending on your use case, you may see that your factors explain much more or much less variance than we see in this example.</p>
+
+<p>Another potentially interesting data point generated in the factor analysis is the communalities for each variable. Communalities represent how much of an individual variable’s variance can be explained by the factors identified in the analysis. For these survey data, 94% of the variance in the responses to the question “My immediate supervisor treats me with respect” can be explained with these factors (the two types of relationships and the institutional support).</p>
+
+<h1 id="there-were-ghosts">There Were Ghosts!</h1>
+
+<p>This factor analysis identified four reasonable “ghost” variables that underlie a large portion of the variance in the employee satisfaction survey responses. Are any of them terribly surprising? Not really – of course, employees who feel respected will likely be happier across the board in their jobs – but they do provide a convenient way of summarizing the data and reducing the 71 variables to a more manageable set of four factors.</p>
+
+<p>Factor analysis might not be as dramatic as ghost hunters’ “discoveries” of supernatural beings, but it’s still fascinating to uncover those hidden variables that help explain your data more broadly.</p>
+
+<p>Check out factor analysis for yourself with the Designer package attached below (update: or try the macro provided with <a href="https://community.alteryx.com/t5/Data-Science-Blog/A-Factor-Analysis-Macro-for-Designer/ba-p/573354">this follow-up article</a>!).</p>
+
+
+  </div>
+</article>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Susan Currie Sivek</p>
+      
+      <p><a href="mailto:susan.sivek@gmail.com">susan.sivek@gmail.com</a></p>
+      
+    </footer>
+  </div>
+</body>
+</html>

@@ -3,8 +3,9 @@ title: "3-Minute Nutshell: Automating Predictive Analytics"
 date: 2022-10-13
 excerpt: "This article is the fourth in our 3-Minute Nutshell series. We answer FAQs about predictive analyticsAnalytics is a business practice that uses descriptive and visualization techniques to gain insight into data; those insights can then be used to…"
 original_url: "https://www.pecan.ai/resource/automate-predictive-analytics/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/automate-predictive-analytics/](https://www.pecan.ai/resource/automate-predictive-analytics/)*
 
 ![An example of a specific, actionable predictive question, as constructed with Pecan’s platform.](https://www.pecan.ai/wp-content/uploads/2022/10/predictive-question.png.webp)

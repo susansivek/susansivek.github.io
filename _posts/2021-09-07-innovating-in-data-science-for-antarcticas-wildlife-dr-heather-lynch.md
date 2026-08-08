@@ -3,8 +3,9 @@ title: "Innovating in data science for Antarctica’s wildlife | Dr. Heather Lyn
 date: 2021-09-07
 excerpt: "Data science, satellite imagery, and ... penguins? Dr. Heather Lynch, professor at Stony Brook University, joins us to share how she uses data science to study penguins and other species in Antarctica, with surprising connections to business and…"
 original_url: "https://community.alteryx.com/t5/Data-Science-Mixer/Innovating-in-data-science-for-Antarctica-s-wildlife-Dr-Heather/ba-p/817881"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science-Mixer/Innovating-in-data-science-for-Antarctica-s-wildlife-Dr-Heather/ba-p/817881](https://community.alteryx.com/t5/Data-Science-Mixer/Innovating-in-data-science-for-Antarctica-s-wildlife-Dr-Heather/ba-p/817881)*
 
 Data science, satellite imagery, and ... penguins? Dr. Heather Lynch, professor at Stony Brook University, joins us to share how she uses data science to study penguins and other species in Antarctica, with surprising connections to business and other fields.

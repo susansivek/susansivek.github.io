@@ -1,11 +1,11 @@
 ---
 title: "How Spooky is Your City? Mapping and Predicting Scary Stuff"
 date: 2020-10-29
-excerpt: "Whether you’re the kind of person who seeks out the spooky or not, guess what: You probably live near some creepy things.
-To commemorate the season, we thought it would be fun to do some macabre mapping and petrifying prediction of spooky phenomena.…"
+excerpt: "\"Whether you’re the kind of person who seeks out the spooky or not, guess what: You probably live near some creepy things."
 original_url: "https://community.alteryx.com/t5/Data-Science/How-Spooky-is-Your-City-Mapping-and-Predicting-Scary-Stuff/ba-p/657900"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/How-Spooky-is-Your-City-Mapping-and-Predicting-Scary-Stuff/ba-p/657900](https://community.alteryx.com/t5/Data-Science/How-Spooky-is-Your-City-Mapping-and-Predicting-Scary-Stuff/ba-p/657900)*
 
 Whether you’re the kind of person who seeks out the spooky or not, guess what: You probably live near some creepy things.
@@ -40,7 +40,7 @@ After combining these data, I used spatial tool Create Points with the latitude/
 
 Ultimately, I wanted to assign each spooky place to its correct metro area. Plugging the spooky points and the metro areas’ spatial objects into the Spatial Match tool did all the work of figuring that out for me, and made it possible to join the demographic data to the places as well.
 
-![SusanCS_0-1603914619571.gif](https://community.alteryx.com/t5/image/serverpage/image-id/141556i3F80BDCF4260439E/image-size/medium?v=1.0&px=400)
+![SusanCS_0-1603914619571.gif](/assets/images/posts/how-spooky-is-your-city-mapping-and-predicting-scary-stuff/medium.jpeg)
 
 ## **Constructing the Maps**
 
@@ -52,7 +52,7 @@ Your finished map can be saved to an HTML file that goes to a file path you desi
 
 With the information I’d collected at this point, making the maps was easy and fun. But in addition to figuring out where spookiness occurs in the U.S., I also wanted to know: Could we predict what would make a particular metro area more spooky?
 
-![SusanCS_1-1603914619649.gif](https://community.alteryx.com/t5/image/serverpage/image-id/141555iFA7383206B3918AB/image-size/medium?v=1.0&px=400)
+![SusanCS_1-1603914619649.gif](/assets/images/posts/how-spooky-is-your-city-mapping-and-predicting-scary-stuff/medium.png)
 
 ## **Adding Frightening Features**
 
@@ -68,7 +68,7 @@ Want to know which data I picked for each of these in more detail? Pop open the 
 
 I didn’t find quite the ideal data for each of these, but moving forward with less-than-ideal data is just the usual, of course. So we’ll see if we can actually do any predictions of spookiness with these data.
 
-![SusanCS_2-1603914619556.gif](https://community.alteryx.com/t5/image/serverpage/image-id/141554i93756F8870A134E1/image-size/medium?v=1.0&px=400)
+![SusanCS_2-1603914619556.gif](/assets/images/posts/how-spooky-is-your-city-mapping-and-predicting-scary-stuff/medium-937bb2a7.png)
 
 ## **Modeling the Macabre**
 
@@ -80,13 +80,13 @@ I also noticed in exploratory analysis that there was a strong right skew in the
 
 I tried linear regression, spline, and random forest models. Using an 80/20 training/test split and the [Model Comparison](https://help.alteryx.com/current/designer/model-comparison-tool) tool, I found that the random forest model performed best, explaining 58 percent of the variance in the scores. This model offered an RMSE of 0.56 and a 0.79 correlation between its predictions and the actual Spooky Scores. The plot below shows the relative importance of the features in the model.
 
-![SusanCS_3-1603914619568.png](https://community.alteryx.com/t5/image/serverpage/image-id/141557iD84F66DDC15E7179/image-size/medium?v=1.0&px=400)
+![SusanCS_3-1603914619568.png](/assets/images/posts/how-spooky-is-your-city-mapping-and-predicting-scary-stuff/medium.bin)
 
 I also let [Assisted Modeling](https://community.alteryx.com/t5/Analytics/One-Click-Modeling-With-Alteryx-Intelligence-Suite/ba-p/614316) take a crack at predicting Spooky Scores. Its best-performing model, using the same train/test data, was also a random forest regressor, with an RMSE of 0.72 and about 0.78 correlation between its predictions and the actual Spooky Scores. However, Assisted Modeling also informed me that the [adjusted R-squared](https://www.statisticshowto.com/adjusted-r2/) was 0.48; adjusted R-squared is another measure of correlation that takes into account the number of variables used in the model, penalizing models with more variables.
 
-![SusanCS_4-1603914619600.png](https://community.alteryx.com/t5/image/serverpage/image-id/141559i900BC15F0885ACE7/image-size/large?v=1.0&px=999)
-![SusanCS_5-1603914619583.png](https://community.alteryx.com/t5/image/serverpage/image-id/141558i65142E1F86F0E9F2/image-size/large?v=1.0&px=999)
-![SusanCS_6-1603914619549.png](https://community.alteryx.com/t5/image/serverpage/image-id/141560i2A88BC4A83516947/image-size/large?v=1.0&px=999)
+![SusanCS_4-1603914619600.png](/assets/images/posts/how-spooky-is-your-city-mapping-and-predicting-scary-stuff/large.bin)
+![SusanCS_5-1603914619583.png](/assets/images/posts/how-spooky-is-your-city-mapping-and-predicting-scary-stuff/large-03701490.bin)
+![SusanCS_6-1603914619549.png](/assets/images/posts/how-spooky-is-your-city-mapping-and-predicting-scary-stuff/large.png)
 
 To enhance this analysis, I’d have loved to get more specific with metro area-level data on beliefs in the paranormal, and I’d take more time fine-tuning the weather and home price data, instead of using state aggregations. Additionally, it would have been cool to include data for: 1) the year a city was founded, in order to address the number of cemeteries accumulated over time (as discussed in [this blog post/visualization](https://www.joshuastevens.net/blog/graveyards-of-the-contiguous-usa/)); and 2) the distance to the nearest military base and/or airport, to help account for UFO sightings (or would it?! 👽 👽 👽).
 

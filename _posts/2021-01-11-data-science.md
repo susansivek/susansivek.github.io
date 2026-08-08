@@ -3,8 +3,9 @@ title: "Data Science"
 date: 2021-01-11
 excerpt: "This week’s podcast episode features two of the nonprofits that benefited from the hard work of data analytics students in the Alteryx for Good Data Challenge held at February’s Alteryx Inspire conference in Sydney. The competition, cosponsored by…"
 original_url: "https://community.alteryx.com/t5/Data-Science/Data-Science-Volunteering-Ways-to-Help/bc-p/702554"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Data-Science-Volunteering-Ways-to-Help/bc-p/702554](https://community.alteryx.com/t5/Data-Science/Data-Science-Volunteering-Ways-to-Help/bc-p/702554)*
 
 This week’s podcast episode features two of the nonprofits that benefited from the hard work of data analytics students in the Alteryx for Good Data Challenge held at February’s Alteryx Inspire conference in Sydney. The competition, cosponsored by Alteryx partner RXP, brought new analytic approaches and insights to these invaluable organizations.
@@ -12,8 +13,6 @@ This week’s podcast episode features two of the nonprofits that benefited from
 Though a major goal of the AFG competition was to help the organizations with their data needs, participating also benefited the students, who gained new skills with real-world problems and added to their personal networks. (You can hear about their experiences [in this episode](https://community.alteryx.com/t5/Alter-Everything-Podcast/59-Reporting-from-Australia-an-Alteryx-for-Good-Data-Challenge/ba-p/565871)!)
 
 No matter what career level you’re at, you too can participate in “data for good” events and activities. Whether you’re established in or aspiring to a data career, there are plenty of opportunities for you to contribute. You’ll get experience in new domains, new portfolio projects, and new connections with other data enthusiasts, plus you’ll feel great about contributing to a good cause!
-
-![SusanCS_0-1603381197666.gif](https://community.alteryx.com/t5/image/serverpage/image-id/140220i87F749B4D7378261/image-size/medium?v=1.0&px=400)
 
 While there are many general tech-related causes out there that you can join, we’ll look here at those that are primarily data oriented.
 
@@ -27,8 +26,6 @@ Join a short- or long-term analytics or data science project or collaboration ru
 * [Statistics Without Borders](https://swb.wildapricot.org/page-1075198): Organizes data professionals to help international causes through their statistical expertise.
 * [United Nations Volunteers](https://www.onlinevolunteering.org/en): Recruits volunteers from all backgrounds to assist projects supporting peace and development worldwide — currently including opportunities focused on spatial/GIS and data visualization.
 
-![SusanCS_1-1603381197261.gif](https://community.alteryx.com/t5/image/serverpage/image-id/140219iAE4ED1F5F66B066D/image-size/medium?v=1.0&px=400)
-
 ## **Hackathons and Competitions**
 
 Sure, you could enter a data competition to seek fame and (maybe) some fortune … but why not choose one with a purpose that benefits others, too? Data-focused hackathons (aka datathons or data challenges) for good causes can offer both. These events are planned and coordinated by different organizations and on varying scales, in terms of number of participants, prizes, and resources. Here are a few places you’ll find these events:
@@ -39,8 +36,6 @@ Sure, you could enter a data competition to seek fame and (maybe) some fortune �
 * [Devpost](https://devpost.com/hackathons) also offers some competitions focused on crunching data for a cause, some with prize money. Check guidelines carefully, as some competitions require student status or residency in a certain place. There are even competitions focused on high school students, so if you’re [starting your data explorations early](https://community.alteryx.com/t5/Alter-Nation/Get-Kids-into-Data-Science-with-Alteryx-for-K-12/ba-p/642179), check it out!
 
 You might also have an opportunity to help out with an event as a judge, mentor or coach. Through our own [Alteryx for Good](https://community.alteryx.com/t5/Alteryx-For-Good/ct-p/afg) program, I recently served as a judge for a data case competition run by the [Information Systems & Business Analytics Students Society](https://uoaibss.co.nz/) at the University of Auckland. It was inspiring and fun to see these impressive students apply their Alteryx skills, their critical thinking and their analytic mindset to the challenge.
-
-![SusanCS_2-1603381191708.gif](https://community.alteryx.com/t5/image/serverpage/image-id/140217iAF9C3589EEE0EB61/image-size/medium?v=1.0&px=400)
 
 ## **Open-Source Opportunities**
 
@@ -53,8 +48,6 @@ Even if you are fairly new to data science and coding, think about lending a han
 There are plenty of challenging problems out there that you can address, even if you prefer to operate independently or can’t commit to a competition or organization. Come up with your own project and find publicly available data that could help you address it in some way, whether through modeling, data visualization, app building, data storytelling or any other approach. For example, we recently shared lists of data sources related to [COVID-19](https://community.alteryx.com/t5/Alter-Nation/Data-Wizards-Unite-Use-Your-Skills-to-Fight-COVID-19/ba-p/545240) and to [issues around racial injustice](https://community.alteryx.com/t5/Alter-Nation/Using-Data-to-Seek-Racial-Justice-and-Transparency/ba-p/582837), but there are many other possibilities out there.
 
 You might also have a nonprofit in mind that you’d like to help. Regardless of the tools you want to use to help them, think about the best way to approach them and how you’ll collaborate, as explored in [this guide](https://community.alteryx.com/t5/Alter-Nation/Starting-Conversations-with-Non-Profit-Partners-for-AFG-Part-1/ba-p/604436).
-
-![SusanCS_3-1603381187196.gif](https://community.alteryx.com/t5/image/serverpage/image-id/140221iCB0DA10B8ADFC6D8/image-size/medium?v=1.0&px=400)
 
 ## **Help Others with Your Alteryx Skills**
 

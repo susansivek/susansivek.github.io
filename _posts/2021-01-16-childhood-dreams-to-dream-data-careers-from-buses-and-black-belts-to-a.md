@@ -3,15 +3,14 @@ title: "Childhood Dreams to Dream Data Careers: From Buses and Black Belts to An
 date: 2021-01-16
 excerpt: "In this week’s episode of the Alter Everything podcast, Jamie Beason (@JNBeason), Senior Director of Business Intelligence and Analytics at JLL, talks about her career in data, but also reveals that her childhood dream was a bit different: She wanted…"
 original_url: "https://community.alteryx.com/t5/Alter-Nation/Childhood-Dreams-to-Dream-Data-Careers-From-Buses-and-Black/ba-p/704951"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Alter-Nation/Childhood-Dreams-to-Dream-Data-Careers-From-Buses-and-Black/ba-p/704951](https://community.alteryx.com/t5/Alter-Nation/Childhood-Dreams-to-Dream-Data-Careers-From-Buses-and-Black/ba-p/704951)*
 
 In this week’s [episode](https://community.alteryx.com/t5/Alter-Everything-Podcast/77-Jamie-Beason/ba-p/704556) of the Alter Everything podcast, Jamie Beason ([@JNBeason](https://community.alteryx.com/t5/user/viewprofilepage/user-id/34574)), Senior Director of Business Intelligence and Analytics at JLL, talks about her career in data, but also reveals that her childhood dream was a bit different: She wanted to become a veterinarian. A veterinarian with a black belt in karate, more specifically.
 
 Without giving away too much about the episode, Jamie explains how those interests all ended up converging in her data science work. We thought it would be fun to hear from some of our ACEs and user group leaders to see if they had similar stories to tell about how their childhood ideas about careers and the future led them toward their current work in analytics and data science. There are common threads, but also surprising twists in their stories!
-
-![Conrad 2020.jpeg](https://community.alteryx.com/t5/image/serverpage/image-id/165768i361D5E50D1F78977/image-size/small?v=1.0&px=200)
 
 Conrad 2020.jpeg
 
@@ -21,7 +20,7 @@ My primary childhood dream was to drive cool double-decker buses, but my teacher
 
 In recent years, I have been focusing on data science and analytics. I have not yet driven a double-decker bus, but my love of machines led me to flying planes as a hobby. One of my projects is to use aviation weather data to help make flying safer. So I have come full circle, and my strong STEM foundations have served me well in my hobbies and career.
 
-[**![carlos.png](https://community.alteryx.com/t5/image/serverpage/image-id/165789i25A6471DB1601584/image-size/large?v=1.0&px=999)**](https://community.alteryx.com/t5/user/viewprofilepage/user-id/22128)
+[****](https://community.alteryx.com/t5/user/viewprofilepage/user-id/22128)
 
 **Alteryx ACE and Alteryx Specialist at Data Meaning**
 
@@ -30,8 +29,6 @@ I remember that when I was a child I went to see a presentation of the smoke squ
 I ended up becoming a training lawyer. During my studies (in law), I already worked in the data area (MIS), and luckily I was unable to migrate from the area. Today I am too happy to work with data and Alteryx directly. Today I study for an MBA in data engineering and finish my graduate studies in the middle of this year.
 
 I am grateful for everything I have achieved so far in this data career, and more specifically what I have become in the last six years working with Alteryx. Because of Alteryx, I became a professor of Alteryx at a university here in Brazil called FIAP, administering the Alteryx Designer course from basic to advanced. Working with Alteryx has given me quality of life, and with it, I can help other people in our community to develop.
-
-![Screen Shot 2021-01-15 at 11.05.46 AM.png](https://community.alteryx.com/t5/image/serverpage/image-id/165769iBEBFB62DAF79EED7/image-size/small?v=1.0&px=200)
 
 **Alteryx ACE and Head of Operations at The Information Lab, Ireland**
 

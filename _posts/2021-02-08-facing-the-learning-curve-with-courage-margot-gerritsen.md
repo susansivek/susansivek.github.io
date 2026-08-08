@@ -3,8 +3,9 @@ title: "Facing the learning curve with courage | Margot Gerritsen"
 date: 2021-02-08
 excerpt: "Margot Gerritsen, Stanford professor and a founder of Women in Data Science, joins us for our debut episode. She shares her own data science career journey, her feelings about fundamental concepts in data science, and her perspective on diversity in…"
 original_url: "https://community.alteryx.com/t5/Top-Shelf-Data-Science-Podcast/Facing-the-learning-curve-with-courage-Margot-Gerritsen/ba-p/714301"
+publication: "Alteryx Community"
+categories: [data-science, profiles]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Top-Shelf-Data-Science-Podcast/Facing-the-learning-curve-with-courage-Margot-Gerritsen/ba-p/714301](https://community.alteryx.com/t5/Top-Shelf-Data-Science-Podcast/Facing-the-learning-curve-with-courage-Margot-Gerritsen/ba-p/714301)*
 
 Margot Gerritsen, Stanford professor and a founder of Women in Data Science, joins us for our debut episode. She shares her own data science career journey, her feelings about fundamental concepts in data science, and her perspective on diversity in the field. Margot also offers a great way to keep your data science practice current.

@@ -3,8 +3,9 @@ title: "Fighting Disease with Data: Q&A with Epidemiologist Amrish Baidjoe"
 date: 2020-05-29
 excerpt: "Data science tools are powerful for investigating the current pandemic and other outbreaks, when accurate and actionable data are crucial. But they become even more powerful combined with complementary, varied domain expertise and tools for…"
 original_url: "https://community.alteryx.com/t5/Data-Science/Fighting-Disease-with-Data-Q-amp-A-with-Epidemiologist-Amrish/ba-p/577203"
+publication: "Alteryx Community"
+categories: [data-science, profiles]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Fighting-Disease-with-Data-Q-amp-A-with-Epidemiologist-Amrish/ba-p/577203](https://community.alteryx.com/t5/Data-Science/Fighting-Disease-with-Data-Q-amp-A-with-Epidemiologist-Amrish/ba-p/577203)*
 
 Data science tools are powerful for investigating the current pandemic and other outbreaks, when accurate and actionable data are crucial. But they become even more powerful combined with complementary, varied domain expertise and tools for automation.
@@ -13,7 +14,7 @@ As I researched data science topics related to the COVID-19 pandemic, I ran acro
 
 Here’s some of my conversation with Baidjoe about the strengths and challenges of fighting diseases with data.
 
-![Amrish Baidjoe.jpg](https://community.alteryx.com/t5/image/serverpage/image-id/115249i245814A7F325D25D/image-size/medium?v=1.0&px=400)
+![Amrish Baidjoe.jpg](/assets/images/posts/fighting-disease-with-data-q-a-with-epidemiologist-amrish-baidjoe/medium.svg)
 
 Amrish Baidjoe
 
@@ -59,7 +60,7 @@ There's also a lot of hype, and I think that's important to address. When I hear
 
 To directly improve the quality and speed of data analyses in field situations, a project titled [R4Epis](https://r4epis.netlify.com/) and funded by Médecins Sans Frontières/Doctors Without Borders involved the MSF epidemiologists and different experts within the R Epidemics Consortium.
 
-![r-epis.png](https://community.alteryx.com/t5/image/serverpage/image-id/114926iA38C3C5B43BBF323/image-size/large?v=1.0&px=999)
+![r-epis.png](/assets/images/posts/fighting-disease-with-data-q-a-with-epidemiologist-amrish-baidjoe/large.svg)
 
 Some of the specialized R packages for epidemiology available from the R Epidemics Consortium.
 

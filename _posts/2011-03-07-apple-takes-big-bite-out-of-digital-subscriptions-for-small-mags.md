@@ -1,11 +1,11 @@
 ---
 title: "Apple Takes Big Bite Out of Digital Subscriptions for Small Mags"
 date: 2011-03-07
-excerpt: "Subscriber data is our lifeblood. If they're going to shield that from us, it's not going to work.\" -- Stephanie Wilkinson
-Business content on MediaShift is sponsored by the weekend MA in Public Communication at American University. Designed for…"
+excerpt: "\"Subscriber data is our lifeblood. If they're going to shield that from us, it's not going to work.\\\" -- Stephanie Wilkinson"
 original_url: "http://mediashift.org/2011/03/apple-takes-big-bite-out-of-digital-subscriptions-for-small-mags066/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2011/03/apple-takes-big-bite-out-of-digital-subscriptions-for-small-mags066/](http://mediashift.org/2011/03/apple-takes-big-bite-out-of-digital-subscriptions-for-small-mags066/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-3ffd41a7a1e99022015ea2098d33d701-magrack.jpg)[![i-61ae0e730671850b9afed3fe6e74cda9-AUlogo.jpg](https://i0.wp.com/mediashift.org/wp-content/uploads/sites/8/import/i-61ae0e730671850b9afed3fe6e74cda9-AUlogo.jpg)](https://www.american.edu/soc/communication/degrees/weekend-pc-description.cfm)

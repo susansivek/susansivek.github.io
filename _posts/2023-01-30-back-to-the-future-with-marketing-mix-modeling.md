@@ -3,8 +3,9 @@ title: "Back to the Future With Marketing Mix Modeling"
 date: 2023-01-30
 excerpt: "Was this quote from the 1989 film Back to the Future II actually about marketing mix modeling? Your future hasn’t been written yet. No one’s has. Your future is whatever you make it, so make it a good one. Probably not. But the wisdom of Doc Brown…"
 original_url: "https://www.pecan.ai/blog/back-future-marketing-mix-modeling/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/blog/back-future-marketing-mix-modeling/](https://www.pecan.ai/blog/back-future-marketing-mix-modeling/)*
 
 Was this quote from the 1989 film *Back to the Future II* actually about marketing mix modeling?

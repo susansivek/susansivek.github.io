@@ -3,21 +3,18 @@ title: "Predicting the Effects of Holidays on Service"
 date: 2021-11-22
 excerpt: "While many of us happily feast and relax on Thanksgiving, others are out there doing what’s necessary to keep society operating on the holiday. Local government agencies, law enforcement and others still take in requests for help and try to fulfill…"
 original_url: "https://community.alteryx.com/t5/Data-Science/Predicting-the-Effects-of-Holidays-on-Service/ba-p/847820"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Predicting-the-Effects-of-Holidays-on-Service/ba-p/847820](https://community.alteryx.com/t5/Data-Science/Predicting-the-Effects-of-Holidays-on-Service/ba-p/847820)*
 
 While many of us happily feast and relax on Thanksgiving, others are out there doing what’s necessary to keep society operating on the holiday. Local government agencies, law enforcement and others still take in requests for help and try to fulfill them.
-
-![SusanCS_0-1637255909455.gif](https://community.alteryx.com/t5/image/serverpage/image-id/211297i4FC42B41C1390D67/image-size/medium?v=v2&px=400)
 
 Image via GIPHY
 
 But could the holiday affect how long it takes to deal with a request from the public to address a problem? What determines whether a request can be completed and closed within, say, 24 hours? (Of course, needing quick turnaround and closure is relevant to many other areas, such as delivery times, customer service tickets, appointment wait times, and more.)
 
 Let’s check out one way to model this sort of question. We’ll look at the New York City 311 call data — specifically, [a dataset](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-during-Thanksgiving-Week-2020/nkbi-zvx2) reporting all the calls to 311 during Thanksgiving week in 2020. We’ll build a model to predict whether a specific service request would likely be closed within 24 hours or not. Being able to predict this would help those taking the requests provide realistic forecasts of how long issues may take to address, given the specifics of the case. Our modeling process will also let us know which factors matter most in closing cases in less than a day, including whether it’s Turkey Day or not.
-
-![SusanCS_1-1637255909049.png](https://community.alteryx.com/t5/image/serverpage/image-id/211296iF375084DD3A23482/image-size/large?v=v2&px=999)
 
 Word cloud of issues reported to NYC’s 311 service during Thanksgiving week of 2020. (Notice the top left … yikes! ?
 
@@ -31,8 +28,6 @@ Additionally, there were many values in the original data for “Complaint Type�
 
 An impressive 19,118 of the calls were resolved within 24 hours, and 15,701 of them were referred to the New York Police Department for handling, with others directed to other city agencies, such as the Department of Sanitation and the Department of Parks and Recreation.
 
-![SusanCS_2-1637255910504.gif](https://community.alteryx.com/t5/image/serverpage/image-id/211298iFE8518322EC6FC7B/image-size/medium?v=v2&px=400)
-
 Image via GIPHY
 
 ## **Cooking up a Model, Part 1: Alteryx Machine Learning**
@@ -40,8 +35,6 @@ Image via GIPHY
 We need a binary classification model to predict whether each case was resolved within 24 hours or not. The predictors were the agency name (that handled the issue), the complaint type, the location type, the borough, the method used for contacting 311 (e.g., phone, online), and whether the service request occurred on Thanksgiving Day itself or another day during the holiday week.
 
 We can use [Alteryx Machine Learning](https://help.alteryx.com/machine-learning) to quickly move through the modeling process. It’ll make the most of this dataset with feature typing options, and will also rapidly build and evaluate multiple models, with minimal effort on our part.
-
-![SusanCS_3-1637255910397.gif](https://community.alteryx.com/t5/image/serverpage/image-id/211301i29DB7359CFBE8AE2/image-size/medium?v=v2&px=400)
 
 Image via GIPHY
 
@@ -51,11 +44,7 @@ A cool thing to notice at this stage is that you can be a little more detailed a
 
 In the next step, you’ll set your target variable, determining the general type of model you need (classification or regression). A quick pass through the dataset then reveals some essential details about your features, including correlations among them, outlier values and the distribution of labels for your target variable.
 
-![SusanCS_0-1637256184335.png](https://community.alteryx.com/t5/image/serverpage/image-id/211304iB989CDE7DDE2CA09/image-size/large?v=v2&px=999)
-
 *The correlation matrix for the variables in the dataset*
-
-![SusanCS_5-1637255909114.png](https://community.alteryx.com/t5/image/serverpage/image-id/211299iDC6DF1CCCE7A87B2/image-size/large?v=v2&px=999)
 
 The distribution of the yes/no values for our target variable (whether the request was closed in 24 hours or less)
 
@@ -65,15 +54,9 @@ Alteryx Machine Learning will build a bunch of models in the Auto Model step, us
 
 The next step, Evaluate Model, is probably the most intriguing! You can see how well your selected model performs on various metrics, review a confusion matrix and your features’ relative importance, simulate the results of modified data, and even check out a sampling of good and bad predictions made by the model so you can better understand what it’s doing behind the scenes.
 
-![SusanCS_1-1637256235381.png](https://community.alteryx.com/t5/image/serverpage/image-id/211305i0604B7447360883A/image-size/medium?v=v2&px=400)
-
 Many metrics to examine for the recommended model
 
-![SusanCS_2-1637256291030.png](https://community.alteryx.com/t5/image/serverpage/image-id/211306iDF668D7226E61B72/image-size/large?v=v2&px=999)
-
 *Confusion matrix for the recommended model*
-
-![SusanCS_3-1637256331750.png](https://community.alteryx.com/t5/image/serverpage/image-id/211307i0D16A3EA6C52C7C4/image-size/large?v=v2&px=999)
 
 Prediction explanations for best and worst predictions offered by the model
 
@@ -85,27 +68,19 @@ If you don’t have Alteryx Machine Learning, don’t worry — we can still get
 
 The random forest model had a 93.4% accuracy rate, and performed about the same when predicting both positive and negative outcomes, as the confusion matrix below shows.
 
-![SusanCS_4-1637256374462.png](https://community.alteryx.com/t5/image/serverpage/image-id/211308iB65714FD92773D60/image-size/large?v=v2&px=999)
-
 Confusion matrix for the random forest model in Designer
 
 The logistic regression model did almost as well, with 93.2% accuracy; however, its mistakes weren’t as evenly distributed.
 
-![SusanCS_0-1637256792230.png](https://community.alteryx.com/t5/image/serverpage/image-id/211313i9AF8604F10E5C0AE/image-size/large?v=v2&px=999)
-
 *Metrics for the logistic regression model built in Designer*
 
 So let’s look more closely at the random forest model, and especially check out how the various features contributed to the predictions. The variable importance plot below tells us more:
-
-![SusanCS_1-1637256835700.png](https://community.alteryx.com/t5/image/serverpage/image-id/211314i5374BF210B3808C3/image-size/large?v=v2&px=999)
 
 *Variable importance plot for random forest model built in Designer*
 
 The random forest classifier built in Designer performs similarly to the XGBoost classifier built by Alteryx Machine Learning. Both tools get the modeling job done, but with different interfaces and explanatory information available along the way.
 
 If we were concerned about whether a request coming in on Thanksgiving would affect whether that request could be resolved during 24 hours … well, it turns out that was the least significant factor in predicting that outcome. Instead, the type of complaint, location and agency were notably more important in the model’s predictions.
-
-![SusanCS_2-1637256890029.gif](https://community.alteryx.com/t5/image/serverpage/image-id/211315iF92C47C2A8E85C24/image-size/medium?v=v2&px=400)
 
 Image via GIPHY
 

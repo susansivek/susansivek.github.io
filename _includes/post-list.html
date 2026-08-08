@@ -1,0 +1,42 @@
+{% comment %}
+  Expects `posts` — an array of post objects.
+  Shows first content image (or post.image) as a listing thumbnail.
+{% endcomment %}
+<ul class="post-list">
+  {% for post in posts %}
+  {% assign thumb = "" %}
+  {% if post.image and post.image != "" %}
+    {% assign thumb = post.image %}
+  {% elsif post.content contains 'src="' %}
+    {% assign _parts = post.content | split: 'src="' %}
+    {% if _parts.size > 1 %}
+      {% assign thumb = _parts[1] | split: '"' | first %}
+    {% endif %}
+  {% endif %}
+  {% if thumb contains 'data:image' %}
+    {% assign thumb = "" %}
+  {% endif %}
+
+  <li class="post-item{% if thumb != "" %} post-item--has-thumb{% endif %}">
+    <div class="post-item-meta">
+      <time class="post-date" datetime="{{ post.date | date: '%Y-%m-%d' }}">
+        {% if post.undated %}Undated{% else %}{{ post.date | date: "%b %Y" }}{% endif %}
+      </time>
+      {% if post.publication %}
+      <span class="post-publication">{{ post.publication }}</span>
+      {% endif %}
+    </div>
+    <div class="post-item-body">
+      <a class="post-item-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% if post.excerpt and post.excerpt != "" %}
+      <p class="post-item-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+      {% endif %}
+    </div>
+    {% if thumb != "" %}
+    <a class="post-item-thumb" href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true">
+      <img src="{% if thumb contains '://' %}{{ thumb }}{% else %}{{ thumb | relative_url }}{% endif %}" alt="" loading="lazy" decoding="async">
+    </a>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>

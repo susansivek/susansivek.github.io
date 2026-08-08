@@ -1,11 +1,11 @@
 ---
 title: "Once Magazine Takes the Photo Magazine into the App World"
 date: 2011-10-05
-excerpt: "Once Magazine released a free pilot iPad issue in August and plans its next issue -- which will cost $2.99 -- this month.
-Photographers who might have aspired to see their work published on the glossy pages of a magazine can now opt for the glossy…"
+excerpt: "\"Once Magazine released a free pilot iPad issue in August and plans its next issue -- which will cost $2.99 -- this month."
 original_url: "http://mediashift.org/2011/10/once-magazine-takes-the-photo-magazine-into-the-app-world278/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2011/10/once-magazine-takes-the-photo-magazine-into-the-app-world278/](http://mediashift.org/2011/10/once-magazine-takes-the-photo-magazine-into-the-app-world278/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-fb8cf96a1840de7d7572a8a43b92ffdc-once-cover.jpg)

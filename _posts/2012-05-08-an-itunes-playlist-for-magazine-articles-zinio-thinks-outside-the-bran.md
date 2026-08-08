@@ -1,11 +1,11 @@
 ---
 title: "An iTunes Playlist for Magazine Articles? Zinio Thinks Outside the Brand"
 date: 2012-05-08
-excerpt: "Zinio is creating \"collections\" of magazine articles -- a move that raises the question: If we all become editors for each other, what does that do to the role of professional magazine editors, and the significance of their publications' brands?
-How…"
+excerpt: "\"Zinio is creating \\\"collections\\\" of magazine articles -- a move that raises the question: If we all become editors for each other, what does that do to the role of professional magazine editors, and the significance of their publications' brands?"
 original_url: "http://mediashift.org/2012/05/an-itunes-playlist-for-magazine-articles-zinio-thinks-outside-the-brand129/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2012/05/an-itunes-playlist-for-magazine-articles-zinio-thinks-outside-the-brand129/](http://mediashift.org/2012/05/an-itunes-playlist-for-magazine-articles-zinio-thinks-outside-the-brand129/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-e31f052b9f92d0eabf39d4af5a654c63-zinio-mag-thumbs-2.jpg)

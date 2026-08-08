@@ -3,8 +3,9 @@ title: "Deep Dive: Actionable Predictive Analytics"
 date: 2023-01-24
 excerpt: "Not convinced yet that predictive analyticsPredictive analytics uses data, statistics, and machine learning techniques to build mathematical models that can generate predictions about things likely to happen in the future…. can have powerful effects…"
 original_url: "https://www.pecan.ai/resource/actionable-predictive-analytics/"
+publication: "Pecan AI"
+categories: [data-science, features]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/actionable-predictive-analytics/](https://www.pecan.ai/resource/actionable-predictive-analytics/)*
 
 Not convinced yet that [predictive analytics](https://www.pecan.ai/glossary/predictive-analytics/)Predictive analytics uses data, statistics, and machine learning techniques to build mathematical models that can generate predictions about things likely to happen in the future…. can have powerful effects on your business outcomes? Hear it for yourself — and keep learning more with our resources.

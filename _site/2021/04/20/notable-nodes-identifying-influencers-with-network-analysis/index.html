@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notable Nodes: Identifying Influencers with Network Analysis — Susan Currie Sivek</title>
+  <meta name="description" content=""My dog loves napping in his super-fuzzy dog bed. And I have to confess: I like to think I’m a rational consumer, but I bought him the bed because of cute ph...">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="site">
+    <header class="masthead">
+      <p class="masthead-brand">
+        <a href="/">Susan Currie Sivek</a>
+      </p>
+      <p class="masthead-tagline">
+        Data science writer, researcher, hiker, knitter. Former journalism professor. Curious about everything.
+        View <a href="https://www.linkedin.com/in/ssivek/">my LinkedIn profile</a>.
+      </p>
+      <nav class="site-nav" aria-label="Portfolio sections">
+  <ul>
+    <li>
+      <a href="/">All</a>
+    </li>
+    <li>
+      <a href="/favorites/">Favorites</a>
+    </li>
+    <li>
+      <a href="/categories/data-science/">Data Science and Tech</a>
+    </li>
+    <li>
+      <a href="/categories/features/">Features</a>
+    </li>
+    <li>
+      <a href="/categories/profiles/">Profiles</a>
+    </li>
+    <li>
+      <a href="/categories/academic/">Academic Life</a>
+    </li>
+    <li>
+      <a href="/categories/media/">Media Industry</a>
+    </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main class="content" id="main">
+      <article class="post">
+  <header class="post-header">
+    <h1>Notable Nodes: Identifying Influencers with Network Analysis</h1>
+    <div class="post-meta">
+      <span>April 20, 2021</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><span>Alteryx Community</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><a class="post-source" href="https://community.alteryx.com/t5/Data-Science/Notable-Nodes-Identifying-Influencers-with-Network-Analysis/ba-p/748634" rel="noopener">View original &#8599;</a>
+    </div>
+    
+    <ul class="post-categories">
+      
+      <li>
+        
+          <a href="/categories/data-science/">Data Science and Tech</a>
+        
+      </li>
+      
+    </ul>
+    
+  </header>
+
+  <div class="post-body">
+    <p><em>Originally published at <a href="https://community.alteryx.com/t5/Data-Science/Notable-Nodes-Identifying-Influencers-with-Network-Analysis/ba-p/748634">https://community.alteryx.com/t5/Data-Science/Notable-Nodes-Identifying-Influencers-with-Network-Analysis/ba-p/748634</a></em></p>
+
+<p>My dog loves napping in his super-fuzzy dog bed. And I have to confess: I like to think I’m a rational consumer, but I bought him the bed because of cute photos and a discount code shared by a social media influencer.</p>
+
+<p>Identifying social media influencers who can help promote your business is both an art and a science. There are plenty of commercial services that say they can tell you who those people are. But why pay for that service when you can use a tool already at your fingertips to find and analyze potential influencers and their posts? Alteryx has network analysis capabilities that can help you identify these people and determine whether they’re a good fit for your needs.</p>
+
+<p>Let’s take a closer look at the Network Analysis Tool and build our own workflow to identify potential Twitter influencers.</p>
+
+<p><img src="/assets/images/posts/notable-nodes-identifying-influencers-with-network-analysis/medium.jpeg" alt="SusanCS_0-1618848621022.gif" /></p>
+
+<p>Image via GIPHY</p>
+
+<h2 id="retrieving-and-preparing-tweets"><strong>Retrieving and Preparing Tweets</strong></h2>
+
+<p>A while back, I <a href="https://community.alteryx.com/t5/Data-Science/How-Your-City-Feels-According-to-Social-Media/ba-p/649518">demonstrated</a> how to retrieve and analyze tweets using the Twitter API, the user-created <a href="https://gallery.alteryx.com/#!app/Twitter-API-Authorization-Header/5bb29ea4826fd30c4cd5533e">Twitter API Authorization Header macro</a>, and the Sentiment Analysis Tool from the Alteryx Intelligence Suite.</p>
+
+<p>You can use the approach and workflow provided in that post to get started on our influencer identifier. You might choose a keyword, a location, or — as I will do here — a hashtag relevant to your interests as your starting point.</p>
+
+<p>I’m going to look at tweets with the hashtag #ODSCEast from the recent <a href="https://odsc.com/boston/">Open Data Science Conference East</a>. One use for these tweets could be identifying influencers who might be helpful in promoting our <a href="https://community.alteryx.com/t5/Data-Science-Mixer/bg-p/mixer">Data Science Mixer podcast</a> and/or could be future guests.</p>
+
+<p>I retrieved tweets using that hashtag twice a day for all three days of the conference, resulting in a collection of 600 tweets. Unfortunately, Twitter’s <a href="https://developer.twitter.com/en/docs/twitter-api/v1/tweets/search/overview">standard search</a> <a href="https://developer.twitter.com/en/docs/twitter-api/v1/rate-limits">limits</a> access to tweets, but this sample is a good starting point.</p>
+
+<p>Image via GIPHY</p>
+
+<p>The number of followers someone has is just one possible measure of influence on Twitter. Another way to think about influence might be to examine who is often connected with other people in actual tweets — who often is linked with others due to common interests and broad recognition. In the case of this conference, people might be mentioned together in tweets related to upcoming sessions or talks, revealing connections that wouldn’t be evident otherwise. Users who co-occurred often with other users in the collected tweets could be key connections, helpful for reaching a wide audience. This is the approach we’ll try here.</p>
+
+<p>After parsing the Twitter data, I wanted just the usernames of everyone mentioned in the tweets, so I used the <a href="https://help.alteryx.com/current/designer/regex-tool">RegEx Tool</a> and the expression <em>@(\w+)</em> to tokenize the usernames into rows. With a big assist from <a href="https://community.alteryx.com/t5/user/viewprofilepage/user-id/1443">@NeilR</a> on the data wrangling, plus some ideas from <a href="https://community.alteryx.com/t5/Alteryx-Designer-Discussions/Help-needed-Network-Analysis/td-p/161952">this post</a> by <a href="https://community.alteryx.com/t5/user/viewprofilepage/user-id/5143">@BenMoss</a>, everything eventually got into the form I wanted prior to network analysis: a two-field, 155-row table with the pairs of usernames that had actually appeared together in tweets, and a one-field, 115-row table with just the unique usernames of everyone who had shown up in any tweet. The first rows of each table are below.</p>
+
+<h2 id="constructing-the-network"><strong>Constructing the Network</strong></h2>
+
+<p>As usual, the process of generating those two tables took a lot longer than actually analyzing the data! I used the <a href="https://help.alteryx.com/current/designer/network-analysis-tool">Network Analysis Tool</a> to see how the Twitter users I identified were all interconnected in the tweets I’d gathered.</p>
+
+<p>Let’s start with the resulting diagram of the network and work backwards to explore how it was formed. The interactive dashboard below is available from the I output of the Network Analysis Tool. (You can also export it to various formats with the Render Tool, such as HTML, which is how I was able to embed the diagram below.)</p>
+
+<p>In this diagram, the circles are “nodes.” Each Twitter user identified here is considered a node in this network. The lines between the nodes are called “edges.” As you can see in the network graph, most edges lead to <a href="https://twitter.com/odsc">@odsc</a>, the Twitter account of the organizers of the conference, and it makes sense that they would end up central to the discussion of their own event.</p>
+
+<p>However, as I mouse over and click on the individual nodes, it looks like nodes other than @odsc are also pretty well interconnected. For example, <a href="https://twitter.com/aliciaframe1">@aliciaframe1</a> mentioned other users or was mentioned by them fairly often, as revealed by the blue nodes and edges below:</p>
+
+<p>In addition to exploring the interactive diagram, I can also use the numeric output from the Network Analysis Tool to examine my potential influencers more closely. The output includes five network centrality measures, each of which reflect different ways of evaluating how “central” a node is to a network. You can read about <a href="https://en.wikipedia.org/wiki/Centrality">all the centrality measures</a>, but here are simplified definitions of each:</p>
+
+<ul>
+  <li>Betweenness: the number of times a node serves as a bridge on the shortest path between other nodes. A node that is often a bridge can control the spread of information, allowing or limiting its flow.</li>
+  <li>Degree: the number of nodes one link away from any one node. As <a href="https://www2.unb.ca/~ddu/6634/Lecture_notes/Lecture_4_centrality_measure.pdf">one source</a> states, “Though simple, degree is often a highly effective measure of the influence or importance of a node: In many social settings people with more connections tend to have more power and [are] more visible.”</li>
+  <li>Closeness: the average length of the shortest path possible from a specific node to all the other nodes in the network. The more central a node, the closer all the other nodes. This measure is sometimes used to reflect how quickly information might spread among nodes in a network.</li>
+  <li>Eigenvalue centrality (“evcent” field in Designer): a measure of how influential a certain node is within the network, assigned relative to all the other nodes. The score is based on the idea that connections from “high-scoring” nodes are more valuable than connections from “low-scoring” nodes.</li>
+  <li>PageRank: yes, <a href="https://en.wikipedia.org/wiki/PageRank">that</a> PageRank you may have heard of. It’s somewhat similar to eigenvalue centrality, but it also includes the direction of the links between nodes and the weight or importance of those links, which can help identify people perceived as authoritative by others.</li>
+</ul>
+
+<p>As you would expect from the top diagram above, the @odsc account scores most highly on all the centrality measures. However, looking further into the data reveals which individuals and companies were notable nodes during the conference.</p>
+
+<p>Image via GIPHY</p>
+
+<p>Following this procedure with the goal of identifying influencers, you might be most interested in the degree or PageRank metrics. It would also be helpful to join your network analysis output with the original <a href="https://developer.twitter.com/en/docs/twitter-api/v1/accounts-and-users/follow-search-get-users/api-reference/get-users-lookup">user information retrieved from Twitter</a> in order to have their centrality measures, profile, links, and follower data all together. This information will enrich your new insights into how these users have co-occurred with others in the collected tweets. You could then sort by followers, find users in specific locations, and also evaluate their centrality within the relevant network.</p>
+
+<p>And, to get extra meta, you could even retrieve the lists of followers of your first round of potential influencers, and add them to your network analysis. Doing so would enlarge the network and might introduce people less tightly connected to your main search topic. However, if your initial gathering of account names resulted in a small number of potential influencers, this additional collection might help you identify more people to consider.</p>
+
+<h2 id="investigating-the-influencers"><strong>Investigating the Influencers</strong></h2>
+
+<p>Finally, you can use this same process to retrieve a sample of potential influencers’ recent tweets, then automate “reading” their past posts. With the <a href="https://www.alteryx.com/products/alteryx-platform/intelligence-suite?UTM_Content=community">Alteryx Intelligence Suite</a> tools for <a href="https://help.alteryx.com/current/designer/word-cloud">word clouds</a> and <a href="https://help.alteryx.com/current/designer/sentiment-analysis">sentiment analysis</a>, you can quickly get a sense of the content and tone of your influencer candidates’ social discussions.</p>
+
+<p>Whether you’re selling dog beds to indulgent pet parents, building a podcast audience, or spreading public health information, social media influencers can be a powerful resource for disseminating your message. Get a handle on their conversations quickly with these tools.</p>
+
+<p><strong><em>How have you used network analysis or social media data? Do you still have questions? Which other tools or data science concepts would you like to see addressed here on the blog? Let me know with a comment below, and subscribe to the blog to get future articles.</em></strong></p>
+
+<h2 id="recommended-reading"><strong>Recommended Reading</strong></h2>
+
+  </div>
+</article>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Susan Currie Sivek</p>
+      
+      <p><a href="mailto:susan.sivek@gmail.com">susan.sivek@gmail.com</a></p>
+      
+    </footer>
+  </div>
+</body>
+</html>

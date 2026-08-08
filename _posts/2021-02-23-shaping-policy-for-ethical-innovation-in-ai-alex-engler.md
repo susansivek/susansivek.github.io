@@ -3,8 +3,9 @@ title: "Shaping policy for ethical innovation in AI | Alex Engler"
 date: 2021-02-23
 excerpt: "Alex Engler, Brookings Institution research fellow and data scientist, walks us through the present and future state of public policy regarding AI. We explore how policy, ethics and innovation interact, and what that means for data scientists'…"
 original_url: "https://community.alteryx.com/t5/Data-Science-Mixer-Podcast/Shaping-policy-for-ethical-innovation-in-AI-Alex-Engler/ba-p/720391"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science-Mixer-Podcast/Shaping-policy-for-ethical-innovation-in-AI-Alex-Engler/ba-p/720391](https://community.alteryx.com/t5/Data-Science-Mixer-Podcast/Shaping-policy-for-ethical-innovation-in-AI-Alex-Engler/ba-p/720391)*
 
 Alex Engler, Brookings Institution research fellow and data scientist, walks us through the present and future state of public policy regarding AI. We explore how policy, ethics and innovation interact, and what that means for data scientists' everyday work.

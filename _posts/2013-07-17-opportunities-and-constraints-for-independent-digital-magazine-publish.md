@@ -3,8 +3,9 @@ title: "Opportunities and Constraints for Independent Digital Magazine Publishin
 date: 2013-07-17
 excerpt: "Susan Currie Sivek, Linfield College Alyssa Townsend, Linfield CollegeAbstractOptimists have long hoped that digital communication would diversify media, but the realization of this dream is far from certain today. This study investigates the…"
 original_url: "https://aejmcmagazine.arizona.edu/Journal/Spring2014/SivekTownsend.pdf"
+publication: "Journal of Magazine Media"
+categories: [academic]
 ---
-
 *Originally published at [https://aejmcmagazine.arizona.edu/Journal/Spring2014/SivekTownsend.pdf](https://aejmcmagazine.arizona.edu/Journal/Spring2014/SivekTownsend.pdf)*
 
 Susan Currie Sivek, Linfield College

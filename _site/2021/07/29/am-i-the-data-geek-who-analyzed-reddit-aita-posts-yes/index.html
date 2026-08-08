@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Am I the...Data Geek Who Analyzed Reddit AITA Posts? Yes. — Susan Currie Sivek</title>
+  <meta name="description" content=""It’s the dataset that’s been calling my name. I’m not quite sure what that says about me.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="site">
+    <header class="masthead">
+      <p class="masthead-brand">
+        <a href="/">Susan Currie Sivek</a>
+      </p>
+      <p class="masthead-tagline">
+        Data science writer, researcher, hiker, knitter. Former journalism professor. Curious about everything.
+        View <a href="https://www.linkedin.com/in/ssivek/">my LinkedIn profile</a>.
+      </p>
+      <nav class="site-nav" aria-label="Portfolio sections">
+  <ul>
+    <li>
+      <a href="/">All</a>
+    </li>
+    <li>
+      <a href="/favorites/">Favorites</a>
+    </li>
+    <li>
+      <a href="/categories/data-science/">Data Science and Tech</a>
+    </li>
+    <li>
+      <a href="/categories/features/">Features</a>
+    </li>
+    <li>
+      <a href="/categories/profiles/">Profiles</a>
+    </li>
+    <li>
+      <a href="/categories/academic/">Academic Life</a>
+    </li>
+    <li>
+      <a href="/categories/media/">Media Industry</a>
+    </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main class="content" id="main">
+      <article class="post">
+  <header class="post-header">
+    <h1>Am I the...Data Geek Who Analyzed Reddit AITA Posts? Yes.</h1>
+    <div class="post-meta">
+      <span>July 29, 2021</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><span>Alteryx Community</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><a class="post-source" href="https://community.alteryx.com/t5/Data-Science/Am-I-the-Data-Geek-Who-Analyzed-Reddit-AITA-Posts-Yes/ba-p/789146" rel="noopener">View original &#8599;</a>
+    </div>
+    
+    <ul class="post-categories">
+      
+      <li>
+        
+          <a href="/categories/data-science/">Data Science and Tech</a>
+        
+      </li>
+      
+    </ul>
+    
+  </header>
+
+  <div class="post-body">
+    <p><em>Originally published at <a href="https://community.alteryx.com/t5/Data-Science/Am-I-the-Data-Geek-Who-Analyzed-Reddit-AITA-Posts-Yes/ba-p/789146">https://community.alteryx.com/t5/Data-Science/Am-I-the-Data-Geek-Who-Analyzed-Reddit-AITA-Posts-Yes/ba-p/789146</a></em></p>
+
+<p>It’s the dataset that’s been calling my name. I’m not quite sure what that says about me.</p>
+
+<p>Ever since I heard of it, I’ve wanted to explore a <a href="https://github.com/iterative/aita_dataset">dataset</a> of Reddit posts from a well known subreddit called <a href="https://www.reddit.com/r/AmItheAsshole/">“Am I the Asshole?”</a> (AITA), in which users post stories of conflicts in which they weren’t sure if they did the right thing or were instead the, um, asshole. Other users comment and vote with their judgment: You’re the Asshole (YTA), Not the Asshole (NTA), Everyone Sucks Here (ESH), No Assholes Here (NAH), or Not Enough Info (INFO).</p>
+
+<p><img src="/assets/images/posts/am-i-the-data-geek-who-analyzed-reddit-aita-posts-yes/medium.jpeg" alt="giphy" /></p>
+
+<p>The dataset contains the text of over 97,000 posts, plus the voting outcome and the number of comments for each. In only about 27% of the cases, users rendered a judgment of either YTA or ESH, which means almost three-quarters of the cases were judged to contain no assholery. That’s actually reassuring about human nature and our tendency to worry about doing the right thing.</p>
+
+<p>Though the assholes turned out to be the minority, we can dig further into this rich dataset of complicated human situations. It’s a lot of text, but we have the necessary tools in Alteryx Designer and the <a href="https://help.alteryx.com/20212/designer/text-mining">Text Mining</a> palette from the <a href="https://www.alteryx.com/products/alteryx-platform/intelligence-suite">Alteryx Intelligence Suite</a>.</p>
+
+<p>I decided to use those tools and the Data Investigation tool palette to explore interesting patterns in the AITA posts. Enjoy this slightly rude refresher on sentiment analysis, topic modeling and correlations. Maybe we’ll gain more insight into human behavior along the way.</p>
+
+<p><strong><em>Some AITA post titles and the judgments</em></strong></p>
+
+<p><em>for wiping my dog’s drool back on him when he licks my arm? (NTA)</em></p>
+
+<p><em>for remarking on a sriracha bottle that expired in 2013? (YTA)</em></p>
+
+<p><em>for only wanting to give my Secret Santa giftee stuff for their cat? (NTA)</em></p>
+
+<p><em>for putting all the moldy dirty dishes and garbage from my roommate in her bathroom? (NTA)</em></p>
+
+<p><em>for getting upset at this game of Monopoly? (YTA)</em></p>
+
+<p><em>for hiding candy in the store so I can buy it when it’s on sale? (YTA)</em></p>
+
+<h2 id="rush-to-judgment-text-analysis-in-three-easy-steps"><strong>Rush to Judgment: Text Analysis in Three Easy Steps</strong></h2>
+
+<p>The dataset was pretty clean (in the data sense of the word, anyway), so I just tidied up some small text formatting issues and created a new variable for the length of the original post. I thought it would be interesting to see if the length of a post — the complexity of a situation and/or the degree to which someone felt they had to explain themselves — would correlate with the other variables.</p>
+
+<p>Before doing any other processing on the text, I used the <a href="https://community.alteryx.com/t5/Data-Science/Try-Sentiment-Analysis-with-Designer-You-Must/ba-p/589153">Sentiment Analysis Tool</a> to assess the positive, neutral or negative valence, or emotional weight, of the title and body of each post. VADER, the algorithm behind this tool, is designed to work well even on text that contains NSFW words, emojis, exaggerated punctuation!!! and other oddities in social media content. All of those should be left intact for sentiment analysis.</p>
+
+<p><img src="/assets/images/posts/am-i-the-data-geek-who-analyzed-reddit-aita-posts-yes/large.bin" alt="giphy" /></p>
+
+<p>However, prior to topic modeling, I prepared the text a bit more. The Text Pre-processing Tool took care of that big task. (Read all about it in <a href="https://community.alteryx.com/t5/Data-Science/Tokenization-and-Filtering-Stopwords-with-the-Text-Pre/ba-p/607660">part one</a> and <a href="https://community.alteryx.com/t5/Data-Science/Text-Normalization-in-Alteryx/ba-p/611283">two</a> of our posts on text normalization.) This tool is based on the Python NLP library <a href="https://github.com/explosion/spaCy">spaCy</a>, and it will normalize and filter the text. It does one weird thing: It replaces pronouns with the notation -PRON-. If you’ve spent any time on the internet, you might suspect that spaCy is referring to something other than pronouns. In reality, this abbreviation is its substitution for pronouns in text. I removed all of those notations from the titles and from the processed post text with a <a href="https://help.alteryx.com/20212/designer/string-functions#regex_replace">REGEX_Replace</a> function in a Formula Tool.</p>
+
+<p>I then added the Topic Modeling Tool to the workflow and <a href="https://community.alteryx.com/t5/Data-Science/Getting-to-the-Point-with-Topic-Modeling-Part-2-How-to-Configure/ba-p/613596">configured it</a> to identify three topics in the posts. The resulting <a href="https://community.alteryx.com/t5/Data-Science/Getting-to-the-Point-with-Topic-Modeling-Part-3-Interpreting-the/ba-p/614992">visualization</a> was pretty easy to interpret; check out the GIF below to see the main topics that emerged.</p>
+
+<p><img src="/assets/images/posts/am-i-the-data-geek-who-analyzed-reddit-aita-posts-yes/large-7bbd441d.bin" alt="aita_topics_gif_2.gif" /></p>
+
+<p><em>Topic 1: work/job; Topic 2: romance/friendships; Topic 3: family</em></p>
+
+<p>Based on the lists of salient words for each topic and knowing the AITA context, the three topics could be said to represent “family issues,” “romantic/friend relationship conflicts” and “work/job problems.” The three topics are nicely separated in the Intertopic Distance Map, and the lists of words characterizing each topic make sense. The Topic Modeling Tool also adds a score for each topic to each post in the dataset, reflecting the degree to which that topic appears in the post.</p>
+
+<p>It’s awesome to quickly find the major themes in more than 97,000 posts, plus analyze the sentiment within them. But did those themes and sentiment levels connect to the AITA judgments passed by users? To find out, I broke out the Data Investigation tool palette to see what we could find about patterns in these posts and the responses.</p>
+
+<p><img src="/assets/images/posts/am-i-the-data-geek-who-analyzed-reddit-aita-posts-yes/large-f41a1f79.bin" alt="giphy-downsized" /></p>
+
+<p>Image via GIPHY</p>
+
+<h2 id="investigating-aholery-and-sentiment"><strong>Investigating A**holery and Sentiment</strong></h2>
+
+<p>The <a href="https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Tool-Mastery-Contingency-Table/ta-p/356042">Contingency Table Tool</a> makes it easy to compare categorical variables and see how their values coincide. It’s a great way to look more closely at the sentiment analysis results and the AITA judgments. We can compare the positive or negative sentiment of the titles and posts with the “is_asshole” variable provided in the dataset. (The is_asshole variable is 0 if the final vote was Not the Asshole, No Assholes Here, or Not Enough Info, and 1 if the result was You’re the Asshole or Everyone Sucks Here.)</p>
+
+<p>Maybe surprisingly, in terms of quantity, there wasn’t much of a difference between the emotional valence of the titles and posts that were judged to contain assholery and those that weren’t. Positive posts were actually judged YTA or ESH slightly more than negative posts.</p>
+
+<p><img src="/assets/images/posts/am-i-the-data-geek-who-analyzed-reddit-aita-posts-yes/medium.bin" alt="SusanCS_0-1626814620732.png" /></p>
+
+<p>Post sentiment compared to asshole presence</p>
+
+<p>Digging in a little deeper with the <a href="https://community.alteryx.com/t5/Alteryx-Designer-Knowledge-Base/Tool-Mastery-Association-Analysis/ta-p/40459">Association Analysis Tool</a>, we can check out the correlations between our sentiment valence scores, topic scoring, and the post length variable I added. I chose the “Target a field for more detailed analysis” option to get <a href="https://community.alteryx.com/t5/Data-Science/The-Data-Science-Celebrity-Q-amp-A-Meet-P-Value-aka-p-value/ba-p/743016">p-values</a> for these variables’ relationship with the “is_asshole” variable.</p>
+
+<p>Here we see, somewhat surprisingly, that while negative sentiment in titles and posts didn’t have a significant correlation with assholery, <em>positive</em> sentiment in titles and posts did. So being positive about a situation maybe makes it more likely that YTA, or at least that you’ll be judged as such.</p>
+
+<p><img src="/assets/images/posts/am-i-the-data-geek-who-analyzed-reddit-aita-posts-yes/large.png" alt="pearson_correlations_table.png" /></p>
+
+<p>Of course, Pearson correlations are based on linear relationships between variables; we can also try the <a href="https://help.alteryx.com/20212/designer/spearman-correlation-tool">Spearman Correlation Tool</a>, whose calculation doesn’t assume a linear relationship. As with Pearson correlations, values closer to -1 or 1 suggest a stronger negative or positive relationship, respectively.</p>
+
+<p>The Spearman correlation between positivity of post titles and is_asshole is 0.31. The more positive the title, the more likely the judgment of assholery. (With this dataset, we have to be a little skeptical; for example, one post title with high positive valence is “best friend party potty fiasco.” VADER might be thrown off a bit by the happy sound of “best friend” and “party,” but not pick up on the concerning last two words in that title.)</p>
+
+<p><img src="/assets/images/posts/am-i-the-data-geek-who-analyzed-reddit-aita-posts-yes/large-89e1011d.png" alt="most_positive_aita_titles.png" /></p>
+
+<p>The most positive AITA post titles, originally all preceded by “AITA”</p>
+
+<p>The Spearman correlation between positivity of posts and is_asshole is only 0.04, so titles may matter more in setting voters’ expectations (though we can’t assume there’s a causal relationship).</p>
+
+<p><img src="/assets/images/posts/am-i-the-data-geek-who-analyzed-reddit-aita-posts-yes/large-0ed245f8.png" alt="giphy-downsized" /></p>
+
+<p>Image via GIPHY</p>
+
+<h2 id="aholes-at-home-and-work"><strong>A**holes at Home and Work</strong></h2>
+
+<p>Enough about feelings; which topics seem to involve the most assholery? Do people tend to be judged as assholes more when they share family, romance/friendship or work situations? We can look at the correlations above for this comparison, but it’s also possible to look at these as categories. I identified which of the three topics scored highest for each post, and then compared how the topics were judged across the board. Another Contingency Table Tool revealed the comparison below.</p>
+
+<p><img src="/assets/images/posts/am-i-the-data-geek-who-analyzed-reddit-aita-posts-yes/large-88398129.bin" alt="topic_asshole_contingency.png" /></p>
+
+<p>It turns out that bad behavior is pretty evenly distributed in our lives, at least according to these scenarios and judges. The Reddit voters were slightly more lenient toward family and work situations and judged romance/friendship issues somewhat more harshly, but the proportions aren’t all that different.</p>
+
+<p><img src="/assets/images/posts/am-i-the-data-geek-who-analyzed-reddit-aita-posts-yes/large-57007f7d.png" alt="giphy" /></p>
+
+<p>Image via GIPHY</p>
+
+<h2 id="what-gets-people-interested"><strong>What Gets People Interested?</strong></h2>
+
+<p>If you’re curious about whether YTA and want to submit your dilemma to the AITA voters, what will get people to upvote or comment on your post? The “score” variable in this dataset represents the net votes a post received (upvotes minus downvotes), and it’s naturally highly correlated with the number of comments (Pearson correlation of 0.83). Overall, there was only a mild correlation between judgments of YTA or ESH and the number of comments on the post, and very little correlation with the score.</p>
+
+<p>Turns out, if you dish about your family (“topic 3” in the results above) in your post or at least write a lot, people may be slightly more likely to engage with it. But don’t write a positive-sounding title, as positivity in titles was slightly <em>negatively</em> correlated with comments and the score.</p>
+
+<h2 id="quantifying-human-behavior-good-and-bad"><strong>Quantifying Human Behavior, Good and Bad</strong></h2>
+
+<p>This analysis of the AITA posts shows how it’s possible to quickly distill a lot of unstructured text information into topical and emotional insights that can be analyzed in many different ways. This kind of approach could be used on your social media content, product reviews, survey responses and many other kinds of text data, and integrated into predictive models as well. Whatever your project, I hope you find that the assholes are in the minority in your data, too.</p>
+
+<p><strong><em>Which dataset are you now itching to analyze with sentiment analysis and/or topic modeling? Do you still have questions? Which other tools or data science concepts would you like to see addressed here on the blog? Let me know with a comment below, and subscribe to the blog to get future articles.</em></strong></p>
+
+<h2 id="recommended-reading"><strong>Recommended Reading</strong></h2>
+
+  </div>
+</article>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Susan Currie Sivek</p>
+      
+      <p><a href="mailto:susan.sivek@gmail.com">susan.sivek@gmail.com</a></p>
+      
+    </footer>
+  </div>
+</body>
+</html>

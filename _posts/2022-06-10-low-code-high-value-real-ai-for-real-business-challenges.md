@@ -3,8 +3,9 @@ title: "Low Code, High Value: Real AI for Real Business Challenges"
 date: 2022-06-10
 excerpt: "The myth: Low-code predictive analytics platforms can’t offer the functionality and results of “real AI.” The reality: Low-code predictive analytics platforms like Pecan are indeed “real AI.” They produce real, reliable predictions, using real,…"
 original_url: "https://www.pecan.ai/resource/low-code-real-ai-business/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/low-code-real-ai-business/](https://www.pecan.ai/resource/low-code-real-ai-business/)*
 
 The myth**:** Low-code predictive analytics platforms can’t offer the functionality and results of “real AI.”

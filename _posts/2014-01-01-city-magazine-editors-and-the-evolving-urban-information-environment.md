@@ -3,8 +3,10 @@ title: "City Magazine Editors and the Evolving Urban Information Environment"
 date: 2014-01-01
 excerpt: "The urban information environment in which city magazines operate is changing dramatically, with the decline of local newspapers and the growth of user-generated local content. City magazine editors are re-envisioning their purpose as local…"
 original_url: "http://journal.community-journalism.com/city-magazine-editors-and-the-evolving-urban-information-environment/"
+publication: "Community Journalism"
+categories: [academic, features]
+featured: true
 ---
-
 *Originally published at [http://journal.community-journalism.com/city-magazine-editors-and-the-evolving-urban-information-environment/](http://journal.community-journalism.com/city-magazine-editors-and-the-evolving-urban-information-environment/)*
 
 *The urban information environment in which city magazines operate is changing dramatically, with the decline of local newspapers and the growth of user-generated local content. City magazine editors are re-envisioning their purpose as local information providers. This study provides a qualitative analysis of in-depth interviews with senior editors at 15 award-winning city magazines. The editors’ responses speak to the changing role of their publications today; the function of new technologies in informing local communities; and the public service that local journalism organizations offer in a constrained economic situation.*

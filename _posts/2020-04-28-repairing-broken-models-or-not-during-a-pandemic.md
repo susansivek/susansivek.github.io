@@ -1,12 +1,11 @@
 ---
 title: "Repairing Broken Models (or Not) During a Pandemic"
 date: 2020-04-28
-excerpt: "What do you do when you have an amazing, even award-winning, model based on years of work that is suddenly wrecked by a global pandemic?
-Sound familiar?
-Well, if you’re with the Delphi research group at Carnegie Mellon University, you pick yourself…"
+excerpt: "\"What do you do when you have an amazing, even award-winning, model based on years of work that is suddenly wrecked by a global pandemic?"
 original_url: "https://community.alteryx.com/t5/Data-Science/Repairing-Broken-Models-or-Not-During-a-Pandemic/ba-p/558570"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Repairing-Broken-Models-or-Not-During-a-Pandemic/ba-p/558570](https://community.alteryx.com/t5/Data-Science/Repairing-Broken-Models-or-Not-During-a-Pandemic/ba-p/558570)*
 
 What do you do when you have an amazing, even award-winning, model based on years of work that is suddenly wrecked by a global pandemic?
@@ -19,7 +18,7 @@ In 2019, the Centers for Disease Control and Prevention (CDC) named the Delphi g
 
 Infectious disease models aren’t the only ones in need of re-invention right now. Anyone trying to generate predictions or forecasts for retail, supply chain, health care, education, or, well, pretty much any industry is faced with sudden, dramatic behavior in their data. Sometimes that’s in the positive direction: Folks in the video game industry, for example, are probably pretty pleased with [the record numbers](https://ew.com/gaming/coronavirus-videogames-industry-impact/) of users and gaming hours that they’re seeing right now. Sometimes, the changes in the data aren’t so positive.
 
-![SusanCS_0-1587412004880.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/108873iF1D8B3FFECE8D8AA/image-size/small?v=1.0&px=200)
+![SusanCS_0-1587412004880.gif](/assets/images/posts/repairing-broken-models-or-not-during-a-pandemic/small-1a9c4b76.gif)
 
 So how do you rehabilitate a broken model to cope with these dramatic shifts? There have been some interesting discussions [on our Community](https://community.alteryx.com/t5/Industry-Discussions/bd-p/industry-discussions) and [on social media](https://www.reddit.com/r/MachineLearning/comments/fqzwbo/d_how_are_you_all_thinking_about_demand_modeling/) about this challenge. Here I’ll discuss a few possible strategies that have emerged, each with its own complexities, plus one that should make us feel good about our human perspective on the world.
 
@@ -29,7 +28,7 @@ One way to try to integrate the current situation into your models is to add fea
 
 Another strategy is to get data that is as close to real-time as possible. That’s probably also easier said than done, of course. But imagine that one day soon, some inaccurate social media meme spreads that says a popular food cures COVID-19, and there’s a rush on that product. If you don’t know about that sudden popularity immediately, you won’t be able to maintain supplies. This is a time when having a repeatable, automated workflow is just invaluable to help you keep up with the speed of events.
 
-![SusanCS_1-1587412005660.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/108874iB62999C062C841B6/image-size/medium?v=1.0&px=400)
+![SusanCS_1-1587412005660.gif](/assets/images/posts/repairing-broken-models-or-not-during-a-pandemic/medium-03a53a40.gif)
 
 ## **Adjust Forecasting Approaches**
 
@@ -55,7 +54,7 @@ Simulations can incorporate different assumptions about the effects of the pande
 
 The utility of Monte Carlo simulations in this moment was also the topic of discussion for [a recent Reddit thread](https://www.reddit.com/r/datascience/comments/ftnuqe/using_monte_carlo_simulation_to_estimate/) on ways to address the pandemic’s challenge to forecasting, with respondents divided on their potential value, particularly because the Monte Carlo approach assumes uniformly distributed data. The `PyMC3` package offers a Python toolkit ([here’s a tutorial](https://docs.pymc.io/notebooks/getting_started.html)). R has many tools for simulation as well, including the package `MonteCarlo`, which has [a helpful vignette](https://cran.r-project.org/web/packages/MonteCarlo/vignettes/MonteCarlo-Vignette.html).
 
-![SusanCS_3-1587412004876.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/108875i340892721873AF34/image-size/medium?v=1.0&px=400)
+![SusanCS_3-1587412004876.gif](/assets/images/posts/repairing-broken-models-or-not-during-a-pandemic/medium.jpeg)
 
 Whatever approach you attempt, forecasts are not going to be as helpful as they might normally be. It’s a good idea to [communicate plenty of uncertainty](https://community.alteryx.com/t5/Data-Science-Blog/A-Good-Honest-Chart-Coronavirus-Data-Visualizations-and-How/ba-p/547543) around your forecasts. Your audience needs to realize that those confidence intervals are even more important than usual.
 
@@ -64,8 +63,6 @@ Whatever approach you attempt, forecasts are not going to be as helpful as they 
 Alas, there is no single solution to fix a once-prized, now-broken model, or to generate perfect predictions in such an uncertain time. But this moment demonstrates the importance of human intelligence and sensitivity -- as well as domain expertise -- in data analytics.
 
 It might be the case that crafting every parameter of a new model is not the best use of your time and effort right now. There are so many unknowns right now that it may be more efficient to rely on informed, thoughtful human predictions.
-
-![SusanCS_4-1587412004877.gif](https://pvsmt99345.i.lithium.com/t5/image/serverpage/image-id/108876i1DD7C3D7171C73C7/image-size/medium?v=1.0&px=400)
 
 This moment makes it even more obvious how critically important human input is in developing analytic strategies. Tools will misfire if they are just fed the same data and designed the same way they were in normal times. As Matissa Hollister, assistant professor of organizational behavior at McGill University, [wrote recently](https://www.weforum.org/agenda/2020/03/covid-19-crisis-artificial-intelligence-creativity/) on a World Economic Forum blog:
 

@@ -1,18 +1,19 @@
 ---
 title: "Metric Matters, Part 1: Evaluating Classification Models"
 date: 2021-02-25
-excerpt: "Imagine taking a 100-question multiple-choice test and giving the right answer to 85 questions. You get a score of 85%. You must have studied and learned the material!
-But maybe the reality was a little different: You’d actually forgotten to study,…"
+excerpt: "\"Imagine taking a 100-question multiple-choice test and giving the right answer to 85 questions. You get a score of 85%. You must have studied and learned the material!"
 original_url: "https://community.alteryx.com/t5/Data-Science/Metric-Matters-Part-1-Evaluating-Classification-Models/ba-p/719190"
+publication: "Alteryx Community"
+categories: [data-science]
+But maybe the reality was a little different: You’d actually forgotten to study,…"
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Metric-Matters-Part-1-Evaluating-Classification-Models/ba-p/719190](https://community.alteryx.com/t5/Data-Science/Metric-Matters-Part-1-Evaluating-Classification-Models/ba-p/719190)*
 
 Imagine taking a 100-question multiple-choice test and giving the right answer to 85 questions. You get a score of 85%. You must have studied and learned the material!
 
 But maybe the reality was a little different: You’d actually forgotten to study, so you just went down your answer sheet and picked answer A for every question. Your teacher had gotten tired of putting the right answer in different places, and just stuck 85 of the answers in option A. You lucked out!
 
-![giphy](https://community.alteryx.com/t5/image/serverpage/image-id/172089i96E8DEF92B6DE2CE/image-size/large?v=1.0&px=999)
+![giphy](/assets/images/posts/metric-matters-part-1-evaluating-classification-models/large.svg)
 
 There was probably a better way to measure your abilities than your score on this test. The same may be true of how you measure machine learning models’ prediction abilities.
 
@@ -32,7 +33,7 @@ The first step is to understand what your options are; you can then decide which
 
 We’ll check out metrics for classification here. In part 2 of this post, we’ll look at metrics for regression models.
 
-![giphy-downsized](https://community.alteryx.com/t5/image/serverpage/image-id/170714i52926773D6F6D0B0/image-size/medium?v=1.0&px=400)
+![giphy-downsized](/assets/images/posts/metric-matters-part-1-evaluating-classification-models/medium.svg)
 
 ## **Don’t Be Confused or Imbalanced**
 
@@ -62,7 +63,7 @@ Want a refresher on confusion matrices and balanced/imbalanced data? Click the s
 * If the model performs equally well when predicting different classes, accuracy and balanced accuracy will have equal values.
 * If you’re wanting to see generally good performance across classes and are not especially concerned about the specific types of errors being made, balanced accuracy might be a good metric for you.
 
-![giphy](https://community.alteryx.com/t5/image/serverpage/image-id/170723i69AA282A5A357B2B/image-size/medium?v=1.0&px=400)
+![giphy](/assets/images/posts/metric-matters-part-1-evaluating-classification-models/medium-92b733d3.svg)
 
 ## **Precision**
 
@@ -100,7 +101,7 @@ Want a refresher on confusion matrices and balanced/imbalanced data? Click the s
 * Because AUC doesn’t factor in the threshold you want your model to consider in making its predictions, this metric might not be the best choice if you want your model to be very sure about its predictions. For example, maybe you really want to avoid false positives or false negatives for some domain-specific reason. In that case, you might look to a metric that incorporates that threshold.
 * This metric might also be misleading for imbalanced datasets (see section 4 of [this paper](https://arxiv.org/pdf/1812.01388.pdf) for an explanation with visuals).
 
-![giphy-downsized](https://community.alteryx.com/t5/image/serverpage/image-id/170725i77D2DADFA453FE60/image-size/medium?v=1.0&px=400)
+![giphy-downsized](/assets/images/posts/metric-matters-part-1-evaluating-classification-models/medium-8bb4dd60.svg)
 
 ## **Log loss**
 

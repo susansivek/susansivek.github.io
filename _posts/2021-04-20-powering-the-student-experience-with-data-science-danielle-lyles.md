@@ -3,8 +3,9 @@ title: "Powering the student experience with data science | Danielle Lyles"
 date: 2021-04-20
 excerpt: "How does data science power the university student experience behind the scenes? We’re joined by Danielle Lyles, data and evaluation scientist at the University of Colorado Boulder, to learn more.Share your thoughts in our Cocktail Conversation on…"
 original_url: "https://community.alteryx.com/t5/Data-Science-Mixer/Powering-the-student-experience-with-data-science-Danielle-Lyles/ba-p/748036"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science-Mixer/Powering-the-student-experience-with-data-science-Danielle-Lyles/ba-p/748036](https://community.alteryx.com/t5/Data-Science-Mixer/Powering-the-student-experience-with-data-science-Danielle-Lyles/ba-p/748036)*
 
 How does data science power the university student experience behind the scenes? We’re joined by Danielle Lyles, data and evaluation scientist at the University of Colorado Boulder, to learn more.

@@ -3,8 +3,9 @@ title: "Predicting Success for Cross-Sell and Upsell Offers"
 date: 2022-04-07
 excerpt: "This article is part of our Predictive Frameworks series, which explores the most effective use cases for predictive analytics — such as predicting upsell and cross-sell offers. Have limitless funds for sales and marketing? Nah, us either. That’s why…"
 original_url: "https://www.pecan.ai/blog/predicting-cross-sell-upsell-offers/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/blog/predicting-cross-sell-upsell-offers/](https://www.pecan.ai/blog/predicting-cross-sell-upsell-offers/)*
 
 *This article is part of our Predictive Frameworks series, which explores the most effective use cases for predictive analytics — such as predicting upsell and cross-sell offers.*

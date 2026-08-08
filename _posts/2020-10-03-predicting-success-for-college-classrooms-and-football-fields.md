@@ -3,8 +3,9 @@ title: "Predicting Success for College Classrooms and Football Fields"
 date: 2020-10-03
 excerpt: "Caps, gowns, diplomas … and data! Each student’s journey through a higher education institution creates lots of data. Recruitment, advising, retention, financial aid, administrative processes, assessment measures, course work, athletics and alumni…"
 original_url: "https://towardsdatascience.com/predicting-success-for-college-classrooms-and-football-fields-5f45e20153bf"
+publication: "Towards Data Science"
+categories: [data-science]
 ---
-
 *Originally published at [https://towardsdatascience.com/predicting-success-for-college-classrooms-and-football-fields-5f45e20153bf](https://towardsdatascience.com/predicting-success-for-college-classrooms-and-football-fields-5f45e20153bf)*
 
 ![](https://miro.medium.com/max/1200/1*YLHfH_9nIIBgR1dmx3AtzQ.jpeg)

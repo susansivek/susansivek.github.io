@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data Science and Disability: Enhancing Care with Innovation — Susan Currie Sivek</title>
+  <meta name="description" content=""Could the time it takes for you to water your houseplants say something about your health? Or might the amount you're moving around your neighborhood reflec...">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <div class="site">
+    <header class="masthead">
+      <p class="masthead-brand">
+        <a href="/">Susan Currie Sivek</a>
+      </p>
+      <p class="masthead-tagline">
+        Data science writer, researcher, hiker, knitter. Former journalism professor. Curious about everything.
+        View <a href="https://www.linkedin.com/in/ssivek/">my LinkedIn profile</a>.
+      </p>
+      <nav class="site-nav" aria-label="Portfolio sections">
+  <ul>
+    <li>
+      <a href="/">All</a>
+    </li>
+    <li>
+      <a href="/favorites/">Favorites</a>
+    </li>
+    <li>
+      <a href="/categories/data-science/">Data Science and Tech</a>
+    </li>
+    <li>
+      <a href="/categories/features/">Features</a>
+    </li>
+    <li>
+      <a href="/categories/profiles/">Profiles</a>
+    </li>
+    <li>
+      <a href="/categories/academic/">Academic Life</a>
+    </li>
+    <li>
+      <a href="/categories/media/">Media Industry</a>
+    </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main class="content" id="main">
+      <article class="post">
+  <header class="post-header">
+    <h1>Data Science and Disability: Enhancing Care with Innovation</h1>
+    <div class="post-meta">
+      <span>August 20, 2020</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><span>Alteryx Community</span>
+      <span class="post-meta-sep" aria-hidden="true">·</span><a class="post-source" href="https://community.alteryx.com/t5/Data-Science/Data-Science-and-Disability-Enhancing-Care-with-Innovation/ba-p/589318" rel="noopener">View original &#8599;</a>
+    </div>
+    
+    <ul class="post-categories">
+      
+      <li>
+        
+          <a href="/categories/data-science/">Data Science and Tech</a>
+        
+      </li>
+      
+    </ul>
+    
+  </header>
+
+  <div class="post-body">
+    <p><em>Originally published at <a href="https://community.alteryx.com/t5/Data-Science/Data-Science-and-Disability-Enhancing-Care-with-Innovation/ba-p/589318">https://community.alteryx.com/t5/Data-Science/Data-Science-and-Disability-Enhancing-Care-with-Innovation/ba-p/589318</a></em></p>
+
+<p>Could the time it takes for you to water your houseplants say something about your health? Or might the amount you’re moving around your neighborhood reflect your mental health status?</p>
+
+<p>When translated into data and analyzed, these measures could indeed provide insights into the health of people living with chronic physical or mental illness or disabilities.</p>
+
+<p>Data science has presented new possibilities for greater independence, improved care and better outcomes. Whether it’s healthcare organizations using data to deliver care more effectively, developers creating data-driven apps that help identify early warning signs of illness, or inventors creating new sensors and devices to detect health issues, all these tools rely on data science techniques to help people living with disabilities or mental illness. Here are some examples of this kind of innovation that I found especially intriguing.</p>
+
+<p><img src="/assets/images/posts/data-science-and-disability-enhancing-care-with-innovation-2/large.png" alt="disabledandhere-047-1-rs.jpg" /></p>
+
+<h2 id="anomaly-detection-at-home"><strong>Anomaly Detection at Home</strong></h2>
+
+<p>People who are able to live mostly independently could benefit from advances in smart home technologies and sensors embedded in their living environments. <a href="https://en.wikipedia.org/wiki/Anomaly_detection">Anomaly detection</a> is a key data science technique used in many different contexts, such as detecting credit card fraud and monitoring manufacturing processes. Researchers are also working on using anomaly detection to identify deviations from typical behavior for people living in “smart” homes equipped with sensors, such as cameras and computerized pill dispensers that report on medication habits.</p>
+
+<p>In <a href="https://rpaudel42.github.io/assets/anomaly-detection-elderly-3.pdf">one study</a>, researchers established a baseline for movement and behavior at home by having volunteers complete “Instrumental Activities of Daily Living,” or routine home activities like watering plants or microwaving food. The researchers constructed <a href="https://medium.com/basecs/a-gentle-introduction-to-graph-theory-77969829ead8">an activity graph</a> representing how that behavior looked in time and physical space for each volunteer.</p>
+
+<p>Knowing that baseline, the researchers’ anomaly detection algorithms could identify deviations that could represent cognitive or physical concerns. These researchers plan to integrate this capability into a real-time monitoring application that could show both sudden or longer-term deviations from a person’s baseline behavior patterns at home.</p>
+
+<p><em>The anomalous pattern on the bottom shows that the resident is taking an unusually long time to fill a watering can in order to complete the task of watering plants. That anomaly could reveal larger challenges in completing household activities.</em></p>
+
+<h2 id="cluster-analysis-for-parkinsons-disease"><strong>Cluster Analysis for Parkinson’s Disease</strong></h2>
+
+<p>It’s hard for people with Parkinson’s disease and their caregivers to identify, track and respond to the many different ways the disease can manifest and progress. Wearable sensors and the data they generate could help address this challenge, however.</p>
+
+<p>For example, this <a href="https://www.frontiersin.org/articles/10.3389/fneur.2017.00677/full">research study</a> explained how a wearable device could gather data for patients and clinicians, including tracking of activity, sleeping, falls, gait characteristics and “freezing” (a temporary inability to move that is experienced by those with Parkinson’s). That data could offer more comprehensive insights than those available in a brief office visit with a medical provider.</p>
+
+<p>However, the researchers also point out that better analytic techniques are needed to make full use of this kind of data. They highlight the potential for unsupervised clustering techniques that could make sense of the large quantity of data gathered by a constantly worn device. Their research used <a href="https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding">t-Distributed Stochastic Neighbor Embedding</a> (t-SNE), which is a way to visualize high-dimensional datasets in two dimensions. The image below shows an example.</p>
+
+<p>The image shows the clustering of movement data from a wearable sensor worn by a patient with Parkinson’s. The red Xs represent movement during an “off state” (the term used to describe a period when a patient doesn’t respond well to levodopa medication); the blue dots represent movement during an “on state,” when medication was working well. The clustering approach shows the difference between those times and could help identify patterns in a patient’s movement that would be useful in refining a personalized treatment strategy.</p>
+
+<h2 id="geolocation-for-mental-health"><strong>Geolocation for Mental Health</strong></h2>
+
+<p>Do your movements in your local area reflect your mental health status? What about the number of phone calls you make or text messages you send?</p>
+
+<p>Researchers have been studying the potential of smartphone data for treating mental illness for some time. Mobility, social interaction and survey responses could all be useful in helping people with mental illness manage and assist caregivers in knowing when an intervention might be timely.</p>
+
+<p>One <a href="https://www.nature.com/articles/s41386-018-0030-z">pilot study</a> of an app designed for people with schizophrenia used both active data collection (asking users about their symptoms) and passive data (e.g., geolocation, communication frequency). The data were integrated into a multivariate time series model and could be monitored for days when multiple features were “simultaneously and sufficiently anomalous.” Those occurrences could predict relapse and hospitalization for app users, potentially providing “early warning signs” for caregivers.</p>
+
+<p><em>The image above shows the p values for different data points for one patient, collected in the study of an app for people with schizophrenia. There’s increased variability in the patient’s daily mobility, sociability and self-reported symptoms right before a relapse and hospitalization.</em></p>
+
+<p>The researchers noted that mental illness is extremely varied and complex. They suggest that data-driven approaches may be best used in creating a personalized model for relapse, reflecting one individual’s unique patterns, versus trying to create a generalizable model that applies to everyone contending with the same disease.</p>
+
+<h2 id="important-considerations"><strong>Important Considerations</strong></h2>
+
+<p>If you’ve been reading this and thinking, “But … privacy!” — yes, indeed. There’s certainly a great deal of personal information that is shared to use smart home sensors, wearable devices or smartphone apps as indicators of physical and/or mental health.</p>
+
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6581733/">One study</a> showed that older adults would be willing to share this kind of data with their primary medical professionals and “most trusted people,” and would be OK with the data being stored short term (defined in the study as up to one week). With regard to mental health, a worrisome <a href="https://www.sciencedirect.com/science/article/pii/S2214782918300460">2017 study</a> showed that fewer than half of the 116 available mental health smartphone apps had a privacy policy. A <a href="https://www.sciencedirect.com/science/article/pii/S2214782918300460">2018 survey</a> of people with a history of mental illness showed they had strong concerns about the external monitoring of their health, the potential for undesired sharing to social networks, and the risk of exposure of sensitive information to third parties or hackers.</p>
+
+<p>Data science techniques will undoubtedly help address many health challenges, but the public may need a little reassurance about how their data will be used in this effort. Still, the potential for both personalized treatment and widespread insights into a wide variety of diseases is clear and exciting.</p>
+
+  </div>
+</article>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Susan Currie Sivek</p>
+      
+      <p><a href="mailto:susan.sivek@gmail.com">susan.sivek@gmail.com</a></p>
+      
+    </footer>
+  </div>
+</body>
+</html>

@@ -3,8 +3,9 @@ title: "Boost Your Business Results with the Ultimate Guide to Predictive Analyt
 date: 2022-04-25
 excerpt: "Using data in business is a hot topic, but it continues to feel a little mysterious. People around the world are intrigued by data’s potential to grow companies and transform industries. Check out the Google Trends chart below, showing how search…"
 original_url: "https://www.pecan.ai/resource/basics-predictive-analytics-guide/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/resource/basics-predictive-analytics-guide/](https://www.pecan.ai/resource/basics-predictive-analytics-guide/)*
 
 Using data in business is a hot topic, but it continues to feel a little mysterious. People around the world are intrigued by data’s potential to grow companies and transform industries. Check out the Google Trends chart below, showing how search interest in the term “data science” has skyrocketed since 2004:

@@ -3,8 +3,9 @@ title: "Magazines find there’s little time to fact-check online"
 date: 2017-03-21
 excerpt: "Co-authored with Sharon Bloyd-Peshkin. Based on original co-authored research published in Journalism Practice.Days after Kellyanne Conway uttered the now-infamous phrase “alternative facts” during a TV interview, Mother Jones magazine…"
 original_url: "https://www.cjr.org/b-roll/magazine-fact-checking-online.php"
+publication: "Columbia Journalism Review"
+categories: [media, features]
 ---
-
 *Originally published at [https://www.cjr.org/b-roll/magazine-fact-checking-online.php](https://www.cjr.org/b-roll/magazine-fact-checking-online.php)*
 
 ## *Co-authored with Sharon Bloyd-Peshkin. Based on original co-authored research* *published in* *Journalism Practice**.*

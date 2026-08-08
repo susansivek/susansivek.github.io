@@ -3,8 +3,9 @@ title: "Beyond Churn: An Introduction to Uplift Modeling"
 date: 2020-12-03
 excerpt: "You may have heard of modeling techniques to predict the probability of churn for a customer, or to assess whether a customer will or won’t respond to an offer. But what about figuring out which customers might increase their purchasing — or could…"
 original_url: "https://community.alteryx.com/t5/Data-Science/Beyond-Churn-An-Introduction-to-Uplift-Modeling/ba-p/674752"
+publication: "Alteryx Community"
+categories: [data-science]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Data-Science/Beyond-Churn-An-Introduction-to-Uplift-Modeling/ba-p/674752](https://community.alteryx.com/t5/Data-Science/Beyond-Churn-An-Introduction-to-Uplift-Modeling/ba-p/674752)*
 
 You may have heard of modeling techniques to predict the probability of churn for a customer, or to assess whether a customer will or won’t respond to an offer. But what about figuring out which customers might increase their purchasing — or could stop buying — as the result of a promotion?
@@ -15,7 +16,7 @@ Uplift modeling can supplement experimental data from A/B testing by identifying
 
 Although [retail and marketing](https://www.hbs.edu/faculty/Publication%20Files/ascarza_jmr_18_783d54d4-e548-41ed-b1d7-8a180f1ae85a.pdf) are the best-known uses for uplift modeling, this approach is also used in fundraising, clinical trials, medical treatment, human resources, and even [political campaigns](https://searchbusinessanalytics.techtarget.com/video/How-uplift-modeling-helped-Obamas-campaign-and-can-aid-marketers) who seek to find those who can be persuaded by the right intervention or “treatment” at the right time.
 
-![SusanCS_0-1606928706344.gif](https://community.alteryx.com/t5/image/serverpage/image-id/147203i962A9D44DDAD8E6E/image-size/medium?v=1.0&px=400)
+![SusanCS_0-1606928706344.gif](/assets/images/posts/beyond-churn-an-introduction-to-uplift-modeling/medium.jpeg)
 
 Image via GIPHY
 
@@ -47,7 +48,7 @@ Time and money spent on the sure things, the sleeping dogs and the lost causes i
 
 What’s tricky, of course, is that we don’t know which people fit into each quadrant in the typology above *before* we treat them. We can’t do some sort of Schrödinger’s promotional offer in which we both send and don’t send our email! We can only send or not send, treat or not treat. We have to use the power of modeling to figure out who’s most likely to fit in each group before we take action.
 
-![SusanCS_1-1606928704995.gif](https://community.alteryx.com/t5/image/serverpage/image-id/147201i7FB55951FD1A231C/image-size/medium?v=1.0&px=400)
+![SusanCS_1-1606928704995.gif](/assets/images/posts/beyond-churn-an-introduction-to-uplift-modeling/medium.bin)
 
 Image via GIPHY
 
@@ -65,7 +66,7 @@ However, simply trying to predict these transformed outcomes as class labels —
 
 Pylift was built by data scientists at Wayfair (the company that also brought me the awesome rug in my home office).
 
-![SusanCS_2-1606928706151.gif](https://community.alteryx.com/t5/image/serverpage/image-id/147202iA7BC88CD81555720/image-size/medium?v=1.0&px=400)
+![SusanCS_2-1606928706151.gif](/assets/images/posts/beyond-churn-an-introduction-to-uplift-modeling/medium.png)
 
 I’ll use [an email marketing dataset](https://blog.minethatdata.com/2008/03/minethatdata-e-mail-analytics-and-data.html) for the sample workflow demonstrated here. The treatment is whether the customer was sent a promotional email. For the outcome, I’ve chosen the “visit” variable, which reflects whether or not the customer visited the retailer’s website in the two weeks after the email was sent.
 
@@ -82,7 +83,7 @@ stratify=df[‘Outcome’])
 
 After this step, you can use [pylift’s EDA options](https://pylift.readthedocs.io/en/latest/eda.html) to dig into your data. For example, you can view a chart of the [net information value](https://multithreaded.stitchfix.com/blog/2015/08/13/weight-of-evidence/) provided by each variable in your dataset. This measure shows the relative strength of the relationship of each feature to the target.
 
-![SusanCS_3-1606928704973.png](https://community.alteryx.com/t5/image/serverpage/image-id/147204i1D505CF065C37EB8/image-size/large?v=1.0&px=999)
+![SusanCS_3-1606928704973.png](/assets/images/posts/beyond-churn-an-introduction-to-uplift-modeling/large.png)
 
 Net information value for predictor features
 
@@ -98,7 +99,7 @@ You can then view some evaluation metrics and visualizations for your model. For
 
 However, in terms of evaluating this model, the small distance between our model and our random baseline shows that this model is not identifying “responders” very effectively. We might want to try other algorithms (i.e., [another classifier](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning) supported by sklearn) to see if we can generate a model that more clearly distinguishes between the customers who are and aren’t likely to visit.
 
-![SusanCS_4-1606928704989.png](https://community.alteryx.com/t5/image/serverpage/image-id/147205iB30682231DA7E1DA/image-size/large?v=1.0&px=999)
+![SusanCS_4-1606928704989.png](/assets/images/posts/beyond-churn-an-introduction-to-uplift-modeling/large.bin)
 
 I read [these authors’ analysis](https://pbiecek.github.io/xai_stories/story-uplift-marketing1.html) of this same dataset after I’d already generated this model, and I thought their explanation of our similar results was helpful:
 
@@ -112,7 +113,7 @@ You can also try predicting the potential impact of the same campaign on data fo
 
 What do you do with those predictions? You can exclude those whose chance of response is predicted to be affected negatively by the treatment. You also may want to target only a smaller group with the highest predicted incremental gain from treatment. Using your dataset with the predictions, you might use the Tile tool in your workflow on the prediction field to create groups representing levels of likely response. You could consider targeting only those customers in the top groups. Narrowing your outreach could make your treatment (e.g., your email campaign) more cost-effective, and also avoid the negative impact of disturbing those “sleeping dogs.”
 
-![SusanCS_5-1606928705071.gif](https://community.alteryx.com/t5/image/serverpage/image-id/147206i05FF52BA007ECB61/image-size/medium?v=1.0&px=400)
+![SusanCS_5-1606928705071.gif](/assets/images/posts/beyond-churn-an-introduction-to-uplift-modeling/medium-089af15a.png)
 
 Don’t disturb the sleeping dogs! Image via
 

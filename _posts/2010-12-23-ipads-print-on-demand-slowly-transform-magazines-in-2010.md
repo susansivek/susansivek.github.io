@@ -1,12 +1,11 @@
 ---
 title: "iPads, Print-on-Demand Slowly Transform Magazines in 2010"
 date: 2010-12-23
-excerpt: "A spread from The Washington Post Magazine, as seen in the Flipboard iPad app.
-This revolution is going to take its time.
-It’s been a year of high expectations but little fulfillment for those who thought 2010 might forever change the way we read…"
+excerpt: "\"A spread from The Washington Post Magazine, as seen in the Flipboard iPad app."
 original_url: "http://mediashift.org/2010/12/ipads-print-on-demand-slowly-transform-magazines-in-2010357/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2010/12/ipads-print-on-demand-slowly-transform-magazines-in-2010357/](http://mediashift.org/2010/12/ipads-print-on-demand-slowly-transform-magazines-in-2010357/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-d2b4c7494f4fa94b0c35409dc1542a5a-flip_washpost_landscape.jpg)

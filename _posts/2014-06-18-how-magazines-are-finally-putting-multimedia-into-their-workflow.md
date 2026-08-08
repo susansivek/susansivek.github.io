@@ -1,12 +1,11 @@
 ---
 title: "How Magazines Are Finally Putting Multimedia Into Their Workflow"
 date: 2014-06-18
-excerpt: "Editor’s note: This is part one of a two-part series. Click here for part two.
-For many magazines, creating multimedia to complement their print editions used to be an awkward addition to their long-refined print publication process.
-“We’re also…"
+excerpt: "\"Editor’s note: This is part one of a two-part series. Click here for part two."
 original_url: "http://mediashift.org/2014/06/how-magazines-are-finally-putting-multimedia-into-their-workflow/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2014/06/how-magazines-are-finally-putting-multimedia-into-their-workflow/](http://mediashift.org/2014/06/how-magazines-are-finally-putting-multimedia-into-their-workflow/)*
 
 ![](https://i2.wp.com/mediashift.org/wp-content/uploads/2014/06/video-production.jpg?w=1280)

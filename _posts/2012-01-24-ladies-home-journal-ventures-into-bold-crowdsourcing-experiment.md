@@ -3,8 +3,9 @@ title: "Ladies’ Home Journal Ventures Into Bold Crowdsourcing Experiment"
 date: 2012-01-24
 excerpt: "In 1900, Ladies’ Home Journal published an article containing predictions for the year 2000. Though some of the author’s predictions were accurate — Americans are indeed taller, and photographs are now sent around the world — one key point was…"
 original_url: "http://mediashift.org/2012/01/ladies-home-journal-ventures-into-bold-crowdsourcing-experiment024/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2012/01/ladies-home-journal-ventures-into-bold-crowdsourcing-experiment024/](http://mediashift.org/2012/01/ladies-home-journal-ventures-into-bold-crowdsourcing-experiment024/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-eca7be63c36f4c3675e715ac02e218ed-ladies-home-journal_bigger.png)

@@ -1,11 +1,11 @@
 ---
 title: "Top 5 Magazine Apps That Challenge the Medium"
 date: 2013-05-29
-excerpt: "Fotopedia Reporter invites photographers of all skill levels to contribute photos and organize them into an appealing collection using the app’s design tools.
-Lots of great magazine apps rely on the content and reputation of traditional print…"
+excerpt: "\"Fotopedia Reporter invites photographers of all skill levels to contribute photos and organize them into an appealing collection using the app’s design tools."
 original_url: "http://mediashift.org/2013/05/five-magazine-apps-that-challenge-the-medium/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2013/05/five-magazine-apps-that-challenge-the-medium/](http://mediashift.org/2013/05/five-magazine-apps-that-challenge-the-medium/)*
 
 ![](https://i2.wp.com/mediashift.org/wp-content/uploads/2013/05/fotopedia-featured-resize.jpg?w=515)

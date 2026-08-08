@@ -1,11 +1,11 @@
 ---
 title: "How National Geographic Used Cowbird Storytelling Tool to Tell a Reservation’s Whole Story"
 date: 2012-08-13
-excerpt: "Sometimes, it takes more than one storyteller to get a story right — especially when the subjects of the story are members of a community that often feels misrepresented by media.
-Thanks to multimedia storytelling tool Cowbird, photographer Aaron…"
+excerpt: "\"Sometimes, it takes more than one storyteller to get a story right — especially when the subjects of the story are members of a community that often feels misrepresented by media."
 original_url: "http://mediashift.org/2012/08/how-national-geographic-used-cowbird-storytelling-tool-to-tell-a-reservations-whole-story226/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2012/08/how-national-geographic-used-cowbird-storytelling-tool-to-tell-a-reservations-whole-story226/](http://mediashift.org/2012/08/how-national-geographic-used-cowbird-storytelling-tool-to-tell-a-reservations-whole-story226/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-3f1594daa84878e935aa016bffb64c47-pine-ridge-cowbird.jpg)

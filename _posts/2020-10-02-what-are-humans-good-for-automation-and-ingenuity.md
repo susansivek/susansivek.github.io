@@ -3,8 +3,9 @@ title: "What Are Humans Good For? Automation and Ingenuity"
 date: 2020-10-02
 excerpt: "A research paper I read recently led me to consider: Could process automation not just empower humans by helping us avoid dull tasks, but also by fundamentally changing the way we think? Considering automated processes as collaborators with humans,…"
 original_url: "https://towardsdatascience.com/what-are-humans-good-for-automation-and-ingenuity-a6f68fa3d8c3"
+publication: "Towards Data Science"
+categories: [data-science]
 ---
-
 *Originally published at [https://towardsdatascience.com/what-are-humans-good-for-automation-and-ingenuity-a6f68fa3d8c3](https://towardsdatascience.com/what-are-humans-good-for-automation-and-ingenuity-a6f68fa3d8c3)*
 
 ![](https://miro.medium.com/max/1200/1*kBfPLFIadM8MpCONr5l-Fg.jpeg)

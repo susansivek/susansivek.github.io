@@ -3,8 +3,10 @@ title: "How to Make Word Clouds People Won’t Hate"
 date: 2021-08-05
 excerpt: "Haters gonna hate on word clouds. But they’re still useful visualizations, and you can make them better. Word clouds: They sound so light, fluffy and fun. They’re a popular way of visualizing the frequency of terms in text data. But data commentators…"
 original_url: "https://towardsdatascience.com/how-to-make-word-clouds-people-wont-hate-9a465c1b63ab?source=user_profile---------8----------------------------&gi=3e8a6cec982c"
+publication: "Towards Data Science"
+categories: [data-science]
+featured: true
 ---
-
 *Originally published at [https://towardsdatascience.com/how-to-make-word-clouds-people-wont-hate-9a465c1b63ab?source=user_profile---------8----------------------------&gi=3e8a6cec982c](https://towardsdatascience.com/how-to-make-word-clouds-people-wont-hate-9a465c1b63ab?source=user_profile---------8----------------------------&gi=3e8a6cec982c)*
 
 ## Haters gonna hate on word clouds. But they’re still useful visualizations, and you can make them better.

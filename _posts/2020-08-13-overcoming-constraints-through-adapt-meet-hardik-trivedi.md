@@ -1,18 +1,16 @@
 ---
 title: "Overcoming Constraints through ADAPT: Meet Hardik Trivedi"
 date: 2020-08-13
-excerpt: "When he moved to the U.S. in 2011, Hardik Trivedi’s data career was flourishing. Though he had started to experience hearing loss in his early 20s, Hardik had succeeded in various data roles in both Australia and the U.S.
-But like many, Hardik was…"
+excerpt: "\"When he moved to the U.S. in 2011, Hardik Trivedi’s data career was flourishing. Though he had started to experience hearing loss in his early 20s, Hardik had succeeded in various data roles in both Australia and the U.S."
 original_url: "https://community.alteryx.com/t5/Alter-Nation/Overcoming-Constraints-through-ADAPT-Meet-Hardik-Trivedi/ba-p/618190"
+publication: "Alteryx Community"
+categories: [data-science, profiles]
 ---
-
 *Originally published at [https://community.alteryx.com/t5/Alter-Nation/Overcoming-Constraints-through-ADAPT-Meet-Hardik-Trivedi/ba-p/618190](https://community.alteryx.com/t5/Alter-Nation/Overcoming-Constraints-through-ADAPT-Meet-Hardik-Trivedi/ba-p/618190)*
 
 When he moved to the U.S. in 2011, Hardik Trivedi’s data career was flourishing. Though he had started to experience hearing loss in his early 20s, Hardik had succeeded in various data roles in both Australia and the U.S.
 
 But like many, Hardik was laid off in early 2020 as a result of the COVID-19 pandemic. With free time and an opportunity to reconsider his career direction, Hardik chose to pursue the Alteryx [Advancing Data + Analytic Potential Together (ADAPT) program](https://www.alteryx.com/why-alteryx/alteryx-for-good/adapt-program). He recently graduated from the program with both the [Alteryx Core Certification](https://community.alteryx.com/t5/Certification/bd-p/product-certification) and a [Udacity Nanodegree in Predictive Analytics for Business](https://www.udacity.com/course/predictive-analytics-for-business-nanodegree--nd008).
-
-![Hardik+Trivedi_photos_v2_faces_x2.jpg](https://community.alteryx.com/t5/image/serverpage/image-id/128057i8FF60D98DEB26B2A/image-size/large?v=1.0&px=999)
 
 Hardik Trivedi
 
@@ -57,8 +55,6 @@ Hardik isn’t stopping at Core Certification. With the time remaining on his AD
 ## **Learning During ADAPT**
 
 Hardik used online [videos](https://community.alteryx.com/t5/Videos/bd-p/live-training) provided in the Community — which are captioned — to learn during ADAPT. Like others building their Alteryx skills, Hardik also appreciated the [Weekly Challenges](https://community.alteryx.com/t5/Weekly-Challenge/bd-p/weeklychallenge).
-
-![SusanCS_2-1597268217909.png](https://community.alteryx.com/t5/image/serverpage/image-id/128050iDF7CCF78E96E980C/image-size/medium?v=1.0&px=400)
 
 “There are so many ways to get to the same solution. I have spent hours downloading solutions by other people and have learned a lot from it,” he says. “I have gone back and rebuilt the same workflow, aiming to complete it using [fewer] tools and processing time.”
 

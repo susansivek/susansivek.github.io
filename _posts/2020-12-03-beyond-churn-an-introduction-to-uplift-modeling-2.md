@@ -1,11 +1,11 @@
 ---
 title: "Beyond Churn: An Introduction to Uplift Modeling"
 date: 2020-12-03
-excerpt: "Knowing which customers might churn is helpful, but uplift modeling can give you a new window into the nuances of customers’ responses, among other applications.
-You may have heard of modeling techniques to predict the probability of churn for a…"
+excerpt: "\"Knowing which customers might churn is helpful, but uplift modeling can give you a new window into the nuances of customers’ responses, among other applications."
 original_url: "https://towardsdatascience.com/beyond-churn-an-introduction-to-uplift-modeling-d1d9af7be"
+publication: "Towards Data Science"
+categories: [data-science]
 ---
-
 *Originally published at [https://towardsdatascience.com/beyond-churn-an-introduction-to-uplift-modeling-d1d9af7be](https://towardsdatascience.com/beyond-churn-an-introduction-to-uplift-modeling-d1d9af7be)*
 
 ## Knowing which customers might churn is helpful, but uplift modeling can give you a new window into the nuances of customers’ responses, among other applications.

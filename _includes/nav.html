@@ -1,0 +1,25 @@
+<nav class="site-nav" aria-label="Portfolio sections">
+  <ul>
+    <li>
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' or page.url == '/index.html' or page.url contains '/page' %} class="is-active"{% endif %}>All</a>
+    </li>
+    <li>
+      <a href="{{ '/favorites/' | relative_url }}"{% if page.url == '/favorites/' %} class="is-active"{% endif %}>Favorites</a>
+    </li>
+    <li>
+      <a href="{{ '/categories/data-science/' | relative_url }}"{% if page.url == '/categories/data-science/' %} class="is-active"{% endif %}>Data Science and Tech</a>
+    </li>
+    <li>
+      <a href="{{ '/categories/features/' | relative_url }}"{% if page.url == '/categories/features/' %} class="is-active"{% endif %}>Features</a>
+    </li>
+    <li>
+      <a href="{{ '/categories/profiles/' | relative_url }}"{% if page.url == '/categories/profiles/' %} class="is-active"{% endif %}>Profiles</a>
+    </li>
+    <li>
+      <a href="{{ '/categories/academic/' | relative_url }}"{% if page.url == '/categories/academic/' %} class="is-active"{% endif %}>Academic Life</a>
+    </li>
+    <li>
+      <a href="{{ '/categories/media/' | relative_url }}"{% if page.url == '/categories/media/' %} class="is-active"{% endif %}>Media Industry</a>
+    </li>
+  </ul>
+</nav>

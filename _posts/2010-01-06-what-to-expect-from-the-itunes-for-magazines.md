@@ -1,11 +1,11 @@
 ---
 title: "What to Expect From the ‘iTunes for Magazines’"
 date: 2010-01-06
-excerpt: "Apple appears poised to introduce a much-anticipated product: the once seemingly-mythical “iSlate” or “iTablet,” its first tablet-style touch-screen computer.
-Though the potential of an Apple tablet thrills many fans of the company, it’s also piqued…"
+excerpt: "\"Apple appears poised to introduce a much-anticipated product: the once seemingly-mythical “iSlate” or “iTablet,” its first tablet-style touch-screen computer."
 original_url: "http://mediashift.org/2010/01/what-to-expect-from-the-itunes-for-magazines006/"
+publication: "MediaShift"
+categories: [media]
 ---
-
 *Originally published at [http://mediashift.org/2010/01/what-to-expect-from-the-itunes-for-magazines006/](http://mediashift.org/2010/01/what-to-expect-from-the-itunes-for-magazines006/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-1236b91a41b05064e8277ece024ea7c1-si%20tablet%20demo.jpg)

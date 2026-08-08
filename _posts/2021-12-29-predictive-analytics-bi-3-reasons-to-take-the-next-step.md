@@ -3,8 +3,9 @@ title: "Predictive Analytics + BI: 3 Reasons to Take the Next Step"
 date: 2021-12-29
 excerpt: "Many of us started making data visualizations in elementary school. Maybe you organized colorful candies into a “bar chart” or drew a line graph based on a classroom science experiment. By now, you’re undoubtedly using a much more sophisticated…"
 original_url: "https://www.pecan.ai/blog/predictive-analytics-bi-next-step/"
+publication: "Pecan AI"
+categories: [data-science]
 ---
-
 *Originally published at [https://www.pecan.ai/blog/predictive-analytics-bi-next-step/](https://www.pecan.ai/blog/predictive-analytics-bi-next-step/)*
 
 Many of us started making data visualizations in elementary school. Maybe you organized colorful candies into a “bar chart” or drew a line graph based on a classroom science experiment.

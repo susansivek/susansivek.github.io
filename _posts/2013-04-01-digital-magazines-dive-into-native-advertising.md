@@ -1,11 +1,11 @@
 ---
 title: "Digital Magazines Dive Into Native Advertising"
 date: 2013-04-01
-excerpt: "Image based on a Creative Commons licensed \"photo\":http://www.flickr.com/photos/cambodia4kidsorg/4243023711/ by Flickr user cambodia4kids.
-Ah, that awkward moment when you’re interviewing someone about online advertising and you have to pause to quit…"
+excerpt: "\"Image based on a Creative Commons licensed \\\"photo\\\":http://www.flickr.com/photos/cambodia4kidsorg/4243023711/ by Flickr user cambodia4kids."
 original_url: "http://mediashift.org/2013/04/digital-magazines-dive-into-native-advertising091/"
+publication: "MediaShift"
+categories: [media, features]
 ---
-
 *Originally published at [http://mediashift.org/2013/04/digital-magazines-dive-into-native-advertising091/](http://mediashift.org/2013/04/digital-magazines-dive-into-native-advertising091/)*
 
 ![](http://mediashift.org/wp-content/uploads/import/i-2089cae70d9cba306a26ee1e7b4ed870-specialad-phone.jpg)
