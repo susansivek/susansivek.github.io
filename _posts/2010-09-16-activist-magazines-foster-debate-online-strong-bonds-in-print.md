@@ -1,0 +1,98 @@
+---
+title: "Activist Magazines Foster Debate Online, Strong Bonds in Print"
+date: 2010-09-16
+excerpt: "The current issue of Mother Jones showcases some of its reporting on the BP oil spill.
+Climate change. Immigration. Economic crisis. Consumerism.
+These are all major issues covered by the magazines Mother Jones and Orion, and both magazines have won…"
+original_url: "http://mediashift.org/2010/09/activist-magazines-foster-debate-online-strong-bonds-in-print259/"
+---
+
+*Originally published at [http://mediashift.org/2010/09/activist-magazines-foster-debate-online-strong-bonds-in-print259/](http://mediashift.org/2010/09/activist-magazines-foster-debate-online-strong-bonds-in-print259/)*
+
+![](http://mediashift.org/wp-content/uploads/import/i-75ca305f75b34252f36c99292fa53381-mojo-bp%20cover.jpg)
+
+The current issue of Mother Jones showcases some of its reporting on the BP oil spill.
+
+Climate change. Immigration. Economic crisis. Consumerism.
+
+These are all major issues covered by the magazines [Mother Jones](http://motherjones.com/) and [Orion](http://orionmagazine.org/), and both magazines have won awards for their high-quality journalism. At the same time, they are nonprofits with tight budgets and ongoing fundraising campaigns.
+
+"If we went all digital, we'd probably lose a big chunk of our audience and donations. We're sort of like everyone else -- stuck in the middle." - Scott Walker
+
+Both magazines have found new energy through digital media, and have developed many opportunities to get their audiences thinking about significant public concerns with new online strategies. But despite the appeal of going all-digital, in terms of lower costs and ease of distribution, don’t expect them to leave print behind just yet, no matter how constrained budgets might be. Print still has an important place, especially for engaging readers deeply in serious issues, they say. The question is how to best integrate these new digital discussions with existing print efforts.
+
+New research about these kinds of magazines also suggests that the print format helps readers take ownership of ideas and build a relationship to a magazine. Digital magazine formats may struggle to duplicate that experience, especially among readers who tire of using technology constantly, and find print to be a relaxing way of connecting to issues they care about.
+
+## Public Participation in Investigation
+
+Mother Jones, the highly regarded magazine of investigative and political journalism, has benefited from its integration of digital and print. In 2006, in what publisher Steve Katz called “probably the most important editorial decision of the last five years,” the print and digital editorial staffs of the magazine merged. The shift, combined with a strong push into social media in 2009, has made Mother Jones available on multiple platforms. (MediaShift covered the Mother Jones ’09 redesign in [a video interview with the editors](http://mediashift.org/2009/03/mother-jones-boosts-community-in-site-revamp079.html).)
+
+The magazine now has about 21,000 followers on Twitter. Much of the traffic to the website now comes from social media, Katz said. Readers participate on the site through commenting features.
+
+![i-d685a361cad26a72b7d1575a13cad980-mymojo.jpg](https://i2.wp.com/mediashift.org/wp-content/uploads/sites/8/import/i-d685a361cad26a72b7d1575a13cad980-mymojo.jpg)
+
+Readers have even assisted Mother Jones’ investigations-in-progress through crowdsourcing. Katz related the story of reporter [Mac McClelland](http://motherjones.com/authors/mac-mcclelland) who, facing BP’s efforts to prevent media access to the oil spill, reported on the situation via Twitter.
+
+“We’ve seen now in practice how Twitter can be useful for investigative journalism,” Katz said. “As [McClelland] started to tweet these items, she increased her followers on Twitter, and … people started to surface as sources for her story.”
+
+McClelland later transformed this information into blog posts for the Mother Jones website and stories for the magazine.
+
+This kind of crowdsourcing is now used by journalists covering all kinds of topics; but for a magazine interested in enhancing public debate around issues through investigation, involving the public in that process seems especially significant. And if readers are especially motivated, they can contribute to online “tip jars” by clicking on icons that solicit donations for Mother Jones’ investigative work.
+
+## Conversations at Orion
+
+Similar engagement is happening at Orion, an award-winning magazine covering environmental issues. Though the magazine has been published since 1982, it redeveloped its website in 2006 and now also has a podcast, a presence on Facebook and Twitter, and a digital replica edition.
+
+![i-4659e07fda30ca2820d37e84e093388f-orion-cover.jpg](https://i0.wp.com/mediashift.org/wp-content/uploads/sites/8/import/i-4659e07fda30ca2820d37e84e093388f-orion-cover.jpg)
+
+The magazine addresses the “root causes” of environmental problems, according to Scott Walker, Orion’s director of digital media.
+
+“What our web visitors are mostly interested in is the articles that address [topics like] let’s rethink capitalism, or redefine consumerism,” Walker said. “The thing we’ve appreciated most about the digital world is that a lot of those articles now become conversations.”
+
+Walker said the comment conversations on the website are of unusually high quality, with a strong sense of community. [One recent article](http://www.orionmagazine.org/index.php/articles/article/5622/) attracted over 700 comments, and Walker said some of these included people quoting Byron and Rumi back and forth.
+
+Though some critics argue that online reading prevents readers from paying attention and thinking deeply, Walker disagreed.
+
+“We get pretty deep engagement with quite a few of our articles that are online,” he said. “I’m not sure if you get the same thing at home. There, my engagement is just between the page, my eyeballs and my brain.
+
+“But when you take an issue and discuss it online publicly,” he said, the experience is enriched.
+
+![i-f4f1b711d3862a32fadfc76db2ca87df-orion-disc-extras.jpg](https://i0.wp.com/mediashift.org/wp-content/uploads/sites/8/import/i-f4f1b711d3862a32fadfc76db2ca87df-orion-disc-extras.jpg)
+
+For Orion’s audience, which shares the magazine’s values and wants to act upon them, the chance to discuss has resonated. Yet despite these opportunities in digital formats, and the lower cost of digital distribution, Orion and Mother Jones both still embrace print.
+
+## The Power of Print
+
+[Veronica Barassi](http://www.ebslondon.ac.uk/ICES/ices_members/dr_veronica_barassi.aspx), a postdoctoral research assistant at the Institute of Contemporary European Studies at Regent’s College in London, has studied the role of print and digital formats for magazines. Her research focused on “activist” magazines, but her findings likely also apply to magazines that generally seek to provoke thought and debate among their audiences.
+
+Barassi interviewed publishers and readers of activist magazines to learn why, despite the low cost and ease of digital publishing, so many of them continued their print editions.
+
+“Even with younger generations, people kept on telling me the importance of keeping the magazines. They wanted that sense of smell, feel, touch,” she said. “It gave them a sense of ownership. It conveyed a feeling of belonging and affiliation with the magazine.”
+
+Barassi said readers, often fatigued and sometimes frustrated by using technology in their daily lives, turn to print magazines for variety and leisure. Drawing on anthropological research, Barassi also suggested that the transaction involved in selecting and buying a magazine creates a bond between the reader, the magazine, and the magazine’s professed ideals.
+
+“You need that material culture. If you think about human relationships and the creation of human bonds, they need to be created through an exchange of objects,” she said. The exchange of the printed magazine creates a stronger relationship.
+
+Barassi’s research suggests that when readers receive hard-copy magazines focused around specific ideals, they sense their connection to those ideals, to the publication and even to their fellow readers differently than when they use digital formats for similar information.
+
+## Maintaining a Multimedia Debate
+
+For this reason and others, neither Mother Jones nor Orion is ready to leave print for digital alone, despite the advantages of the online world.
+
+Katz said Mother Jones’ print edition still makes financial sense for the magazine, and that there are “a number of ways still in which the print magazine continues to be a valuable part of the economic mix.”
+
+In addition, having a good print edition reinforces the magazine’s reputation in the journalistic community. Katz refers to its 2010 National Magazine Award for General Excellence in its circulation category as evidence.
+
+Orion’s print edition is also still fundamental to its business model. But as Walker pointed out, Orion “is an environmental magazine … if we’re going to put our actions in line with our beliefs, we probably would eliminate the print edition.”
+
+However, Walker said, the magazine would lose much its audience with such a move because digital magazines aren’t yet satisfactory substitutes for most print readers.
+
+“If we went all digital, we’d probably lose a big chunk of our audience and donations,” he says. “We’re sort of like everyone else — stuck in the middle.”
+
+Based on her research, Barassi said being in the middle may not be so bad. She advised today’s magazines not to see digital as a replacement for or of greater importance than print.
+
+“I would suggest [they] understand the media environment as an integrated environment in which messages are distributed. They should understand the different type of audience and experience that reading online creates and reading offline creates,” she said.
+
+Different online and print content can be created to reflect those audiences and experiences. Whatever the format, Barassi said, these kinds of magazines should stay true to their ideals, and can try to “keep up the experience of the debate” in all media.
+
+*Susan Currie Sivek, Ph.D., is an assistant professor in the Mass Communication and Journalism Department at California State University, Fresno. Her research focuses on magazines and media communities. She also blogs at [sivekmedia.com](http://sivekmedia.com), and is the magazine correspondent for MediaShift.*

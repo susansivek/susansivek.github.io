@@ -1,0 +1,58 @@
+---
+title: "What Is Marketing Mix Modeling?"
+date: 2023-03-03
+excerpt: "Ever tried to bake cookies and left out the sugar? Or made a cocktail and forgotten a key ingredient? Your finished product probably didn’t taste quite right. That might seem like a stretch as a metaphor for marketing, but it’s true. For marketing,…"
+original_url: "https://www.pecan.ai/resource/what-is-marketing-mix-modeling/"
+---
+
+*Originally published at [https://www.pecan.ai/resource/what-is-marketing-mix-modeling/](https://www.pecan.ai/resource/what-is-marketing-mix-modeling/)*
+
+![A visualization of channel saturation. The effect on the target (e.g., sales) plateaus at around $800K, meaning spending additional money on this channel beyond that point shows negligible incremental returns.](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20413'%3E%3C/svg%3E)
+
+Ever tried to bake cookies and left out the sugar? Or made a cocktail and forgotten a key ingredient? Your finished product probably didn’t taste quite right.
+
+That might seem like a stretch as a metaphor for marketing, but it’s true. For marketing, as in baking and bartending, finding the right mix of ingredients is critical — or you just won’t get the outcomes you want.
+
+Fortunately, [marketing mix modeling](https://www.pecan.ai/glossary/marketing-mix-modeling/)A statistical approach used to quantify the impact of various elements of a company’s marketing strategy on sales and other key performance indicators (KPIs). MMM… [More](https://www.pecan.ai/glossary/marketing-mix-modeling/) (MMM, also known as media mix modeling) is here to ensure you’ve got the critical ingredients in your marketing strategy, in the right amounts, to produce the results you need. Not too much, not too little: Determining how much of your budget to allocate to each of your marketing channels can be far more precise than ever before.
+
+Let’s explore some marketing mix modeling basics to see if it’s the right fit for your team. (And after that intro, feel free to pause here if you need a snack or beverage – just come right back!)
+
+Many marketers face a common obstacle: determining how to distribute and optimize their marketing budget to meet their objectives. They all confront the same challenge of how to make the maximum return on investment with the greatest positive impact on sales.
+
+  ![marketing budget allocation from $5 million to $10 million in revenue](data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20800'%3E%3C/svg%3E) 
+
+This challenge is universal and persistent, and it’s becoming increasingly difficult to solve. Since multiple channels emerged for communicating with consumers, marketers have grappled with prioritizing their investments. Today, the number of potential channels has grown significantly. Marketers must make informed decisions based on data that yield measurable outcomes. For example, does it make sense to pour more resources into TikTok, billboards, or CTV?
+
+And not only are there more channels to choose among, but they’re also constantly changing their policies and options for marketers. Most notably, as soon as marketers started to master the use of digital platforms’ user-level data for [attribution](https://www.pecan.ai/glossary/attribution/)The process of identifying and assigning credit to the various marketing touchpoints that contributed to a conversion or another business outcome, such as a sale… [More](https://www.pecan.ai/glossary/attribution/) and measurement, the data began disappearing — or soon will. Changes to iOS, [SKAdNetwork](https://www.pecan.ai/glossary/skadnetwork/)A method created by Apple for measuring mobile app advertising effectiveness. SKAdNetwork is intended to offer a more private, secure way for developers and advertisers… [More](https://www.pecan.ai/glossary/skadnetwork/), and the imminent loss of third-party cookies have thrown a wrench into commonly used measurement and attribution strategies.
+
+This rapidly evolving setting is part of the reason for [the renaissance of MMM](https://www.accenture.com/us-en/blogs/song-insights-blog/a-new-day-for-marketing-mix-modeling), along with innovations that are adding technological twists to this legendary method.
+
+[![cover of marketing mix modeling whitepaper from pecan ai](https://www.pecan.ai/wp-content/uploads/2023/01/MMM-WP-brochure-mockup-e1674678135684.png)](https://www.pecan.ai/resource/perfecting-marketing-mix-with-pecan-ai/)
+
+So what is MMM? It’s a statistical analysis technique that uses historical data that allows marketers to analyze the effectiveness of different marketing tactics and their impact on sales or other business goals. MMM considers a range of factors that influence sales, such as product pricing, advertising spending, promotions, distribution, and even external factors like the economy or competition.
+
+By crunching these numbers, MMM reveals hidden patterns and insights that help businesses make informed decisions on allocating marketing budgets more effectively, improving marketing performance, and achieving their goals.
+
+Furthermore, MMM offers other valuable features. For instance, when allocating marketing budgets, MMM accounts for [seasonality](https://www.pecan.ai/glossary/seasonality/)Refers to patterns that repeat over a specific period of time. These patterns can be observed in various types of data, such as customer transaction… [More](https://www.pecan.ai/glossary/seasonality/), which is crucial for many products and services. Moreover, MMM can incorporate external data like industry-wide sales figures, economic variables, and competitor activity.
+
+A visualization of channel saturation. The effect on the target (e.g., sales) plateaus at around $800K, meaning spending additional money on this channel beyond that point shows negligible incremental returns.
+
+MMM also provides insight into challenging-to-evaluate marketing aspects. One of those is [channel saturation](https://www.pecan.ai/glossary/saturation/)Refers to the point at which a specific marketing channel has reached its maximum effectiveness, and additional spending on that channel will not result in… [More](https://www.pecan.ai/glossary/saturation/): the point where ROI stops increasing with additional spending. Another is [momentum](https://www.pecan.ai/glossary/momentum/)The rate at which the effects of a campaign dissipate over time. A higher momentum indicates that the effects of a campaign will last longer,… [More](https://www.pecan.ai/glossary/momentum/), also known as [carryover](https://www.pecan.ai/glossary/carryover/)The effect that a marketing campaign has on sales after the campaign has ended. This can be positive or negative and can be caused by… [More](https://www.pecan.ai/glossary/carryover/) or [adstock](https://www.pecan.ai/glossary/adstock/)The accumulated effects of past marketing activities on current sales. Adstock is a measure of how much of the current sales are driven by past… [More](https://www.pecan.ai/glossary/adstock/), which refers to the last effects of long-term brand equity.
+
+With this approach, companies can identify which areas of digital marketing and offline marketing spend have the highest ROI. Then, they can make better decisions about their ongoing marketing efforts.
+
+As you might have guessed by now, one of the major advantages of MMM is that it isn’t affected by the nuanced mechanics of ad platforms and channels. Instead, it uses channel-level data to predict how much money to allocate to each channel to achieve the desired [outcome](https://www.pecan.ai/glossary/prediction/)A prediction is the ultimate goal of a predictive model. In Pecan, a prediction is often tied to a specific customer. After learning from data… [More](https://www.pecan.ai/glossary/prediction/). MMM avoids the complications of obtaining and analyzing user-level data and the pitfalls of typical attribution methods.
+
+But here’s the kicker: For about four decades, MMM was primarily reserved for big companies with deep pockets and access to cutting-edge [data science](https://www.pecan.ai/glossary/data-science/)Data science combines statistics, computer science, scientific methods, and business knowledge to analyze, model, and predict using data. The data science toolkit can be used… [More](https://www.pecan.ai/glossary/data-science/) technology. It required expensive specialists to build the models and the right computational tools, making it an impossible feat for smaller businesses.
+
+That was then. With [new software options](https://www.pecan.ai/resource/future-marketing-mix-modeling/) and improved data and computational capabilities, MMM has become much more accessible. Marketing teams without access to extensive data resources and specialists can refresh models weekly or monthly, allowing for frequent budget [optimization](https://www.pecan.ai/glossary/optimization/)Broadly speaking, optimization is a process used to either maximize or minimize an output value by selecting the right input values. In data science, this… [More](https://www.pecan.ai/glossary/optimization/).
+
+With its channel-level insights, MMM is an excellent complement to other measurement and planning techniques used by marketers. When part of a fully developed measurement strategy, MMM offers a reliable guide to help achieve marketing goals.
+
+And, of course, let’s not forget about the new twists on traditional MMM powered by machine learning. Pecan has taken the best of the conventional approach to marketing mix modeling and integrated cutting-edge machine learning techniques to create a highly efficient, easy-to-use platform for marketers.
+
+With our innovative solution, [feature engineering](https://www.pecan.ai/glossary/feature-engineering/)Feature engineering is the process of manipulating and transforming raw data into forms that are more valuable in a predictive model. Datasets offer many options… [More](https://www.pecan.ai/glossary/feature-engineering/), [feature selection](https://www.pecan.ai/glossary/feature-selection/)While it’s great to have a lot of data, not every variable (aka feature) in your dataset will be equally informative in a predictive model…. [More](https://www.pecan.ai/glossary/feature-selection/), and [model](https://www.pecan.ai/glossary/model/)In the context of machine learning, a model is a specific instance or example of an algorithm that has been created based on a particular… [More](https://www.pecan.ai/glossary/model/) optimization are all automated within a single MMM [pipeline](https://www.pecan.ai/glossary/pipeline/)A set of processes that move data from one system to another, which often involves extracting data from a variety of sources, transforming it for… [More](https://www.pecan.ai/glossary/pipeline/), saving valuable time and resources. Our approach offers a much faster, more iterative solution, perfect for the fast-paced world of modern marketing. (Check out the [millions of dollars in savings](https://www.pecan.ai/solution/marketing-mix-modeling-budget/) we found with MMM for one customer.)
+
+With MMM’s top-down approach, you can be sure that your marketing plans are on the right track. It avoids the complexities and uncertainties of today’s digital ecosystem, making it a reliable and accurate tool for allocating marketing budgets. Knowing your resources are spent in the right places, you can focus on developing effective marketing campaigns and optimizing them once they launch.
+
+Alternatively, you could use the time and energy to bake more cookies or make another cocktail. We won’t judge.

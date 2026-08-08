@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<article class="post">
+  <h1>{{ page.title }}</h1>
+  <div class="post-meta">
+    <span>{% if page.undated %}Date unknown{% else %}{{ page.date | date: "%B %-d, %Y" }}{% endif %}</span>
+    {% if page.original_url %}<a class="post-source" href="{{ page.original_url }}">View original &#8599;</a>{% endif %}
+  </div>
+
+  {{ content }}
+</article>
