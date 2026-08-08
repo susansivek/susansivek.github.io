@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Susan Currie Sivek
+# Susan Currie Sivek, Ph.D.
 
 Writing and editing portfolio — a collection of published articles, case studies, and reports.
 
